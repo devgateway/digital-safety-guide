@@ -21,14 +21,14 @@ function generateShortId() {
     return `${part1}-${part2}`;
 }
 
-router.post('/save', (req, res) => {
+router.post('/save', async (req, res) => {
     try {
         const { id, data } = req.body;
 
         // If an ID is provided, reuse it (update). Otherwise create a new one.
         const reportId = id || generateShortId();
 
-        db.saveReport(reportId, data);
+        await db.saveReport(reportId, data);
 
         res.json({ success: true, key: reportId });
     } catch (error) {
@@ -37,10 +37,10 @@ router.post('/save', (req, res) => {
     }
 });
 
-router.get('/load/:key', (req, res) => {
+router.get('/load/:key', async (req, res) => {
     try {
         const { key } = req.params;
-        const report = db.getReport(key);
+        const report = await db.getReport(key);
 
         if (!report) {
             return res.status(404).json({ success: false, error: 'Report not found' });

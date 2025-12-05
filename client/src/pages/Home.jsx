@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Shield, Lock, Heart, ArrowRight } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/api';
+import { API_URL } from '../config';
 
 export default function Home() {
     const [topics, setTopics] = useState([]);

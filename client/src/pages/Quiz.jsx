@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Save, AlertTriangle, CheckCircle, Globe, Mail, Phone } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/api';
+import { API_URL } from '../config';
 
 export default function Quiz() {
     const [searchParams, setSearchParams] = useSearchParams();
