@@ -7,8 +7,9 @@ import Quiz from './pages/Quiz';
 
 import Directory from './pages/Directory';
 import Guide from './pages/Guide';
+import EmergencyExit from './components/EmergencyExit';
 
-function Navbar() {
+function Navbar({ onEmergency }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -26,22 +27,10 @@ function Navbar() {
 
         {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem' }} className="desktop-menu">
-          <button
-            onClick={() => {
-              const topicSection = document.getElementById('topic-selection');
-              if (topicSection) {
-                topicSection.scrollIntoView({ behavior: 'smooth' });
-                topicSection.classList.add('highlight-pulse');
-                setTimeout(() => topicSection.classList.remove('highlight-pulse'), 1000);
-              } else {
-                window.location.href = '/?scrollToTopic=true';
-              }
-            }}
-            className="btn-outline"
-            style={{ border: 'none', background: 'transparent', cursor: 'pointer', fontSize: 'inherit', color: 'var(--color-primary)' }}
-          >
-            Start Report
+          <button onClick={onEmergency} className="btn btn-danger" style={{ textDecoration: 'none', whiteSpace: 'nowrap', border: 'none' }}>
+            Emergency Exit
           </button>
+
           <Link to="/directory" className="flex-center" style={{ gap: '0.5rem' }}><Phone size={18} /> Directory</Link>
           <Link to="/guide" className="flex-center" style={{ gap: '0.5rem' }}><BookOpen size={18} /> Guide</Link>
         </div>
@@ -51,9 +40,15 @@ function Navbar() {
 }
 
 function App() {
+  const [emergency, setEmergency] = useState(false);
+
+  if (emergency) {
+    return <EmergencyExit />;
+  }
+
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Navbar />
+      <Navbar onEmergency={() => setEmergency(true)} />
       <main style={{ flex: 1, padding: '2rem 0' }}>
         <Routes>
           <Route path="/" element={<Home />} />

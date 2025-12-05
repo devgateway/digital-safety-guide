@@ -86,6 +86,20 @@ a:hover {
   gap: 2rem;
 }
 
+.grid-split-screen {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .grid-split-screen {
+    grid-template-columns: 1.2fr 0.8fr;
+    /* Give text slightly more space than cards */
+  }
+}
+
 #topic-selection {
   scroll-margin-top: 100px;
 }
@@ -144,6 +158,18 @@ a:hover {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.08));
   transform: translateY(-2px);
   border-color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.8), rgba(220, 38, 38, 0.8));
+  color: white;
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(185, 28, 28, 0.9));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
 .btn-outline {

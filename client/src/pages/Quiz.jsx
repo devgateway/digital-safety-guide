@@ -27,13 +27,14 @@ export default function Quiz() {
 
                 // Check for URL params to auto-start
                 const startTopic = searchParams.get('topic');
+                const startNode = searchParams.get('startNode');
                 const startKey = searchParams.get('key');
 
                 if (startKey) {
                     loadSession(startKey);
                 } else if (startTopic && data.LOGIC_TREES[startTopic]) {
                     setTopic(startTopic);
-                    setCurrentNodeId(data.LOGIC_TREES[startTopic].start);
+                    setCurrentNodeId(startNode || data.LOGIC_TREES[startTopic].start);
                 }
             })
             .catch(err => {
