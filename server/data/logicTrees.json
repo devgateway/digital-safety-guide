@@ -1,0 +1,465 @@
+{
+    "TOPICS": [
+        {
+            "id": "DOXXING",
+            "title": "Doxxing",
+            "description": "Data Privacy Complaint Process (NPC Philippines) - Granular",
+            "enabled": true
+        },
+        {
+            "id": "IBA",
+            "title": "Image-Based Abuse",
+            "description": "Non-consensual sharing of intimate images",
+            "enabled": false
+        },
+        {
+            "id": "HARASSMENT",
+            "title": "Online Harassment",
+            "description": "Threats, stalking, or cyberbullying",
+            "enabled": false
+        }
+    ],
+    "LOGIC_TREES": {
+        "DOXXING": {
+            "start": "start",
+            "nodes": {
+                "start": {
+                    "id": "start",
+                    "question": "Did someone share your data (like your address, phone number, or other identifiable information) without consent (online or off)?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_identity"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_not_doxing"
+                        }
+                    ]
+                },
+                "check_identity": {
+                    "id": "check_identity",
+                    "question": "Does the info identify you? (name, address, phone, workplace, IDs, accounts)",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_claimant"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_not_doxing"
+                        }
+                    ]
+                },
+                "check_claimant": {
+                    "id": "check_claimant",
+                    "question": "Are you filing this complaint for yourself or on behalf of someone else?",
+                    "options": [
+                        {
+                            "label": "Myself",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "Someone else",
+                            "nextId": "check_minor"
+                        }
+                    ]
+                },
+                "check_minor": {
+                    "id": "check_minor",
+                    "question": "Is the person you are filing for a minor (under 18)?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "verify_minor_auth"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "check_incompetent"
+                        }
+                    ]
+                },
+                "verify_minor_auth": {
+                    "id": "verify_minor_auth",
+                    "question": "Are you this minor's parent or legal guardian?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_get_docs"
+                        }
+                    ]
+                },
+                "check_incompetent": {
+                    "id": "check_incompetent",
+                    "question": "Is the person legally incompetent (unable to handle their own affairs due to illness/disability)?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "verify_incompetent_auth"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "check_abroad"
+                        }
+                    ]
+                },
+                "verify_incompetent_auth": {
+                    "id": "verify_incompetent_auth",
+                    "question": "Do you have a Special Power of Attorney (SPA) or legal guardianship for this person?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_get_docs"
+                        }
+                    ]
+                },
+                "check_abroad": {
+                    "id": "check_abroad",
+                    "question": "Is the person currently living abroad?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "verify_abroad_auth"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "check_org"
+                        }
+                    ]
+                },
+                "verify_abroad_auth": {
+                    "id": "verify_abroad_auth",
+                    "question": "Do you have a Special Power of Attorney (SPA) authorizing you to file on their behalf?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_get_docs"
+                        }
+                    ]
+                },
+                "check_org": {
+                    "id": "check_org",
+                    "question": "Is the complainant being represented by an organization?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "verify_org_auth"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "verify_general_spa"
+                        }
+                    ]
+                },
+                "verify_org_auth": {
+                    "id": "verify_org_auth",
+                    "question": "Has the organization been authorized by a Special Power of Attorney (SPA) and is there a representative authorized by a board resolution?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_get_docs"
+                        }
+                    ]
+                },
+                "verify_general_spa": {
+                    "id": "verify_general_spa",
+                    "question": "You do not fit the standard categories. Do you have a Special Power of Attorney (SPA) explicitly authorizing you to file this complaint?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "check_consent"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_get_docs"
+                        }
+                    ]
+                },
+                "check_consent": {
+                    "id": "check_consent",
+                    "question": "Did the 'violator' have CONSENT or a CLEAR LEGAL BASIS to process/disclose this personal information?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "end_legal_basis"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "check_medium"
+                        }
+                    ]
+                },
+                "check_medium": {
+                    "id": "check_medium",
+                    "question": "Was it done ONLINE or via a COMPUTER system?",
+                    "options": [
+                        {
+                            "label": "Online / Computer System",
+                            "nextId": "potential_violation"
+                        },
+                        {
+                            "label": "Offline / Physical",
+                            "nextId": "end_offline"
+                        }
+                    ]
+                },
+                "potential_violation": {
+                    "id": "potential_violation",
+                    "type": "action",
+                    "title": "Potential Violation Identified",
+                    "content": "Based on your answers, this appears to be a potential violation of the Data Privacy Act (RA 10173). To proceed with filing a complaint, you will need to prepare the following documents:",
+                    "steps": [
+                        "Formal Complaint - A written statement describing what happened",
+                        "Evidence - Screenshots, links, or files showing the violation",
+                        "Proof of Authority - Required only if filing on behalf of someone else",
+                        "Valid ID - Government-issued identification"
+                    ],
+                    "options": [
+                        {
+                            "label": "Continue to Filing Requirements →",
+                            "nextId": "check_exhaustion"
+                        }
+                    ]
+                },
+                "check_exhaustion": {
+                    "id": "check_exhaustion",
+                    "question": "Have you taken measures to resolve the issue directly with the violator AND has it been 15 days since you attempted to resolve it?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "file_complaint"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "check_exceptions"
+                        }
+                    ]
+                },
+                "check_exceptions": {
+                    "id": "check_exceptions",
+                    "question": "Do any exceptions apply? (Serious imminent harm, respondent cannot offer remedy, or action is clearly illegal)",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "file_complaint"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "end_wait"
+                        }
+                    ]
+                },
+                "file_complaint": {
+                    "id": "file_complaint",
+                    "type": "result",
+                    "title": "Where and How to File",
+                    "content": "Submit the complaint to the National Privacy Commission (NPC):",
+                    "links": [
+                        {
+                            "label": "NPC Website",
+                            "url": "https://privacy.gov.ph/",
+                            "icon": "globe"
+                        },
+                        {
+                            "label": "complaints@privacy.gov.ph",
+                            "url": "mailto:complaints@privacy.gov.ph",
+                            "icon": "mail"
+                        },
+                        {
+                            "label": "Hotline: Local 114 or 115",
+                            "icon": "phone"
+                        },
+                        {
+                            "label": "+63 970 818 0555 (Smart)",
+                            "url": "tel:+639708180555",
+                            "icon": "phone"
+                        },
+                        {
+                            "label": "+63 905 506 1478 (Globe)",
+                            "url": "tel:+639055061478",
+                            "icon": "phone"
+                        }
+                    ]
+                },
+                "end_not_doxing": {
+                    "id": "end_not_doxing",
+                    "type": "result",
+                    "title": "Analysis",
+                    "content": "NO -> Not doxing. Consider other offenses (e.g., threats, defamation)."
+                },
+                "end_get_docs": {
+                    "id": "end_get_docs",
+                    "type": "result",
+                    "title": "Analysis",
+                    "content": "Please obtain the relevant legal document (SPA, Board Resolution, or Guardianship proof) before proceeding."
+                },
+                "end_legal_basis": {
+                    "id": "end_legal_basis",
+                    "type": "result",
+                    "title": "Analysis",
+                    "content": "Likely no DPA violation. Check for other offenses."
+                },
+                "end_offline": {
+                    "id": "end_offline",
+                    "type": "result",
+                    "title": "Analysis",
+                    "content": "NO -> Off-line acts. Consider DPA (admin), Civil Code damages, unjust vexation, threats."
+                },
+                "end_wait": {
+                    "id": "end_wait",
+                    "type": "result",
+                    "title": "Analysis",
+                    "content": "You must wait for the 15-day period to lapse or attempt to resolve with the violator first."
+                }
+            }
+        },
+        "IBA": {
+            "start": "iba-1",
+            "nodes": {
+                "iba-1": {
+                    "id": "iba-1",
+                    "question": "Are you over 18?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "iba-2"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "res-dswd"
+                        }
+                    ]
+                },
+                "iba-2": {
+                    "id": "iba-2",
+                    "question": "Do you know the perpetrator?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "res-nbi-wcpp"
+                        },
+                        {
+                            "label": "No",
+                            "nextId": "res-pnp"
+                        }
+                    ]
+                },
+                "res-nbi-wcpp": {
+                    "id": "res-nbi-wcpp",
+                    "type": "result",
+                    "agency": "NBI-CCD (VAW Desk)",
+                    "why": "Intimate image abuse is a severe violation of the Safe Spaces Act and possibly RA 9262.",
+                    "steps": [
+                        "Save messages/threats.",
+                        "Do not delete the chat history.",
+                        "Go to NBI."
+                    ]
+                }
+            }
+        },
+        "HARASSMENT": {
+            "start": "har-1",
+            "nodes": {
+                "har-1": {
+                    "id": "har-1",
+                    "question": "Does the harassment include threats of violence?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "res-pnp"
+                        },
+                        {
+                            "label": "No, just insults/spam",
+                            "nextId": "har-2"
+                        }
+                    ]
+                },
+                "har-2": {
+                    "id": "har-2",
+                    "question": "Is it repetitive/persistent?",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "nextId": "res-cyber"
+                        },
+                        {
+                            "label": "No, one-off event",
+                            "nextId": "dox-adv-1"
+                        }
+                    ]
+                },
+                "dox-adv-1": {
+                    "id": "dox-adv-1",
+                    "question": "Does this one-off incident involve the non-consensual sharing of your personal or sensitive information (Doxxing)?",
+                    "options": [
+                        {
+                            "label": "Yes, it involves my personal data",
+                            "nextId": "check_identity"
+                        },
+                        {
+                            "label": "No, it's just a mean message",
+                            "nextId": "end_harassment_oneoff"
+                        }
+                    ]
+                },
+                "end_harassment_oneoff": {
+                    "id": "end_harassment_oneoff",
+                    "type": "result",
+                    "title": "Advice",
+                    "content": "For one-off incidents that do not involve threats or doxxing, legal action may be limited. However, you should: 1. Block the user. 2. Report the content to the platform. 3. Secure your privacy settings."
+                }
+            }
+        },
+        "RESOURCES": {
+            "start": "res-pnp",
+            "nodes": {
+                "res-pnp": {
+                    "id": "res-pnp",
+                    "type": "result",
+                    "agency": "PNP-ACG",
+                    "title": "Report to PNP Anti-Cybercrime Group",
+                    "content": "You should report this to the Philippine National Police Anti-Cybercrime Group (PNP-ACG).",
+                    "steps": [
+                        "Gather evidence (screenshots, URLs).",
+                        "Go to the nearest police station or PNP-ACG office.",
+                        "File a formal complaint."
+                    ]
+                },
+                "res-cyber": {
+                    "id": "res-cyber",
+                    "type": "result",
+                    "agency": "DOJ Office of Cybercrime",
+                    "title": "Report to DOJ Office of Cybercrime",
+                    "content": "For persistent online harassment, you can seek assistance from the DOJ Office of Cybercrime.",
+                    "steps": [
+                        "Save all evidence.",
+                        "Email abuse@doj.gov.ph or acg@pnp.gov.ph"
+                    ]
+                },
+                "res-dswd": {
+                    "id": "res-dswd",
+                    "type": "result",
+                    "agency": "DSWD",
+                    "title": "Report to DSWD",
+                    "content": "Since the victim is a minor, please contact the Department of Social Welfare and Development (DSWD) or the PNP Women and Children Protection Center (WCPC)."
+                }
+            }
+        }
+    }
+}
