@@ -57,7 +57,7 @@ export default function Home() {
             <section className="container" style={{ padding: '2rem 0' }}>
                 <div className="grid-split-screen">
                     {/* Left Column: Text & Context */}
-                    <div className="text-left">
+                    <div className="hero-text">
                         <h1 style={{ fontSize: '2.5em', marginBottom: '1.5rem', lineHeight: '1.1', background: 'linear-gradient(to right, #8b5cf6, #06b6d4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                             {t('home.hero_title')}
                         </h1>

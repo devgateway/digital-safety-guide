@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint } from 'lucide-react';
+import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint, Share2 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 
 import Home from './pages/Home';
@@ -40,10 +40,16 @@ function Navbar({ onEmergency }) {
           <span>{t('nav.brand')}</span>
         </Link>
 
-        {/* Mobile Menu Button */}
-        <button className="btn-outline" style={{ padding: '0.5rem', display: 'none' }} onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* Mobile Emergency Button */}
+          <button className="mobile-emergency-btn" onClick={onEmergency}>
+            <X size={20} />
+          </button>
+          {/* Mobile Menu Button */}
+          <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)} style={{ padding: '0.5rem' }}>
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
 
         {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="desktop-menu">
@@ -197,6 +203,61 @@ function Navbar({ onEmergency }) {
             )}
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isOpen && (
+          <div className="mobile-menu">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+              <span style={{ fontWeight: 'bold', color: 'white' }}>Menu</span>
+              {/* Language Switcher for Mobile */}
+              <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+                <Globe size={18} style={{ marginRight: '0.5rem', opacity: 0.8 }} />
+                <select
+                  value={language}
+                  onChange={(e) => setLanguage(e.target.value)}
+                  style={{
+                    background: 'transparent',
+                    color: 'white',
+                    border: 'none',
+                    fontSize: '1rem',
+                    cursor: 'pointer',
+                    fontFamily: 'inherit'
+                  }}
+                >
+                  {LANGUAGES.map(lang => (
+                    <option key={lang.code} value={lang.code} style={{ color: 'black' }}>
+                      {lang.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            <Link to="/directory" className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', padding: '0.5rem 0' }} onClick={() => setIsOpen(false)}>
+              <Phone size={18} /> {t('nav.directory')}
+            </Link>
+            <Link to="/guide" className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', padding: '0.5rem 0' }} onClick={() => setIsOpen(false)}>
+              <BookOpen size={18} /> {t('nav.guide')}
+            </Link>
+
+            <div style={{ padding: '0.5rem 0' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--color-text-secondary)', marginBottom: '0.5rem' }}>
+                <Share2 size={18} /> {t('nav.resources')}
+              </div>
+              <div style={{ paddingLeft: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <Link to="/templates/takedown-request" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.25rem 0' }}>{t('nav.takedown')}</Link>
+                <Link to="/templates/counseling" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.25rem 0' }}>{t('nav.mental_health')}</Link>
+                <Link to="/resources/global-tech" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.25rem 0' }}>{t('nav.global_safety')}</Link>
+                <Link to="/templates/dict-cicc-hotline" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.25rem 0' }}>{t('nav.law_enforcement')}</Link>
+                <Link to="/templates/npc-complaint" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '0.25rem 0' }}>{t('nav.data_privacy')}</Link>
+              </div>
+            </div>
+
+            <button onClick={() => { onEmergency(); setIsOpen(false); }} className="btn btn-danger" style={{ width: '100%', marginTop: '1rem' }}>
+              {t('nav.emergency')}
+            </button>
+          </div>
+        )}
       </div>
     </nav>
   );
