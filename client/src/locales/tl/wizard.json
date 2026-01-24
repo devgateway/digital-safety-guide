@@ -1,0 +1,603 @@
+{
+    "guide": {
+        "topics": {
+            "UNIFIED_FLOW": {
+                "title": "NMWSO Digital Safety Resource Helper",
+                "description": "Komprehensibong interaktibong gabay para sa Online Gender-Based Violence (OGBV), Harassment, Impersonation, at Doxxing."
+            }
+        },
+        "nodes": {
+            "q_situation_triage": {
+                "question": "Alin sa mga sumusunod ang pinaka-umaangkop sa iyong kasalukuyang sitwasyon?",
+                "options": {
+                    "0": "May nagpaparamdam sa akin na hindi ako ligtas online",
+                    "1": "Ang aking kapamilya / kaibigan / katrabaho ay hindi ligtas online"
+                }
+            },
+            "q_main_category": {
+                "question": "Alin sa mga sumusunod ang dahilan kung bakit pakiramdam mo ay hindi ka ligtas online?",
+                "options": {
+                    "0": "May mga larawan o video ako online na hindi dapat naroon",
+                    "1": "May nangha-harass o nagbabanta sa akin",
+                    "2": "May nagpapanggap na ako (impersonation)",
+                    "3": "May personal na impormasyon o larawan na kumakalat online na hindi ko nais isapubliko"
+                }
+            },
+            "q_auth_check": {
+                "question": "Ikaw ba ang legal na tagapangalaga (guardian) o may power of attorney ka para sa kanila?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi"
+                }
+            },
+            "q_img_nature": {
+                "question": "Nauunawaan ko. Maaari kitang tulungan sa ilang simpleng hakbang upang maging mas ligtas. Una, piliin ang naaangkop tungkol sa mga larawan/video:",
+                "options": {
+                    "0": "Hinala ko na ang mga larawan ay gawa sa digital na pamamaraan, binago, o dinoktor (Deepfakes)",
+                    "1": "Ang mga larawan ay nakakahiya, nakakasira ng puri, o nananakot",
+                    "2": "Ginagamit ang mga larawan upang magpanggap na ako",
+                    "3": "Nakuha ang mga larawan nang palihim o walang pahintulot (Voyeurism)",
+                    "4": "Ang mga larawan ay naglalaman ng materyal na intimate o malaswa",
+                    "5": "Ang mga larawan ay nagpapakita ng mga menor de edad (bata na wala pang 18)"
+                }
+            },
+            "q_danger_check": {
+                "question": "Nakakabahala iyan. Ikaw ba ay nasa nakaambang panganib (immediate danger)?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi, ngunit nais kong maging mas ligtas"
+                }
+            },
+            "q_imp_method": {
+                "question": "Paano nagpapanggap bilang ikaw ang taong ito?",
+                "options": {
+                    "0": "Gamit ang aking larawan o video",
+                    "1": "Gamit ang aking buong legal na pangalan",
+                    "2": "Gamit ang aking address o numero ng telepono",
+                    "3": "Gamit ang aking impormasyon sa pag-login (username/password)",
+                    "4": "Iba pa"
+                }
+            },
+            "q_dox_info": {
+                "question": "Anong impormasyon ang naisiwalat?",
+                "options": {
+                    "0": "Larawan o video",
+                    "1": "Impormasyon sa pag-login",
+                    "2": "Ibang personal na impormasyon (Address, ID, atbp.)"
+                }
+            },
+            "q_main_category_rep": {
+                "question": "Alin sa mga sumusunod ang dahilan kung bakit pakiramdam nila ay hindi sila ligtas online?",
+                "options": {
+                    "0": "May mga larawan o video sila online na hindi dapat naroon",
+                    "1": "May nangha-harass o nagbabanta sa kanila",
+                    "2": "May nagpapanggap na sila",
+                    "3": "May personal na impormasyon o larawan sila na kumakalat online na hindi nila nais isapubliko"
+                }
+            },
+            "end_no_auth": {
+                "title": "Kinakailangan ang Pahintulot",
+                "content": "Nauunawaan ko. Sa kasamaang palad, hindi ka maaaring magsagawa ng legal na aksyon para sa kanila nang walang wastong pahintulot o authorization. Gayunpaman, maaari naming ipaliwanag sa iyo kung ano ang maaari nilang gawin at ituro ka sa ibang mapagkukunan ng tulong na hindi legal.",
+                "links": {
+                    "0": "Tingnan ang Non-Legal Support Resources"
+                }
+            },
+            "end_emergency": {
+                "title": "Kinakailangan ang Madaliang Aksyon",
+                "content": "Mangyaring humanap ng ligtas na lugar at makipag-ugnayan agad sa pulisya. Kung kailangan mo ng sensitibong tulong tungkol sa mga isyung gender-based, maaari kang magtanong sa lokal na VAWC Desk. Kung natatakot kang makipag-ugnayan sa lokal na pulisya, tawagan ang PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details": {
+                "question": "Nauunawaan ko. Maaari kitang tulungan sa ilang simpleng hakbang upang maging mas ligtas. Una, piliin ang lahat ng naaangkop:",
+                "options": {
+                    "0": "Ang harassment ay nagsasangkot ng paulit-ulit at hindi kanais-nais na pakikipag-ugnayan gamit ang digital na paraan",
+                    "1": "Ang harassment ay may kasamang pagbabanta ng pisikal, reputasyon, o pinansyal na pinsala",
+                    "2": "Ang harassment ay nakatuon sa isang babae at/o bata",
+                    "3": "Ang harassment ay nagmumula sa kasalukuyan o dating karelasyon (intimate partner)"
+                }
+            },
+            "q_dox_identify": {
+                "question": "Nakakapagpakilala (identify) ba sa iyo ang impormasyong ito? (pangalan, address, telepono, lugar ng trabaho, IDs, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi"
+                }
+            },
+            "q_dox_identify_2": {
+                "question": "Nakakapagpakilala (identify) ba sa iyo ang impormasyong ito? (pangalan, address, telepono, lugar ng trabaho, IDs, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi"
+                }
+            },
+            "q_img_nature_2": {
+                "question": "Nauunawaan ko. Maaari kitang tulungan sa ilang simpleng hakbang upang maging mas ligtas. Una, piliin ang naaangkop tungkol sa mga larawan/video:",
+                "options": {
+                    "0": "Hinala ko na ang mga larawan ay gawa sa digital na pamamaraan, binago, o dinoktor (Deepfakes)",
+                    "1": "Ang mga larawan ay nakakahiya, nakakasira ng puri, o nananakot",
+                    "2": "Ginagamit ang mga larawan upang magpanggap na ako",
+                    "3": "Nakuha ang mga larawan nang palihim o walang pahintulot (Voyeurism)",
+                    "4": "Ang mga larawan ay naglalaman ng materyal na intimate o malaswa",
+                    "5": "Ang mga larawan ay nagpapakita ng mga menor de edad (bata na wala pang 18)"
+                }
+            },
+            "q_danger_check_2": {
+                "question": "Nakakabahala iyan. Ikaw ba ay nasa nakaambang panganib (immediate danger)?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi, ngunit nais kong maging mas ligtas"
+                }
+            },
+            "q_imp_method_2": {
+                "question": "Paano nagpapanggap bilang ikaw ang taong ito?",
+                "options": {
+                    "0": "Gamit ang aking larawan o video",
+                    "1": "Gamit ang aking buong legal na pangalan",
+                    "2": "Gamit ang aking address o numero ng telepono",
+                    "3": "Gamit ang aking impormasyon sa pag-login (username/password)",
+                    "4": "Iba pa"
+                }
+            },
+            "q_dox_info_2": {
+                "question": "Anong impormasyon ang naisiwalat?",
+                "options": {
+                    "0": "Larawan o video",
+                    "1": "Impormasyon sa pag-login",
+                    "2": "Ibang personal na impormasyon (Address, ID, atbp.)"
+                }
+            },
+            "menu_actions_img": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_2": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_3": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_4": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_5": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_6": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "q_dox_consent": {
+                "question": "May dahilan ka bang maghinala na ang nagkakalat ng impormasyong ito ay may PAHINTULOT (CONSENT) o LEGAL NA BASEHAN upang gawin ito?",
+                "options": {
+                    "0": "Oo / Hindi ko alam",
+                    "1": "Wala"
+                }
+            },
+            "end_dox_frustrating": {
+                "title": "Payo sa Privacy",
+                "content": "Nakakadismaya iyan. Kahit na hindi ka direktang nakikilala, maaari mong protektahan ang iyong privacy sa pamamagitan ng pag-uulat ng nilalaman sa platform at pag-aayos ng iyong mga setting sa privacy."
+            },
+            "q_dox_consent_2": {
+                "question": "May dahilan ka bang maghinala na ang nagkakalat ng impormasyong ito ay may PAHINTULOT (CONSENT) o LEGAL NA BASEHAN upang gawin ito?",
+                "options": {
+                    "0": "Oo / Hindi ko alam",
+                    "1": "Wala"
+                }
+            },
+            "end_dox_frustrating_2": {
+                "title": "Payo sa Privacy",
+                "content": "Nakakadismaya iyan. Kahit na hindi ka direktang nakikilala, maaari mong protektahan ang iyong privacy sa pamamagitan ng pag-uulat ng nilalaman sa platform at pag-aayos ng iyong mga setting sa privacy."
+            },
+            "end_emergency_2": {
+                "title": "Kinakailangan ang Madaliang Aksyon",
+                "content": "Mangyaring humanap ng ligtas na lugar at makipag-ugnayan agad sa pulisya. Kung kailangan mo ng sensitibong tulong tungkol sa mga isyung gender-based, maaari kang magtanong sa lokal na VAWC Desk. Kung natatakot kang makipag-ugnayan sa lokal na pulisya, tawagan ang PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details_2": {
+                "question": "Nauunawaan ko. Maaari kitang tulungan sa ilang simpleng hakbang upang maging mas ligtas. Una, piliin ang lahat ng naaangkop:",
+                "options": {
+                    "0": "Ang harassment ay nagsasangkot ng paulit-ulit at hindi kanais-nais na pakikipag-ugnayan gamit ang digital na paraan",
+                    "1": "Ang harassment ay may kasamang pagbabanta ng pisikal, reputasyon, o pinansyal na pinsala",
+                    "2": "Ang harassment ay nakatuon sa isang babae at/o bata",
+                    "3": "Ang harassment ay nagmumula sa kasalukuyan o dating karelasyon (intimate partner)"
+                }
+            },
+            "q_dox_identify_3": {
+                "question": "Nakakapagpakilala (identify) ba sa iyo ang impormasyong ito? (pangalan, address, telepono, lugar ng trabaho, IDs, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi"
+                }
+            },
+            "q_dox_identify_4": {
+                "question": "Nakakapagpakilala (identify) ba sa iyo ang impormasyong ito? (pangalan, address, telepono, lugar ng trabaho, IDs, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi"
+                }
+            },
+            "menu_actions_harass": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_2": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_3": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_4": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "end_dox_check_legal": {
+                "title": "Suriin ang Legal na Basehan",
+                "content": "Minsan, ang mga indibidual o entity ay maaaring may pahintulot (e.g., via Terms of Service) o may legal na basehan (mga pampublikong opisyal). Kung hindi ka sigurado, maaaring kailangan mong kumunsulta sa abogado."
+            },
+            "q_dox_15_days": {
+                "question": "Nagawa mo na ba ang mga hakbang upang lutasin ito nang direkta sa lumabag/platform AT lumipas na ba ang 15 araw mula noong sinubukan mong lutasin ito?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi",
+                    "2": "Oo, ngunit wala pang sagot / hindi pa nalutas"
+                }
+            },
+            "end_dox_check_legal_2": {
+                "title": "Suriin ang Legal na Basehan",
+                "content": "Minsan, ang mga indibidual o entity ay maaaring may pahintulot (e.g., via Terms of Service) o may legal na basehan (mga pampublikong opisyal). Kung hindi ka sigurado, maaaring kailangan mong kumunsulta sa abogado."
+            },
+            "q_dox_15_days_2": {
+                "question": "Nagawa mo na ba ang mga hakbang upang lutasin ito nang direkta sa lumabag/platform AT lumipas na ba ang 15 araw mula noong sinubukan mong lutasin ito?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi",
+                    "2": "Oo, ngunit wala pang sagot / hindi pa nalutas"
+                }
+            },
+            "menu_actions_img_7": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_8": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_9": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_10": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_11": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "menu_actions_img_12": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "May ilang bagay kang maaaring gawin upang maging mas ligtas. I-click ang isa sa mga opsyon sa ibaba:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas / Magsampa ng Kriminal na Reklamo",
+                    "1": "Magsumite ng Takedown Request sa Platform",
+                    "2": "Makipag-ugnayan sa Propesyonal / Counselor (Mediation)",
+                    "3": "Matuto pa tungkol sa Online Safety"
+                }
+            },
+            "q_dox_consent_3": {
+                "question": "May dahilan ka bang maghinala na ang nagkakalat ng impormasyong ito ay may PAHINTULOT (CONSENT) o LEGAL NA BASEHAN upang gawin ito?",
+                "options": {
+                    "0": "Oo / Hindi ko alam",
+                    "1": "Wala"
+                }
+            },
+            "end_dox_frustrating_3": {
+                "title": "Payo sa Privacy",
+                "content": "Nakakadismaya iyan. Kahit na hindi ka direktang nakikilala, maaari mong protektahan ang iyong privacy sa pamamagitan ng pag-uulat ng nilalaman sa platform at pag-aayos ng iyong mga setting sa privacy."
+            },
+            "q_dox_consent_4": {
+                "question": "May dahilan ka bang maghinala na ang nagkakalat ng impormasyong ito ay may PAHINTULOT (CONSENT) o LEGAL NA BASEHAN upang gawin ito?",
+                "options": {
+                    "0": "Oo / Hindi ko alam",
+                    "1": "Wala"
+                }
+            },
+            "end_dox_frustrating_4": {
+                "title": "Payo sa Privacy",
+                "content": "Nakakadismaya iyan. Kahit na hindi ka direktang nakikilala, maaari mong protektahan ang iyong privacy sa pamamagitan ng pag-uulat ng nilalaman sa platform at pag-aayos ng iyong mga setting sa privacy."
+            },
+            "q_dox_computer": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_exceptions": {
+                "question": "Mayroon bang naaangkop sa mga ito? 1. Malubha/hindi na maaayos na pinsala. 2. Walang maibigay na lunas ang lumabag. 3. Malinaw na labag sa batas ang ginawa.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            },
+            "q_dox_computer_2": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_computer_3": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_exceptions_2": {
+                "question": "Mayroon bang naaangkop sa mga ito? 1. Malubha/hindi na maaayos na pinsala. 2. Walang maibigay na lunas ang lumabag. 3. Malinaw na labag sa batas ang ginawa.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            },
+            "q_dox_computer_4": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "menu_actions_harass_5": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_6": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_7": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_8": {
+                "title": "Ang Maaari Mong Gawin",
+                "content": "Upang maging mas ligtas, isaalang-alang ang mga opsyong ito:",
+                "links": {
+                    "0": "Makipag-ugnayan sa Tagapagpatupad ng Batas",
+                    "1": "Magsumite ng Takedown Request",
+                    "2": "Makipag-usap sa Counselor",
+                    "3": "Mga Mapagkukunan sa Online Safety"
+                }
+            },
+            "end_dox_check_legal_3": {
+                "title": "Suriin ang Legal na Basehan",
+                "content": "Minsan, ang mga indibidual o entity ay maaaring may pahintulot (e.g., via Terms of Service) o may legal na basehan (mga pampublikong opisyal). Kung hindi ka sigurado, maaaring kailangan mong kumunsulta sa abogado."
+            },
+            "q_dox_15_days_3": {
+                "question": "Nagawa mo na ba ang mga hakbang upang lutasin ito nang direkta sa lumabag/platform AT lumipas na ba ang 15 araw mula noong sinubukan mong lutasin ito?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi",
+                    "2": "Oo, ngunit wala pang sagot / hindi pa nalutas"
+                }
+            },
+            "end_dox_check_legal_4": {
+                "title": "Suriin ang Legal na Basehan",
+                "content": "Minsan, ang mga indibidual o entity ay maaaring may pahintulot (e.g., via Terms of Service) o may legal na basehan (mga pampublikong opisyal). Kung hindi ka sigurado, maaaring kailangan mong kumunsulta sa abogado."
+            },
+            "q_dox_15_days_4": {
+                "question": "Nagawa mo na ba ang mga hakbang upang lutasin ito nang direkta sa lumabag/platform AT lumipas na ba ang 15 araw mula noong sinubukan mong lutasin ito?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi",
+                    "2": "Oo, ngunit wala pang sagot / hindi pa nalutas"
+                }
+            },
+            "q_dox_computer_5": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "end_dox_wait": {
+                "title": "Exhaustion of Remedies",
+                "content": "Sa pangkalahatan, hindi ka maaaring magsampa ng reklamo sa Data Privacy Commission hangga't hindi mo sinusubukang lutasin ang isyu nang direkta sa tao/entity at naghintay ng 15 araw."
+            },
+            "q_dox_computer_6": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "end_dox_wait_2": {
+                "title": "Exhaustion of Remedies",
+                "content": "Sa pangkalahatan, hindi ka maaaring magsampa ng reklamo sa Data Privacy Commission hangga't hindi mo sinusubukang lutasin ang isyu nang direkta sa tao/entity at naghintay ng 15 araw."
+            },
+            "q_dox_computer_7": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_exceptions_3": {
+                "question": "Mayroon bang naaangkop sa mga ito? 1. Malubha/hindi na maaayos na pinsala. 2. Walang maibigay na lunas ang lumabag. 3. Malinaw na labag sa batas ang ginawa.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            },
+            "q_dox_computer_8": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_computer_9": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_exceptions_4": {
+                "question": "Mayroon bang naaangkop sa mga ito? 1. Malubha/hindi na maaayos na pinsala. 2. Walang maibigay na lunas ang lumabag. 3. Malinaw na labag sa batas ang ginawa.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            },
+            "q_dox_computer_10": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "q_dox_computer_11": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "end_dox_wait_3": {
+                "title": "Exhaustion of Remedies",
+                "content": "Sa pangkalahatan, hindi ka maaaring magsampa ng reklamo sa Data Privacy Commission hangga't hindi mo sinusubukang lutasin ang isyu nang direkta sa tao/entity at naghintay ng 15 araw."
+            },
+            "q_dox_computer_12": {
+                "question": "Sa iyong pagkakaalam, ang impormasyon ba ay nakalap o naikalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Hindi / Hindi ko alam"
+                }
+            },
+            "end_dox_wait_4": {
+                "title": "Exhaustion of Remedies",
+                "content": "Sa pangkalahatan, hindi ka maaaring magsampa ng reklamo sa Data Privacy Commission hangga't hindi mo sinusubukang lutasin ang isyu nang direkta sa tao/entity at naghintay ng 15 araw."
+            }
+        }
+    }
+}

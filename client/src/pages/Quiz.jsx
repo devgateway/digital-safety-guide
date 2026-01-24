@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, AlertTriangle, CheckCircle, Globe, Mail, Phone, Share2, Copy } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Quiz() {
     // nodeId here is actually the "Code" (e.g. ABC-123) from the URL
     const { topicId, nodeId: urlCode } = useParams();
     const [searchParams] = useSearchParams();
     const navigate = useNavigate();
+    const { language, t } = useLanguage();
 
     const [logicData, setLogicData] = useState(null); // { TOPICS, LOGIC_TREES }
     const [urlMap, setUrlMap] = useState(null); // { codes, ids }
@@ -16,8 +18,12 @@ export default function Quiz() {
 
     // 1. Fetch Data (Static JSONs)
     useEffect(() => {
+        // ALWAYS fetch the main logicTrees.json, which now contains keys.
+        // The text content is in the locale files loaded by LanguageContext.
+        const logicTreeFile = '/data/logicTrees.json';
+
         Promise.all([
-            fetch('/data/logicTrees.json').then(res => res.json()),
+            fetch(logicTreeFile).then(res => res.json()),
             fetch('/data/urlMap.json').then(res => res.json())
         ])
             .then(([logic, map]) => {
@@ -27,10 +33,10 @@ export default function Quiz() {
             })
             .catch(err => {
                 console.error(err);
-                setError("Failed to load guide data");
+                setError(t('common.error'));
                 setLoading(false);
             });
-    }, []);
+    }, [t]); // Reload if t changes (language change), though logicData itself is static.
 
     // 2. Handle Initial Redirect or Validation
     useEffect(() => {
@@ -123,7 +129,7 @@ export default function Quiz() {
                 <div style={{ marginBottom: 'auto' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', alignItems: 'center' }}>
                         <button onClick={goBack} className="btn btn-outline" style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem' }}>
-                            <ArrowLeft size={20} /> Back
+                            <ArrowLeft size={20} /> {t('common.back')}
                         </button>
 
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -141,15 +147,15 @@ export default function Quiz() {
                     {node.type === 'success' && <div className="badge" style={{ color: 'var(--color-success)', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', marginBottom: '0.5rem' }}><CheckCircle size={24} /> Resolution</div>}
 
                     <h2 key={currentNodeId} className="animate-zen-breath" style={{ marginTop: '0.5rem' }}>
-                        {node.question || node.title || node.agency}
+                        {t(node.question) || t(node.title) || t(node.agency)}
                     </h2>
 
-                    {node.content && <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-line' }}>{node.content}</p>}
-                    {node.why && <p className="text-muted" style={{ fontStyle: 'italic', marginBottom: '1rem' }}>why: {node.why}</p>}
+                    {node.content && <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-line' }}>{t(node.content)}</p>}
+                    {node.why && <p className="text-muted" style={{ fontStyle: 'italic', marginBottom: '1rem' }}>why: {t(node.why)}</p>}
 
                     {node.steps && (
                         <ul style={{ paddingLeft: '1.5rem', marginBottom: '2rem' }}>
-                            {node.steps.map((step, i) => <li key={i} style={{ marginBottom: '0.5rem' }}>{step}</li>)}
+                            {node.steps.map((step, i) => <li key={i} style={{ marginBottom: '0.5rem' }}>{t(step)}</li>)}
                         </ul>
                     )}
 
@@ -160,7 +166,7 @@ export default function Quiz() {
                                 const content = (
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.75rem 1rem', background: 'var(--color-bg-tertiary)', borderRadius: 'var(--radius-md)' }}>
                                         <IconComponent size={20} className="text-accent" />
-                                        <span>{link.label}</span>
+                                        <span>{t(link.label)}</span>
                                     </div>
                                 );
                                 return link.url ? (
@@ -188,7 +194,7 @@ export default function Quiz() {
                                     onClick={() => handleOptionClick(opt.nextId)}
                                     style={{ justifyContent: 'space-between' }}
                                 >
-                                    {opt.label}
+                                    {t(opt.label)}
                                     <span>&rarr;</span>
                                 </button>
                             );
@@ -199,8 +205,8 @@ export default function Quiz() {
         );
     };
 
-    if (loading) return <div className="container text-center pt-5">Loading guide...</div>;
-    if (error) return <div className="container text-center pt-5 text-danger">Error: {error}</div>;
+    if (loading) return <div className="container text-center pt-5">{t('common.loading')}</div>;
+    if (error) return <div className="container text-center pt-5 text-danger">{t('common.error')}: {error}</div>;
 
     return (
         <div className="container">

@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "brand": "Online Harassment Support",
+        "emergency": "Emergency Exit",
+        "directory": "Direktoryo",
+        "guide": "Giya",
+        "resources": "Dagiti Resources",
+        "takedown": "Takedown Requests",
+        "mental_health": "Mental Health Services",
+        "global_safety": "Global Safety Resources",
+        "law_enforcement": "Law Enforcement (1326)",
+        "data_privacy": "Data Privacy Support"
+    },
+    "home": {
+        "hero_title": "Natalged. Natalna. Nasuportaran.",
+        "hero_subtitle": "Karbengan ti amin nga agbalin a safe, ken karaman ditoy dagiti digital spaces. No mariknam a saan ka a safe online, adda dagiti wagas tapno maala manen ti talna ti panunotmo: manipud iti civil ken criminal penalties, non-profit psychosocial support, agingga iti formal takedown requests direkta kadagiti IT companies. Daytoy a tool ket naaramid tapno tulongannaka a maawatan no ania dagiti mabalin nga aramiden dagiti Pilipino base iti safety violations a mapaspasaram.",
+        "description_2": "No adda orasmo a sungbatan ti sumagmamano a saludsod maipapan iti sitwasionmo, matulongannaka daytoy a tool a maawatan dagiti available options tapno makaaramidka iti husto a desision.",
+        "start_guide": "Irugi ang Safety Guide",
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Daytoy a tool ket saan a legal advice. Dagiti datos ket na-collect anonymously ken saan a na-save wenno na-store. No addaka iti peggad wenno imminent danger, please contact the police immediately. No mariknam a saan ka a safe bayat nga us-usarem daytoy a tool, usarem ti “emergency exit” button ken agsublika laeng no safe kan."
+    },
+    "footer": {
+        "powered_by": "Powered by"
+    },
+    "common": {
+        "back": "Agsubli",
+        "loading": "Aglo-load...",
+        "error": "Error"
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "takedown": {
+        "ui": {
+            "title": "Takedown Request Builder",
+            "select_platform_desc": "Select the platform where the incident occurred to begin.",
+            "other_platform": "Other Platform",
+            "back_to_platforms": "Back to Platforms",
+            "filing_guide_title": "{{platform}} Filing Guide",
+            "overview": "Overview",
+            "required_evidence": "Required Evidence",
+            "expert_tips": "Expert Tips",
+            "open_filing_url": "Open {{platform}} Filing URL",
+            "generic_builder_title": "Generic Template Builder",
+            "generic_builder_desc": "Provide details about the incident to generate a standardized takedown request document.",
+            "label_platform_name": "Platform Name",
+            "placeholder_platform_name": "e.g., WhatsApp, Telegram, etc...",
+            "label_your_name": "Your Name (Optional)",
+            "placeholder_your_name": "Anonymous",
+            "label_incident_date": "Date of Incident",
+            "label_incident_desc": "Describe the Incident",
+            "placeholder_incident_desc": "Please describe what happened without sharing overly sensitive personal data...",
+            "label_requested_action": "Requested Action",
+            "btn_generate_pdf": "Download Takedown Template (PDF)",
+            "btn_generating": "Generating...",
+            "error_desc_required": "Please provide a description of the incident to generate the document.",
+            "options": {
+                "removal": "Removal of content",
+                "suspension": "Account suspension",
+                "mediation": "Mediation/Dialogue",
+                "legal": "Legal Investigation"
+            }
+        },
+        "pdf": {
+            "title": "Formal Online Harassment / Takedown Request",
+            "date_label": "Date of Request:",
+            "subject": "Subject: Formal Takedown Request regarding Online Harassment",
+            "salutation": "To Whom It May Concern,",
+            "intro": "I am writing to formally request the removal of content or action regarding an incident on your platform.",
+            "incident_details": "Incident Details:",
+            "platform_label": "- Platform:",
+            "date_incident_label": "- Date of Incident:",
+            "not_specified": "Not specified",
+            "person_affected_label": "- Person Affected:",
+            "desc_header": "Description of Incident:",
+            "action_header": "Requested Action:",
+            "closing": "This request is made in accordance with digital safety guidelines and platform policies regarding user safety and harassment.",
+            "sign_off": "Sincerely,",
+            "concerned_user": "Concerned User"
+        },
+        "platforms": {
+            "youtube": {
+                "name": "YouTube",
+                "overview": "YouTube provides tools to report cyberbullying, harassment, and other policy violations. You can report specific videos, comments, or entire channels.",
+                "screenshots": {
+                    "0": "Screenshot of the video or comment in question.",
+                    "1": "Screenshot of the channel profile page.",
+                    "2": "Screenshot of any direct messages or interactions (if applicable)."
+                },
+                "tips": {
+                    "0": "Include the direct URL of the video or comment.",
+                    "1": "Be specific about which part of the video violates policies.",
+                    "2": "Do not engage with the harasser directly in the comments."
+                }
+            },
+            "tiktok": {
+                "name": "TikTok",
+                "overview": "TikTok has a dedicated safety center for reporting hate speech, harassment, and bullying. Reports are anonymous.",
+                "screenshots": {
+                    "0": "Screenshot of the video or live stream.",
+                    "1": "Screenshot of the user's profile.",
+                    "2": "Screenshot of comments or messages."
+                },
+                "tips": {
+                    "0": "Use the \"Report\" button directly on the content.",
+                    "1": "Provide context if the harassment is part of a trend or challenge.",
+                    "2": "Save the video link before it gets deleted or hidden."
+                }
+            },
+            "snapchat": {
+                "name": "Snapchat",
+                "overview": "Snapchat allows users to report snaps, stories, and profiles that involve harassment or bullying.",
+                "screenshots": {
+                    "0": "Screenshot of the Snap (be aware that Snapchat notifies users of screenshots).",
+                    "1": "Screenshot of the Chat conversation.",
+                    "2": "Screenshot of the user's profile."
+                },
+                "tips": {
+                    "0": "Reports are confidential.",
+                    "1": "Use the long-press feature on a Snap or Chat to report it quickly.",
+                    "2": "Contact local law enforcement if there is immediate danger."
+                }
+            },
+            "instagram": {
+                "name": "Instagram",
+                "overview": "Instagram offers various ways to report bullying, harassment, and impersonation. You can report posts, stories, profiles, and comments.",
+                "screenshots": {
+                    "0": "Screenshot of the post or story.",
+                    "1": "Screenshot of the profile.",
+                    "2": "Screenshot of direct messages."
+                },
+                "tips": {
+                    "0": "Use the \"Restrict\" feature to limit interactions without blocking.",
+                    "1": "Report impersonation accounts through the specific impersonation form.",
+                    "2": "Keep a record of the report confirmation."
+                }
+            },
+            "facebook": {
+                "name": "Facebook",
+                "overview": "Facebook encourages users to report content that violates Community Standards, including bullying and harassment.",
+                "screenshots": {
+                    "0": "Screenshot of the post, photo, or comment.",
+                    "1": "Screenshot of the profile or page.",
+                    "2": "Screenshot of Messenger conversations."
+                },
+                "tips": {
+                    "0": "Use the \"Find Support or Report\" option on the content.",
+                    "1": "You can report on behalf of someone else if they are being impersonated.",
+                    "2": "Block the user after reporting to prevent further contact."
+                }
+            },
+            "discord": {
+                "name": "Discord",
+                "overview": "Discord takes harassment seriously. You can report messages directly to their Trust & Safety team.",
+                "screenshots": {
+                    "0": "Screenshot of the message(s) including the timestamp.",
+                    "1": "Screenshot of the User ID (enable Developer Mode in settings).",
+                    "2": "Screenshot of the Server ID (if applicable)."
+                },
+                "tips": {
+                    "0": "Do not delete the messages before reporting, as Discord needs message links/IDs.",
+                    "1": "Report the user via their profile if they are sending unwanted DMs.",
+                    "2": "Involve server moderators if the harassment is happening in a specific server."
+                }
+            },
+            "x": {
+                "name": "X (Twitter)",
+                "overview": "X allows you to report accounts and posts for abusive behavior, harassment, and hate speech.",
+                "screenshots": {
+                    "0": "Screenshot of the post(s).",
+                    "1": "Screenshot of the profile.",
+                    "2": "Screenshot of Direct Messages."
+                },
+                "tips": {
+                    "0": "You can report multiple posts in a single report.",
+                    "1": "Use the \"Mute\" or \"Block\" features to stop seeing content.",
+                    "2": "Provide as much context as possible in the details section."
+                }
+            },
+            "twitch": {
+                "name": "Twitch",
+                "overview": "Twitch users can report streamers or viewers for harassment, hate speech, and other violations during broadcasts or in chat.",
+                "screenshots": {
+                    "0": "Screenshot of the chat log.",
+                    "1": "Screenshot of the stream if the violation is visual.",
+                    "2": "Screenshot of the user profile."
+                },
+                "tips": {
+                    "0": "Use the \"Report\" button in the chat or on the channel page.",
+                    "1": "Provide the specific timestamp and date of the incident.",
+                    "2": "Channel moderators can also assist with immediate chat issues."
+                }
+            },
+            "xbox": {
+                "name": "Xbox Party Chat",
+                "overview": "Xbox allows users to report voice and text harassment occurring in party chats or games.",
+                "screenshots": {
+                    "0": "Photo or screenshot of the text message.",
+                    "1": "Record of the gamertag.",
+                    "2": "Report the voice clip if the console allows for voice reporting."
+                },
+                "tips": {
+                    "0": "Use the \"Report\" feature directly from the player's profile.",
+                    "1": "Specify if the harassment occurred in a Party or during a game.",
+                    "2": "Keep your console software updated for the latest safety features."
+                }
+            },
+            "playstation": {
+                "name": "PlayStation Party Chat",
+                "overview": "Sony provides reporting tools for the PlayStation Network to handle harassment in party chats and messages.",
+                "screenshots": {
+                    "0": "Screenshot of the message.",
+                    "1": "Photo of the screen if a screenshot isn't possible.",
+                    "2": "Note the PSN ID of the offender."
+                },
+                "tips": {
+                    "0": "Report through the \"Options\" menu on the message or player profile.",
+                    "1": "Ensure you are reporting the specific content that is harmful.",
+                    "2": "Block the PSN ID to stop receiving communications."
+                }
+            },
+            "tumblr": {
+                "name": "Tumblr",
+                "overview": "Tumblr has policies against harassment and bullying. You can report posts, blogs, and messages.",
+                "screenshots": {
+                    "0": "Screenshot of the post or blog.",
+                    "1": "Screenshot of the ask or message.",
+                    "2": "Screenshot of the blog URL."
+                },
+                "tips": {
+                    "0": "Use the \"Report\" link found on the post or blog.",
+                    "1": "Specify the nature of the abuse (e.g., harassment, hate speech).",
+                    "2": "You can also block the blog to prevent them from interacting with you."
+                }
+            },
+            "viber": {
+                "name": "Viber",
+                "overview": "Viber allows users to report messages and accounts that engage in spam or harassment.",
+                "screenshots": {
+                    "0": "Screenshot of the chat conversation.",
+                    "1": "Screenshot of the sender's phone number or profile info.",
+                    "2": "Screenshot of any media shared."
+                },
+                "tips": {
+                    "0": "Tap and hold a message to find the \"Report\" option.",
+                    "1": "Block the number immediately after reporting.",
+                    "2": "Be careful with sharing personal info in public communities."
+                }
+            }
+        }
+    }
+}

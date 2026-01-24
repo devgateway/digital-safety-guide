@@ -1,0 +1,39 @@
+{
+    "global": {
+        "ui": {
+            "title": "TFGBV Global Resources",
+            "subtitle": "Educational resources and international guides on online safety and Technology-Facilitated Gender-Based Violence (TFGBV).",
+            "btn_access": "Access Resource",
+            "local_support_title": "Need immediate support in the Philippines?",
+            "local_support_desc": "We've compiled specialized local resources for survivors of online harassment and gender-based violence.",
+            "btn_counseling": "Social & Mental Health Services",
+            "btn_takedown": "Takedown Request Builder"
+        },
+        "resources": {
+            "chayn": {
+                "name": "CHAYN’s DIY Online Safety Guide",
+                "description": "A comprehensive, survivor-led guide to staying safe online, covering topics from securing accounts to dealing with harassment."
+            },
+            "australia_esafety": {
+                "name": "Australia’s E-Safety Guide",
+                "description": "A world-leading resource covering key topics in online safety, including deepfakes, cyberbullying, and image-based abuse."
+            },
+            "unfpa": {
+                "name": "UNFPA: TFGBV Considerations",
+                "description": "A critical resource title: \"Technology-facilitated gender-based violence: Considerations across the life course\", exploring the impact of digital harm."
+            },
+            "fma": {
+                "name": "Foundation for Media Alternatives (FMA)",
+                "description": "A Philippine-based NGO focused on the intersections of technology and human rights. Includes specific resources on gender-based violence and a dedicated helpline."
+            },
+            "cnxus": {
+                "name": "She Leads Curriculum on TFGBV",
+                "description": "A specialized educational curriculum designed to empower leaders and advocates to address technology-facilitated gender-based violence."
+            },
+            "svri": {
+                "name": "SVRI Global Library",
+                "description": "A vast repository of research and resources dedicated specifically to the intersection of technology and gender-based violence."
+            }
+        }
+    }
+}

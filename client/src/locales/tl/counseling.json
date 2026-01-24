@@ -1,0 +1,48 @@
+{
+    "counseling": {
+        "ui": {
+            "title": "Mga Serbisyong Panlipunan at Pangkaisipan",
+            "subtitle": "Agarang access sa suportang propesyonal na hindi mula sa kapulisan. Ang mga mapagkukunang ito ay nakatuon sa pagbibigay ng kaligtasan at pangangalaga.",
+            "label_hotline": "Hotline",
+            "label_viber": "Viber",
+            "label_email": "Email",
+            "btn_chat": "Mag-chat Ngayon",
+            "btn_website": "Bisitahin ang Website",
+            "btn_facebook": "Pahina sa Facebook",
+            "takedown_promo": "Kailangan mo ba ng tulong sa isang pormal na kahilingan sa pagpapatanggal?",
+            "btn_takedown": "Pumunta sa Takedown Request Builder"
+        },
+        "resources": {
+            "intouch": {
+                "name": "InTouch Community Services",
+                "description": "De-kalidad na serbisyong pangkalusugang pangkaisipan kabilang ang counseling, support groups, at propesyonal na pagsasanay."
+            },
+            "dswd": {
+                "name": "Department of Social Welfare and Development (DSWD)",
+                "description": "Mga crisis center at 24/7 hotlines para sa mga biktima ng karahasan at mga nasa krisis."
+            },
+            "lunas": {
+                "name": "Lunas Collective",
+                "description": "Isang puwang ng pangangalaga na pinapatakbo ng mga boluntaryo para sa mga kababaihan at mga miyembro at kakampi ng LGBTQIA+ community na nakaranas ng karahasang nakabatay sa kasarian o may mga alalahanin sa kalusugang sekswal at reproduktibo.",
+                "note": "Espesipiko para sa mga kababaihan at komunidad ng LGBTQIA+."
+            },
+            "bantay_bata": {
+                "name": "Bantay Bata Helpline 163",
+                "description": "Tumutugon sa mga ulat ng pang-aabuso sa bata, pagsasamantala, at pagpapabaya, at nag-uugnay sa mga tumatawag sa mga naaangkop na ahensya.",
+                "note": "Espesyal para sa pang-aabuso at pagsasamantala sa bata."
+            },
+            "ncmh": {
+                "name": "National Center for Mental Health (NCMH) Crisis Line",
+                "description": "24/7 crisis hotline na nagbibigay ng suporta sa kalusugang pangkaisipan at mga serbisyo ng interbensyon."
+            },
+            "tawag_paglaum": {
+                "name": "Tawag Paglaum - Centro Bisaya",
+                "description": "Isang 24-oras, pitong araw sa isang linggong helpline para sa kalusugang pangkaisipan na nagbibigay ng serbisyo sa Ingles at Filipino."
+            },
+            "rapha": {
+                "name": "Rapha Helpline",
+                "description": "Isang ligtas na mundo para sa mga bata na malaya mula sa sekswal na pang-aabuso at pagsasamantala. Libreng serbisyo ng suporta sa kalusugang pangkaisipan online."
+            }
+        }
+    }
+}

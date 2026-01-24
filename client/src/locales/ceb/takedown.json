@@ -1,0 +1,221 @@
+{
+    "takedown": {
+        "ui": {
+            "title": "Takedown Request Builder",
+            "select_platform_desc": "Pili-a ang platform kung asa nahitabo ang insidente para makasugod.",
+            "other_platform": "Other Platform",
+            "back_to_platforms": "Back to Platforms",
+            "filing_guide_title": "{{platform}} Filing Guide",
+            "overview": "Overview",
+            "required_evidence": "Required Evidence",
+            "expert_tips": "Expert Tips",
+            "open_filing_url": "Ablihi ang {{platform}} Filing URL",
+            "generic_builder_title": "Generic Template Builder",
+            "generic_builder_desc": "Paghatag og details bahin sa insidente para maka-generate og standardized takedown request document.",
+            "label_platform_name": "Platform Name",
+            "placeholder_platform_name": "e.g., WhatsApp, Telegram, etc...",
+            "label_your_name": "Imong Pangalan (Optional)",
+            "placeholder_your_name": "Anonymous",
+            "label_incident_date": "Date of Incident",
+            "label_incident_desc": "I-describe ang Insidente",
+            "placeholder_incident_desc": "Palihog i-describe ang nahitabo nga wala nag-share og sobra ka sensitive nga personal data...",
+            "label_requested_action": "Requested Action",
+            "btn_generate_pdf": "I-download ang Takedown Template (PDF)",
+            "btn_generating": "Generating...",
+            "error_desc_required": "Palihog paghatag og description sa insidente para ma-generate ang document.",
+            "options": {
+                "removal": "Removal of content",
+                "suspension": "Account suspension",
+                "mediation": "Mediation/Dialogue",
+                "legal": "Legal Investigation"
+            }
+        },
+        "pdf": {
+            "title": "Formal Online Harassment / Takedown Request",
+            "date_label": "Date of Request:",
+            "subject": "Subject: Formal Takedown Request regarding Online Harassment",
+            "salutation": "To Whom It May Concern,",
+            "intro": "I am writing to formally request the removal of content or action regarding an incident on your platform.",
+            "incident_details": "Incident Details:",
+            "platform_label": "- Platform:",
+            "date_incident_label": "- Date of Incident:",
+            "not_specified": "Not specified",
+            "person_affected_label": "- Person Affected:",
+            "desc_header": "Description of Incident:",
+            "action_header": "Requested Action:",
+            "closing": "This request is made in accordance with digital safety guidelines and platform policies regarding user safety and harassment.",
+            "sign_off": "Sincerely,",
+            "concerned_user": "Concerned User"
+        },
+        "platforms": {
+            "youtube": {
+                "name": "YouTube",
+                "overview": "Ang YouTube naghatag og tools para i-report ang cyberbullying, harassment, ug uban pang policy violations. Pwede ka mag-report og specific videos, comments, o tibuok channels.",
+                "screenshots": {
+                    "0": "Screenshot sa video o comment nga gireklamo.",
+                    "1": "Screenshot sa channel profile page.",
+                    "2": "Screenshot sa bisan unsang direct messages o interactions (kung naa)."
+                },
+                "tips": {
+                    "0": "Iapil ang direct URL sa video o comment.",
+                    "1": "I-specific kung asa nga part sa video ang nag-violate sa policies.",
+                    "2": "Ayaw na patuli o replyi ang harasser sa comments."
+                }
+            },
+            "tiktok": {
+                "name": "TikTok",
+                "overview": "Naay dedicated safety center ang TikTok para sa pag-report sa hate speech, harassment, ug bullying. Ang mga report kay anonymous.",
+                "screenshots": {
+                    "0": "Screenshot sa video o live stream.",
+                    "1": "Screenshot sa user's profile.",
+                    "2": "Screenshot sa comments o messages."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Report\" button diretso sa content.",
+                    "1": "Paghatag og context kung ang harassment kay part sa usa ka trend o challenge.",
+                    "2": "I-save ang video link usa kini ma-delete o ma-hide."
+                }
+            },
+            "snapchat": {
+                "name": "Snapchat",
+                "overview": "Pwede ka mag-report og snaps, stories, ug profiles sa Snapchat nga naay kalabutan sa harassment o bullying.",
+                "screenshots": {
+                    "0": "Screenshot sa Snap (timan-i nga mo-notify ang Snapchat kung mag-screenshot ka).",
+                    "1": "Screenshot sa Chat conversation.",
+                    "2": "Screenshot sa user's profile."
+                },
+                "tips": {
+                    "0": "Confidential ang mga reports.",
+                    "1": "Gamita ang long-press feature sa Snap o Chat para ma-report kini dayon.",
+                    "2": "Kontaka ang local law enforcement kung naay immediate danger."
+                }
+            },
+            "instagram": {
+                "name": "Instagram",
+                "overview": "Daghang pamaagi ang Instagram para i-report ang bullying, harassment, ug impersonation. Pwede nimo i-report ang posts, stories, profiles, ug comments.",
+                "screenshots": {
+                    "0": "Screenshot sa post o story.",
+                    "1": "Screenshot sa profile.",
+                    "2": "Screenshot sa direct messages."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Restrict\" feature para ma-limit ang interactions nga dili mag-block.",
+                    "1": "I-report ang impersonation accounts gamit ang specific impersonation form.",
+                    "2": "Itago ang record sa report confirmation."
+                }
+            },
+            "facebook": {
+                "name": "Facebook",
+                "overview": "Gina-encourage sa Facebook ang users nga i-report ang content nga nag-violate sa Community Standards, apil na ang bullying ug harassment.",
+                "screenshots": {
+                    "0": "Screenshot sa post, photo, o comment.",
+                    "1": "Screenshot sa profile o page.",
+                    "2": "Screenshot sa Messenger conversations."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Find Support or Report\" option sa content.",
+                    "1": "Pwede ka mag-report on behalf of someone else kung sila ang gi-impersonate.",
+                    "2": "I-block ang user human mag-report para malikayan ang further contact."
+                }
+            },
+            "discord": {
+                "name": "Discord",
+                "overview": "Seryoso ang Discord bahin sa harassment. Pwede ka mag-report og messages diretso sa ilang Trust & Safety team.",
+                "screenshots": {
+                    "0": "Screenshot sa message(s) apil ang timestamp.",
+                    "1": "Screenshot sa User ID (i-enable ang Developer Mode sa settings).",
+                    "2": "Screenshot sa Server ID (kung applicable)."
+                },
+                "tips": {
+                    "0": "Ayaw i-delete ang messages usa mag-report, kay kinahanglan sa Discord ang message links/IDs.",
+                    "1": "I-report ang user via sa ilang profile kung nag-send sila og unwanted DMs.",
+                    "2": "Ipahibalo sa server moderators kung ang harassment nahitabo sa specific server."
+                }
+            },
+            "x": {
+                "name": "X (Twitter)",
+                "overview": "Pwede ka mag-report og accounts ug posts sa X para sa abusive behavior, harassment, ug hate speech.",
+                "screenshots": {
+                    "0": "Screenshot sa post(s).",
+                    "1": "Screenshot sa profile.",
+                    "2": "Screenshot sa Direct Messages."
+                },
+                "tips": {
+                    "0": "Pwede ka mag-report og multiple posts sa usa ka report lang.",
+                    "1": "Gamita ang \"Mute\" o \"Block\" features para dili na nimo makita ang content.",
+                    "2": "Paghatag og daghang context kutob sa mahimo sa details section."
+                }
+            },
+            "twitch": {
+                "name": "Twitch",
+                "overview": "Pwede i-report sa Twitch users ang streamers o viewers para sa harassment, hate speech, ug uban pang violations samtang nag-broadcast o sa chat.",
+                "screenshots": {
+                    "0": "Screenshot sa chat log.",
+                    "1": "Screenshot sa stream kung visual ang violation.",
+                    "2": "Screenshot sa user profile."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Report\" button sa chat o sa channel page.",
+                    "1": "Ihatag ang specific timestamp ug date sa insidente.",
+                    "2": "Pwede sab motabang ang Channel moderators para sa immediate chat issues."
+                }
+            },
+            "xbox": {
+                "name": "Xbox Party Chat",
+                "overview": "Pwede ka mag-report sa Xbox og voice ug text harassment nga nahitabo sa party chats o games.",
+                "screenshots": {
+                    "0": "Photo o screenshot sa text message.",
+                    "1": "Record sa gamertag.",
+                    "2": "I-report ang voice clip kung allowed sa console ang voice reporting."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Report\" feature diretso gikan sa player's profile.",
+                    "1": "I-specify kung nahitabo ang harassment sa Party o samtang nagdula.",
+                    "2": "Siguroha nga updated ang imong console software para sa latest safety features."
+                }
+            },
+            "playstation": {
+                "name": "PlayStation Party Chat",
+                "overview": "Naghatag ang Sony og reporting tools para sa PlayStation Network para ma-handle ang harassment sa party chats ug messages.",
+                "screenshots": {
+                    "0": "Screenshot sa message.",
+                    "1": "Photo sa screen kung dili possible ang screenshot.",
+                    "2": "I-note ang PSN ID sa offender."
+                },
+                "tips": {
+                    "0": "Mag-report gamit ang \"Options\" menu sa message o player profile.",
+                    "1": "Siguroha nga i-report nimo ang specific content nga harmful.",
+                    "2": "I-block ang PSN ID para moundang ang communications."
+                }
+            },
+            "tumblr": {
+                "name": "Tumblr",
+                "overview": "Naay policies ang Tumblr batok sa harassment ug bullying. Pwede ka mag-report og posts, blogs, ug messages.",
+                "screenshots": {
+                    "0": "Screenshot sa post o blog.",
+                    "1": "Screenshot sa ask o message.",
+                    "2": "Screenshot sa blog URL."
+                },
+                "tips": {
+                    "0": "Gamita ang \"Report\" link nga makita sa post o blog.",
+                    "1": "I-specify ang nature sa abuse (e.g., harassment, hate speech).",
+                    "2": "Pwede sab nimo i-block ang blog para dili na sila maka-interact nimo."
+                }
+            },
+            "viber": {
+                "name": "Viber",
+                "overview": "Pwede ka mag-report og messages ug accounts sa Viber nga nag-spam o nang-harass.",
+                "screenshots": {
+                    "0": "Screenshot sa chat conversation.",
+                    "1": "Screenshot sa phone number o profile info sa sender.",
+                    "2": "Screenshot sa bisan unsang media nga gi-share."
+                },
+                "tips": {
+                    "0": "I-tap ug i-hold ang message para makita ang \"Report\" option.",
+                    "1": "I-block dayon ang number human mag-report.",
+                    "2": "Pag-amping sa pag-share og personal info sa public communities."
+                }
+            }
+        }
+    }
+}

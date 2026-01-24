@@ -1,0 +1,31 @@
+{
+    "law": {
+        "ui": {
+            "title": "Law Enforcement Support",
+            "subtitle": "Giya para kadagiti survivors nga kayatda ti agkonsulta iti law enforcement wenno ag-file ti criminal complaints.",
+            "hotline_title": "DICT-CICC Hotline",
+            "hotline_desc_strong": "Ti umuna nga tawagan.",
+            "hotline_desc": "Mandato ti Cybercrime Investigation and Coordinating Center (CICC) nga mangted ti immediate technical assistance ken mang-coordinate ti imbestigasyon iti cybercrime.",
+            "vawc_title": "VAW-C Cases",
+            "vawc_desc": "No kasapulam dagiti officers nga trained specifically para iti Violence Against Women and Children (VAW-C) cases, please contact the PNP specialized unit.",
+            "wcpc_name": "PNP Women and Children Protection Center (WCPC)",
+            "label_hotline": "Hotline:",
+            "label_aleng_pulis": "Aleng Pulis:",
+            "expect_title": "Ania ti Namnamaen",
+            "expect_desc": "Ti panag-file ti complaint ket maysa a formal process. Daytoy ti mapasamak no umasidegka:",
+            "expect_step_1_title": "Initial Consultation:",
+            "expect_step_1_desc": "Denggen dagiti officers ti sitwasionmo ken i-assess-da dagiti potential violations.",
+            "expect_step_2_title": "Verification:",
+            "expect_step_2_desc": "Pagteddaka ti ebidensya (screenshots, links, etc).",
+            "expect_step_3_title": "Action:",
+            "expect_step_3_desc": "Makipag-coordinate ti DICT-CICC kadagiti relevant platforms ken law enforcement units tapno aksyonanda ti kasom.",
+            "legal_resources_title": "Legal Resources & Guides",
+            "ra_10175_title": "RA 10175 Brochure",
+            "ra_10175_desc": "Ania ti Cybercrime Prevention Act?",
+            "cyberbullying_title": "Cyberbullying Triage",
+            "cyberbullying_desc": "Kasano ti ag-file ti complaint iti Pilipinas",
+            "footer_desc": "Biktima ka kadi ti impersonation wenno data privacy violation?",
+            "btn_npc": "Bisitaen ti Data Privacy Support (NPC)"
+        }
+    }
+}

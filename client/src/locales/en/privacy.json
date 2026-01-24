@@ -1,0 +1,27 @@
+{
+    "privacy": {
+        "ui": {
+            "title": "National Privacy Commission (NPC)",
+            "subtitle": "The Data Protection Authority of the Philippines, mandated to administer and implement the Data Privacy Act of 2012.",
+            "dir_title": "Contact Directory",
+            "dir_website": "Official Website",
+            "dir_email": "Email Complaints",
+            "dir_hotline": "Hotline",
+            "dir_smart": "Smart Mobile",
+            "dir_globe": "Globe Mobile",
+            "filing_title": "Filing a Complaint",
+            "step_1_title": "1. Exhaustion of Remedies",
+            "step_1_desc": "You must first attempt to resolve the issue directly with the person or entity involved. Wait 15 days for their response before escalating to NPC.",
+            "step_2_title": "2. Documenting the Violation",
+            "step_2_desc": "Gather all evidence of the personal data breach or impersonation. Ensure you have copies of your attempt to resolve it directly.",
+            "step_3_title": "3. Formal Submission",
+            "step_3_desc": "Submit your complaint via the NPC Complaints Management System or through their physical/email channels.",
+            "advisory_title": "Impersonation is a Violation",
+            "advisory_desc": "According to NPC Advisories, using someone else's identity to create a profile (impersonation) may constitute a violation of the Data Privacy Act, especially if it leads to unauthorized processing of personal data.",
+            "footer_title": "Ready to take action?",
+            "footer_desc": "We've compiled official resources below to help you prepare your formal complaint.",
+            "btn_portal": "Access NPC Complaints Portal",
+            "btn_advisories": "Read NPC Circulars & Advisories"
+        }
+    }
+}

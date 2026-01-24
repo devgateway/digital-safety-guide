@@ -1,0 +1,31 @@
+{
+    "law": {
+        "ui": {
+            "title": "Law Enforcement Support",
+            "subtitle": "Guidance for survivors who wish to consult with law enforcement or file criminal complaints.",
+            "hotline_title": "DICT-CICC Hotline",
+            "hotline_desc_strong": "Your first point-of-call.",
+            "hotline_desc": "The Cybercrime Investigation and Coordinating Center (CICC) is mandated to provide immediate technical assistance and coordinate investigations into cybercrime.",
+            "vawc_title": "VAW-C Cases",
+            "vawc_desc": "If you need officers trained specifically for Violence Against Women and Children (VAW-C) cases, please contact the PNP specialize unit.",
+            "wcpc_name": "PNP Women and Children Protection Center (WCPC)",
+            "label_hotline": "Hotline:",
+            "label_aleng_pulis": "Aleng Pulis:",
+            "expect_title": "What to Expect",
+            "expect_desc": "Filing a complaint is a formal process. Here is what happens when you reach out:",
+            "expect_step_1_title": "Initial Consultation:",
+            "expect_step_1_desc": "Officers will listen to your situation and assess the potential violations.",
+            "expect_step_2_title": "Verification:",
+            "expect_step_2_desc": "You will be asked to provide evidence (screenshots, links, etc).",
+            "expect_step_3_title": "Action:",
+            "expect_step_3_desc": "DICT-CICC coordinates with relevant platforms and law enforcement units to act on your case.",
+            "legal_resources_title": "Legal Resources & Guides",
+            "ra_10175_title": "RA 10175 Brochure",
+            "ra_10175_desc": "What is the Cybercrime Prevention Act?",
+            "cyberbullying_title": "Cyberbullying Triage",
+            "cyberbullying_desc": "How to file a complaint in the PH",
+            "footer_desc": "Are you a victim of impersonation or data privacy violation instead?",
+            "btn_npc": "Visit Data Privacy Support (NPC)"
+        }
+    }
+}

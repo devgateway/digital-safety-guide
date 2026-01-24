@@ -1,0 +1,31 @@
+{
+    "law": {
+        "ui": {
+            "title": "Suporta mula sa Tagapagpatupad ng Batas",
+            "subtitle": "Gabay para sa mga nakaligtas na nais kumunsulta sa mga awtoridad o magsampa ng reklamong kriminal.",
+            "hotline_title": "DICT-CICC Hotline",
+            "hotline_desc_strong": "Ang una mong dapat tawagan.",
+            "hotline_desc": "Ang Cybercrime Investigation and Coordinating Center (CICC) ay inatasang magbigay ng agarang tulong teknikal at makipag-ugnayan sa mga imbestigasyon ukol sa cybercrime.",
+            "vawc_title": "Mga Kaso ng VAW-C",
+            "vawc_desc": "Kung kailangan mo ng mga opisyal na sinanay partikular para sa mga kaso ng Violence Against Women and Children (VAW-C), mangyaring makipag-ugnayan sa espesyal na yunit ng PNP.",
+            "wcpc_name": "PNP Women and Children Protection Center (WCPC)",
+            "label_hotline": "Hotline:",
+            "label_aleng_pulis": "Aleng Pulis:",
+            "expect_title": "Ano ang Dapat Asahan",
+            "expect_desc": "Ang pagsasampa ng reklamo ay isang pormal na proseso. Narito ang mangyayari kapag nakipag-ugnayan ka:",
+            "expect_step_1_title": "Paunang Konsultasyon:",
+            "expect_step_1_desc": "Pakikinggan ng mga opisyal ang iyong sitwasyon at susuriin ang mga potensyal na paglabag.",
+            "expect_step_2_title": "Beripikasyon:",
+            "expect_step_2_desc": "Hihilingan kang magbigay ng ebidensya (mga screenshot, link, atbp.).",
+            "expect_step_3_title": "Aksyon:",
+            "expect_step_3_desc": "Makikipag-ugnayan ang DICT-CICC sa mga kaukulang plataporma at yunit ng tagapagpatupad ng batas upang aksyunan ang iyong kaso.",
+            "legal_resources_title": "Mga Legal na Mapagkukunan at Gabay",
+            "ra_10175_title": "Polyeto ng RA 10175",
+            "ra_10175_desc": "Ano ang Cybercrime Prevention Act?",
+            "cyberbullying_title": "Pagsusuri sa Cyberbullying",
+            "cyberbullying_desc": "Paano magsampa ng reklamo sa Pilipinas",
+            "footer_desc": "Ikaw ba ay biktima ng pagpapanggap (impersonation) o paglabag sa data privacy?",
+            "btn_npc": "Bisitahin ang Suporta sa Data Privacy (NPC)"
+        }
+    }
+}

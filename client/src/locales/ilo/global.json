@@ -1,0 +1,39 @@
+{
+    "global": {
+        "ui": {
+            "title": "TFGBV Global Resources",
+            "subtitle": "Educational resources ken international guides maipapan iti online safety ken Technology-Facilitated Gender-Based Violence (TFGBV).",
+            "btn_access": "Access Resource",
+            "local_support_title": "Masapulmo kadi ti immediate support iti Pilipinas?",
+            "local_support_desc": "Nag-compile kami ti specialized local resources para kadagiti survivors ti online harassment ken gender-based violence.",
+            "btn_counseling": "Social & Mental Health Services",
+            "btn_takedown": "Takedown Request Builder"
+        },
+        "resources": {
+            "chayn": {
+                "name": "CHAYN’s DIY Online Safety Guide",
+                "description": "Maysa a comprehensive, survivor-led guide tapno agtalinaed a safe online, sakupenna dagiti topics manipud panag-secure ti accounts agingga iti panang-handle ti harassment."
+            },
+            "australia_esafety": {
+                "name": "Australia’s E-Safety Guide",
+                "description": "Maysa a world-leading resource nga mangtaltalakay kadagiti key topics ti online safety, karaman ti deepfakes, cyberbullying, ken image-based abuse."
+            },
+            "unfpa": {
+                "name": "UNFPA: TFGBV Considerations",
+                "description": "Maysa a critical resource nga addaan titulo a: \"Technology-facilitated gender-based violence: Considerations across the life course\", nga mangus-usisa ti impact ti digital harm."
+            },
+            "fma": {
+                "name": "Foundation for Media Alternatives (FMA)",
+                "description": "Maysa a Philippine-based NGO nga naka-focus iti intersection ti technology ken human rights. Addaanday ti specific resources maipapan ti gender-based violence ken dedicated helpline."
+            },
+            "cnxus": {
+                "name": "She Leads Curriculum on TFGBV",
+                "description": "Maysa a specialized educational curriculum nga naaramid tapno i-empower dagiti leaders ken advocates nga solbaren ti technology-facilitated gender-based violence."
+            },
+            "svri": {
+                "name": "SVRI Global Library",
+                "description": "Maysa a nalawa a repository ti research ken resources nga dedicated iti intersection ti technology ken gender-based violence."
+            }
+        }
+    }
+}

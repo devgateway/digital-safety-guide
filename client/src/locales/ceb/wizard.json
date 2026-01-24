@@ -1,0 +1,171 @@
+{
+    "guide": {
+        "topics": {
+            "UNIFIED_FLOW": {
+                "title": "NMWSO Digital Safety Resource Helper",
+                "description": "Comprehensive interactive guide para sa Online Gender-Based Violence (OGBV), Harassment, Impersonation, ug Doxxing."
+            }
+        },
+        "nodes": {
+            "q_situation_triage": {
+                "question": "Asa ani ang labing haom sa imong sitwasyon karon?",
+                "options": {
+                    "0": "May nagpabati nako nga dili ko safe online",
+                    "1": "Akong pamilya / higala / kauban kay dili safe online"
+                }
+            },
+            "q_main_category": {
+                "question": "Unsa ani ang rason ngano gibati ka nga unsafe online?",
+                "options": {
+                    "0": "Naay mga litrato o video nako online nga dili dapat naa didto",
+                    "1": "Naay nang-harass o nanghulga nako",
+                    "2": "Naay nag-impersonate o nagpaka-aron-ingnon nga ako",
+                    "3": "Naay personal info o litrato nga nagkalat online nga dili nako gusto ipagawas"
+                }
+            },
+            "q_auth_check": {
+                "question": "Ikaw ba ang legal guardian ani nga tao o naa kay power of attorney para nila?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            },
+            "q_img_nature": {
+                "question": "Sige. Tabangan tika sa mga simpleng lakang para mobati ka nga mas safe. Una, pili-a ang haom bahin sa mga litrato/video:",
+                "options": {
+                    "0": "Nagduda ko nga ang mga litrato kay digitally produced, altered, o doctored (Deepfakes)",
+                    "1": "Ang mga litrato kay makauuwaw, makadaot sa dungog, o nagapanghulga",
+                    "2": "Gigamit ang mga litrato para i-impersonate ako",
+                    "3": "Ang mga litrato nakuha nga sekreto o walay pagtugot (Voyeurism)",
+                    "4": "Ang mga litrato adunay intimate o explicit materials",
+                    "5": "Ang mga litrato adunay mga menor de edad (ubos sa 18)"
+                }
+            },
+            "q_danger_check": {
+                "question": "Makapabalaka na. Naa ba ka sa kakuyaw o immediate danger?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala, pero gusto nako mobati nga mas safe"
+                }
+            },
+            "q_imp_method": {
+                "question": "Giunsa ka pag-impersonate ani nga tao?",
+                "options": {
+                    "0": "Gigamit akong litrato o video",
+                    "1": "Gigamit akong tibuok legal nga pangalan",
+                    "2": "Gigamit akong address o phone number",
+                    "3": "Gigamit akong login information (username/password)",
+                    "4": "Uban pa (Other)"
+                }
+            },
+            "q_dox_info": {
+                "question": "Unsa nga impormasyon ang na-expose?",
+                "options": {
+                    "0": "Litrato o video",
+                    "1": "Login information",
+                    "2": "Ubang personal info (Address, ID, etc)"
+                }
+            },
+            "q_main_category_rep": {
+                "question": "Unsa ani ang rason ngano gibati sila nga unsafe online?",
+                "options": {
+                    "0": "Naay mga litrato o video nila online nga dili dapat naa didto",
+                    "1": "Naay nang-harass o nanghulga sa ilaha",
+                    "2": "Naay nag-impersonate o nagpaka-aron-ingnon sa ilaha",
+                    "3": "Naay personal info o litrato nga nagkalat online nga dili nila gusto ipagawas"
+                }
+            },
+            "end_no_auth": {
+                "title": "Gikinahanglan ang Authorization",
+                "content": "Sige. Ikasubo, dili ka maka-pursue og legal action para sa ilaha kung walay saktong authorization. Hinuon, pwede namo ipasabot nimo kung unsa ang pwede nilang buhaton ug itudlo ka sa mga non-legal resources.",
+                "links": {
+                    "0": "Tan-awa ang Non-Legal Support Resources"
+                }
+            },
+            "end_emergency": {
+                "title": "Gikinahanglan ang Emergency Action",
+                "content": "Palihog pangita og safe nga lugar ug kontaka dayon ang pulis. Kung kinahanglan nimo og sensitibong tabang bahin sa gender-based issues, pwede ka mangutana sa inyong local VAWC Desk. Kung nahadlok ka makig-istorya sa local police, kontaka ang PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details": {
+                "question": "Sige. Tabangan tika sa mga simpleng lakang para mobati ka nga mas safe. Una, pili-a ang tanan nga haom:",
+                "options": {
+                    "0": "Ang harassment naglakip sa balik-balik ug dili gusto nga contact gamit ang digital means",
+                    "1": "Ang harassment naglakip sa pagpanghulga og pisikal, reputational, o financial harm",
+                    "2": "Ang harassment gitumong sa usa ka babae ug/o bata",
+                    "3": "Ang harassment naggikan sa usa ka current o former intimate partner (uyab o asawa)"
+                }
+            },
+            "q_dox_identify": {
+                "question": "Kani ba nga info nagpaila nimo/nag-identify nimo? (name, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "menu_actions_img": {
+                "title": "Ang Pwede Nimong Buhaton",
+                "content": "Adunay pipila ka butang nga pwede nimong buhaton para mobati ka nga mas safe. I-click ang usa sa mga opsyon sa ubos:",
+                "links": {
+                    "0": "Kontaka ang Law Enforcement / File Criminal Complaint",
+                    "1": "Pag-submit og Takedown Request sa Platform",
+                    "2": "Pakig-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Pagkat-on pa bahin sa Online Safety"
+                }
+            },
+            "q_dox_consent": {
+                "question": "Naa ba kay rason nga magduda nga ang nagpakalat ani nga impormasyon adunay CONSENT o LEGAL BASIS sa pagbuhat niini?",
+                "options": {
+                    "0": "Oo / Wala ko kabalo",
+                    "1": "Wala"
+                }
+            },
+            "end_dox_frustrating": {
+                "title": "Privacy Advice",
+                "content": "Maka-frustrate kana. Bisan kung dili ka direkta nga ma-identify, pwede nimo protektahan ang imong privacy pinaagi sa pag-report sa content ngadto sa platform ug pag-adjust sa imong privacy settings."
+            },
+            "menu_actions_harass": {
+                "title": "Ang Pwede Nimong Buhaton",
+                "content": "Para mobati nga mas safe, ikonsidera kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Law Enforcement",
+                    "1": "Pag-submit og Takedown Request",
+                    "2": "Pakig-istorya sa Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "end_dox_check_legal": {
+                "title": "I-check ang Legal Basis",
+                "content": "Usahay, ang mga tawo o entity basin nakakuha og consent nimo (e.g., via Terms of Service) o adunay legal basis (public officials). Kung dili ka sigurado, basin kinahanglan nimo mag-consult sa abogado."
+            },
+            "q_dox_15_days": {
+                "question": "Nabuhat na ba nimo ang mga pamaagi para masulbad kini diretso sa violator/platform UG nilabay na ba ang 15 days sukad sa imong pagsulay?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala pa",
+                    "2": "Oo, pero wala pay tubag / wala nasulbad"
+                }
+            },
+            "q_dox_computer": {
+                "question": "Sa imong nahibaw-an, ang impormasyon ba nakuha o gipakalat gamit ang computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / Wala ko kabalo"
+                }
+            },
+            "end_dox_wait": {
+                "title": "Exhaustion of Remedies",
+                "content": "Kasagaran, dili ka maka-file og complaint sa Data Privacy Commission hangtod wala nimo gisulayan nga solbaron ang isyu direkta sa tawo/entity ug naghuwat og 15 days."
+            },
+            "q_dox_exceptions": {
+                "question": "Naa bay bisan usa nga haom ani? 1. Serious/irreparable harm. 2. Dili makahatag og solusyon ang violator. 3. Klaro nga illegal ang gibuhat.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Wala"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "counseling": {
+        "ui": {
+            "title": "Social & Mental Health Services",
+            "subtitle": "Immediate access iti non-law-enforcement professional support. Dagitoy a resources ket para iti safety ken care-mo.",
+            "label_hotline": "Hotline",
+            "label_viber": "Viber",
+            "label_email": "Email",
+            "btn_chat": "Chat Now",
+            "btn_website": "Visit Website",
+            "btn_facebook": "Facebook Page",
+            "takedown_promo": "Masapulmo kadi ti tulong iti formal takedown request?",
+            "btn_takedown": "Mapon sa Takedown Request Builder"
+        },
+        "resources": {
+            "intouch": {
+                "name": "InTouch Community Services",
+                "description": "Quality mental health services karaman ti counseling, support groups, ken professional training."
+            },
+            "dswd": {
+                "name": "Department of Social Welfare and Development (DSWD)",
+                "description": "Crisis centers ken 24/7 hotlines para kadagiti victims ti violence ken dagiti adda iti krisis."
+            },
+            "lunas": {
+                "name": "Lunas Collective",
+                "description": "Maysa a volunteer-powered care space para kadagiti babbai ken members/allies ti LGBTQIA+ community nga nakapadas ti gender-based violence wenno addaan sexual ken reproductive health concerns.",
+                "note": "Specifically for women and LGBTQIA+ community."
+            },
+            "bantay_bata": {
+                "name": "Bantay Bata Helpline 163",
+                "description": "Sumungbat kadagiti reports ti child abuse, exploitation, ken neglect, ken i-connect-na dagiti callers iti appropriate agencies.",
+                "note": "Specialized for child abuse and exploitation."
+            },
+            "ncmh": {
+                "name": "National Center for Mental Health (NCMH) Crisis Line",
+                "description": "24/7 crisis hotline nga mangted ti mental health support ken intervention services."
+            },
+            "tawag_paglaum": {
+                "name": "Tawag Paglaum - Centro Bisaya",
+                "description": "Maysa a 24-hour call-based mental health helpline nga mangted serbisyo iti English ken Filipino."
+            },
+            "rapha": {
+                "name": "Rapha Helpline",
+                "description": "Maysa a safe world para kadagiti ubbing a nawaya manipud sexual abuse ken exploitation. Free online mental health support services."
+            }
+        }
+    }
+}

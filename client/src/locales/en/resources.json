@@ -1,0 +1,402 @@
+{
+    "guide": {
+        "nodes": {
+            "res_img_laws_deepfake": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "If the images were digitally produced, altered, edited, or doctored, this could be a violation of the Anti-Cybercrime Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_safe_spaces": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "If the images or videos in question are humiliating, defamatory, or threatening in nature, this could be a violation of the Safe Spaces Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_privacy": {
+                "title": "Potential Violation: Data Privacy Act",
+                "content": "If the images or videos in question are using your identity to impersonate you, this could be a violation of the Data Privacy Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_voyeur": {
+                "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "If the images or videos in question were obtained secretly or without your consent, this could be a violation of the Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_intimate": {
+                "title": "Potential Violation: Safe Spaces / Voyeurism",
+                "content": "If the images contain intimate or explicit materials, this could be a violation of the Safe Spaces Act, Anti-Photo/Video Voyeurism Act, and other special protections.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_minor": {
+                "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "If the images contain minors (children under the age of 18), this could be a violation of the Anti-OSAEC Law, Anti-Child Abuse Law, and you may be entitled to special protections.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_imp_action": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_2": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security": {
+                "title": "Secure Your Accounts",
+                "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                "options": {
+                    "0": "Proceed to Reporting Steps"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "Secure Your Accounts",
+                "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                "options": {
+                    "0": "Proceed to Reporting Steps"
+                }
+            },
+            "res_harass_cyber": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "The harassment/threats involve repeated and unwanted contact through digital means. This could be a violation of the Anti-Cybercrime Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_threats": {
+                "title": "Potential Violation: Grave Threats (Article 282)",
+                "content": "If the harassment involves threats of physical, reputational, or financial harm, this could be a violation of Article 282 (Grave Threats).",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_safe_spaces": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "If the harassment is directed to a woman and/or child, this could be a violation of the Safe Spaces Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_vawc": {
+                "title": "Potential Violation: Anti-VAWC Laws",
+                "content": "If the harassment is coming from a current or former intimate partner, this could be a violation of Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "If the images were digitally produced, altered, edited, or doctored, this could be a violation of the Anti-Cybercrime Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "If the images or videos in question are humiliating, defamatory, or threatening in nature, this could be a violation of the Safe Spaces Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Potential Violation: Data Privacy Act",
+                "content": "If the images or videos in question are using your identity to impersonate you, this could be a violation of the Data Privacy Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "If the images or videos in question were obtained secretly or without your consent, this could be a violation of the Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Potential Violation: Safe Spaces / Voyeurism",
+                "content": "If the images contain intimate or explicit materials, this could be a violation of the Safe Spaces Act, Anti-Photo/Video Voyeurism Act, and other special protections.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "If the images contain minors (children under the age of 18), this could be a violation of the Anti-OSAEC Law, Anti-Child Abuse Law, and you may be entitled to special protections.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "Secure Your Accounts",
+                "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                "options": {
+                    "0": "Proceed to Reporting Steps"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "Secure Your Accounts",
+                "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                "options": {
+                    "0": "Proceed to Reporting Steps"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "The harassment/threats involve repeated and unwanted contact through digital means. This could be a violation of the Anti-Cybercrime Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Potential Violation: Grave Threats (Article 282)",
+                "content": "If the harassment involves threats of physical, reputational, or financial harm, this could be a violation of Article 282 (Grave Threats).",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "If the harassment is directed to a woman and/or child, this could be a violation of the Safe Spaces Act.",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Potential Violation: Anti-VAWC Laws",
+                "content": "If the harassment is coming from a current or former intimate partner, this could be a violation of Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "See my options for action"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "Report Impersonation",
+                "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                "links": {
+                    "0": "View Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_dox_npc": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_2": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_3": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_4": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_5": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_6": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_7": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_8": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_9": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_10": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_11": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            },
+            "res_dox_npc_12": {
+                "title": "Data Privacy Violation",
+                "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Other Violation",
+                "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel."
+            }
+        }
+    }
+}

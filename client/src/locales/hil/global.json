@@ -1,0 +1,39 @@
+{
+    "global": {
+        "ui": {
+            "title": "TFGBV Global Resources",
+            "subtitle": "Educational resources kag international guides parte sa online safety kag Technology-Facilitated Gender-Based Violence (TFGBV).",
+            "btn_access": "Access Resource",
+            "local_support_title": "Kinahanglan mo bala sang immediate support sa Pilipinas?",
+            "local_support_desc": "Nag-compile kami sang specialized local resources para sa survivors sang online harassment kag gender-based violence.",
+            "btn_counseling": "Social & Mental Health Services",
+            "btn_takedown": "Takedown Request Builder"
+        },
+        "resources": {
+            "chayn": {
+                "name": "CHAYN’s DIY Online Safety Guide",
+                "description": "Isa ka comprehensive, survivor-led guide para magpabilin nga safe online, naga-cover sang topics halin sa pag-secure sang accounts hasta sa pag-atubang sa harassment."
+            },
+            "australia_esafety": {
+                "name": "Australia’s E-Safety Guide",
+                "description": "Isa ka world-leading resource nga nagatalakay sang key topics sa online safety, dala ang deepfakes, cyberbullying, kag image-based abuse."
+            },
+            "unfpa": {
+                "name": "UNFPA: TFGBV Considerations",
+                "description": "Isa ka critical resource nga may titulo nga: \"Technology-facilitated gender-based violence: Considerations across the life course\", nga naga-explore sang impact sang digital harm."
+            },
+            "fma": {
+                "name": "Foundation for Media Alternatives (FMA)",
+                "description": "Isa ka Philippine-based NGO nga naka-focus sa intersection sang technology kag human rights. May specific resources sila parte sa gender-based violence kag dedicated helpline."
+            },
+            "cnxus": {
+                "name": "She Leads Curriculum on TFGBV",
+                "description": "Isa ka specialized educational curriculum nga gindesinyo para i-empower ang leaders kag advocates nga solbaron ang technology-facilitated gender-based violence."
+            },
+            "svri": {
+                "name": "SVRI Global Library",
+                "description": "Isa ka malapad nga repository sang research kag resources nga dedicated sa intersection sang technology kag gender-based violence."
+            }
+        }
+    }
+}

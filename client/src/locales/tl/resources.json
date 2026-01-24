@@ -1,0 +1,402 @@
+{
+    "guide": {
+        "nodes": {
+            "res_img_laws_deepfake": {
+                "title": "Posibleng Paglabag: Anti-Cybercrime Act",
+                "content": "Kung ang mga larawan ay gawa sa digital na pamamaraan, binago, inedit, o dinoktor, maaari itong maging paglabag sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_safe_spaces": {
+                "title": "Posibleng Paglabag: Safe Spaces Act",
+                "content": "Kung ang mga larawan o video ay nakakahiya, mapanirang-puri, o nananakot, maaari itong maging paglabag sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_privacy": {
+                "title": "Posibleng Paglabag: Data Privacy Act",
+                "content": "Kung ginagamit ang mga larawan o video pati ang iyong pagkakakilanlan upang magpanggap na ikaw, maaari itong maging paglabag sa Data Privacy Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_voyeur": {
+                "title": "Posibleng Paglabag: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung nakuha ang mga larawan o video nang palihim o wala kang pahintulot, maaari itong maging paglabag sa Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_intimate": {
+                "title": "Posibleng Paglabag: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga larawan ay naglalaman ng materyal na intimate o malaswa, maaari itong maging paglabag sa Safe Spaces Act, Anti-Photo/Video Voyeurism Act, at iba pang espesyal na proteksyon.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_minor": {
+                "title": "Posibleng Paglabag: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga larawan ay nagpapakita ng mga menor de edad (bata na wala pang 18), maaari itong maging paglabag sa Anti-OSAEC Law, Anti-Child Abuse Law, at may karapatan ka sa espesyal na proteksyon.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_imp_action": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_2": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security": {
+                "title": "I-secure ang Iyong mga Account",
+                "content": "Kung naisiwalat ang iyong impormasyon sa pag-login, mangyaring palitan agad ang iyong mga password at paganahin ang Two-Factor Authentication (2FA) sa lahat ng account.",
+                "options": {
+                    "0": "Tumuloy sa Mga Hakbang sa Pag-uulat"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "I-secure ang Iyong mga Account",
+                "content": "Kung naisiwalat ang iyong impormasyon sa pag-login, mangyaring palitan agad ang iyong mga password at paganahin ang Two-Factor Authentication (2FA) sa lahat ng account.",
+                "options": {
+                    "0": "Tumuloy sa Mga Hakbang sa Pag-uulat"
+                }
+            },
+            "res_harass_cyber": {
+                "title": "Posibleng Paglabag: Anti-Cybercrime Act",
+                "content": "Ang harassment/pagbabanta ay nagsasangkot ng paulit-ulit at hindi kanais-nais na pakikipag-ugnayan gamit ang digital na paraan. Maaari itong maging paglabag sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_threats": {
+                "title": "Posibleng Paglabag: Grave Threats (Article 282)",
+                "content": "Kung ang harassment ay may kasamang pagbabanta ng pisikal, reputasyon, o pinansyal na pinsala, maaari itong maging paglabag sa Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_safe_spaces": {
+                "title": "Posibleng Paglabag: Safe Spaces Act",
+                "content": "Kung ang harassment ay nakatuon sa isang babae at/o bata, maaari itong maging paglabag sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_vawc": {
+                "title": "Posibleng Paglabag: Anti-VAWC Laws",
+                "content": "Kung ang harassment ay nagmumula sa kasalukuyan o dating karelasyon, maaari itong maging paglabag sa Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Posibleng Paglabag: Anti-Cybercrime Act",
+                "content": "Kung ang mga larawan ay gawa sa digital na pamamaraan, binago, inedit, o dinoktor, maaari itong maging paglabag sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Posibleng Paglabag: Safe Spaces Act",
+                "content": "Kung ang mga larawan o video ay nakakahiya, mapanirang-puri, o nananakot, maaari itong maging paglabag sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Posibleng Paglabag: Data Privacy Act",
+                "content": "Kung ginagamit ang mga larawan o video pati ang iyong pagkakakilanlan upang magpanggap na ikaw, maaari itong maging paglabag sa Data Privacy Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Posibleng Paglabag: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung nakuha ang mga larawan o video nang palihim o wala kang pahintulot, maaari itong maging paglabag sa Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Posibleng Paglabag: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga larawan ay naglalaman ng materyal na intimate o malaswa, maaari itong maging paglabag sa Safe Spaces Act, Anti-Photo/Video Voyeurism Act, at iba pang espesyal na proteksyon.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Posibleng Paglabag: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga larawan ay nagpapakita ng mga menor de edad (bata na wala pang 18), maaari itong maging paglabag sa Anti-OSAEC Law, Anti-Child Abuse Law, at may karapatan ka sa espesyal na proteksyon.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "I-secure ang Iyong mga Account",
+                "content": "Kung naisiwalat ang iyong impormasyon sa pag-login, mangyaring palitan agad ang iyong mga password at paganahin ang Two-Factor Authentication (2FA) sa lahat ng account.",
+                "options": {
+                    "0": "Tumuloy sa Mga Hakbang sa Pag-uulat"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "I-secure ang Iyong mga Account",
+                "content": "Kung naisiwalat ang iyong impormasyon sa pag-login, mangyaring palitan agad ang iyong mga password at paganahin ang Two-Factor Authentication (2FA) sa lahat ng account.",
+                "options": {
+                    "0": "Tumuloy sa Mga Hakbang sa Pag-uulat"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Posibleng Paglabag: Anti-Cybercrime Act",
+                "content": "Ang harassment/pagbabanta ay nagsasangkot ng paulit-ulit at hindi kanais-nais na pakikipag-ugnayan gamit ang digital na paraan. Maaari itong maging paglabag sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Posibleng Paglabag: Grave Threats (Article 282)",
+                "content": "Kung ang harassment ay may kasamang pagbabanta ng pisikal, reputasyon, o pinansyal na pinsala, maaari itong maging paglabag sa Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Posibleng Paglabag: Safe Spaces Act",
+                "content": "Kung ang harassment ay nakatuon sa isang babae at/o bata, maaari itong maging paglabag sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Posibleng Paglabag: Anti-VAWC Laws",
+                "content": "Kung ang harassment ay nagmumula sa kasalukuyan o dating karelasyon, maaari itong maging paglabag sa Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tingnan ang aking mga opsyon"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "Iulat ang Pagpapanggap (Impersonation)",
+                "content": "Mukhang kailangan mo itong lutasin nang direkta sa platform o sa taong sangkot. Maaari kaming tumulong sa paggawa ng pormal na reklamo base sa impormasyong ibinigay mo, o ikonekta ka sa ibang mga mapagkukunan ng tulong.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_dox_npc": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_2": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_3": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_4": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_5": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_6": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_7": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_8": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_9": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_10": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_11": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            },
+            "res_dox_npc_12": {
+                "title": "Paglabag sa Data Privacy",
+                "content": "Mukhang ang nararanasan mo ay isang paglabag sa Data Privacy Act (RA 10173). Maaari kaming tumulong sa pag-draft ng pormal na reklamo.",
+                "links": {
+                    "0": "I-draft ang Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Ibang Paglabag",
+                "content": "Kung hindi ito nangyari gamit ang computer system, maaaring hindi ito paglabag sa Data Privacy Act, ngunit maaari pa ring maging labag sa batas. Kumunsulta sa legal counsel."
+            }
+        }
+    }
+}

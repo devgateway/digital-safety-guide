@@ -1,0 +1,102 @@
+{
+    "guide": {
+        "nodes": {
+            "res_img_laws_deepfake": {
+                "title": "Posibleng Violation: Anti-Cybercrime Act",
+                "content": "Kung ang mga litrato gi-digitally produce, inusab, gi-edit, o doctored, mahimo kining violation sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_img_laws_safe_spaces": {
+                "title": "Posibleng Violation: Safe Spaces Act",
+                "content": "Kung ang mga litrato o video kay makauuwaw, makadaot sa dungog (defamatory), o nagapanghulga, mahimo kining violation sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_img_laws_privacy": {
+                "title": "Posibleng Violation: Data Privacy Act",
+                "content": "Kung ang mga litrato o video gigamit ang imong identity para i-impersonate ka, mahimo kining violation sa Data Privacy Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_img_laws_voyeur": {
+                "title": "Posibleng Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung ang mga litrato o video nakuha nga sekreto o walay pagtugot nimo, mahimo kining violation sa Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_img_laws_intimate": {
+                "title": "Posibleng Violation: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga litrato adunay intimate o explicit materials, mahimo kining violation sa Safe Spaces Act, Anti-Photo/Video Voyeurism Act, ug uban pang special protections.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_img_laws_minor": {
+                "title": "Posibleng Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga litrato nagpakita og mga menor de edad (ubos sa 18 anyos), mahimo kining violation sa Anti-OSAEC Law, Anti-Child Abuse Law, ug may katungod ka sa special protections.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_imp_action": {
+                "title": "I-report ang Impersonation",
+                "content": "Mura'g kinahanglan nimo ni sulbaron diretso sa platform o sa taong hingtungdan. Pwede mi motabang paghimo og formal complaint base sa impormasyon nga imong gihatag, o ikonekta ka namo sa ubang resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security": {
+                "title": "I-secure ang Imong Accounts",
+                "content": "Kung ang imong login information na-expose, palihog ilisi dayon ang imong mga password ug i-enable ang Two-Factor Authentication (2FA) sa tanang accounts.",
+                "options": {
+                    "0": "Padayon sa Reporting Steps"
+                }
+            },
+            "res_harass_cyber": {
+                "title": "Posibleng Violation: Anti-Cybercrime Act",
+                "content": "Ang harassment/hulga naglakip sa balik-balik ug dili gusto nga contact gamit ang digital means. Mahimo kining violation sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_harass_threats": {
+                "title": "Posibleng Violation: Grave Threats (Article 282)",
+                "content": "Kung ang harassment naglakip sa pagpanghulga og pisikal, reputational, o financial harm, mahimo kining violation sa Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_harass_safe_spaces": {
+                "title": "Posibleng Violation: Safe Spaces Act",
+                "content": "Kung ang harassment gitumong sa usa ka babae ug/o bata, mahimo kining violation sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_harass_vawc": {
+                "title": "Posibleng Violation: Anti-VAWC Laws",
+                "content": "Kung ang harassment naggikan sa usa ka current o former intimate partner, mahimo kining violation sa Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tan-awa ang akong mga opsyon"
+                }
+            },
+            "res_dox_npc": {
+                "title": "Data Privacy Violation",
+                "content": "Mura'g ang imong nasinati usa ka violation sa Data Privacy Act (RA 10173). Pwede mi motabang nimo pag-draft og formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline": {
+                "title": "Offline/Other Violation",
+                "content": "Kung wala kini nahitabo gamit ang computer system, basin dili kini violation sa Data Privacy Act, pero posible gihapon nga illegal. Consult legal counsel."
+            }
+        }
+    }
+}

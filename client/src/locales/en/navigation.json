@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "brand": "Online Harassment Support",
+        "emergency": "Emergency Exit",
+        "directory": "Directory",
+        "guide": "Guide",
+        "resources": "Resources",
+        "takedown": "Takedown Requests",
+        "mental_health": "Mental Health Services",
+        "global_safety": "Global Safety Resources",
+        "law_enforcement": "Law Enforcement (1326)",
+        "data_privacy": "Data Privacy Support"
+    },
+    "home": {
+        "hero_title": "Safe. Secure. Supported.",
+        "hero_subtitle": "Everyone has the right to feel safe, and digital spaces are no exception. If you are feeling unsafe online, there are ways to help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. This tool is designed to help you understand what actions Filipino citizens can take based on the kind of safety violations you’re experiencing.",
+        "description_2": "If you have time to answer a few questions about whats making you feel unsafe, this tool can help you understand exactly what avenues are available to you so you can make an informed decision.",
+        "start_guide": "Start Safety Guide",
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Data are collected anonymously and not collected or stored. If you are in imminent danger, please contact the police immediately. If for some reason you feel unsafe while using this tool, utilize the “emergency exit” button and return when you are safe."
+    },
+    "footer": {
+        "powered_by": "Powered by"
+    },
+    "common": {
+        "back": "Back",
+        "loading": "Loading...",
+        "error": "Error"
+    }
+}

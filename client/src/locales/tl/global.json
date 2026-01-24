@@ -1,0 +1,39 @@
+{
+    "global": {
+        "ui": {
+            "title": "Mga Pandaigdigang Mapagkukunan sa TFGBV",
+            "subtitle": "Mga mapagkukunang pang-edukasyon at pandaigdigang gabay ukol sa kaligtasan online at Technology-Facilitated Gender-Based Violence (TFGBV).",
+            "btn_access": "Buksan ang Resource",
+            "local_support_title": "Nangangailangan ka ba ng agarang suporta sa Pilipinas?",
+            "local_support_desc": "Nagtipon kami ng mga espesyal na lokal na mapagkukunan para sa mga nakaligtas sa online harassment at karahasang nakabatay sa kasarian.",
+            "btn_counseling": "Mga Serbisyong Panlipunan at Pangkaisipan",
+            "btn_takedown": "Tagalikha ng Kahilingan sa Pagpapatanggal"
+        },
+        "resources": {
+            "chayn": {
+                "name": "CHAYN’s DIY Online Safety Guide",
+                "description": "Isang komprehensibo at survivor-led na gabay upang manatiling ligtas online, sumasaklaw sa mga paksa mula sa pag-secure ng mga account hanggang sa pagharap sa harassment."
+            },
+            "australia_esafety": {
+                "name": "Australia’s E-Safety Guide",
+                "description": "Isang nangungunang mapagkukunan sa mundo na sumasaklaw sa mga pangunahing paksa sa kaligtasan online, kabilang ang deepfakes, cyberbullying, at pang-aabuso gamit ang mga larawan."
+            },
+            "unfpa": {
+                "name": "UNFPA: TFGBV Considerations",
+                "description": "Isang kritikal na mapagkukunan na pinamagatang: \"Technology-facilitated gender-based violence: Considerations across the life course\", na tumatalakay sa epekto ng digital harm."
+            },
+            "fma": {
+                "name": "Foundation for Media Alternatives (FMA)",
+                "description": "Isang NGO na nakabase sa Pilipinas na nakatuon sa interseksyon ng teknolohiya at karapatang pantao. Mayroon silang mga tiyak na mapagkukunan ukol sa karahasang nakabatay sa kasarian at nakalaang helpline."
+            },
+            "cnxus": {
+                "name": "She Leads Curriculum on TFGBV",
+                "description": "Isang espesyal na kurikulum pang-edukasyon na idinisenyo upang bigyang-kapangyarihan ang mga lider at tagapagtaguyod na tugunan ang technology-facilitated gender-based violence."
+            },
+            "svri": {
+                "name": "SVRI Global Library",
+                "description": "Isang malawak na repositoryo ng pananaliksik at mga mapagkukunan na nakatuon sa interseksyon ng teknolohiya at karahasang nakabatay sa kasarian."
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "privacy": {
+        "ui": {
+            "title": "National Privacy Commission (NPC)",
+            "subtitle": "Ang Data Protection Authority ng Pilipinas, na inatasang pangasiwaan at ipatupad ang Data Privacy Act of 2012.",
+            "dir_title": "Direktoryo ng Kontak",
+            "dir_website": "Opisyal na Website",
+            "dir_email": "Mag-email ng Reklamo",
+            "dir_hotline": "Hotline",
+            "dir_smart": "Smart Mobile",
+            "dir_globe": "Globe Mobile",
+            "filing_title": "Pagsasampa ng Reklamo",
+            "step_1_title": "1. Exhaustion of Remedies (Pag-ubos ng Lunas)",
+            "step_1_desc": "Dapat mo munang subukang lutasin ang isyu nang direkta sa taong o entidad na sangkot. Maghintay ng 15 araw para sa kanilang tugon bago ito idulog sa NPC.",
+            "step_2_title": "2. Pagdodokumento ng Paglabag",
+            "step_2_desc": "Ipunin ang lahat ng ebidensya ng personal data breach o pagpapanggap. Tiyaking mayroon kang mga kopya ng iyong pagtatangka na lutasin ito nang direkta.",
+            "step_3_title": "3. Pormal na Pagsusumite",
+            "step_3_desc": "Isumite ang iyong reklamo sa pamamagitan ng NPC Complaints Management System o sa kanilang pisikal/email na mga channel.",
+            "advisory_title": "Ang Pagpapanggap ay Isang Paglabag",
+            "advisory_desc": "Ayon sa mga Abiso ng NPC, ang paggamit ng pagkakakilanlan ng ibang tao upang lumikha ng isang profile (pagpapanggap) ay maaaring ituring na paglabag sa Data Privacy Act, lalo na kung ito ay humahantong sa hindi awtorisadong pagproseso ng personal na datos.",
+            "footer_title": "Handa nang umaksyon?",
+            "footer_desc": "Nagtipon kami ng mga opisyal na mapagkukunan sa ibaba upang tulungan kang ihanda ang iyong pormal na reklamo.",
+            "btn_portal": "Buksan ang NPC Complaints Portal",
+            "btn_advisories": "Basahin ang NPC Circulars & Advisories"
+        }
+    }
+}

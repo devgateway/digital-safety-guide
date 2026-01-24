@@ -11,14 +11,17 @@ import {
     Building2,
     CheckCircle2
 } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function DataPrivacy() {
+    const { t } = useLanguage();
+
     const contactInfo = [
-        { icon: <Globe size={20} />, label: 'Official Website', value: 'privacy.gov.ph', url: 'https://privacy.gov.ph/' },
-        { icon: <Mail size={20} />, label: 'Email Complaints', value: 'complaints@privacy.gov.ph', url: 'mailto:complaints@privacy.gov.ph' },
-        { icon: <Phone size={20} />, label: 'Hotline', value: 'Local 114 or 115', url: null },
-        { icon: <Smartphone size={20} />, label: 'Smart Mobile', value: '+63 970 818 0555', url: 'tel:+639708180555' },
-        { icon: <Smartphone size={20} />, label: 'Globe Mobile', value: '+63 905 506 1478', url: 'tel:+639055061478' }
+        { icon: <Globe size={20} />, label: t('privacy.ui.dir_website'), value: 'privacy.gov.ph', url: 'https://privacy.gov.ph/' },
+        { icon: <Mail size={20} />, label: t('privacy.ui.dir_email'), value: 'complaints@privacy.gov.ph', url: 'mailto:complaints@privacy.gov.ph' },
+        { icon: <Phone size={20} />, label: t('privacy.ui.dir_hotline'), value: 'Local 114 or 115', url: null },
+        { icon: <Smartphone size={20} />, label: t('privacy.ui.dir_smart'), value: '+63 970 818 0555', url: 'tel:+639708180555' },
+        { icon: <Smartphone size={20} />, label: t('privacy.ui.dir_globe'), value: '+63 905 506 1478', url: 'tel:+639055061478' }
     ];
 
     return (
@@ -28,9 +31,9 @@ export default function DataPrivacy() {
                     <div style={{ display: 'inline-flex', padding: '1rem', background: 'rgba(56, 189, 248, 0.1)', borderRadius: '50%', color: 'var(--color-text-accent)', marginBottom: '1.5rem' }}>
                         <Fingerprint size={48} />
                     </div>
-                    <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>National Privacy Commission (NPC)</h1>
+                    <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{t('privacy.ui.title')}</h1>
                     <p className="text-muted" style={{ fontSize: '1.1rem' }}>
-                        The Data Protection Authority of the Philippines, mandated to administer and implement the Data Privacy Act of 2012.
+                        {t('privacy.ui.subtitle')}
                     </p>
                 </div>
 
@@ -38,7 +41,7 @@ export default function DataPrivacy() {
                     {/* Contact Information */}
                     <div className="card" style={{ height: 'fit-content' }}>
                         <h2 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                            <Building2 className="text-accent" /> Contact Directory
+                            <Building2 className="text-accent" /> {t('privacy.ui.dir_title')}
                         </h2>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             {contactInfo.map((item, i) => (
@@ -60,20 +63,20 @@ export default function DataPrivacy() {
                     {/* Expectation Setting */}
                     <div className="card">
                         <h2 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                            <ListChecks className="text-accent" /> Filing a Complaint
+                            <ListChecks className="text-accent" /> {t('privacy.ui.filing_title')}
                         </h2>
                         <div style={{ position: 'relative', paddingLeft: '1.5rem', borderLeft: '2px solid var(--color-bg-tertiary)' }}>
                             <div className="mb-4">
-                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>1. Exhaustion of Remedies</h3>
-                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>You must first attempt to resolve the issue directly with the person or entity involved. Wait 15 days for their response before escalating to NPC.</p>
+                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{t('privacy.ui.step_1_title')}</h3>
+                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>{t('privacy.ui.step_1_desc')}</p>
                             </div>
                             <div className="mb-4">
-                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>2. Documenting the Violation</h3>
-                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>Gather all evidence of the personal data breach or impersonation. Ensure you have copies of your attempt to resolve it directly.</p>
+                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{t('privacy.ui.step_2_title')}</h3>
+                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>{t('privacy.ui.step_2_desc')}</p>
                             </div>
                             <div className="mb-4">
-                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>3. Formal Submission</h3>
-                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>Submit your complaint via the NPC Complaints Management System or through their physical/email channels.</p>
+                                <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{t('privacy.ui.step_3_title')}</h3>
+                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)' }}>{t('privacy.ui.step_3_desc')}</p>
                             </div>
                         </div>
                     </div>
@@ -84,9 +87,9 @@ export default function DataPrivacy() {
                     <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
                         <AlertCircle className="text-accent" style={{ flexShrink: 0, marginTop: '0.25rem' }} />
                         <div>
-                            <h3 style={{ margin: 0, marginBottom: '0.5rem', fontSize: '1.1rem' }}>Impersonation is a Violation</h3>
+                            <h3 style={{ margin: 0, marginBottom: '0.5rem', fontSize: '1.1rem' }}>{t('privacy.ui.advisory_title')}</h3>
                             <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-text-secondary)' }}>
-                                According to NPC Advisories, using someone else's identity to create a profile (impersonation) may constitute a violation of the Data Privacy Act, especially if it leads to unauthorized processing of personal data.
+                                {t('privacy.ui.advisory_desc')}
                             </p>
                         </div>
                     </div>
@@ -94,14 +97,14 @@ export default function DataPrivacy() {
 
                 {/* Footer CTA */}
                 <div style={{ marginTop: '4rem', padding: '3rem', background: 'var(--color-bg-secondary)', borderRadius: 'var(--radius-lg)', textAlign: 'center' }}>
-                    <h2 style={{ marginBottom: '1rem' }}>Ready to take action?</h2>
-                    <p className="text-muted mb-4">We've linked official resources below to help you prepare your formal complaint.</p>
+                    <h2 style={{ marginBottom: '1rem' }}>{t('privacy.ui.footer_title')}</h2>
+                    <p className="text-muted mb-4">{t('privacy.ui.footer_desc')}</p>
                     <div className="flex-center" style={{ gap: '1rem', flexWrap: 'wrap' }}>
                         <a href="https://privacy.gov.ph/complaints-main/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                            Access NPC Complaints Portal <FileText size={18} />
+                            {t('privacy.ui.btn_portal')} <FileText size={18} />
                         </a>
                         <a href="https://privacy.gov.ph/advisories/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
-                            Read NPC Circulars & Advisories
+                            {t('privacy.ui.btn_advisories')}
                         </a>
                     </div>
                 </div>

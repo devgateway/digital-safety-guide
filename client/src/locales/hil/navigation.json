@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "brand": "Online Harassment Support",
+        "emergency": "Emergency Exit",
+        "directory": "Direktoryo",
+        "guide": "Giya",
+        "resources": "Mga Resources",
+        "takedown": "Takedown Requests",
+        "mental_health": "Mental Health Services",
+        "global_safety": "Global Safety Resources",
+        "law_enforcement": "Law Enforcement (1326)",
+        "data_privacy": "Data Privacy Support"
+    },
+    "home": {
+        "hero_title": "Ligtas. Malinong. Ginasuportahan.",
+        "hero_subtitle": "Kinamatarong sang tanan nga mangin safe, kag dala na diri ang digital spaces. Kung pamatyag mo unsafe ka online, may mga pamaagi para mabalik ang imo peace of mind: halin sa civil kag criminal penalties, non-profit psychosocial support, asta sa formal takedown requests diretso sa mga IT companies. Ang tool nga ini gindesinyo para buligan ka nga maintiindihan kung ano ang mga steps nga pwede himuon sang mga Pilipino base sa safety violations nga imo gina-experience.",
+        "description_2": "Kung may oras ka nga sabtan ang pila ka pamangkot parte sa imo sitwasyon, mabuligan ka sang tool nga ini nga maintiindihan ang mga available options para makahimo ka sang husto nga desisyon.",
+        "start_guide": "Umpisahan ang Safety Guide",
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Ang tool nga ini indi legal advice. Ang data gina-collect anonymously kag wala gina-save ukon gina-store. Kung ikaw ara sa imminent danger, please contact the police immediately. Kung pamatyag mo unsafe ka samtang ginagamit ang tool nga ini, gamita ang “emergency exit” button kag magbalik lang kung safe ka na."
+    },
+    "footer": {
+        "powered_by": "Powered by"
+    },
+    "common": {
+        "back": "Balik",
+        "loading": "Nag-load...",
+        "error": "Error"
+    }
+}

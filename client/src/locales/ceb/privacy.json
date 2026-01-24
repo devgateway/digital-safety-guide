@@ -1,0 +1,27 @@
+{
+    "privacy": {
+        "ui": {
+            "title": "National Privacy Commission (NPC)",
+            "subtitle": "Ang Data Protection Authority sa Pilipinas, nga gitahasan sa pagdumala ug pag-implementar sa Data Privacy Act of 2012.",
+            "dir_title": "Contact Directory",
+            "dir_website": "Official Website",
+            "dir_email": "Email Complaints",
+            "dir_hotline": "Hotline",
+            "dir_smart": "Smart Mobile",
+            "dir_globe": "Globe Mobile",
+            "filing_title": "Filing a Complaint",
+            "step_1_title": "1. Exhaustion of Remedies",
+            "step_1_desc": "Kinahanglan nimo sulayan una pag-resolve ang isyu diretso sa tawo o entity nga involved. Paghuwat og 15 days sa ilang tubag una moadto sa NPC.",
+            "step_2_title": "2. Documenting the Violation",
+            "step_2_desc": "Tiguma ang tanang ebidensya sa personal data breach o impersonation. Siguroha nga naa kay kopya sa imong pagsulay sa pag-resolve niini directly.",
+            "step_3_title": "3. Formal Submission",
+            "step_3_desc": "I-submit ang imong reklamo via NPC Complaints Management System o sa ilang physical/email channels.",
+            "advisory_title": "Ang Impersonation kay Violation",
+            "advisory_desc": "Base sa NPC Advisories, ang paggamit sa identity sa laing tawo para maghimo og profile (impersonation) mahimong violation sa Data Privacy Act, labi na kung mosangpot kini sa unauthorized processing sa personal data.",
+            "footer_title": "Ready to take action?",
+            "footer_desc": "Nag-compile mi og official resources sa ubos para tabangan ka pag-prepare sa imong formal complaint.",
+            "btn_portal": "Adto sa NPC Complaints Portal",
+            "btn_advisories": "Basaha ang NPC Circulars & Advisories"
+        }
+    }
+}

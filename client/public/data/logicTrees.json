@@ -2,8 +2,8 @@
     "TOPICS": [
         {
             "id": "UNIFIED_FLOW",
-            "title": "NMWSO Digital Safety Resource Helper",
-            "description": "Comprehensive interactive guide for Online Gender-Based Violence (OGBV), Harassment, Impersonation, and Doxxing.",
+            "title": "guide.topics.UNIFIED_FLOW.title",
+            "description": "guide.topics.UNIFIED_FLOW.description",
             "enabled": true
         }
     ],
@@ -13,14 +13,14 @@
             "nodes": {
                 "q_situation_triage": {
                     "id": "q_situation_triage",
-                    "question": "Which of the following best describes your current situation?",
+                    "question": "guide.nodes.q_situation_triage.question",
                     "options": [
                         {
-                            "label": "Someone is making me feel unsafe online",
+                            "label": "guide.nodes.q_situation_triage.options.0",
                             "nextId": "q_main_category"
                         },
                         {
-                            "label": "My family member / friend / colleague is feeling unsafe online",
+                            "label": "guide.nodes.q_situation_triage.options.1",
                             "nextId": "q_auth_check"
                         }
                     ],
@@ -28,22 +28,22 @@
                 },
                 "q_main_category": {
                     "id": "q_main_category",
-                    "question": "Which of the following best describes what is making you feel unsafe online?",
+                    "question": "guide.nodes.q_main_category.question",
                     "options": [
                         {
-                            "label": "Images or videos of me online that shouldn't be",
+                            "label": "guide.nodes.q_main_category.options.0",
                             "nextId": "q_img_nature"
                         },
                         {
-                            "label": "Someone is harassing or threatening me",
+                            "label": "guide.nodes.q_main_category.options.1",
                             "nextId": "q_danger_check"
                         },
                         {
-                            "label": "Someone is impersonating me",
+                            "label": "guide.nodes.q_main_category.options.2",
                             "nextId": "q_imp_method"
                         },
                         {
-                            "label": "Personal information or photos that I don't want public is circulating online",
+                            "label": "guide.nodes.q_main_category.options.3",
                             "nextId": "q_dox_info"
                         }
                     ],
@@ -51,14 +51,14 @@
                 },
                 "q_auth_check": {
                     "id": "q_auth_check",
-                    "question": "Are you this person's legal guardian or do you have power of attorney on their behalf?",
+                    "question": "guide.nodes.q_auth_check.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_auth_check.options.0",
                             "nextId": "q_main_category_rep"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_auth_check.options.1",
                             "nextId": "end_no_auth"
                         }
                     ],
@@ -66,30 +66,30 @@
                 },
                 "q_img_nature": {
                     "id": "q_img_nature",
-                    "question": "Got it. I can help you take a few simple steps to feel safer. First, select which applies best to the images/videos:",
+                    "question": "guide.nodes.q_img_nature.question",
                     "options": [
                         {
-                            "label": "I suspect the images were digitally produced, altered, or doctored (Deepfakes)",
+                            "label": "guide.nodes.q_img_nature.options.0",
                             "nextId": "res_img_laws_deepfake"
                         },
                         {
-                            "label": "The images are humiliating, defamatory, or threatening",
+                            "label": "guide.nodes.q_img_nature.options.1",
                             "nextId": "res_img_laws_safe_spaces"
                         },
                         {
-                            "label": "The images are impersonating me",
+                            "label": "guide.nodes.q_img_nature.options.2",
                             "nextId": "res_img_laws_privacy"
                         },
                         {
-                            "label": "The images were obtained secretly or without my consent (Voyeurism)",
+                            "label": "guide.nodes.q_img_nature.options.3",
                             "nextId": "res_img_laws_voyeur"
                         },
                         {
-                            "label": "The images contain intimate or explicit materials",
+                            "label": "guide.nodes.q_img_nature.options.4",
                             "nextId": "res_img_laws_intimate"
                         },
                         {
-                            "label": "The images contain minors (children under 18)",
+                            "label": "guide.nodes.q_img_nature.options.5",
                             "nextId": "res_img_laws_minor"
                         }
                     ],
@@ -97,14 +97,14 @@
                 },
                 "q_danger_check": {
                     "id": "q_danger_check",
-                    "question": "That is very unsettling. Are you in immediate danger?",
+                    "question": "guide.nodes.q_danger_check.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_danger_check.options.0",
                             "nextId": "end_emergency"
                         },
                         {
-                            "label": "No, but I'd like to feel safer",
+                            "label": "guide.nodes.q_danger_check.options.1",
                             "nextId": "q_harass_details"
                         }
                     ],
@@ -112,26 +112,26 @@
                 },
                 "q_imp_method": {
                     "id": "q_imp_method",
-                    "question": "How is this person impersonating you?",
+                    "question": "guide.nodes.q_imp_method.question",
                     "options": [
                         {
-                            "label": "Using my photo or video",
+                            "label": "guide.nodes.q_imp_method.options.0",
                             "nextId": "res_imp_action"
                         },
                         {
-                            "label": "Using my full legal name",
+                            "label": "guide.nodes.q_imp_method.options.1",
                             "nextId": "res_imp_action_2"
                         },
                         {
-                            "label": "Using my address or phone number",
+                            "label": "guide.nodes.q_imp_method.options.2",
                             "nextId": "res_imp_action_3"
                         },
                         {
-                            "label": "Using my login information (username/password)",
+                            "label": "guide.nodes.q_imp_method.options.3",
                             "nextId": "res_imp_security"
                         },
                         {
-                            "label": "Other",
+                            "label": "guide.nodes.q_imp_method.options.4",
                             "nextId": "res_imp_action_4"
                         }
                     ],
@@ -139,18 +139,18 @@
                 },
                 "q_dox_info": {
                     "id": "q_dox_info",
-                    "question": "What information has been exposed?",
+                    "question": "guide.nodes.q_dox_info.question",
                     "options": [
                         {
-                            "label": "Photo or video",
+                            "label": "guide.nodes.q_dox_info.options.0",
                             "nextId": "q_dox_identify"
                         },
                         {
-                            "label": "Login information",
+                            "label": "guide.nodes.q_dox_info.options.1",
                             "nextId": "res_imp_security_2"
                         },
                         {
-                            "label": "Other personal info (Address, ID, etc)",
+                            "label": "guide.nodes.q_dox_info.options.2",
                             "nextId": "q_dox_identify_2"
                         }
                     ],
@@ -158,22 +158,22 @@
                 },
                 "q_main_category_rep": {
                     "id": "q_main_category_rep",
-                    "question": "Which of the following best describes what is making them feel unsafe online?",
+                    "question": "guide.nodes.q_main_category_rep.question",
                     "options": [
                         {
-                            "label": "Images or videos of them online that shouldn't be",
+                            "label": "guide.nodes.q_main_category_rep.options.0",
                             "nextId": "q_img_nature_2"
                         },
                         {
-                            "label": "Someone is harassing or threatening them",
+                            "label": "guide.nodes.q_main_category_rep.options.1",
                             "nextId": "q_danger_check_2"
                         },
                         {
-                            "label": "Someone is impersonating them",
+                            "label": "guide.nodes.q_main_category_rep.options.2",
                             "nextId": "q_imp_method_2"
                         },
                         {
-                            "label": "Personal information or photos they don't want public is circulating online",
+                            "label": "guide.nodes.q_main_category_rep.options.3",
                             "nextId": "q_dox_info_2"
                         }
                     ],
@@ -182,11 +182,11 @@
                 "end_no_auth": {
                     "id": "end_no_auth",
                     "type": "result",
-                    "title": "Authorization Needed",
-                    "content": "Got it. Unfortunately, you can't pursue any legal action on their behalf without proper authorization. However, we can help you understand what they might have access to and point you to additional non-legal resources.",
+                    "title": "guide.nodes.end_no_auth.title",
+                    "content": "guide.nodes.end_no_auth.content",
                     "links": [
                         {
-                            "label": "View Non-Legal Support Resources",
+                            "label": "guide.nodes.end_no_auth.links.0",
                             "url": "/resources/general-support",
                             "icon": "info"
                         }
@@ -196,11 +196,11 @@
                 "res_img_laws_deepfake": {
                     "id": "res_img_laws_deepfake",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Cybercrime Act",
-                    "content": "If the images were digitally produced, altered, edited, or doctored, this could be a violation of the Anti-Cybercrime Act.",
+                    "title": "guide.nodes.res_img_laws_deepfake.title",
+                    "content": "guide.nodes.res_img_laws_deepfake.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_deepfake.options.0",
                             "nextId": "menu_actions_img"
                         }
                     ],
@@ -209,11 +209,11 @@
                 "res_img_laws_safe_spaces": {
                     "id": "res_img_laws_safe_spaces",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces Act",
-                    "content": "If the images or videos in question are humiliating, defamatory, or threatening in nature, this could be a violation of the Safe Spaces Act.",
+                    "title": "guide.nodes.res_img_laws_safe_spaces.title",
+                    "content": "guide.nodes.res_img_laws_safe_spaces.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_safe_spaces.options.0",
                             "nextId": "menu_actions_img_2"
                         }
                     ],
@@ -222,11 +222,11 @@
                 "res_img_laws_privacy": {
                     "id": "res_img_laws_privacy",
                     "type": "info",
-                    "title": "Potential Violation: Data Privacy Act",
-                    "content": "If the images or videos in question are using your identity to impersonate you, this could be a violation of the Data Privacy Act.",
+                    "title": "guide.nodes.res_img_laws_privacy.title",
+                    "content": "guide.nodes.res_img_laws_privacy.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_privacy.options.0",
                             "nextId": "menu_actions_img_3"
                         }
                     ],
@@ -235,11 +235,11 @@
                 "res_img_laws_voyeur": {
                     "id": "res_img_laws_voyeur",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
-                    "content": "If the images or videos in question were obtained secretly or without your consent, this could be a violation of the Anti-Photo/Video Voyeurism Act.",
+                    "title": "guide.nodes.res_img_laws_voyeur.title",
+                    "content": "guide.nodes.res_img_laws_voyeur.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_voyeur.options.0",
                             "nextId": "menu_actions_img_4"
                         }
                     ],
@@ -248,11 +248,11 @@
                 "res_img_laws_intimate": {
                     "id": "res_img_laws_intimate",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces / Voyeurism",
-                    "content": "If the images contain intimate or explicit materials, this could be a violation of the Safe Spaces Act, Anti-Photo/Video Voyeurism Act, and other special protections.",
+                    "title": "guide.nodes.res_img_laws_intimate.title",
+                    "content": "guide.nodes.res_img_laws_intimate.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_intimate.options.0",
                             "nextId": "menu_actions_img_5"
                         }
                     ],
@@ -261,11 +261,11 @@
                 "res_img_laws_minor": {
                     "id": "res_img_laws_minor",
                     "type": "info",
-                    "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
-                    "content": "If the images contain minors (children under the age of 18), this could be a violation of the Anti-OSAEC Law, Anti-Child Abuse Law, and you may be entitled to special protections.",
+                    "title": "guide.nodes.res_img_laws_minor.title",
+                    "content": "guide.nodes.res_img_laws_minor.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_minor.options.0",
                             "nextId": "menu_actions_img_6"
                         }
                     ],
@@ -274,11 +274,11 @@
                 "end_emergency": {
                     "id": "end_emergency",
                     "type": "result",
-                    "title": "Emergency Action Required",
-                    "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                    "title": "guide.nodes.end_emergency.title",
+                    "content": "guide.nodes.end_emergency.content",
                     "links": [
                         {
-                            "label": "PNP Anti-Cybercrime Group",
+                            "label": "guide.nodes.end_emergency.links.0",
                             "url": "tel:117",
                             "icon": "phone"
                         }
@@ -287,22 +287,22 @@
                 },
                 "q_harass_details": {
                     "id": "q_harass_details",
-                    "question": "Got it. I can help you take a few simple steps to feel safer. First, select all that apply:",
+                    "question": "guide.nodes.q_harass_details.question",
                     "options": [
                         {
-                            "label": "Harassment involves repeated and unwanted contact via digital means",
+                            "label": "guide.nodes.q_harass_details.options.0",
                             "nextId": "res_harass_cyber"
                         },
                         {
-                            "label": "Harassment involves threats of physical, reputational, or financial harm",
+                            "label": "guide.nodes.q_harass_details.options.1",
                             "nextId": "res_harass_threats"
                         },
                         {
-                            "label": "Harassment is directed to a woman and/or child",
+                            "label": "guide.nodes.q_harass_details.options.2",
                             "nextId": "res_harass_safe_spaces"
                         },
                         {
-                            "label": "Harassment is coming from a current or former intimate partner",
+                            "label": "guide.nodes.q_harass_details.options.3",
                             "nextId": "res_harass_vawc"
                         }
                     ],
@@ -311,16 +311,16 @@
                 "res_imp_action": {
                     "id": "res_imp_action",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action.title",
+                    "content": "guide.nodes.res_imp_action.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -330,16 +330,16 @@
                 "res_imp_action_2": {
                     "id": "res_imp_action_2",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_2.title",
+                    "content": "guide.nodes.res_imp_action_2.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_2.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_2.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -349,16 +349,16 @@
                 "res_imp_action_3": {
                     "id": "res_imp_action_3",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_3.title",
+                    "content": "guide.nodes.res_imp_action_3.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_3.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_3.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -368,11 +368,11 @@
                 "res_imp_security": {
                     "id": "res_imp_security",
                     "type": "action",
-                    "title": "Secure Your Accounts",
-                    "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                    "title": "guide.nodes.res_imp_security.title",
+                    "content": "guide.nodes.res_imp_security.content",
                     "options": [
                         {
-                            "label": "Proceed to Reporting Steps",
+                            "label": "guide.nodes.res_imp_security.options.0",
                             "nextId": "res_imp_action_5"
                         }
                     ],
@@ -381,16 +381,16 @@
                 "res_imp_action_4": {
                     "id": "res_imp_action_4",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_4.title",
+                    "content": "guide.nodes.res_imp_action_4.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_4.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_4.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -399,14 +399,14 @@
                 },
                 "q_dox_identify": {
                     "id": "q_dox_identify",
-                    "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                    "question": "guide.nodes.q_dox_identify.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_identify.options.0",
                             "nextId": "q_dox_consent"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_identify.options.1",
                             "nextId": "end_dox_frustrating"
                         }
                     ],
@@ -415,11 +415,11 @@
                 "res_imp_security_2": {
                     "id": "res_imp_security_2",
                     "type": "action",
-                    "title": "Secure Your Accounts",
-                    "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                    "title": "guide.nodes.res_imp_security_2.title",
+                    "content": "guide.nodes.res_imp_security_2.content",
                     "options": [
                         {
-                            "label": "Proceed to Reporting Steps",
+                            "label": "guide.nodes.res_imp_security_2.options.0",
                             "nextId": "res_imp_action_6"
                         }
                     ],
@@ -427,14 +427,14 @@
                 },
                 "q_dox_identify_2": {
                     "id": "q_dox_identify_2",
-                    "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                    "question": "guide.nodes.q_dox_identify_2.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_identify_2.options.0",
                             "nextId": "q_dox_consent_2"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_identify_2.options.1",
                             "nextId": "end_dox_frustrating_2"
                         }
                     ],
@@ -442,30 +442,30 @@
                 },
                 "q_img_nature_2": {
                     "id": "q_img_nature_2",
-                    "question": "Got it. I can help you take a few simple steps to feel safer. First, select which applies best to the images/videos:",
+                    "question": "guide.nodes.q_img_nature_2.question",
                     "options": [
                         {
-                            "label": "I suspect the images were digitally produced, altered, or doctored (Deepfakes)",
+                            "label": "guide.nodes.q_img_nature_2.options.0",
                             "nextId": "res_img_laws_deepfake_2"
                         },
                         {
-                            "label": "The images are humiliating, defamatory, or threatening",
+                            "label": "guide.nodes.q_img_nature_2.options.1",
                             "nextId": "res_img_laws_safe_spaces_2"
                         },
                         {
-                            "label": "The images are impersonating me",
+                            "label": "guide.nodes.q_img_nature_2.options.2",
                             "nextId": "res_img_laws_privacy_2"
                         },
                         {
-                            "label": "The images were obtained secretly or without my consent (Voyeurism)",
+                            "label": "guide.nodes.q_img_nature_2.options.3",
                             "nextId": "res_img_laws_voyeur_2"
                         },
                         {
-                            "label": "The images contain intimate or explicit materials",
+                            "label": "guide.nodes.q_img_nature_2.options.4",
                             "nextId": "res_img_laws_intimate_2"
                         },
                         {
-                            "label": "The images contain minors (children under 18)",
+                            "label": "guide.nodes.q_img_nature_2.options.5",
                             "nextId": "res_img_laws_minor_2"
                         }
                     ],
@@ -473,14 +473,14 @@
                 },
                 "q_danger_check_2": {
                     "id": "q_danger_check_2",
-                    "question": "That is very unsettling. Are you in immediate danger?",
+                    "question": "guide.nodes.q_danger_check_2.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_danger_check_2.options.0",
                             "nextId": "end_emergency_2"
                         },
                         {
-                            "label": "No, but I'd like to feel safer",
+                            "label": "guide.nodes.q_danger_check_2.options.1",
                             "nextId": "q_harass_details_2"
                         }
                     ],
@@ -488,26 +488,26 @@
                 },
                 "q_imp_method_2": {
                     "id": "q_imp_method_2",
-                    "question": "How is this person impersonating you?",
+                    "question": "guide.nodes.q_imp_method_2.question",
                     "options": [
                         {
-                            "label": "Using my photo or video",
+                            "label": "guide.nodes.q_imp_method_2.options.0",
                             "nextId": "res_imp_action_7"
                         },
                         {
-                            "label": "Using my full legal name",
+                            "label": "guide.nodes.q_imp_method_2.options.1",
                             "nextId": "res_imp_action_8"
                         },
                         {
-                            "label": "Using my address or phone number",
+                            "label": "guide.nodes.q_imp_method_2.options.2",
                             "nextId": "res_imp_action_9"
                         },
                         {
-                            "label": "Using my login information (username/password)",
+                            "label": "guide.nodes.q_imp_method_2.options.3",
                             "nextId": "res_imp_security_3"
                         },
                         {
-                            "label": "Other",
+                            "label": "guide.nodes.q_imp_method_2.options.4",
                             "nextId": "res_imp_action_10"
                         }
                     ],
@@ -515,18 +515,18 @@
                 },
                 "q_dox_info_2": {
                     "id": "q_dox_info_2",
-                    "question": "What information has been exposed?",
+                    "question": "guide.nodes.q_dox_info_2.question",
                     "options": [
                         {
-                            "label": "Photo or video",
+                            "label": "guide.nodes.q_dox_info_2.options.0",
                             "nextId": "q_dox_identify_3"
                         },
                         {
-                            "label": "Login information",
+                            "label": "guide.nodes.q_dox_info_2.options.1",
                             "nextId": "res_imp_security_4"
                         },
                         {
-                            "label": "Other personal info (Address, ID, etc)",
+                            "label": "guide.nodes.q_dox_info_2.options.2",
                             "nextId": "q_dox_identify_4"
                         }
                     ],
@@ -535,26 +535,26 @@
                 "menu_actions_img": {
                     "id": "menu_actions_img",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img.title",
+                    "content": "guide.nodes.menu_actions_img.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -564,26 +564,26 @@
                 "menu_actions_img_2": {
                     "id": "menu_actions_img_2",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_2.title",
+                    "content": "guide.nodes.menu_actions_img_2.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_2.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_2.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_2.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_2.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -593,26 +593,26 @@
                 "menu_actions_img_3": {
                     "id": "menu_actions_img_3",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_3.title",
+                    "content": "guide.nodes.menu_actions_img_3.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_3.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_3.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_3.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_3.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -622,26 +622,26 @@
                 "menu_actions_img_4": {
                     "id": "menu_actions_img_4",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_4.title",
+                    "content": "guide.nodes.menu_actions_img_4.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_4.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_4.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_4.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_4.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -651,26 +651,26 @@
                 "menu_actions_img_5": {
                     "id": "menu_actions_img_5",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_5.title",
+                    "content": "guide.nodes.menu_actions_img_5.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_5.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_5.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_5.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_5.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -680,26 +680,26 @@
                 "menu_actions_img_6": {
                     "id": "menu_actions_img_6",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_6.title",
+                    "content": "guide.nodes.menu_actions_img_6.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_6.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_6.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_6.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_6.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -709,11 +709,11 @@
                 "res_harass_cyber": {
                     "id": "res_harass_cyber",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Cybercrime Act",
-                    "content": "The harassment/threats involve repeated and unwanted contact through digital means. This could be a violation of the Anti-Cybercrime Act.",
+                    "title": "guide.nodes.res_harass_cyber.title",
+                    "content": "guide.nodes.res_harass_cyber.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_cyber.options.0",
                             "nextId": "menu_actions_harass"
                         }
                     ],
@@ -722,11 +722,11 @@
                 "res_harass_threats": {
                     "id": "res_harass_threats",
                     "type": "info",
-                    "title": "Potential Violation: Grave Threats (Article 282)",
-                    "content": "If the harassment involves threats of physical, reputational, or financial harm, this could be a violation of Article 282 (Grave Threats).",
+                    "title": "guide.nodes.res_harass_threats.title",
+                    "content": "guide.nodes.res_harass_threats.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_threats.options.0",
                             "nextId": "menu_actions_harass_2"
                         }
                     ],
@@ -735,11 +735,11 @@
                 "res_harass_safe_spaces": {
                     "id": "res_harass_safe_spaces",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces Act",
-                    "content": "If the harassment is directed to a woman and/or child, this could be a violation of the Safe Spaces Act.",
+                    "title": "guide.nodes.res_harass_safe_spaces.title",
+                    "content": "guide.nodes.res_harass_safe_spaces.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_safe_spaces.options.0",
                             "nextId": "menu_actions_harass_3"
                         }
                     ],
@@ -748,11 +748,11 @@
                 "res_harass_vawc": {
                     "id": "res_harass_vawc",
                     "type": "info",
-                    "title": "Potential Violation: Anti-VAWC Laws",
-                    "content": "If the harassment is coming from a current or former intimate partner, this could be a violation of Anti-VAWC Laws (RA 9262).",
+                    "title": "guide.nodes.res_harass_vawc.title",
+                    "content": "guide.nodes.res_harass_vawc.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_vawc.options.0",
                             "nextId": "menu_actions_harass_4"
                         }
                     ],
@@ -761,16 +761,16 @@
                 "res_imp_action_5": {
                     "id": "res_imp_action_5",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_5.title",
+                    "content": "guide.nodes.res_imp_action_5.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_5.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_5.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -779,14 +779,14 @@
                 },
                 "q_dox_consent": {
                     "id": "q_dox_consent",
-                    "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                    "question": "guide.nodes.q_dox_consent.question",
                     "options": [
                         {
-                            "label": "Yes / I don't know",
+                            "label": "guide.nodes.q_dox_consent.options.0",
                             "nextId": "end_dox_check_legal"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_consent.options.1",
                             "nextId": "q_dox_15_days"
                         }
                     ],
@@ -795,23 +795,23 @@
                 "end_dox_frustrating": {
                     "id": "end_dox_frustrating",
                     "type": "result",
-                    "title": "Privacy Advice",
-                    "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings.",
+                    "title": "guide.nodes.end_dox_frustrating.title",
+                    "content": "guide.nodes.end_dox_frustrating.content",
                     "parentId": "q_dox_identify"
                 },
                 "res_imp_action_6": {
                     "id": "res_imp_action_6",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_6.title",
+                    "content": "guide.nodes.res_imp_action_6.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_6.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_6.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -820,14 +820,14 @@
                 },
                 "q_dox_consent_2": {
                     "id": "q_dox_consent_2",
-                    "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                    "question": "guide.nodes.q_dox_consent_2.question",
                     "options": [
                         {
-                            "label": "Yes / I don't know",
+                            "label": "guide.nodes.q_dox_consent_2.options.0",
                             "nextId": "end_dox_check_legal_2"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_consent_2.options.1",
                             "nextId": "q_dox_15_days_2"
                         }
                     ],
@@ -836,18 +836,18 @@
                 "end_dox_frustrating_2": {
                     "id": "end_dox_frustrating_2",
                     "type": "result",
-                    "title": "Privacy Advice",
-                    "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings.",
+                    "title": "guide.nodes.end_dox_frustrating_2.title",
+                    "content": "guide.nodes.end_dox_frustrating_2.content",
                     "parentId": "q_dox_identify_2"
                 },
                 "res_img_laws_deepfake_2": {
                     "id": "res_img_laws_deepfake_2",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Cybercrime Act",
-                    "content": "If the images were digitally produced, altered, edited, or doctored, this could be a violation of the Anti-Cybercrime Act.",
+                    "title": "guide.nodes.res_img_laws_deepfake_2.title",
+                    "content": "guide.nodes.res_img_laws_deepfake_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_deepfake_2.options.0",
                             "nextId": "menu_actions_img_7"
                         }
                     ],
@@ -856,11 +856,11 @@
                 "res_img_laws_safe_spaces_2": {
                     "id": "res_img_laws_safe_spaces_2",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces Act",
-                    "content": "If the images or videos in question are humiliating, defamatory, or threatening in nature, this could be a violation of the Safe Spaces Act.",
+                    "title": "guide.nodes.res_img_laws_safe_spaces_2.title",
+                    "content": "guide.nodes.res_img_laws_safe_spaces_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_safe_spaces_2.options.0",
                             "nextId": "menu_actions_img_8"
                         }
                     ],
@@ -869,11 +869,11 @@
                 "res_img_laws_privacy_2": {
                     "id": "res_img_laws_privacy_2",
                     "type": "info",
-                    "title": "Potential Violation: Data Privacy Act",
-                    "content": "If the images or videos in question are using your identity to impersonate you, this could be a violation of the Data Privacy Act.",
+                    "title": "guide.nodes.res_img_laws_privacy_2.title",
+                    "content": "guide.nodes.res_img_laws_privacy_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_privacy_2.options.0",
                             "nextId": "menu_actions_img_9"
                         }
                     ],
@@ -882,11 +882,11 @@
                 "res_img_laws_voyeur_2": {
                     "id": "res_img_laws_voyeur_2",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
-                    "content": "If the images or videos in question were obtained secretly or without your consent, this could be a violation of the Anti-Photo/Video Voyeurism Act.",
+                    "title": "guide.nodes.res_img_laws_voyeur_2.title",
+                    "content": "guide.nodes.res_img_laws_voyeur_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_voyeur_2.options.0",
                             "nextId": "menu_actions_img_10"
                         }
                     ],
@@ -895,11 +895,11 @@
                 "res_img_laws_intimate_2": {
                     "id": "res_img_laws_intimate_2",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces / Voyeurism",
-                    "content": "If the images contain intimate or explicit materials, this could be a violation of the Safe Spaces Act, Anti-Photo/Video Voyeurism Act, and other special protections.",
+                    "title": "guide.nodes.res_img_laws_intimate_2.title",
+                    "content": "guide.nodes.res_img_laws_intimate_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_intimate_2.options.0",
                             "nextId": "menu_actions_img_11"
                         }
                     ],
@@ -908,11 +908,11 @@
                 "res_img_laws_minor_2": {
                     "id": "res_img_laws_minor_2",
                     "type": "info",
-                    "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
-                    "content": "If the images contain minors (children under the age of 18), this could be a violation of the Anti-OSAEC Law, Anti-Child Abuse Law, and you may be entitled to special protections.",
+                    "title": "guide.nodes.res_img_laws_minor_2.title",
+                    "content": "guide.nodes.res_img_laws_minor_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_img_laws_minor_2.options.0",
                             "nextId": "menu_actions_img_12"
                         }
                     ],
@@ -921,11 +921,11 @@
                 "end_emergency_2": {
                     "id": "end_emergency_2",
                     "type": "result",
-                    "title": "Emergency Action Required",
-                    "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                    "title": "guide.nodes.end_emergency_2.title",
+                    "content": "guide.nodes.end_emergency_2.content",
                     "links": [
                         {
-                            "label": "PNP Anti-Cybercrime Group",
+                            "label": "guide.nodes.end_emergency_2.links.0",
                             "url": "tel:117",
                             "icon": "phone"
                         }
@@ -934,22 +934,22 @@
                 },
                 "q_harass_details_2": {
                     "id": "q_harass_details_2",
-                    "question": "Got it. I can help you take a few simple steps to feel safer. First, select all that apply:",
+                    "question": "guide.nodes.q_harass_details_2.question",
                     "options": [
                         {
-                            "label": "Harassment involves repeated and unwanted contact via digital means",
+                            "label": "guide.nodes.q_harass_details_2.options.0",
                             "nextId": "res_harass_cyber_2"
                         },
                         {
-                            "label": "Harassment involves threats of physical, reputational, or financial harm",
+                            "label": "guide.nodes.q_harass_details_2.options.1",
                             "nextId": "res_harass_threats_2"
                         },
                         {
-                            "label": "Harassment is directed to a woman and/or child",
+                            "label": "guide.nodes.q_harass_details_2.options.2",
                             "nextId": "res_harass_safe_spaces_2"
                         },
                         {
-                            "label": "Harassment is coming from a current or former intimate partner",
+                            "label": "guide.nodes.q_harass_details_2.options.3",
                             "nextId": "res_harass_vawc_2"
                         }
                     ],
@@ -958,16 +958,16 @@
                 "res_imp_action_7": {
                     "id": "res_imp_action_7",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_7.title",
+                    "content": "guide.nodes.res_imp_action_7.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_7.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_7.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -977,16 +977,16 @@
                 "res_imp_action_8": {
                     "id": "res_imp_action_8",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_8.title",
+                    "content": "guide.nodes.res_imp_action_8.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_8.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_8.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -996,16 +996,16 @@
                 "res_imp_action_9": {
                     "id": "res_imp_action_9",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_9.title",
+                    "content": "guide.nodes.res_imp_action_9.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_9.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_9.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -1015,11 +1015,11 @@
                 "res_imp_security_3": {
                     "id": "res_imp_security_3",
                     "type": "action",
-                    "title": "Secure Your Accounts",
-                    "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                    "title": "guide.nodes.res_imp_security_3.title",
+                    "content": "guide.nodes.res_imp_security_3.content",
                     "options": [
                         {
-                            "label": "Proceed to Reporting Steps",
+                            "label": "guide.nodes.res_imp_security_3.options.0",
                             "nextId": "res_imp_action_11"
                         }
                     ],
@@ -1028,16 +1028,16 @@
                 "res_imp_action_10": {
                     "id": "res_imp_action_10",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_10.title",
+                    "content": "guide.nodes.res_imp_action_10.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_10.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_10.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -1046,14 +1046,14 @@
                 },
                 "q_dox_identify_3": {
                     "id": "q_dox_identify_3",
-                    "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                    "question": "guide.nodes.q_dox_identify_3.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_identify_3.options.0",
                             "nextId": "q_dox_consent_3"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_identify_3.options.1",
                             "nextId": "end_dox_frustrating_3"
                         }
                     ],
@@ -1062,11 +1062,11 @@
                 "res_imp_security_4": {
                     "id": "res_imp_security_4",
                     "type": "action",
-                    "title": "Secure Your Accounts",
-                    "content": "If your login information has been exposed, please change your passwords immediately and enable Two-Factor Authentication (2FA) on all accounts.",
+                    "title": "guide.nodes.res_imp_security_4.title",
+                    "content": "guide.nodes.res_imp_security_4.content",
                     "options": [
                         {
-                            "label": "Proceed to Reporting Steps",
+                            "label": "guide.nodes.res_imp_security_4.options.0",
                             "nextId": "res_imp_action_12"
                         }
                     ],
@@ -1074,14 +1074,14 @@
                 },
                 "q_dox_identify_4": {
                     "id": "q_dox_identify_4",
-                    "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                    "question": "guide.nodes.q_dox_identify_4.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_identify_4.options.0",
                             "nextId": "q_dox_consent_4"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_identify_4.options.1",
                             "nextId": "end_dox_frustrating_4"
                         }
                     ],
@@ -1090,26 +1090,26 @@
                 "menu_actions_harass": {
                     "id": "menu_actions_harass",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass.title",
+                    "content": "guide.nodes.menu_actions_harass.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1119,26 +1119,26 @@
                 "menu_actions_harass_2": {
                     "id": "menu_actions_harass_2",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_2.title",
+                    "content": "guide.nodes.menu_actions_harass_2.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_2.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_2.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_2.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_2.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1148,26 +1148,26 @@
                 "menu_actions_harass_3": {
                     "id": "menu_actions_harass_3",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_3.title",
+                    "content": "guide.nodes.menu_actions_harass_3.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_3.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_3.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_3.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_3.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1177,26 +1177,26 @@
                 "menu_actions_harass_4": {
                     "id": "menu_actions_harass_4",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_4.title",
+                    "content": "guide.nodes.menu_actions_harass_4.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_4.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_4.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_4.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_4.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1206,24 +1206,24 @@
                 "end_dox_check_legal": {
                     "id": "end_dox_check_legal",
                     "type": "result",
-                    "title": "Check Legal Basis",
-                    "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer.",
+                    "title": "guide.nodes.end_dox_check_legal.title",
+                    "content": "guide.nodes.end_dox_check_legal.content",
                     "parentId": "q_dox_consent"
                 },
                 "q_dox_15_days": {
                     "id": "q_dox_15_days",
-                    "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                    "question": "guide.nodes.q_dox_15_days.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_15_days.options.0",
                             "nextId": "q_dox_computer"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_15_days.options.1",
                             "nextId": "q_dox_exceptions"
                         },
                         {
-                            "label": "Yes, but I have not heard back / not resolved",
+                            "label": "guide.nodes.q_dox_15_days.options.2",
                             "nextId": "q_dox_computer_2"
                         }
                     ],
@@ -1232,24 +1232,24 @@
                 "end_dox_check_legal_2": {
                     "id": "end_dox_check_legal_2",
                     "type": "result",
-                    "title": "Check Legal Basis",
-                    "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer.",
+                    "title": "guide.nodes.end_dox_check_legal_2.title",
+                    "content": "guide.nodes.end_dox_check_legal_2.content",
                     "parentId": "q_dox_consent_2"
                 },
                 "q_dox_15_days_2": {
                     "id": "q_dox_15_days_2",
-                    "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                    "question": "guide.nodes.q_dox_15_days_2.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_15_days_2.options.0",
                             "nextId": "q_dox_computer_3"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_15_days_2.options.1",
                             "nextId": "q_dox_exceptions_2"
                         },
                         {
-                            "label": "Yes, but I have not heard back / not resolved",
+                            "label": "guide.nodes.q_dox_15_days_2.options.2",
                             "nextId": "q_dox_computer_4"
                         }
                     ],
@@ -1258,26 +1258,26 @@
                 "menu_actions_img_7": {
                     "id": "menu_actions_img_7",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_7.title",
+                    "content": "guide.nodes.menu_actions_img_7.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_7.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_7.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_7.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_7.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1287,26 +1287,26 @@
                 "menu_actions_img_8": {
                     "id": "menu_actions_img_8",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_8.title",
+                    "content": "guide.nodes.menu_actions_img_8.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_8.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_8.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_8.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_8.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1316,26 +1316,26 @@
                 "menu_actions_img_9": {
                     "id": "menu_actions_img_9",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_9.title",
+                    "content": "guide.nodes.menu_actions_img_9.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_9.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_9.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_9.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_9.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1345,26 +1345,26 @@
                 "menu_actions_img_10": {
                     "id": "menu_actions_img_10",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_10.title",
+                    "content": "guide.nodes.menu_actions_img_10.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_10.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_10.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_10.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_10.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1374,26 +1374,26 @@
                 "menu_actions_img_11": {
                     "id": "menu_actions_img_11",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_11.title",
+                    "content": "guide.nodes.menu_actions_img_11.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_11.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_11.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_11.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_11.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1403,26 +1403,26 @@
                 "menu_actions_img_12": {
                     "id": "menu_actions_img_12",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                    "title": "guide.nodes.menu_actions_img_12.title",
+                    "content": "guide.nodes.menu_actions_img_12.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement / File Criminal Complaint",
+                            "label": "guide.nodes.menu_actions_img_12.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit a Takedown Request to the Platform",
+                            "label": "guide.nodes.menu_actions_img_12.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediate with a Professional / Counselor",
+                            "label": "guide.nodes.menu_actions_img_12.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Learn more about Online Safety",
+                            "label": "guide.nodes.menu_actions_img_12.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1432,11 +1432,11 @@
                 "res_harass_cyber_2": {
                     "id": "res_harass_cyber_2",
                     "type": "info",
-                    "title": "Potential Violation: Anti-Cybercrime Act",
-                    "content": "The harassment/threats involve repeated and unwanted contact through digital means. This could be a violation of the Anti-Cybercrime Act.",
+                    "title": "guide.nodes.res_harass_cyber_2.title",
+                    "content": "guide.nodes.res_harass_cyber_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_cyber_2.options.0",
                             "nextId": "menu_actions_harass_5"
                         }
                     ],
@@ -1445,11 +1445,11 @@
                 "res_harass_threats_2": {
                     "id": "res_harass_threats_2",
                     "type": "info",
-                    "title": "Potential Violation: Grave Threats (Article 282)",
-                    "content": "If the harassment involves threats of physical, reputational, or financial harm, this could be a violation of Article 282 (Grave Threats).",
+                    "title": "guide.nodes.res_harass_threats_2.title",
+                    "content": "guide.nodes.res_harass_threats_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_threats_2.options.0",
                             "nextId": "menu_actions_harass_6"
                         }
                     ],
@@ -1458,11 +1458,11 @@
                 "res_harass_safe_spaces_2": {
                     "id": "res_harass_safe_spaces_2",
                     "type": "info",
-                    "title": "Potential Violation: Safe Spaces Act",
-                    "content": "If the harassment is directed to a woman and/or child, this could be a violation of the Safe Spaces Act.",
+                    "title": "guide.nodes.res_harass_safe_spaces_2.title",
+                    "content": "guide.nodes.res_harass_safe_spaces_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_safe_spaces_2.options.0",
                             "nextId": "menu_actions_harass_7"
                         }
                     ],
@@ -1471,11 +1471,11 @@
                 "res_harass_vawc_2": {
                     "id": "res_harass_vawc_2",
                     "type": "info",
-                    "title": "Potential Violation: Anti-VAWC Laws",
-                    "content": "If the harassment is coming from a current or former intimate partner, this could be a violation of Anti-VAWC Laws (RA 9262).",
+                    "title": "guide.nodes.res_harass_vawc_2.title",
+                    "content": "guide.nodes.res_harass_vawc_2.content",
                     "options": [
                         {
-                            "label": "See my options for action",
+                            "label": "guide.nodes.res_harass_vawc_2.options.0",
                             "nextId": "menu_actions_harass_8"
                         }
                     ],
@@ -1484,16 +1484,16 @@
                 "res_imp_action_11": {
                     "id": "res_imp_action_11",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_11.title",
+                    "content": "guide.nodes.res_imp_action_11.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_11.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_11.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -1502,14 +1502,14 @@
                 },
                 "q_dox_consent_3": {
                     "id": "q_dox_consent_3",
-                    "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                    "question": "guide.nodes.q_dox_consent_3.question",
                     "options": [
                         {
-                            "label": "Yes / I don't know",
+                            "label": "guide.nodes.q_dox_consent_3.options.0",
                             "nextId": "end_dox_check_legal_3"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_consent_3.options.1",
                             "nextId": "q_dox_15_days_3"
                         }
                     ],
@@ -1518,23 +1518,23 @@
                 "end_dox_frustrating_3": {
                     "id": "end_dox_frustrating_3",
                     "type": "result",
-                    "title": "Privacy Advice",
-                    "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings.",
+                    "title": "guide.nodes.end_dox_frustrating_3.title",
+                    "content": "guide.nodes.end_dox_frustrating_3.content",
                     "parentId": "q_dox_identify_3"
                 },
                 "res_imp_action_12": {
                     "id": "res_imp_action_12",
                     "type": "result",
-                    "title": "Report Impersonation",
-                    "content": "It sounds like you will need to resolve this directly with the platform or person in question. We can help you prepare a formal complaint based on the information you've provided, or we can help connect you to other resources.",
+                    "title": "guide.nodes.res_imp_action_12.title",
+                    "content": "guide.nodes.res_imp_action_12.content",
                     "links": [
                         {
-                            "label": "View Takedown Request Templates",
+                            "label": "guide.nodes.res_imp_action_12.links.0",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Mediation / Counseling",
+                            "label": "guide.nodes.res_imp_action_12.links.1",
                             "url": "/templates/counseling",
                             "icon": "user"
                         }
@@ -1543,14 +1543,14 @@
                 },
                 "q_dox_consent_4": {
                     "id": "q_dox_consent_4",
-                    "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                    "question": "guide.nodes.q_dox_consent_4.question",
                     "options": [
                         {
-                            "label": "Yes / I don't know",
+                            "label": "guide.nodes.q_dox_consent_4.options.0",
                             "nextId": "end_dox_check_legal_4"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_consent_4.options.1",
                             "nextId": "q_dox_15_days_4"
                         }
                     ],
@@ -1559,20 +1559,20 @@
                 "end_dox_frustrating_4": {
                     "id": "end_dox_frustrating_4",
                     "type": "result",
-                    "title": "Privacy Advice",
-                    "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings.",
+                    "title": "guide.nodes.end_dox_frustrating_4.title",
+                    "content": "guide.nodes.end_dox_frustrating_4.content",
                     "parentId": "q_dox_identify_4"
                 },
                 "q_dox_computer": {
                     "id": "q_dox_computer",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer.options.0",
                             "nextId": "res_dox_npc"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer.options.1",
                             "nextId": "res_dox_offline"
                         }
                     ],
@@ -1580,14 +1580,14 @@
                 },
                 "q_dox_exceptions": {
                     "id": "q_dox_exceptions",
-                    "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                    "question": "guide.nodes.q_dox_exceptions.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_exceptions.options.0",
                             "nextId": "q_dox_computer_5"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_exceptions.options.1",
                             "nextId": "end_dox_wait"
                         }
                     ],
@@ -1595,14 +1595,14 @@
                 },
                 "q_dox_computer_2": {
                     "id": "q_dox_computer_2",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_2.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_2.options.0",
                             "nextId": "res_dox_npc_2"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_2.options.1",
                             "nextId": "res_dox_offline_2"
                         }
                     ],
@@ -1610,14 +1610,14 @@
                 },
                 "q_dox_computer_3": {
                     "id": "q_dox_computer_3",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_3.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_3.options.0",
                             "nextId": "res_dox_npc_3"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_3.options.1",
                             "nextId": "res_dox_offline_3"
                         }
                     ],
@@ -1625,14 +1625,14 @@
                 },
                 "q_dox_exceptions_2": {
                     "id": "q_dox_exceptions_2",
-                    "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                    "question": "guide.nodes.q_dox_exceptions_2.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_exceptions_2.options.0",
                             "nextId": "q_dox_computer_6"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_exceptions_2.options.1",
                             "nextId": "end_dox_wait_2"
                         }
                     ],
@@ -1640,14 +1640,14 @@
                 },
                 "q_dox_computer_4": {
                     "id": "q_dox_computer_4",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_4.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_4.options.0",
                             "nextId": "res_dox_npc_4"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_4.options.1",
                             "nextId": "res_dox_offline_4"
                         }
                     ],
@@ -1656,26 +1656,26 @@
                 "menu_actions_harass_5": {
                     "id": "menu_actions_harass_5",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_5.title",
+                    "content": "guide.nodes.menu_actions_harass_5.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_5.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_5.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_5.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_5.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1685,26 +1685,26 @@
                 "menu_actions_harass_6": {
                     "id": "menu_actions_harass_6",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_6.title",
+                    "content": "guide.nodes.menu_actions_harass_6.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_6.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_6.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_6.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_6.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1714,26 +1714,26 @@
                 "menu_actions_harass_7": {
                     "id": "menu_actions_harass_7",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_7.title",
+                    "content": "guide.nodes.menu_actions_harass_7.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_7.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_7.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_7.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_7.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1743,26 +1743,26 @@
                 "menu_actions_harass_8": {
                     "id": "menu_actions_harass_8",
                     "type": "result",
-                    "title": "What You Can Do",
-                    "content": "To feel safer, consider these options:",
+                    "title": "guide.nodes.menu_actions_harass_8.title",
+                    "content": "guide.nodes.menu_actions_harass_8.content",
                     "links": [
                         {
-                            "label": "Contact Law Enforcement",
+                            "label": "guide.nodes.menu_actions_harass_8.links.0",
                             "url": "/templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
-                            "label": "Submit Takedown Request",
+                            "label": "guide.nodes.menu_actions_harass_8.links.1",
                             "url": "/templates/takedown-request",
                             "icon": "file"
                         },
                         {
-                            "label": "Speak with a Counselor",
+                            "label": "guide.nodes.menu_actions_harass_8.links.2",
                             "url": "/templates/counseling",
                             "icon": "user"
                         },
                         {
-                            "label": "Online Safety Resources",
+                            "label": "guide.nodes.menu_actions_harass_8.links.3",
                             "url": "/resources/global-tech",
                             "icon": "globe"
                         }
@@ -1772,24 +1772,24 @@
                 "end_dox_check_legal_3": {
                     "id": "end_dox_check_legal_3",
                     "type": "result",
-                    "title": "Check Legal Basis",
-                    "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer.",
+                    "title": "guide.nodes.end_dox_check_legal_3.title",
+                    "content": "guide.nodes.end_dox_check_legal_3.content",
                     "parentId": "q_dox_consent_3"
                 },
                 "q_dox_15_days_3": {
                     "id": "q_dox_15_days_3",
-                    "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                    "question": "guide.nodes.q_dox_15_days_3.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_15_days_3.options.0",
                             "nextId": "q_dox_computer_7"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_15_days_3.options.1",
                             "nextId": "q_dox_exceptions_3"
                         },
                         {
-                            "label": "Yes, but I have not heard back / not resolved",
+                            "label": "guide.nodes.q_dox_15_days_3.options.2",
                             "nextId": "q_dox_computer_8"
                         }
                     ],
@@ -1798,24 +1798,24 @@
                 "end_dox_check_legal_4": {
                     "id": "end_dox_check_legal_4",
                     "type": "result",
-                    "title": "Check Legal Basis",
-                    "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer.",
+                    "title": "guide.nodes.end_dox_check_legal_4.title",
+                    "content": "guide.nodes.end_dox_check_legal_4.content",
                     "parentId": "q_dox_consent_4"
                 },
                 "q_dox_15_days_4": {
                     "id": "q_dox_15_days_4",
-                    "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                    "question": "guide.nodes.q_dox_15_days_4.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_15_days_4.options.0",
                             "nextId": "q_dox_computer_9"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_15_days_4.options.1",
                             "nextId": "q_dox_exceptions_4"
                         },
                         {
-                            "label": "Yes, but I have not heard back / not resolved",
+                            "label": "guide.nodes.q_dox_15_days_4.options.2",
                             "nextId": "q_dox_computer_10"
                         }
                     ],
@@ -1824,11 +1824,11 @@
                 "res_dox_npc": {
                     "id": "res_dox_npc",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc.title",
+                    "content": "guide.nodes.res_dox_npc.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -1838,20 +1838,20 @@
                 "res_dox_offline": {
                     "id": "res_dox_offline",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline.title",
+                    "content": "guide.nodes.res_dox_offline.content",
                     "parentId": "q_dox_computer"
                 },
                 "q_dox_computer_5": {
                     "id": "q_dox_computer_5",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_5.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_5.options.0",
                             "nextId": "res_dox_npc_5"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_5.options.1",
                             "nextId": "res_dox_offline_5"
                         }
                     ],
@@ -1860,18 +1860,18 @@
                 "end_dox_wait": {
                     "id": "end_dox_wait",
                     "type": "result",
-                    "title": "Exhaustion of Remedies",
-                    "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days.",
+                    "title": "guide.nodes.end_dox_wait.title",
+                    "content": "guide.nodes.end_dox_wait.content",
                     "parentId": "q_dox_exceptions"
                 },
                 "res_dox_npc_2": {
                     "id": "res_dox_npc_2",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_2.title",
+                    "content": "guide.nodes.res_dox_npc_2.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_2.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -1881,18 +1881,18 @@
                 "res_dox_offline_2": {
                     "id": "res_dox_offline_2",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_2.title",
+                    "content": "guide.nodes.res_dox_offline_2.content",
                     "parentId": "q_dox_computer_2"
                 },
                 "res_dox_npc_3": {
                     "id": "res_dox_npc_3",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_3.title",
+                    "content": "guide.nodes.res_dox_npc_3.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_3.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -1902,20 +1902,20 @@
                 "res_dox_offline_3": {
                     "id": "res_dox_offline_3",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_3.title",
+                    "content": "guide.nodes.res_dox_offline_3.content",
                     "parentId": "q_dox_computer_3"
                 },
                 "q_dox_computer_6": {
                     "id": "q_dox_computer_6",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_6.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_6.options.0",
                             "nextId": "res_dox_npc_6"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_6.options.1",
                             "nextId": "res_dox_offline_6"
                         }
                     ],
@@ -1924,18 +1924,18 @@
                 "end_dox_wait_2": {
                     "id": "end_dox_wait_2",
                     "type": "result",
-                    "title": "Exhaustion of Remedies",
-                    "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days.",
+                    "title": "guide.nodes.end_dox_wait_2.title",
+                    "content": "guide.nodes.end_dox_wait_2.content",
                     "parentId": "q_dox_exceptions_2"
                 },
                 "res_dox_npc_4": {
                     "id": "res_dox_npc_4",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_4.title",
+                    "content": "guide.nodes.res_dox_npc_4.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_4.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -1945,20 +1945,20 @@
                 "res_dox_offline_4": {
                     "id": "res_dox_offline_4",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_4.title",
+                    "content": "guide.nodes.res_dox_offline_4.content",
                     "parentId": "q_dox_computer_4"
                 },
                 "q_dox_computer_7": {
                     "id": "q_dox_computer_7",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_7.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_7.options.0",
                             "nextId": "res_dox_npc_7"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_7.options.1",
                             "nextId": "res_dox_offline_7"
                         }
                     ],
@@ -1966,14 +1966,14 @@
                 },
                 "q_dox_exceptions_3": {
                     "id": "q_dox_exceptions_3",
-                    "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                    "question": "guide.nodes.q_dox_exceptions_3.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_exceptions_3.options.0",
                             "nextId": "q_dox_computer_11"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_exceptions_3.options.1",
                             "nextId": "end_dox_wait_3"
                         }
                     ],
@@ -1981,14 +1981,14 @@
                 },
                 "q_dox_computer_8": {
                     "id": "q_dox_computer_8",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_8.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_8.options.0",
                             "nextId": "res_dox_npc_8"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_8.options.1",
                             "nextId": "res_dox_offline_8"
                         }
                     ],
@@ -1996,14 +1996,14 @@
                 },
                 "q_dox_computer_9": {
                     "id": "q_dox_computer_9",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_9.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_9.options.0",
                             "nextId": "res_dox_npc_9"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_9.options.1",
                             "nextId": "res_dox_offline_9"
                         }
                     ],
@@ -2011,14 +2011,14 @@
                 },
                 "q_dox_exceptions_4": {
                     "id": "q_dox_exceptions_4",
-                    "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                    "question": "guide.nodes.q_dox_exceptions_4.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_exceptions_4.options.0",
                             "nextId": "q_dox_computer_12"
                         },
                         {
-                            "label": "No",
+                            "label": "guide.nodes.q_dox_exceptions_4.options.1",
                             "nextId": "end_dox_wait_4"
                         }
                     ],
@@ -2026,14 +2026,14 @@
                 },
                 "q_dox_computer_10": {
                     "id": "q_dox_computer_10",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_10.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_10.options.0",
                             "nextId": "res_dox_npc_10"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_10.options.1",
                             "nextId": "res_dox_offline_10"
                         }
                     ],
@@ -2042,11 +2042,11 @@
                 "res_dox_npc_5": {
                     "id": "res_dox_npc_5",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_5.title",
+                    "content": "guide.nodes.res_dox_npc_5.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_5.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2056,18 +2056,18 @@
                 "res_dox_offline_5": {
                     "id": "res_dox_offline_5",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_5.title",
+                    "content": "guide.nodes.res_dox_offline_5.content",
                     "parentId": "q_dox_computer_5"
                 },
                 "res_dox_npc_6": {
                     "id": "res_dox_npc_6",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_6.title",
+                    "content": "guide.nodes.res_dox_npc_6.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_6.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2077,18 +2077,18 @@
                 "res_dox_offline_6": {
                     "id": "res_dox_offline_6",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_6.title",
+                    "content": "guide.nodes.res_dox_offline_6.content",
                     "parentId": "q_dox_computer_6"
                 },
                 "res_dox_npc_7": {
                     "id": "res_dox_npc_7",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_7.title",
+                    "content": "guide.nodes.res_dox_npc_7.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_7.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2098,20 +2098,20 @@
                 "res_dox_offline_7": {
                     "id": "res_dox_offline_7",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_7.title",
+                    "content": "guide.nodes.res_dox_offline_7.content",
                     "parentId": "q_dox_computer_7"
                 },
                 "q_dox_computer_11": {
                     "id": "q_dox_computer_11",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_11.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_11.options.0",
                             "nextId": "res_dox_npc_11"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_11.options.1",
                             "nextId": "res_dox_offline_11"
                         }
                     ],
@@ -2120,18 +2120,18 @@
                 "end_dox_wait_3": {
                     "id": "end_dox_wait_3",
                     "type": "result",
-                    "title": "Exhaustion of Remedies",
-                    "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days.",
+                    "title": "guide.nodes.end_dox_wait_3.title",
+                    "content": "guide.nodes.end_dox_wait_3.content",
                     "parentId": "q_dox_exceptions_3"
                 },
                 "res_dox_npc_8": {
                     "id": "res_dox_npc_8",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_8.title",
+                    "content": "guide.nodes.res_dox_npc_8.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_8.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2141,18 +2141,18 @@
                 "res_dox_offline_8": {
                     "id": "res_dox_offline_8",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_8.title",
+                    "content": "guide.nodes.res_dox_offline_8.content",
                     "parentId": "q_dox_computer_8"
                 },
                 "res_dox_npc_9": {
                     "id": "res_dox_npc_9",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_9.title",
+                    "content": "guide.nodes.res_dox_npc_9.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_9.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2162,20 +2162,20 @@
                 "res_dox_offline_9": {
                     "id": "res_dox_offline_9",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_9.title",
+                    "content": "guide.nodes.res_dox_offline_9.content",
                     "parentId": "q_dox_computer_9"
                 },
                 "q_dox_computer_12": {
                     "id": "q_dox_computer_12",
-                    "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                    "question": "guide.nodes.q_dox_computer_12.question",
                     "options": [
                         {
-                            "label": "Yes",
+                            "label": "guide.nodes.q_dox_computer_12.options.0",
                             "nextId": "res_dox_npc_12"
                         },
                         {
-                            "label": "No / I don't know",
+                            "label": "guide.nodes.q_dox_computer_12.options.1",
                             "nextId": "res_dox_offline_12"
                         }
                     ],
@@ -2184,18 +2184,18 @@
                 "end_dox_wait_4": {
                     "id": "end_dox_wait_4",
                     "type": "result",
-                    "title": "Exhaustion of Remedies",
-                    "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days.",
+                    "title": "guide.nodes.end_dox_wait_4.title",
+                    "content": "guide.nodes.end_dox_wait_4.content",
                     "parentId": "q_dox_exceptions_4"
                 },
                 "res_dox_npc_10": {
                     "id": "res_dox_npc_10",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_10.title",
+                    "content": "guide.nodes.res_dox_npc_10.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_10.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2205,18 +2205,18 @@
                 "res_dox_offline_10": {
                     "id": "res_dox_offline_10",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_10.title",
+                    "content": "guide.nodes.res_dox_offline_10.content",
                     "parentId": "q_dox_computer_10"
                 },
                 "res_dox_npc_11": {
                     "id": "res_dox_npc_11",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_11.title",
+                    "content": "guide.nodes.res_dox_npc_11.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_11.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2226,18 +2226,18 @@
                 "res_dox_offline_11": {
                     "id": "res_dox_offline_11",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_11.title",
+                    "content": "guide.nodes.res_dox_offline_11.content",
                     "parentId": "q_dox_computer_11"
                 },
                 "res_dox_npc_12": {
                     "id": "res_dox_npc_12",
                     "type": "result",
-                    "title": "Data Privacy Violation",
-                    "content": "It sounds like what you're experiencing could be a violation of the Data Privacy Act (RA 10173). We can help you draft a formal complaint.",
+                    "title": "guide.nodes.res_dox_npc_12.title",
+                    "content": "guide.nodes.res_dox_npc_12.content",
                     "links": [
                         {
-                            "label": "Draft NPC Complaint",
+                            "label": "guide.nodes.res_dox_npc_12.links.0",
                             "url": "/templates/npc-complaint",
                             "icon": "file"
                         }
@@ -2247,8 +2247,8 @@
                 "res_dox_offline_12": {
                     "id": "res_dox_offline_12",
                     "type": "result",
-                    "title": "Offline/Other Violation",
-                    "content": "If this didn't happen via a computer system, it might not be a Data Privacy Act violation, but could still be illegal. Consult legal counsel.",
+                    "title": "guide.nodes.res_dox_offline_12.title",
+                    "content": "guide.nodes.res_dox_offline_12.content",
                     "parentId": "q_dox_computer_12"
                 }
             }

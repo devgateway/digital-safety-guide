@@ -1,0 +1,221 @@
+{
+    "takedown": {
+        "ui": {
+            "title": "Tagalikha ng Kahilingan sa Pagpapatanggal",
+            "select_platform_desc": "Piliin ang plataporma kung saan naganap ang insidente upang magsimula.",
+            "other_platform": "Ibang Plataporma",
+            "back_to_platforms": "Bumalik sa mga Plataporma",
+            "filing_guide_title": "Gabay sa Paghahain para sa {{platform}}",
+            "overview": "Pangkalahatang-ideya",
+            "required_evidence": "Kinakailangang Ebidensya",
+            "expert_tips": "Mga Payo ng Eksperto",
+            "open_filing_url": "Buksan ang Filing URL ng {{platform}}",
+            "generic_builder_title": "Tagalikha ng Generic na Template",
+            "generic_builder_desc": "Magbigay ng mga detalye tungkol sa insidente upang makabuo ng isang standardized na dokumento ng kahilingan.",
+            "label_platform_name": "Pangalan ng Plataporma",
+            "placeholder_platform_name": "hal., WhatsApp, Telegram, atbp...",
+            "label_your_name": "Ang Iyong Pangalan (Opsyonal)",
+            "placeholder_your_name": "Anonymous",
+            "label_incident_date": "Petsa ng Insidente",
+            "label_incident_desc": "Ilarawan ang Insidente",
+            "placeholder_incident_desc": "Mangyaring ilarawan ang nangyari nang hindi nagbabahagi ng labis na sensitibong personal na datos...",
+            "label_requested_action": "Hinihiling na Aksyon",
+            "btn_generate_pdf": "I-download ang Template (PDF)",
+            "btn_generating": "Binubuo...",
+            "error_desc_required": "Mangyaring magbigay ng paglalarawan ng insidente upang mabuo ang dokumento.",
+            "options": {
+                "removal": "Pagtatanggal ng nilalaman",
+                "suspension": "Pagsuspinde ng account",
+                "mediation": "Mediation/Diyalogo",
+                "legal": "Legal na Imbestigasyon"
+            }
+        },
+        "pdf": {
+            "title": "Pormal na Kahilingan sa Pagpapatanggal (Online Harassment)",
+            "date_label": "Petsa ng Kahilingan:",
+            "subject": "Paksa: Pormal na Kahilingan sa Pagpapatanggal ukol sa Online Harassment",
+            "salutation": "Sa Kinauukulan,",
+            "intro": "Sumusulat ako upang pormal na hilingin ang pagtatanggal ng nilalaman o aksyon ukol sa isang insidente sa inyong plataporma.",
+            "incident_details": "Mga Detalye ng Insidente:",
+            "platform_label": "- Plataporma:",
+            "date_incident_label": "- Petsa ng Insidente:",
+            "not_specified": "Hindi tinukoy",
+            "person_affected_label": "- Taong Apektado:",
+            "desc_header": "Paglalarawan ng Insidente:",
+            "action_header": "Hinihiling na Aksyon:",
+            "closing": "Ang kahilingang ito ay ginawa alinsunod sa mga alituntunin sa kaligtasan ng digital at mga patakaran ng plataporma ukol sa kaligtasan ng gumagamit at harassment.",
+            "sign_off": "Lubos na gumagalang,",
+            "concerned_user": "Nag-aalalang Gumagamit"
+        },
+        "platforms": {
+            "youtube": {
+                "name": "YouTube",
+                "overview": "Ang YouTube ay nagbibigay ng mga tool upang iulat ang cyberbullying, harassment, at iba pang paglabag sa patakaran. Maaari kang mag-ulat ng mga partikular na video, komento, o buong channel.",
+                "screenshots": {
+                    "0": "Screenshot ng video o komento na tinutukoy.",
+                    "1": "Screenshot ng pahina ng profile ng channel.",
+                    "2": "Screenshot ng anumang direktang mensahe o interaksyon (kung naaangkop)."
+                },
+                "tips": {
+                    "0": "Isama ang direktang URL ng video o komento.",
+                    "1": "Maging tiyak kung aling bahagi ng video ang lumalabag sa mga patakaran.",
+                    "2": "Huwag nang makipag-ugnayan sa nangha-harass sa mga komento."
+                }
+            },
+            "tiktok": {
+                "name": "TikTok",
+                "overview": "Ang TikTok ay may nakalaang safety center para sa pag-uulat ng hate speech, harassment, at bullying. Ang mga ulat ay hindi nagpapakilala (anonymous).",
+                "screenshots": {
+                    "0": "Screenshot ng video o live stream.",
+                    "1": "Screenshot ng profile ng gumagamit.",
+                    "2": "Screenshot ng mga komento o mensahe."
+                },
+                "tips": {
+                    "0": "Gamitin ang button na \"Report\" nang direkta sa nilalaman.",
+                    "1": "Magbigay ng konteksto kung ang harassment ay bahagi ng isang trend o hamon.",
+                    "2": "I-save ang link ng video bago ito matanggal o maitago."
+                }
+            },
+            "snapchat": {
+                "name": "Snapchat",
+                "overview": "Pinapayagan ng Snapchat ang mga gumagamit na mag-ulat ng mga snap, story, at profile na nagsasangkot ng harassment o bullying.",
+                "screenshots": {
+                    "0": "Screenshot ng Snap (tandaan na inaabisuhan ng Snapchat ang mga gumagamit sa mga screenshot).",
+                    "1": "Screenshot ng pag-uusap sa Chat.",
+                    "2": "Screenshot ng profile ng gumagamit."
+                },
+                "tips": {
+                    "0": "Ang mga ulat ay kumpidensyal.",
+                    "1": "Gamitin ang long-press feature sa Snap o Chat upang maiulat ito nang mabilis.",
+                    "2": "Makipag-ugnayan sa lokal na tagapagpatupad ng batas kung may agarang panganib."
+                }
+            },
+            "instagram": {
+                "name": "Instagram",
+                "overview": "Nag-aalok ang Instagram ng iba't ibang paraan upang mag-ulat ng bullying, harassment, at pagpapanggap (impersonation). Maaari kang mag-ulat ng mga post, story, profile, at komento.",
+                "screenshots": {
+                    "0": "Screenshot ng post o story.",
+                    "1": "Screenshot ng profile.",
+                    "2": "Screenshot ng mga direktang mensahe."
+                },
+                "tips": {
+                    "0": "Gamitin ang feature na \"Restrict\" upang limitahan ang mga interaksyon nang hindi nagba-block.",
+                    "1": "Iulat ang mga account na nagpapanggap gamit ang tiyak na form para sa impersonation.",
+                    "2": "Itago ang rekord ng kumpirmasyon ng ulat."
+                }
+            },
+            "facebook": {
+                "name": "Facebook",
+                "overview": "Hinihikayat ng Facebook ang mga gumagamit na mag-ulat ng nilalamang lumalabag sa Community Standards, kabilang ang bullying at harassment.",
+                "screenshots": {
+                    "0": "Screenshot ng post, larawan, o komento.",
+                    "1": "Screenshot ng profile o pahina.",
+                    "2": "Screenshot ng mga pag-uusap sa Messenger."
+                },
+                "tips": {
+                    "0": "Gamitin ang opsyon na \"Find Support or Report\" sa nilalaman.",
+                    "1": "Maaari kang mag-ulat para sa iba kung sila ay ginagaya (impersonated).",
+                    "2": "I-block ang gumagamit pagkatapos mag-ulat upang maiwasan ang karagdagang pakikipag-ugnayan."
+                }
+            },
+            "discord": {
+                "name": "Discord",
+                "overview": "Sineseryoso ng Discord ang harassment. Maaari kang mag-ulat ng mga mensahe nang direkta sa kanilang Trust & Safety team.",
+                "screenshots": {
+                    "0": "Screenshot ng (mga) mensahe kasama ang timestamp.",
+                    "1": "Screenshot ng User ID (i-enable ang Developer Mode sa mga setting).",
+                    "2": "Screenshot ng Server ID (kung naaangkop)."
+                },
+                "tips": {
+                    "0": "Huwag burahin ang mga mensahe bago mag-ulat, dahil kailangan ng Discord ang mga link/ID ng mensahe.",
+                    "1": "Iulat ang gumagamit sa pamamagitan ng kanilang profile kung nagpapadala sila ng hindi kanais-nais na mga DM.",
+                    "2": "Isangkot ang mga moderator ng server kung ang harassment ay nangyayari sa isang partikular na server."
+                }
+            },
+            "x": {
+                "name": "X (Twitter)",
+                "overview": "Pinapayagan ka ng X na mag-ulat ng mga account at post para sa mapang-abusong pag-uugali, harassment, at hate speech.",
+                "screenshots": {
+                    "0": "Screenshot ng (mga) post.",
+                    "1": "Screenshot ng profile.",
+                    "2": "Screenshot ng mga Direktang Mensahe."
+                },
+                "tips": {
+                    "0": "Maaari kang mag-ulat ng maraming post sa isang ulat lamang.",
+                    "1": "Gamitin ang mga feature na \"Mute\" o \"Block\" upang huminto sa pagtingin ng nilalaman.",
+                    "2": "Magbigay ng maraming konteksto hangga't maaari sa seksyon ng mga detalye."
+                }
+            },
+            "twitch": {
+                "name": "Twitch",
+                "overview": "Maaaring mag-ulat ang mga gumagamit ng Twitch ng mga streamer o manonood para sa harassment, hate speech, at iba pang paglabag habang nagbo-broadcast o sa chat.",
+                "screenshots": {
+                    "0": "Screenshot ng log ng chat.",
+                    "1": "Screenshot ng stream kung ang paglabag ay biswal.",
+                    "2": "Screenshot ng profile ng gumagamit."
+                },
+                "tips": {
+                    "0": "Gamitin ang button na \"Report\" sa chat o sa pahina ng channel.",
+                    "1": "Ibigay ang tiyak na timestamp at petsa ng insidente.",
+                    "2": "Maaari ring tumulong ang mga moderator ng channel para sa mga agarang isyu sa chat."
+                }
+            },
+            "xbox": {
+                "name": "Xbox Party Chat",
+                "overview": "Pinapayagan ng Xbox ang mga gumagamit na mag-ulat ng harassment sa boses at text na nangyayari sa mga party chat o laro.",
+                "screenshots": {
+                    "0": "Larawan o screenshot ng text message.",
+                    "1": "Rekord ng gamertag.",
+                    "2": "Iulat ang voice clip kung pinapayagan ng console ang pag-uulat ng boses."
+                },
+                "tips": {
+                    "0": "Gamitin ang feature na \"Report\" nang direkta mula sa profile ng manlalaro.",
+                    "1": "Tukuyin kung nangyari ang harassment sa Party o habang naglalaro.",
+                    "2": "Panatilihing updated ang software ng iyong console para sa pinakabagong mga tampok sa kaligtasan."
+                }
+            },
+            "playstation": {
+                "name": "PlayStation Party Chat",
+                "overview": "Nagbibigay ang Sony ng mga tool sa pag-uulat para sa PlayStation Network upang hawakan ang harassment sa mga party chat at mensahe.",
+                "screenshots": {
+                    "0": "Screenshot ng mensahe.",
+                    "1": "Larawan ng screen kung hindi posible ang screenshot.",
+                    "2": "Tandaan ang PSN ID ng lumabag."
+                },
+                "tips": {
+                    "0": "Mag-ulat sa pamamagitan ng menu na \"Options\" sa mensahe o profile ng manlalaro.",
+                    "1": "Tiyaking iniuulat mo ang tiyak na nilalaman na nakakapinsala.",
+                    "2": "I-block ang PSN ID upang huminto sa pagtanggap ng mga komunikasyon."
+                }
+            },
+            "tumblr": {
+                "name": "Tumblr",
+                "overview": "Ang Tumblr ay may mga patakaran laban sa harassment at bullying. Maaari kang mag-ulat ng mga post, blog, at mensahe.",
+                "screenshots": {
+                    "0": "Screenshot ng post o blog.",
+                    "1": "Screenshot ng tanong o mensahe.",
+                    "2": "Screenshot ng URL ng blog."
+                },
+                "tips": {
+                    "0": "Gamitin ang link na \"Report\" na matatagpuan sa post o blog.",
+                    "1": "Tukuyin ang uri ng pang-aabuso (hal., harassment, hate speech).",
+                    "2": "Maaari mo ring i-block ang blog upang pigilan silang makipag-ugnayan sa iyo."
+                }
+            },
+            "viber": {
+                "name": "Viber",
+                "overview": "Pinapayagan ng Viber ang mga gumagamit na mag-ulat ng mga mensahe at account na nagsasagawa ng spam o harassment.",
+                "screenshots": {
+                    "0": "Screenshot ng pag-uusap sa chat.",
+                    "1": "Screenshot ng numero ng telepono o impormasyon ng profile ng nagpadala.",
+                    "2": "Screenshot ng anumang media na ibinahagi."
+                },
+                "tips": {
+                    "0": "I-tap at i-hold ang isang mensahe upang mahanap ang opsyon na \"Report\".",
+                    "1": "I-block agad ang numero pagkatapos mag-ulat.",
+                    "2": "Mag-ingat sa pagbabahagi ng personal na impormasyon sa mga pampublikong komunidad."
+                }
+            }
+        }
+    }
+}

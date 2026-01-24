@@ -20,11 +20,12 @@ import {
 } from 'lucide-react';
 import { PLATFORMS } from '../data/platformResources';
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const PlatformIcon = ({ id, size = 24 }) => {
     switch (id) {
         case 'youtube': return <Youtube size={size} />;
-        case 'tiktok': return <div style={{ fontSize: size, fontWeight: 'bold' }}>Tt</div>; // TikTok icon not in lucide by default sometimes
+        case 'tiktok': return <div style={{ fontSize: size, fontWeight: 'bold' }}>Tt</div>;
         case 'snapchat': return <div style={{ fontSize: size }}>👻</div>;
         case 'instagram': return <Instagram size={size} />;
         case 'facebook': return <Facebook size={size} />;
@@ -40,6 +41,7 @@ const PlatformIcon = ({ id, size = 24 }) => {
 };
 
 export default function TemplateBuilder() {
+    const { t } = useLanguage();
     const [selectedPlatform, setSelectedPlatform] = useState(null);
     const [formData, setFormData] = useState({
         incidentDate: '',
@@ -66,30 +68,30 @@ export default function TemplateBuilder() {
         setIsGenerating(true);
         const doc = new jsPDF();
 
-        const title = "Formal Online Harassment / Takedown Request";
+        const title = t('takedown.pdf.title');
         const content = `
-Date of Request: ${new Date().toLocaleDateString()}
-Subject: Formal Takedown Request regarding Online Harassment
+${t('takedown.pdf.date_label')} ${new Date().toLocaleDateString()}
+${t('takedown.pdf.subject')}
 
-To Whom It May Concern,
+${t('takedown.pdf.salutation')}
 
-I am writing to formally request the removal of content or action regarding an incident on your platform.
+${t('takedown.pdf.intro')}
 
-Incident Details:
-- Platform: ${formData.platformId || (selectedPlatform ? selectedPlatform.name : 'N/A')}
-- Date of Incident: ${formData.incidentDate || 'Not specified'}
-- Person Affected: ${formData.victimName || 'Anonymous'}
+${t('takedown.pdf.incident_details')}
+${t('takedown.pdf.platform_label')} ${formData.platformId || (selectedPlatform ? t(`takedown.platforms.${selectedPlatform.id}.name`) : 'N/A')}
+${t('takedown.pdf.date_incident_label')} ${formData.incidentDate || t('takedown.pdf.not_specified')}
+${t('takedown.pdf.person_affected_label')} ${formData.victimName || t('takedown.ui.placeholder_your_name')}
 
-Description of Incident:
+${t('takedown.pdf.desc_header')}
 ${formData.incidentDescription}
 
-Requested Action:
+${t('takedown.pdf.action_header')}
 ${formData.requestedAction}
 
-This request is made in accordance with digital safety guidelines and platform policies regarding user safety and harassment.
+${t('takedown.pdf.closing')}
 
-Sincerely,
-${formData.victimName || 'Concerned User'}
+${t('takedown.pdf.sign_off')}
+${formData.victimName || t('takedown.pdf.concerned_user')}
         `;
 
         doc.setFontSize(16);
@@ -104,8 +106,8 @@ ${formData.victimName || 'Concerned User'}
 
     const renderSelection = () => (
         <div className="animate-fade-in">
-            <h1 className="text-center mb-2" style={{ fontSize: '2.25rem' }}>Takedown Request Builder</h1>
-            <p className="text-center text-muted mb-4">Select the platform where the incident occurred to begin.</p>
+            <h1 className="text-center mb-2" style={{ fontSize: '2.25rem' }}>{t('takedown.ui.title')}</h1>
+            <p className="text-center text-muted mb-4">{t('takedown.ui.select_platform_desc')}</p>
 
             <div style={{
                 display: 'grid',
@@ -142,7 +144,7 @@ ${formData.victimName || 'Concerned User'}
                         }}>
                             <PlatformIcon id={platform.id} size={24} />
                         </div>
-                        <span style={{ fontWeight: '600', fontSize: '0.95rem' }}>{platform.name}</span>
+                        <span style={{ fontWeight: '600', fontSize: '0.95rem' }}>{t(`takedown.platforms.${platform.id}.name`)}</span>
                     </button>
                 ))}
                 <button
@@ -172,88 +174,94 @@ ${formData.victimName || 'Concerned User'}
                     }}>
                         <Globe size={24} />
                     </div>
-                    <span style={{ fontWeight: '600', fontSize: '0.95rem' }}>Other Platform</span>
+                    <span style={{ fontWeight: '600', fontSize: '0.95rem' }}>{t('takedown.ui.other_platform')}</span>
                 </button>
             </div>
         </div>
     );
 
-    const renderPlatformDetails = () => (
-        <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <button
-                onClick={() => setSelectedPlatform(null)}
-                className="btn btn-outline mb-4"
-                style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}
-            >
-                <ArrowLeft size={16} /> Back to Platforms
-            </button>
+    const renderPlatformDetails = () => {
+        // Safe access to translated arrays (which act like objects in key lookup)
+        const screenshots = Object.values(t(`takedown.platforms.${selectedPlatform.id}.screenshots`) || {});
+        const tips = Object.values(t(`takedown.platforms.${selectedPlatform.id}.tips`) || {});
 
-            <div className="card mb-4" style={{ position: 'relative', overflow: 'hidden' }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    right: 0,
-                    padding: '2rem',
-                    opacity: 0.1,
-                    color: 'var(--color-text-accent)',
-                    pointerEvents: 'none'
-                }}>
-                    <PlatformIcon id={selectedPlatform.id} size={120} />
-                </div>
+        return (
+            <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                <button
+                    onClick={() => setSelectedPlatform(null)}
+                    className="btn btn-outline mb-4"
+                    style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}
+                >
+                    <ArrowLeft size={16} /> {t('takedown.ui.back_to_platforms')}
+                </button>
 
-                <div style={{ position: 'relative', zIndex: 1 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
-                        <PlatformIcon id={selectedPlatform.id} size={32} />
-                        <h2 style={{ margin: 0 }}>{selectedPlatform.name} Filing Guide</h2>
+                <div className="card mb-4" style={{ position: 'relative', overflow: 'hidden' }}>
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                        padding: '2rem',
+                        opacity: 0.1,
+                        color: 'var(--color-text-accent)',
+                        pointerEvents: 'none'
+                    }}>
+                        <PlatformIcon id={selectedPlatform.id} size={120} />
                     </div>
 
-                    <div className="mb-4">
-                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
-                            <Info size={18} className="text-accent" /> Overview
-                        </h3>
-                        <p>{selectedPlatform.overview}</p>
-                    </div>
-
-                    <div className="mb-4">
-                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
-                            <Camera size={18} className="text-accent" /> Required Evidence
-                        </h3>
-                        <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
-                            {selectedPlatform.screenshots.map((s, i) => (
-                                <li key={i} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.5rem', alignItems: 'flex-start' }}>
-                                    <CheckCircle2 size={16} className="text-accent" style={{ marginTop: '0.25rem' }} />
-                                    <span>{s}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="mb-4">
-                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
-                            <Lightbulb size={18} className="text-accent" /> Expert Tips
-                        </h3>
-                        <div style={{ background: 'rgba(139, 92, 246, 0.1)', padding: '1rem', borderRadius: 'var(--radius-md)', borderLeft: '4px solid var(--color-primary)' }}>
-                            {selectedPlatform.tips.map((t, i) => (
-                                <p key={i} style={{ marginBottom: i === selectedPlatform.tips.length - 1 ? 0 : '0.5rem' }}>• {t}</p>
-                            ))}
+                    <div style={{ position: 'relative', zIndex: 1 }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
+                            <PlatformIcon id={selectedPlatform.id} size={32} />
+                            <h2 style={{ margin: 0 }}>{t('takedown.ui.filing_guide_title').replace('{{platform}}', t(`takedown.platforms.${selectedPlatform.id}.name`))}</h2>
                         </div>
-                    </div>
 
-                    <div style={{ marginTop: '2.5rem' }}>
-                        <a
-                            href={selectedPlatform.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-primary"
-                            style={{ width: '100%', padding: '1.25rem' }}
-                        >
-                            Open {selectedPlatform.name} Filing URL <Globe size={18} />
-                        </a>
+                        <div className="mb-4">
+                            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
+                                <Info size={18} className="text-accent" /> {t('takedown.ui.overview')}
+                            </h3>
+                            <p>{t(`takedown.platforms.${selectedPlatform.id}.overview`)}</p>
+                        </div>
+
+                        <div className="mb-4">
+                            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
+                                <Camera size={18} className="text-accent" /> {t('takedown.ui.required_evidence')}
+                            </h3>
+                            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+                                {screenshots.map((s, i) => (
+                                    <li key={i} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.5rem', alignItems: 'flex-start' }}>
+                                        <CheckCircle2 size={16} className="text-accent" style={{ marginTop: '0.25rem' }} />
+                                        <span>{s}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="mb-4">
+                            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem' }}>
+                                <Lightbulb size={18} className="text-accent" /> {t('takedown.ui.expert_tips')}
+                            </h3>
+                            <div style={{ background: 'rgba(139, 92, 246, 0.1)', padding: '1rem', borderRadius: 'var(--radius-md)', borderLeft: '4px solid var(--color-primary)' }}>
+                                {tips.map((tip, i) => (
+                                    <p key={i} style={{ marginBottom: i === tips.length - 1 ? 0 : '0.5rem' }}>• {tip}</p>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div style={{ marginTop: '2.5rem' }}>
+                            <a
+                                href={selectedPlatform.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-primary"
+                                style={{ width: '100%', padding: '1.25rem' }}
+                            >
+                                {t('takedown.ui.open_filing_url').replace('{{platform}}', t(`takedown.platforms.${selectedPlatform.id}.name`))} <Globe size={18} />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        );
+    };
 
     const renderOtherForm = () => (
         <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
@@ -262,21 +270,21 @@ ${formData.victimName || 'Concerned User'}
                 className="btn btn-outline mb-4"
                 style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}
             >
-                <ArrowLeft size={16} /> Back to Platforms
+                <ArrowLeft size={16} /> {t('takedown.ui.back_to_platforms')}
             </button>
 
             <div className="card">
-                <h2 className="mb-4">Generic Template Builder</h2>
-                <p className="text-muted mb-4">Provide details about the incident to generate a standardized takedown request document.</p>
+                <h2 className="mb-4">{t('takedown.ui.generic_builder_title')}</h2>
+                <p className="text-muted mb-4">{t('takedown.ui.generic_builder_desc')}</p>
 
                 <div style={{ display: 'grid', gap: '1.5rem' }}>
                     <div className="form-group">
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Platform Name</label>
+                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('takedown.ui.label_platform_name')}</label>
                         <input
                             name="platformId"
                             value={formData.platformId}
                             onChange={handleInputChange}
-                            placeholder="e.g., WhatsApp, Telegram, etc..."
+                            placeholder={t('takedown.ui.placeholder_platform_name')}
                             style={{
                                 width: '100%',
                                 padding: '1rem',
@@ -290,12 +298,12 @@ ${formData.victimName || 'Concerned User'}
 
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                         <div className="form-group">
-                            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Your Name (Optional)</label>
+                            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('takedown.ui.label_your_name')}</label>
                             <input
                                 name="victimName"
                                 value={formData.victimName}
                                 onChange={handleInputChange}
-                                placeholder="Anonymous"
+                                placeholder={t('takedown.ui.placeholder_your_name')}
                                 style={{
                                     width: '100%',
                                     padding: '1rem',
@@ -307,7 +315,7 @@ ${formData.victimName || 'Concerned User'}
                             />
                         </div>
                         <div className="form-group">
-                            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Date of Incident</label>
+                            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('takedown.ui.label_incident_date')}</label>
                             <input
                                 type="date"
                                 name="incidentDate"
@@ -326,12 +334,12 @@ ${formData.victimName || 'Concerned User'}
                     </div>
 
                     <div className="form-group">
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Describe the Incident</label>
+                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('takedown.ui.label_incident_desc')}</label>
                         <textarea
                             name="incidentDescription"
                             value={formData.incidentDescription}
                             onChange={handleInputChange}
-                            placeholder="Please describe what happened without sharing overly sensitive personal data..."
+                            placeholder={t('takedown.ui.placeholder_incident_desc')}
                             rows={5}
                             style={{
                                 width: '100%',
@@ -346,7 +354,7 @@ ${formData.victimName || 'Concerned User'}
                     </div>
 
                     <div className="form-group">
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Requested Action</label>
+                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>{t('takedown.ui.label_requested_action')}</label>
                         <select
                             name="requestedAction"
                             value={formData.requestedAction}
@@ -360,10 +368,10 @@ ${formData.victimName || 'Concerned User'}
                                 color: 'white'
                             }}
                         >
-                            <option value="Removal of content">Removal of content</option>
-                            <option value="Account suspension">Account suspension</option>
-                            <option value="Mediation/Dialogue">Mediation/Dialogue</option>
-                            <option value="Legal Investigation">Legal Investigation</option>
+                            <option value="Removal of content">{t('takedown.ui.options.removal')}</option>
+                            <option value="Account suspension">{t('takedown.ui.options.suspension')}</option>
+                            <option value="Mediation/Dialogue">{t('takedown.ui.options.mediation')}</option>
+                            <option value="Legal Investigation">{t('takedown.ui.options.legal')}</option>
                         </select>
                     </div>
 
@@ -373,11 +381,11 @@ ${formData.victimName || 'Concerned User'}
                         className="btn btn-primary"
                         style={{ marginTop: '1rem', padding: '1.25rem' }}
                     >
-                        {isGenerating ? 'Generating...' : 'Download Takedown Template (PDF)'} <Download size={18} />
+                        {isGenerating ? t('takedown.ui.btn_generating') : t('takedown.ui.btn_generate_pdf')} <Download size={18} />
                     </button>
                     {!formData.incidentDescription && (
                         <p style={{ fontSize: '0.8rem', color: 'var(--color-danger)', textAlign: 'center' }}>
-                            Please provide a description of the incident to generate the document.
+                            {t('takedown.ui.error_desc_required')}
                         </p>
                     )}
                 </div>

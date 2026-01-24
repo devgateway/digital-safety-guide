@@ -1,0 +1,603 @@
+{
+    "guide": {
+        "topics": {
+            "UNIFIED_FLOW": {
+                "title": "NMWSO Digital Safety Resource Helper",
+                "description": "Comprehensive interactive guide for Online Gender-Based Violence (OGBV), Harassment, Impersonation, and Doxxing."
+            }
+        },
+        "nodes": {
+            "q_situation_triage": {
+                "question": "Which of the following best describes your current situation?",
+                "options": {
+                    "0": "Someone is making me feel unsafe online",
+                    "1": "My family member / friend / colleague is feeling unsafe online"
+                }
+            },
+            "q_main_category": {
+                "question": "Which of the following best describes what is making you feel unsafe online?",
+                "options": {
+                    "0": "Images or videos of me online that shouldn't be",
+                    "1": "Someone is harassing or threatening me",
+                    "2": "Someone is impersonating me",
+                    "3": "Personal information or photos that I don't want public is circulating online"
+                }
+            },
+            "q_auth_check": {
+                "question": "Are you this person's legal guardian or do you have power of attorney on their behalf?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_img_nature": {
+                "question": "Got it. I can help you take a few simple steps to feel safer. First, select which applies best to the images/videos:",
+                "options": {
+                    "0": "I suspect the images were digitally produced, altered, or doctored (Deepfakes)",
+                    "1": "The images are humiliating, defamatory, or threatening",
+                    "2": "The images are impersonating me",
+                    "3": "The images were obtained secretly or without my consent (Voyeurism)",
+                    "4": "The images contain intimate or explicit materials",
+                    "5": "The images contain minors (children under 18)"
+                }
+            },
+            "q_danger_check": {
+                "question": "That is very unsettling. Are you in immediate danger?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No, but I'd like to feel safer"
+                }
+            },
+            "q_imp_method": {
+                "question": "How is this person impersonating you?",
+                "options": {
+                    "0": "Using my photo or video",
+                    "1": "Using my full legal name",
+                    "2": "Using my address or phone number",
+                    "3": "Using my login information (username/password)",
+                    "4": "Other"
+                }
+            },
+            "q_dox_info": {
+                "question": "What information has been exposed?",
+                "options": {
+                    "0": "Photo or video",
+                    "1": "Login information",
+                    "2": "Other personal info (Address, ID, etc)"
+                }
+            },
+            "q_main_category_rep": {
+                "question": "Which of the following best describes what is making them feel unsafe online?",
+                "options": {
+                    "0": "Images or videos of them online that shouldn't be",
+                    "1": "Someone is harassing or threatening them",
+                    "2": "Someone is impersonating them",
+                    "3": "Personal information or photos they don't want public is circulating online"
+                }
+            },
+            "end_no_auth": {
+                "title": "Authorization Needed",
+                "content": "Got it. Unfortunately, you can't pursue any legal action on their behalf without proper authorization. However, we can help you understand what they might have access to and point you to additional non-legal resources.",
+                "links": {
+                    "0": "View Non-Legal Support Resources"
+                }
+            },
+            "end_emergency": {
+                "title": "Emergency Action Required",
+                "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details": {
+                "question": "Got it. I can help you take a few simple steps to feel safer. First, select all that apply:",
+                "options": {
+                    "0": "Harassment involves repeated and unwanted contact via digital means",
+                    "1": "Harassment involves threats of physical, reputational, or financial harm",
+                    "2": "Harassment is directed to a woman and/or child",
+                    "3": "Harassment is coming from a current or former intimate partner"
+                }
+            },
+            "q_dox_identify": {
+                "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_identify_2": {
+                "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_img_nature_2": {
+                "question": "Got it. I can help you take a few simple steps to feel safer. First, select which applies best to the images/videos:",
+                "options": {
+                    "0": "I suspect the images were digitally produced, altered, or doctored (Deepfakes)",
+                    "1": "The images are humiliating, defamatory, or threatening",
+                    "2": "The images are impersonating me",
+                    "3": "The images were obtained secretly or without my consent (Voyeurism)",
+                    "4": "The images contain intimate or explicit materials",
+                    "5": "The images contain minors (children under 18)"
+                }
+            },
+            "q_danger_check_2": {
+                "question": "That is very unsettling. Are you in immediate danger?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No, but I'd like to feel safer"
+                }
+            },
+            "q_imp_method_2": {
+                "question": "How is this person impersonating you?",
+                "options": {
+                    "0": "Using my photo or video",
+                    "1": "Using my full legal name",
+                    "2": "Using my address or phone number",
+                    "3": "Using my login information (username/password)",
+                    "4": "Other"
+                }
+            },
+            "q_dox_info_2": {
+                "question": "What information has been exposed?",
+                "options": {
+                    "0": "Photo or video",
+                    "1": "Login information",
+                    "2": "Other personal info (Address, ID, etc)"
+                }
+            },
+            "menu_actions_img": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_2": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_3": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_4": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_5": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_6": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "q_dox_consent": {
+                "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                "options": {
+                    "0": "Yes / I don't know",
+                    "1": "No"
+                }
+            },
+            "end_dox_frustrating": {
+                "title": "Privacy Advice",
+                "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings."
+            },
+            "q_dox_consent_2": {
+                "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                "options": {
+                    "0": "Yes / I don't know",
+                    "1": "No"
+                }
+            },
+            "end_dox_frustrating_2": {
+                "title": "Privacy Advice",
+                "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings."
+            },
+            "end_emergency_2": {
+                "title": "Emergency Action Required",
+                "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details_2": {
+                "question": "Got it. I can help you take a few simple steps to feel safer. First, select all that apply:",
+                "options": {
+                    "0": "Harassment involves repeated and unwanted contact via digital means",
+                    "1": "Harassment involves threats of physical, reputational, or financial harm",
+                    "2": "Harassment is directed to a woman and/or child",
+                    "3": "Harassment is coming from a current or former intimate partner"
+                }
+            },
+            "q_dox_identify_3": {
+                "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_identify_4": {
+                "question": "Does this info identify you? (name, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "menu_actions_harass": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_2": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_3": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_4": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "end_dox_check_legal": {
+                "title": "Check Legal Basis",
+                "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer."
+            },
+            "q_dox_15_days": {
+                "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No",
+                    "2": "Yes, but I have not heard back / not resolved"
+                }
+            },
+            "end_dox_check_legal_2": {
+                "title": "Check Legal Basis",
+                "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer."
+            },
+            "q_dox_15_days_2": {
+                "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No",
+                    "2": "Yes, but I have not heard back / not resolved"
+                }
+            },
+            "menu_actions_img_7": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_8": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_9": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_10": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_11": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "menu_actions_img_12": {
+                "title": "What You Can Do",
+                "content": "There are a few things you can do to help feel safer and simplify things. Click one of the options below to explore more:",
+                "links": {
+                    "0": "Contact Law Enforcement / File Criminal Complaint",
+                    "1": "Submit a Takedown Request to the Platform",
+                    "2": "Mediate with a Professional / Counselor",
+                    "3": "Learn more about Online Safety"
+                }
+            },
+            "q_dox_consent_3": {
+                "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                "options": {
+                    "0": "Yes / I don't know",
+                    "1": "No"
+                }
+            },
+            "end_dox_frustrating_3": {
+                "title": "Privacy Advice",
+                "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings."
+            },
+            "q_dox_consent_4": {
+                "question": "Do you have any reason to suspect that the individual or entity circulating this information has either your CONSENT or a LEGAL BASIS to do so?",
+                "options": {
+                    "0": "Yes / I don't know",
+                    "1": "No"
+                }
+            },
+            "end_dox_frustrating_4": {
+                "title": "Privacy Advice",
+                "content": "That is frustrating. Even if it doesn't strictly identify you, you can try to protect your privacy by reporting the content to the platform and adjusting your privacy settings."
+            },
+            "q_dox_computer": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_exceptions": {
+                "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_computer_2": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_computer_3": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_exceptions_2": {
+                "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_computer_4": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "menu_actions_harass_5": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_6": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_7": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "menu_actions_harass_8": {
+                "title": "What You Can Do",
+                "content": "To feel safer, consider these options:",
+                "links": {
+                    "0": "Contact Law Enforcement",
+                    "1": "Submit Takedown Request",
+                    "2": "Speak with a Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "end_dox_check_legal_3": {
+                "title": "Check Legal Basis",
+                "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer."
+            },
+            "q_dox_15_days_3": {
+                "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No",
+                    "2": "Yes, but I have not heard back / not resolved"
+                }
+            },
+            "end_dox_check_legal_4": {
+                "title": "Check Legal Basis",
+                "content": "Sometimes, individuals or entities may have received your consent (e.g., via Terms of Service) or have a legal basis (public officials). If you are unsure, you may need to consult a lawyer."
+            },
+            "q_dox_15_days_4": {
+                "question": "Have you taken measures to resolve this directly with the violator/platform AND has it been 15 days since you attempted to resolve it?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No",
+                    "2": "Yes, but I have not heard back / not resolved"
+                }
+            },
+            "q_dox_computer_5": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "end_dox_wait": {
+                "title": "Exhaustion of Remedies",
+                "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days."
+            },
+            "q_dox_computer_6": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "end_dox_wait_2": {
+                "title": "Exhaustion of Remedies",
+                "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days."
+            },
+            "q_dox_computer_7": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_exceptions_3": {
+                "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_computer_8": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_computer_9": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_exceptions_4": {
+                "question": "Do any of the following apply? 1. Serious/irreparable harm. 2. Violator cannot offer remedy. 3. Action is clearly illegal.",
+                "options": {
+                    "0": "Yes",
+                    "1": "No"
+                }
+            },
+            "q_dox_computer_10": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "q_dox_computer_11": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "end_dox_wait_3": {
+                "title": "Exhaustion of Remedies",
+                "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days."
+            },
+            "q_dox_computer_12": {
+                "question": "To your knowledge, was the information collected or circulated via a computer system?",
+                "options": {
+                    "0": "Yes",
+                    "1": "No / I don't know"
+                }
+            },
+            "end_dox_wait_4": {
+                "title": "Exhaustion of Remedies",
+                "content": "Generally, you can't file a complaint with the Data Privacy commission until you've attempted to resolve the issue directly with the person/entity and waited 15 days."
+            }
+        }
+    }
+}

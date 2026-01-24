@@ -1,0 +1,48 @@
+{
+    "counseling": {
+        "ui": {
+            "title": "Social & Mental Health Services",
+            "subtitle": "Immediate access sa non-law-enforcement professional support. Ang resources na ito ay dedicated para sa iyong safety at care.",
+            "label_hotline": "Hotline",
+            "label_viber": "Viber",
+            "label_email": "Email",
+            "btn_chat": "Chat Now",
+            "btn_website": "Visit Website",
+            "btn_facebook": "Facebook Page",
+            "takedown_promo": "Kailangan mo ba ng tulong sa formal takedown request?",
+            "btn_takedown": "Pumunta sa Takedown Request Builder"
+        },
+        "resources": {
+            "intouch": {
+                "name": "InTouch Community Services",
+                "description": "Quality mental health services kasama ang counseling, support groups, at professional training."
+            },
+            "dswd": {
+                "name": "Department of Social Welfare and Development (DSWD)",
+                "description": "Crisis centers at 24/7 hotlines para sa victims ng violence at mga nasa krisis."
+            },
+            "lunas": {
+                "name": "Lunas Collective",
+                "description": "Isang volunteer-powered care space para sa mga kababaihan at members/allies ng LGBTQIA+ community na nakaranas ng gender-based violence o may sexual at reproductive health concerns.",
+                "note": "Specifically for women and LGBTQIA+ community."
+            },
+            "bantay_bata": {
+                "name": "Bantay Bata Helpline 163",
+                "description": "Sumasagot sa reports ng child abuse, exploitation, at neglect, at nagko-connect sa callers sa appropriate agencies.",
+                "note": "Specialized for child abuse and exploitation."
+            },
+            "ncmh": {
+                "name": "National Center for Mental Health (NCMH) Crisis Line",
+                "description": "24/7 crisis hotline na nagbibigay ng mental health support at intervention services."
+            },
+            "tawag_paglaum": {
+                "name": "Tawag Paglaum - Centro Bisaya",
+                "description": "Isang 24/7 call-based mental health helpline na nagbibigay ng serbisyo sa English at Filipino."
+            },
+            "rapha": {
+                "name": "Rapha Helpline",
+                "description": "Isang safe world para sa mga bata na malaya sa sexual abuse at exploitation. Free online mental health support services."
+            }
+        }
+    }
+}

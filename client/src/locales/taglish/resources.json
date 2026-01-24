@@ -1,0 +1,402 @@
+{
+    "guide": {
+        "nodes": {
+            "res_img_laws_deepfake": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "Kung ang mga images ay digitally produced, inedit, o doctored, pwedeng violation ito ng Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_safe_spaces": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "Kung ang mga images o videos ay nakakahiya, defamatory, o nananakot, pwedeng violation ito ng Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_privacy": {
+                "title": "Potential Violation: Data Privacy Act",
+                "content": "Kung ginagamit ang mga images o videos pati ang identity mo para magpanggap na ikaw, pwedeng violation ito ng Data Privacy Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_voyeur": {
+                "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung nakuha ang mga images o videos nang patago o wala kang consent, pwedeng violation ito ng Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_intimate": {
+                "title": "Potential Violation: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga images ay may intimate o explicit materials, pwedeng violation ito ng Safe Spaces Act, Anti-Photo/Video Voyeurism Act, at iba pang special protections.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_minor": {
+                "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga images ay may minors (bata na under 18), pwedeng violation ito ng Anti-OSAEC Law, Anti-Child Abuse Law, at may karapatan ka sa special protections.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_imp_action": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_2": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security": {
+                "title": "I-secure ang Accounts Mo",
+                "content": "Kung na-expose ang login information mo, please palitan agad ang passwords mo at i-enable ang Two-Factor Authentication (2FA) sa lahat ng accounts.",
+                "options": {
+                    "0": "Tumuloy sa Reporting Steps"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "I-secure ang Accounts Mo",
+                "content": "Kung na-expose ang login information mo, please palitan agad ang passwords mo at i-enable ang Two-Factor Authentication (2FA) sa lahat ng accounts.",
+                "options": {
+                    "0": "Tumuloy sa Reporting Steps"
+                }
+            },
+            "res_harass_cyber": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "Ang harassment/threats ay paulit-ulit at unwanted contact gamit ang digital means. Pwede itong maging violation ng Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_threats": {
+                "title": "Potential Violation: Grave Threats (Article 282)",
+                "content": "Kung ang harassment ay may kasamang threats ng physical, reputational, o financial harm, pwedeng violation ito ng Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_safe_spaces": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "Kung ang harassment ay directed sa babae at/o bata, pwedeng violation ito ng Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_vawc": {
+                "title": "Potential Violation: Anti-VAWC Laws",
+                "content": "Kung ang harassment ay galing sa current o former intimate partner, pwedeng violation ito ng Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "Kung ang mga images ay digitally produced, inedit, o doctored, pwedeng violation ito ng Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "Kung ang mga images o videos ay nakakahiya, defamatory, o nananakot, pwedeng violation ito ng Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Potential Violation: Data Privacy Act",
+                "content": "Kung ginagamit ang mga images o videos pati ang identity mo para magpanggap na ikaw, pwedeng violation ito ng Data Privacy Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Potential Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung nakuha ang mga images o videos nang patago o wala kang consent, pwedeng violation ito ng Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Potential Violation: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga images ay may intimate o explicit materials, pwedeng violation ito ng Safe Spaces Act, Anti-Photo/Video Voyeurism Act, at iba pang special protections.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Potential Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga images ay may minors (bata na under 18), pwedeng violation ito ng Anti-OSAEC Law, Anti-Child Abuse Law, at may karapatan ka sa special protections.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "I-secure ang Accounts Mo",
+                "content": "Kung na-expose ang login information mo, please palitan agad ang passwords mo at i-enable ang Two-Factor Authentication (2FA) sa lahat ng accounts.",
+                "options": {
+                    "0": "Tumuloy sa Reporting Steps"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "I-secure ang Accounts Mo",
+                "content": "Kung na-expose ang login information mo, please palitan agad ang passwords mo at i-enable ang Two-Factor Authentication (2FA) sa lahat ng accounts.",
+                "options": {
+                    "0": "Tumuloy sa Reporting Steps"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Potential Violation: Anti-Cybercrime Act",
+                "content": "Ang harassment/threats ay paulit-ulit at unwanted contact gamit ang digital means. Pwede itong maging violation ng Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Potential Violation: Grave Threats (Article 282)",
+                "content": "Kung ang harassment ay may kasamang threats ng physical, reputational, o financial harm, pwedeng violation ito ng Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Potential Violation: Safe Spaces Act",
+                "content": "Kung ang harassment ay directed sa babae at/o bata, pwedeng violation ito ng Safe Spaces Act.",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Potential Violation: Anti-VAWC Laws",
+                "content": "Kung ang harassment ay galing sa current o former intimate partner, pwedeng violation ito ng Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tingnan ang options ko"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "I-report ang Impersonation",
+                "content": "Mukhang kailangan mo itong i-resolve diretso sa platform o sa taong involved. Pwede kaming tumulong mag-draft ng formal complaint base sa info na binigay mo, o ikonekta ka sa ibang resources.",
+                "links": {
+                    "0": "Tingnan ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_dox_npc": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_2": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_3": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_4": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_5": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_6": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_7": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_8": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_9": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_10": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_11": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            },
+            "res_dox_npc_12": {
+                "title": "Data Privacy Violation",
+                "content": "Mukhang violation ang na-experience mo ng Data Privacy Act (RA 10173). Pwede kaming tumulong mag-draft ng formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Other Violation",
+                "content": "Kung hindi ito nangyari gamit ang computer system, baka hindi ito Data Privacy Act violation, pero pwedeng illegal pa rin. Mag-consult sa legal counsel."
+            }
+        }
+    }
+}

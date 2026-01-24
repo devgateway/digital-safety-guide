@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "brand": "Suporta sa Online Harassment",
+        "emergency": "Mabilisang Pag-alis",
+        "directory": "Direktoryo",
+        "guide": "Gabay",
+        "resources": "Mga Mapagkukunan",
+        "takedown": "Kahilingan sa Pagpapatanggal",
+        "mental_health": "Serbisyong Pangkalusugang Pangkaisipan",
+        "global_safety": "Pandaigdigang Mapagkukunan sa Kaligtasan",
+        "law_enforcement": "Tagapagpatupad ng Batas (1326)",
+        "data_privacy": "Suporta sa Data Privacy"
+    },
+    "home": {
+        "hero_title": "Ligtas. Panatag. Suportado.",
+        "hero_subtitle": "Karapatan ng bawat isa na maging ligtas, at hindi naiiba ang mundo ng internet. Kung pakiramdam mo ay hindi ka ligtas online, may mga paraan upang mabawi ang iyong seguridad: mula sa sibil at kriminal na parusa, hanggang sa psychosocial support, at pormal na takedown requests sa mga kumpanya ng IT. Ang tool na ito ay dinisenyo upang tulungan kang maunawaan kung anong mga aksyon ang maaaring gawin ng mga mamamayang Pilipino base sa uri ng paglabag sa kaligtasan na iyong nararanasan.",
+        "description_2": "Kung may oras kang sagutin ang ilang katanungan tungkol sa kung ano ang nagpaparamdam sa iyo ng hindi ligtas, matutulungan ka ng tool na ito na maunawaan kung anong mga opsyon ang mayroon ka upang makagawa ka ng desisyong may sapat na kaalaman.",
+        "start_guide": "Simulan ang Gabay Pangkaligtasan",
+        "disclaimer": "<strong style={{ color: '#f87171' }}>PAUNAWA:</strong> Ang tool na ito ay hindi bumubuo ng legal na payo. Ang mga datos ay kinakalap nang hindi nagpapakilala at hindi iniimbak. Kung ikaw ay nasa napipintong panganib, mangyaring makipag-ugnayan agad sa pulisya. Kung sa anumang dahilan ay pakiramdam mo ay hindi ka ligtas habang ginagamit ang tool na ito, gamitin ang button na “emergency exit” at bumalik kapag ikaw ay ligtas na."
+    },
+    "footer": {
+        "powered_by": "Pinapagana ng"
+    },
+    "common": {
+        "back": "Bumalik",
+        "loading": "Naglo-load...",
+        "error": "Error"
+    }
+}

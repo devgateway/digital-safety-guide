@@ -1,0 +1,102 @@
+{
+    "guide": {
+        "nodes": {
+            "res_img_laws_deepfake": {
+                "title": "Posible a Violation: Anti-Cybercrime Act",
+                "content": "No dagiti ladawan ket digitally produced, inedit, wenno doctored, mabalin a violation daytoy ti Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_img_laws_safe_spaces": {
+                "title": "Posible a Violation: Safe Spaces Act",
+                "content": "No dagiti ladawan wenno video ket nakababa-in, defamatory, wenno mangipangpangta, mabalin a violation daytoy ti Safe Spaces Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_img_laws_privacy": {
+                "title": "Posible a Violation: Data Privacy Act",
+                "content": "No dagiti ladawan wenno video ket agus-usar ti identidadmo tapno i-impersonate naka, mabalin a violation daytoy ti Data Privacy Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_img_laws_voyeur": {
+                "title": "Posible a Violation: Anti-Photo/Video Voyeurism Act",
+                "content": "No dagiti ladawan wenno video ket naala a sekreto wenno awan pammalubosmo, mabalin a violation daytoy ti Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_img_laws_intimate": {
+                "title": "Posible a Violation: Safe Spaces / Voyeurism",
+                "content": "No dagiti ladawan ket naglaon ti intimate wenno explicit materials, mabalin a violation daytoy ti Safe Spaces Act, Anti-Photo/Video Voyeurism Act, ken dadduma pay a special protections.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_img_laws_minor": {
+                "title": "Posible a Violation: Anti-OSAEC / Anti-Child Abuse",
+                "content": "No dagiti ladawan ket naglaon ti minors (ub-ubbing ngem 18), mabalin a violation daytoy ti Anti-OSAEC Law, Anti-Child Abuse Law, ken adda karbengam kadagiti special protections.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_imp_action": {
+                "title": "I-report ti Impersonation",
+                "content": "Kasla masapulmo a solbaren daytoy direkta iti platform wenno iti tao a maseknan. Matulongandaka nga agsagana ti formal complaint base iti impormasyon nga intedmo, wenno ikonektadaka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security": {
+                "title": "I-secure dagiti Accounts-mo",
+                "content": "No ti login information-mo ket na-expose, pangngaasi ta sukatam dagus dagiti password-mo ken i-enable ti Two-Factor Authentication (2FA) kadagiti amin nga accounts.",
+                "options": {
+                    "0": "Ituloy ti Reporting Steps"
+                }
+            },
+            "res_harass_cyber": {
+                "title": "Posible a Violation: Anti-Cybercrime Act",
+                "content": "Ti harassment/pangta ket nairaman ti maulit-ulit ken di kayat a contact babaen ti digital means. Mabalin a violation daytoy ti Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_harass_threats": {
+                "title": "Posible a Violation: Grave Threats (Article 282)",
+                "content": "No ti harassment ket nairaman ti pangta ti pisikal, reputational, wenno financial harm, mabalin a violation daytoy ti Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_harass_safe_spaces": {
+                "title": "Posible a Violation: Safe Spaces Act",
+                "content": "No ti harassment ket naiturong iti babai ken/wenno ubing, mabalin a violation daytoy ti Safe Spaces Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_harass_vawc": {
+                "title": "Posible a Violation: Anti-VAWC Laws",
+                "content": "No ti harassment ket naggapu iti current wenno former intimate partner, mabalin a violation daytoy ti Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Kitaen dagiti opsyon ko"
+                }
+            },
+            "res_dox_npc": {
+                "title": "Data Privacy Violation",
+                "content": "Kasla ti mapaspasaram ket maysa a violation ti Data Privacy Act (RA 10173). Matulongandaka a mag-draft ti formal complaint.",
+                "links": {
+                    "0": "Draft NPC Complaint"
+                }
+            },
+            "res_dox_offline": {
+                "title": "Offline/Other Violation",
+                "content": "No saan a napasamak daytoy babaen ti computer system, baka saan a violation ti Data Privacy Act, ngem posible pay laeng nga illegal. Consult legal counsel."
+            }
+        }
+    }
+}

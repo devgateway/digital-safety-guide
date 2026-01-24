@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "brand": "Online Harassment Support",
+        "emergency": "Emergency Exit",
+        "directory": "Directory",
+        "guide": "Guide",
+        "resources": "Resources",
+        "takedown": "Takedown Requests",
+        "mental_health": "Mental Health Services",
+        "global_safety": "Global Safety Resources",
+        "law_enforcement": "Law Enforcement (1326)",
+        "data_privacy": "Data Privacy Support"
+    },
+    "home": {
+        "hero_title": "Ligtas. Panatag. Suportado.",
+        "hero_subtitle": "Karapatan ng lahat na maging safe, at kasama na rito ang digital spaces. Kung pakiramdam mo ay unsafe ka online, may mga paraan para mabawi ang iyong peace of mind: mula sa sibil at kriminal na parusa, non-profit psychosocial support, hanggang sa formal takedown requests diretso sa mga IT companies. Ang tool na ito ay para tulungan kang malaman kung anong steps ang pwedeng gawin ng mga Pilipino base sa safety violations na nararanasan mo.",
+        "description_2": "Kung may time kang sagutin ang ilang tanong tungkol sa iyong sitwasyon, matutulungan ka ng tool na ito na maintindihan ang mga available options para makagawa ka ng tamang desisyon.",
+        "start_guide": "Simulan ang Safety Guide",
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Ang tool na ito ay hindi legal advice. Ang data ay collected anonymously at hindi sini-save o ini-store. Kung ikaw ay nasa imminent danger, please contact the police immediately. Kung feeling mo ay unsafe ka habang gamit ang tool na ito, gamitin ang “emergency exit” button at bumalik na lang kapag safe ka na."
+    },
+    "footer": {
+        "powered_by": "Powered by"
+    },
+    "common": {
+        "back": "Back",
+        "loading": "Loading...",
+        "error": "Error"
+    }
+}

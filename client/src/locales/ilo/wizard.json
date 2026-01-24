@@ -1,0 +1,171 @@
+{
+    "guide": {
+        "topics": {
+            "UNIFIED_FLOW": {
+                "title": "NMWSO Digital Safety Resource Helper",
+                "description": "Comprehensive interactive guide para iti Online Gender-Based Violence (OGBV), Harassment, Impersonation, ken Doxxing."
+            }
+        },
+        "nodes": {
+            "q_situation_triage": {
+                "question": "Ania kadagitoy ti kasayaatan a mangiladawan iti agdama a sitwasionmo?",
+                "options": {
+                    "0": "Adda ti mangiparpirikna kaniak a saanak a safe online",
+                    "1": "Ti kapamiliak / gayyem / katrabaho ket saan a safe online"
+                }
+            },
+            "q_main_category": {
+                "question": "Ania kadagitoy ti rason no apay a mariknam a saan ka a safe online?",
+                "options": {
+                    "0": "Adda dagiti ladawan wenno video ko online a saan koma a maipablaak",
+                    "1": "Adda ti manghaharass wenno mangipangpangta kaniak",
+                    "2": "Adda ti nag-impersonate wenno agin-inbag a siak",
+                    "3": "Ti personal nga impormasion wenno ladawan ket agkalkalat online nga awan ti pammalubos ko"
+                }
+            },
+            "q_auth_check": {
+                "question": "Sika kadi ti legal guardian wenno adda power of attorney-m para kadakuada?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_img_nature": {
+                "question": "Maawatak. Matulongannaka nga agaramid kadagiti simple a steps tapno mariknam a safe ka. Umuna, piliem ti maitutop maipapan kadagiti ladawan/video:",
+                "options": {
+                    "0": "Agdudaak a dagiti ladawan ket digitally produced, altered, wenno doctored (Deepfakes)",
+                    "1": "Dagiti ladawan ket nakababa-in, makadadael iti dayaw, wenno mangipangpangta",
+                    "2": "Nausar dagiti ladawan tapno i-impersonate dak",
+                    "3": "Dagiti ladawan ket naala a sekreto wenno awan pammalubos (Voyeurism)",
+                    "4": "Dagiti ladawan ket naglaon ti intimate wenno explicit materials",
+                    "5": "Dagiti ladawan ket naglaon ti minors (ub-ubbing ngem 18)"
+                }
+            },
+            "q_danger_check": {
+                "question": "Maka-alarm dayta. Addaka kadi iti peggad o immediate danger?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan, ngem kayatko a marikna a safe ak"
+                }
+            },
+            "q_imp_method": {
+                "question": "Kasano a gi-impersonate naka daytoy a tao?",
+                "options": {
+                    "0": "Inusarna ti ladawan wenno video ko",
+                    "1": "Inusarna ti buo a legal a naganko",
+                    "2": "Inusarna ti address wenno phone number ko",
+                    "3": "Inusarna ti login information ko (username/password)",
+                    "4": "Dadduma pay (Other)"
+                }
+            },
+            "q_dox_info": {
+                "question": "Ania nga impormasion ti na-expose?",
+                "options": {
+                    "0": "Ladawan wenno video",
+                    "1": "Login information",
+                    "2": "Dadduma a personal info (Address, ID, etc)"
+                }
+            },
+            "q_main_category_rep": {
+                "question": "Ania kadagitoy ti rason no apay a mariknada a saan da a safe online?",
+                "options": {
+                    "0": "Adda dagiti ladawan wenno video da online a saan koma a maipablaak",
+                    "1": "Adda ti manghaharass wenno mangipangpangta kadakuada",
+                    "2": "Adda ti nag-impersonate kadakuada",
+                    "3": "Ti personal nga impormasion wenno ladawan da ket agkalkalat online nga awan ti pammalubos"
+                }
+            },
+            "end_no_auth": {
+                "title": "Masapul ti Authorization",
+                "content": "Maawatak. Nakalkaldaang, ngem saan ka a maka-pursue ti legal action para kadakuada no awan ti husto nga authorization. Nupay kasta, matulongannaka a mangawat no ania dagiti mabalin nga aramiden ken iturongnaka kadagiti non-legal resources.",
+                "links": {
+                    "0": "Kitaen dagiti Non-Legal Support Resources"
+                }
+            },
+            "end_emergency": {
+                "title": "Masapul ti Emergency Action",
+                "content": "Pangngaasi ta agbirok ti safe a lugar ken kontaken dagus ti pulisya. No kasapulam ti sensitibo a tulong maipapan kadagiti gender-based issues, mabalinmo nga kontaken ti local VAWC Desk. No mabutengka nga agreport iti local police, kontaken ti PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details": {
+                "question": "Maawatak. Matulongannaka nga agaramid kadagiti simple a steps tapno mariknam a safe ka. Umuna, piliem amin a maitutop:",
+                "options": {
+                    "0": "Ti harassment ket nairaman ti maulit-ulit ken di kayat a contact babaen ti digital means",
+                    "1": "Ti harassment ket nairaman ti pangta ti pisikal, reputational, wenno financial harm",
+                    "2": "Ti harassment ket naiturong iti babai ken/wenno ubing",
+                    "3": "Ti harassment ket naggapu iti current wenno former intimate partner"
+                }
+            },
+            "q_dox_identify": {
+                "question": "Daytoy kadi nga info ket mangilasin kenka/nag-identify kenka? (nagan, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "menu_actions_img": {
+                "title": "Dagiti Mabalin nga Aramiden",
+                "content": "Adda dagiti sumagmamano a banag a mabalinmo nga aramiden tapno mariknam a safe ka. I-click ti maysa kadagiti opsyon iti baba:",
+                "links": {
+                    "0": "Kontaken ti Law Enforcement / File Criminal Complaint",
+                    "1": "Ag-submit ti Takedown Request iti Platform",
+                    "2": "Makisarita iti Professional / Counselor (Mediation)",
+                    "3": "Ammuen pay maipapan iti Online Safety"
+                }
+            },
+            "q_dox_consent": {
+                "question": "Adda kadi rason tapno agdudaka a ti nagipablaak daytoy nga impormasyon ket addaan ti CONSENT wenno LEGAL BASIS nga aramiden dayta?",
+                "options": {
+                    "0": "Wen / Diak ammo",
+                    "1": "Awan"
+                }
+            },
+            "end_dox_frustrating": {
+                "title": "Privacy Advice",
+                "content": "Makapaupay dayta. Uray no saan a direkta a mangilasin kenka, mabalinmo a protektaran ti privacy-m babaen ti pag-report ti content iti platform ken pag-adjust ti privacy settings-mo."
+            },
+            "menu_actions_harass": {
+                "title": "Dagiti Mabalin nga Aramiden",
+                "content": "Tapno mariknam a safe ka, ikonsidera dagitoy nga opsyon:",
+                "links": {
+                    "0": "Kontaken ti Law Enforcement",
+                    "1": "Ag-submit ti Takedown Request",
+                    "2": "Makisarita iti Counselor",
+                    "3": "Online Safety Resources"
+                }
+            },
+            "end_dox_check_legal": {
+                "title": "I-check ti Legal Basis",
+                "content": "No dadduma, dagiti indibidual wenno entity ket baka addaan consent (e.g., via Terms of Service) wenno legal basis (public officials). No di sigurado, baka masapulmo a komunsulta iti abogado."
+            },
+            "q_dox_15_days": {
+                "question": "Inaramidmo kadin dagiti wagas tapno solbaren daytoy direkta iti violator/platform KEN naglabas kadi ti 15 days nanipud ti panagpadpadastayo?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan pay",
+                    "2": "Wen, ngem awan pay ti sungbat / di pay nasolbar"
+                }
+            },
+            "q_dox_computer": {
+                "question": "Iti ammom, ti impormasyon kadi ket naala wenno naiwaras babaen ti computer system?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Diak ammo"
+                }
+            },
+            "end_dox_wait": {
+                "title": "Exhaustion of Remedies",
+                "content": "Kaaduan, saanka a maka-file ti complaint iti Data Privacy Commission agingga a di nupay inaramid ti wagas a solbaren ti isyu direkta iti tao/entity ken naguray ti 15 days."
+            },
+            "q_dox_exceptions": {
+                "question": "Adda kadi kadagitoy ti maitutop? 1. Serious/irreparable harm. 2. Saan a makaited ti solusyon ti violator. 3. Nalawag nga illegal ti inaramid.",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            }
+        }
+    }
+}

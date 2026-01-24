@@ -1,0 +1,31 @@
+{
+    "law": {
+        "ui": {
+            "title": "Law Enforcement Support",
+            "subtitle": "Giya para sa survivors nga gustong mokonsulta sa law enforcement o mag-file og criminal complaints.",
+            "hotline_title": "DICT-CICC Hotline",
+            "hotline_desc_strong": "Ang una nimong tawagan.",
+            "hotline_desc": "Mandato sa Cybercrime Investigation and Coordinating Center (CICC) nga maghatag og immediate technical assistance ug mag-coordinate sa mga imbestigasyon sa cybercrime.",
+            "vawc_title": "VAW-C Cases",
+            "vawc_desc": "Kung kinahanglan nimo og officers nga trained specifically para sa Violence Against Women and Children (VAW-C) cases, palihog kontaka ang PNP specialized unit.",
+            "wcpc_name": "PNP Women and Children Protection Center (WCPC)",
+            "label_hotline": "Hotline:",
+            "label_aleng_pulis": "Aleng Pulis:",
+            "expect_title": "Unsay Angay Dahumon",
+            "expect_desc": "Ang pag-file og complaint kay usa ka formal process. Mao ni ang mahitabo kung moduol ka nila:",
+            "expect_step_1_title": "Initial Consultation:",
+            "expect_step_1_desc": "Paminawon sa officers ang imong sitwasyon ug i-assess ang potential violations.",
+            "expect_step_2_title": "Verification:",
+            "expect_step_2_desc": "Pangayoan ka nila og ebidensya (screenshots, links, etc).",
+            "expect_step_3_title": "Action:",
+            "expect_step_3_desc": "Makig-coordinate ang DICT-CICC sa relevant platforms ug law enforcement units para aksyunan ang imong kaso.",
+            "legal_resources_title": "Legal Resources & Guides",
+            "ra_10175_title": "RA 10175 Brochure",
+            "ra_10175_desc": "Unsa ang Cybercrime Prevention Act?",
+            "cyberbullying_title": "Cyberbullying Triage",
+            "cyberbullying_desc": "Unsaon pag-file og complaint sa Pilipinas",
+            "footer_desc": "Biktima ka ba sa impersonation o data privacy violation?",
+            "btn_npc": "Bisitaha ang Data Privacy Support (NPC)"
+        }
+    }
+}

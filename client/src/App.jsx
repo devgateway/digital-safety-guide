@@ -13,8 +13,10 @@ import GlobalResources from './pages/GlobalResources';
 import LawEnforcement from './pages/LawEnforcement';
 import DataPrivacy from './pages/DataPrivacy';
 import EmergencyExit from './components/EmergencyExit';
+import { useLanguage, LANGUAGES } from './contexts/LanguageContext';
 
 function Navbar({ onEmergency }) {
+  const { t, language, setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -35,7 +37,7 @@ function Navbar({ onEmergency }) {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', fontWeight: 'bold', color: 'white' }} onClick={() => { setResourcesOpen(false); setIsOpen(false); }}>
           <Shield className="text-accent" />
-          <span>Online Harassment Support</span>
+          <span>{t('nav.brand')}</span>
         </Link>
 
         {/* Mobile Menu Button */}
@@ -46,11 +48,34 @@ function Navbar({ onEmergency }) {
         {/* Desktop Links */}
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }} className="desktop-menu">
           <button onClick={onEmergency} className="btn btn-danger" style={{ textDecoration: 'none', whiteSpace: 'nowrap', border: 'none' }}>
-            Emergency Exit
+            {t('nav.emergency')}
           </button>
 
-          <Link to="/directory" className="flex-center" style={{ gap: '0.5rem' }}><Phone size={18} /> Directory</Link>
-          <Link to="/guide" className="flex-center" style={{ gap: '0.5rem' }}><BookOpen size={18} /> Guide</Link>
+          {/* Language Switcher */}
+          <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+            <Globe size={18} style={{ marginRight: '0.5rem', opacity: 0.8 }} />
+            <select
+              value={language}
+              onChange={(e) => setLanguage(e.target.value)}
+              style={{
+                background: 'transparent',
+                color: 'white',
+                border: 'none',
+                fontSize: '1rem',
+                cursor: 'pointer',
+                fontFamily: 'inherit'
+              }}
+            >
+              {LANGUAGES.map(lang => (
+                <option key={lang.code} value={lang.code} style={{ color: 'black' }}>
+                  {lang.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <Link to="/directory" className="flex-center" style={{ gap: '0.5rem' }}><Phone size={18} /> {t('nav.directory')}</Link>
+          <Link to="/guide" className="flex-center" style={{ gap: '0.5rem' }}><BookOpen size={18} /> {t('nav.guide')}</Link>
 
           {/* Resources Dropdown */}
           <div style={{ position: 'relative' }} ref={dropdownRef}>
@@ -67,7 +92,7 @@ function Navbar({ onEmergency }) {
                 padding: '0.5rem 0'
               }}
             >
-              Resources <ChevronDown size={16} style={{ transform: resourcesOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+              {t('nav.resources')} <ChevronDown size={16} style={{ transform: resourcesOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
             </button>
 
             {resourcesOpen && (
@@ -102,7 +127,7 @@ function Navbar({ onEmergency }) {
                   onClick={() => setResourcesOpen(false)}
                 >
                   <FileText size={18} className="text-accent" />
-                  <span>Takedown Requests</span>
+                  <span>{t('nav.takedown')}</span>
                 </Link>
                 <Link
                   to="/templates/counseling"
@@ -118,7 +143,7 @@ function Navbar({ onEmergency }) {
                   onClick={() => setResourcesOpen(false)}
                 >
                   <Heart size={18} className="text-accent" />
-                  <span>Mental Health Services</span>
+                  <span>{t('nav.mental_health')}</span>
                 </Link>
                 <Link
                   to="/resources/global-tech"
@@ -134,7 +159,7 @@ function Navbar({ onEmergency }) {
                   onClick={() => setResourcesOpen(false)}
                 >
                   <Globe size={18} className="text-accent" />
-                  <span>Global Safety Resources</span>
+                  <span>{t('nav.global_safety')}</span>
                 </Link>
                 <Link
                   to="/templates/dict-cicc-hotline"
@@ -150,7 +175,7 @@ function Navbar({ onEmergency }) {
                   onClick={() => setResourcesOpen(false)}
                 >
                   <Scale size={18} className="text-accent" />
-                  <span>Law Enforcement (1326)</span>
+                  <span>{t('nav.law_enforcement')}</span>
                 </Link>
                 <Link
                   to="/templates/npc-complaint"
@@ -166,7 +191,7 @@ function Navbar({ onEmergency }) {
                   onClick={() => setResourcesOpen(false)}
                 >
                   <Fingerprint size={18} className="text-accent" />
-                  <span>Data Privacy Support</span>
+                  <span>{t('nav.data_privacy')}</span>
                 </Link>
               </div>
             )}
@@ -179,6 +204,7 @@ function Navbar({ onEmergency }) {
 
 function App() {
   const [emergency, setEmergency] = useState(false);
+  const { t } = useLanguage();
 
   if (emergency) {
     return <EmergencyExit />;
@@ -207,7 +233,7 @@ function App() {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', opacity: 0.8 }}>
-              <span style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Powered by</span>
+              <span style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{t('footer.powered_by')}</span>
               <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'white' }}>IREX</span>
               <span style={{ height: '20px', width: '1px', background: 'var(--color-text-secondary)' }}></span>
               <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'white' }}>Development Gateway</span>

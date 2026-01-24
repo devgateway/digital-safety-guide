@@ -1,0 +1,31 @@
+{
+    "law": {
+        "ui": {
+            "title": "Law Enforcement Support",
+            "subtitle": "Guidance para sa survivors na gustong mag-consult sa law enforcement o mag-file ng criminal complaints.",
+            "hotline_title": "DICT-CICC Hotline",
+            "hotline_desc_strong": "Ang una mong dapat tawagan.",
+            "hotline_desc": "Mandato ng Cybercrime Investigation and Coordinating Center (CICC) na magbigay ng immediate technical assistance at mag-coordinate ng investigations sa cybercrime.",
+            "vawc_title": "VAW-C Cases",
+            "vawc_desc": "Kung kailangan mo ng officers na trained specifically para sa Violence Against Women and Children (VAW-C) cases, please contact the PNP specialized unit.",
+            "wcpc_name": "PNP Women and Children Protection Center (WCPC)",
+            "label_hotline": "Hotline:",
+            "label_aleng_pulis": "Aleng Pulis:",
+            "expect_title": "What to Expect",
+            "expect_desc": "Ang pag-file ng complaint ay isang formal process. Heto ang mangyayari kapag lumapit ka sa kanila:",
+            "expect_step_1_title": "Initial Consultation:",
+            "expect_step_1_desc": "Pakikinggan ng officers ang sitwasyon mo at ia-assess ang potential violations.",
+            "expect_step_2_title": "Verification:",
+            "expect_step_2_desc": "Hihingan ka nila ng ebidensya (screenshots, links, etc).",
+            "expect_step_3_title": "Action:",
+            "expect_step_3_desc": "Makikipag-coordinate ang DICT-CICC sa relevant platforms at law enforcement units para aksyunan ang kaso mo.",
+            "legal_resources_title": "Legal Resources & Guides",
+            "ra_10175_title": "RA 10175 Brochure",
+            "ra_10175_desc": "Ano ang Cybercrime Prevention Act?",
+            "cyberbullying_title": "Cyberbullying Triage",
+            "cyberbullying_desc": "Paano mag-file ng complaint sa Pilipinas",
+            "footer_desc": "Ikaw ba ay biktima ng impersonation o data privacy violation?",
+            "btn_npc": "Pumunta sa Data Privacy Support (NPC)"
+        }
+    }
+}

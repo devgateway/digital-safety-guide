@@ -1,0 +1,221 @@
+{
+    "takedown": {
+        "ui": {
+            "title": "Takedown Request Builder",
+            "select_platform_desc": "Piliem ti platform nu sadino a napasamak ti insidente tapno makaprugi.",
+            "other_platform": "Other Platform",
+            "back_to_platforms": "Back to Platforms",
+            "filing_guide_title": "{{platform}} Filing Guide",
+            "overview": "Overview",
+            "required_evidence": "Required Evidence",
+            "expert_tips": "Expert Tips",
+            "open_filing_url": "Lukatan ang {{platform}} Filing URL",
+            "generic_builder_title": "Generic Template Builder",
+            "generic_builder_desc": "Mangted ti details maipapan ti insidente tapno maka-generate ti standardized takedown request document.",
+            "label_platform_name": "Platform Name",
+            "placeholder_platform_name": "e.g., WhatsApp, Telegram, etc...",
+            "label_your_name": "Naganmo (Optional)",
+            "placeholder_your_name": "Anonymous",
+            "label_incident_date": "Date of Incident",
+            "label_incident_desc": "I-describe ti Insidente",
+            "placeholder_incident_desc": "Please describe nu ania ti napasamak nga saan a nag-share ti sobra a sensitive personal data...",
+            "label_requested_action": "Requested Action",
+            "btn_generate_pdf": "I-download ang Takedown Template (PDF)",
+            "btn_generating": "Generating...",
+            "error_desc_required": "Please provide a description ti insidente tapno ma-generate ti document.",
+            "options": {
+                "removal": "Removal of content",
+                "suspension": "Account suspension",
+                "mediation": "Mediation/Dialogue",
+                "legal": "Legal Investigation"
+            }
+        },
+        "pdf": {
+            "title": "Formal Online Harassment / Takedown Request",
+            "date_label": "Date of Request:",
+            "subject": "Subject: Formal Takedown Request regarding Online Harassment",
+            "salutation": "To Whom It May Concern,",
+            "intro": "I am writing to formally request the removal of content or action regarding an incident on your platform.",
+            "incident_details": "Incident Details:",
+            "platform_label": "- Platform:",
+            "date_incident_label": "- Date of Incident:",
+            "not_specified": "Not specified",
+            "person_affected_label": "- Person Affected:",
+            "desc_header": "Description of Incident:",
+            "action_header": "Requested Action:",
+            "closing": "This request is made in accordance with digital safety guidelines and platform policies regarding user safety and harassment.",
+            "sign_off": "Sincerely,",
+            "concerned_user": "Concerned User"
+        },
+        "platforms": {
+            "youtube": {
+                "name": "YouTube",
+                "overview": "Ti YouTube ket addaan tools tapno i-report ti cyberbullying, harassment, ken dadduma pay a policy violations. Mabalinmo nga i-report ti specific videos, comments, wenno intero a channels.",
+                "screenshots": {
+                    "0": "Screenshot ti video wenno comment a maseknan.",
+                    "1": "Screenshot ti channel profile page.",
+                    "2": "Screenshot ti aniaman a direct messages wenno interactions (no adda)."
+                },
+                "tips": {
+                    "0": "Iraman ti direct URL ti video wenno comment.",
+                    "1": "Agbalin a specific no ania a paset ti video ti nag-violate ti policies.",
+                    "2": "Saanen a patulan wenno sumungbat ti harasser kadagiti comments."
+                }
+            },
+            "tiktok": {
+                "name": "TikTok",
+                "overview": "Adda dedicated safety center ti TikTok para ti panag-report ti hate speech, harassment, ken bullying. Dagiti report ket anonymous.",
+                "screenshots": {
+                    "0": "Screenshot ti video wenno live stream.",
+                    "1": "Screenshot ti user's profile.",
+                    "2": "Screenshot ti comments wenno messages."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Report\" button direkta iti content.",
+                    "1": "Mangted ti context no ti harassment ket paset ti trend wenno challenge.",
+                    "2": "I-save ti video link sakbay a ma-delete wenno ma-hide."
+                }
+            },
+            "snapchat": {
+                "name": "Snapchat",
+                "overview": "Mabalinmo nga i-report ti snaps, stories, ken profiles iti Snapchat nga adda pakaainaiganna ti harassment wenno bullying.",
+                "screenshots": {
+                    "0": "Screenshot ti Snap (laglagipen a ti Snapchat ket ag-notify kadagiti users no ag-screenshot-ka).",
+                    "1": "Screenshot ti Chat conversation.",
+                    "2": "Screenshot ti user's profile."
+                },
+                "tips": {
+                    "0": "Confidential dagiti reports.",
+                    "1": "Usaren ti long-press feature iti Snap wenno Chat tapno ma-report a dagus.",
+                    "2": "Kontaken ti local law enforcement no adda immediate danger."
+                }
+            },
+            "instagram": {
+                "name": "Instagram",
+                "overview": "Nadumaduma a wagas ti Instagram tapno i-report ti bullying, harassment, ken impersonation. Mabalinmo nga i-report ti posts, stories, profiles, ken comments.",
+                "screenshots": {
+                    "0": "Screenshot ti post wenno story.",
+                    "1": "Screenshot ti profile.",
+                    "2": "Screenshot ti direct messages."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Restrict\" feature tapno ma-limit ti interactions nga saan a nag-block.",
+                    "1": "I-report ti impersonation accounts babaen ti specific impersonation form.",
+                    "2": "Idulin ti record ti report confirmation."
+                }
+            },
+            "facebook": {
+                "name": "Facebook",
+                "overview": "I-encourage ti Facebook dagiti users nga i-report ti content a nag-violate ti Community Standards, karaman ti bullying ken harassment.",
+                "screenshots": {
+                    "0": "Screenshot ti post, photo, wenno comment.",
+                    "1": "Screenshot ti profile wenno page.",
+                    "2": "Screenshot ti Messenger conversations."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Find Support or Report\" option iti content.",
+                    "1": "Mabalinmo nga i-report para ti sabali a tao no isu ti gi-impersonate.",
+                    "2": "I-block ti user kalpasan ti panag-report tapno maliklikan ti further contact."
+                }
+            },
+            "discord": {
+                "name": "Discord",
+                "overview": "Seryosoen ti Discord ti harassment. Mabalinmo nga i-report ti messages direkta iti Trust & Safety team-da.",
+                "screenshots": {
+                    "0": "Screenshot ti message(s) karaman ti timestamp.",
+                    "1": "Screenshot ti User ID (i-enable ti Developer Mode iti settings).",
+                    "2": "Screenshot ti Server ID (no applicable)."
+                },
+                "tips": {
+                    "0": "Saan nga i-delete ti messages sakbay nga ag-report, ta kasapulan ti Discord ti message links/IDs.",
+                    "1": "I-report ti user via ti profile-da no ag-send-da ti unwanted DMs.",
+                    "2": "Ipakaammo iti server moderators no ti harassment ket mapaspasamak iti specific server."
+                }
+            },
+            "x": {
+                "name": "X (Twitter)",
+                "overview": "Mabalinmo nga i-report ti accounts ken posts iti X para ti abusive behavior, harassment, ken hate speech.",
+                "screenshots": {
+                    "0": "Screenshot ti post(s).",
+                    "1": "Screenshot ti profile.",
+                    "2": "Screenshot ti Direct Messages."
+                },
+                "tips": {
+                    "0": "Mabalinmo nga i-report ti multiple posts iti maymaysa a report.",
+                    "1": "Usaren ti \"Mute\" wenno \"Block\" features tapno saanmo a makita ti content.",
+                    "2": "Mangted ti adu a context iti details section."
+                }
+            },
+            "twitch": {
+                "name": "Twitch",
+                "overview": "Mabalin nga i-report ti Twitch users dagiti streamers wenno viewers para ti harassment, hate speech, ken dadduma pay a violations bayat ti broadcast wenno iti chat.",
+                "screenshots": {
+                    "0": "Screenshot ti chat log.",
+                    "1": "Screenshot ti stream no visual ti violation.",
+                    "2": "Screenshot ti user profile."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Report\" button iti chat wenno iti channel page.",
+                    "1": "Ibagam ti specific timestamp ken date ti insidente.",
+                    "2": "Mabalin met a tumulong dagiti Channel moderators para kadagiti immediate chat issues."
+                }
+            },
+            "xbox": {
+                "name": "Xbox Party Chat",
+                "overview": "Mabalinmo nga i-report iti Xbox ti voice ken text harassment a mapaspasamak iti party chats wenno games.",
+                "screenshots": {
+                    "0": "Photo wenno screenshot ti text message.",
+                    "1": "Record ti gamertag.",
+                    "2": "I-report ti voice clip no allowed ti console ti voice reporting."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Report\" feature direkta manipud iti player's profile.",
+                    "1": "I-specify no napasamak ti harassment iti Party wenno bayat ti panag-game.",
+                    "2": "Panatilihen nga updated ti console software para ti latest safety features."
+                }
+            },
+            "playstation": {
+                "name": "PlayStation Party Chat",
+                "overview": "Mangted ti Sony ti reporting tools para ti PlayStation Network tapno ma-handle ti harassment iti party chats ken messages.",
+                "screenshots": {
+                    "0": "Screenshot ti message.",
+                    "1": "Photo ti screen no saan a possible ti screenshot.",
+                    "2": "I-note ti PSN ID ti offender."
+                },
+                "tips": {
+                    "0": "Ag-report babaen ti \"Options\" menu iti message wenno player profile.",
+                    "1": "Siguraduen nga i-report-mo ti specific content a harmful.",
+                    "2": "I-block ti PSN ID tapno agsardeng ti communications."
+                }
+            },
+            "tumblr": {
+                "name": "Tumblr",
+                "overview": "Adda policies ti Tumblr kontra ti harassment ken bullying. Mabalinmo nga i-report ti posts, blogs, ken messages.",
+                "screenshots": {
+                    "0": "Screenshot ti post wenno blog.",
+                    "1": "Screenshot ti ask wenno message.",
+                    "2": "Screenshot ti blog URL."
+                },
+                "tips": {
+                    "0": "Usaren ti \"Report\" link a masarakan iti post wenno blog.",
+                    "1": "I-specify ti nature ti abuse (e.g., harassment, hate speech).",
+                    "2": "Mabalinmo met nga i-block ti blog tapno saanda a maka-interact kenka."
+                }
+            },
+            "viber": {
+                "name": "Viber",
+                "overview": "Mabalinmo nga i-report ti messages ken accounts iti Viber nga ag-spam wenno nang-harass.",
+                "screenshots": {
+                    "0": "Screenshot ti chat conversation.",
+                    "1": "Screenshot ti phone number wenno profile info ti sender.",
+                    "2": "Screenshot ti aniaman a media a na-share."
+                },
+                "tips": {
+                    "0": "I-tap ken i-hold ti message tapno makita ti \"Report\" option.",
+                    "1": "I-block a dagus ti number kalpasan ti panag-report.",
+                    "2": "Agannad iti panag-share ti personal info iti public communities."
+                }
+            }
+        }
+    }
+}
