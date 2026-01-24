@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, AlertTriangle, CheckCircle, Globe, Mail, Phone, Share2, Copy } from 'lucide-react';
+import { ArrowLeft, AlertTriangle, CheckCircle, Globe, Mail, Phone, Share2, Copy, User, FileText } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Quiz() {
@@ -114,7 +114,22 @@ export default function Quiz() {
 
 
     const renderNode = () => {
-        if (!logicData || !topicId || !currentNodeId) return null;
+        if (!logicData || !topicId) return null;
+
+        if (!currentNodeId) {
+            return (
+                <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
+                    <AlertTriangle size={48} className="text-danger" style={{ marginBottom: '1rem' }} />
+                    <h2>{t('common.error')}</h2>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-secondary)' }}>
+                        Invalid step code or content not found: <strong>{urlCode}</strong>
+                    </p>
+                    <button onClick={() => navigate('/')} className="btn btn-primary" style={{ marginTop: '2rem' }}>
+                        Go Home
+                    </button>
+                </div>
+            );
+        }
 
         const tree = logicData.LOGIC_TREES[topicId];
         if (!tree) return <div>Topic not found</div>;
@@ -162,7 +177,17 @@ export default function Quiz() {
                     {node.links && (
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '2rem' }}>
                             {node.links.map((link, i) => {
-                                const IconComponent = link.icon === 'globe' ? Globe : link.icon === 'mail' ? Mail : Phone;
+                                const getIcon = (name) => {
+                                    switch (name) {
+                                        case 'globe': return Globe;
+                                        case 'mail': return Mail;
+                                        case 'phone': return Phone;
+                                        case 'file': return FileText;
+                                        case 'user': return User;
+                                        default: return Globe;
+                                    }
+                                };
+                                const IconComponent = getIcon(link.icon);
                                 const content = (
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.75rem 1rem', background: 'var(--color-bg-tertiary)', borderRadius: 'var(--radius-md)' }}>
                                         <IconComponent size={20} className="text-accent" />

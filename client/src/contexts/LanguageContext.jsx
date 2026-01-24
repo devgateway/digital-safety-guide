@@ -110,6 +110,7 @@ export const LanguageProvider = ({ children }) => {
     }, [language]);
 
     const t = (key) => {
+        if (!key || typeof key !== 'string') return key;
         const keys = key.split('.');
         let value = translations[language];
 
