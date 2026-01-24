@@ -9,25 +9,8 @@
     ],
     "LOGIC_TREES": {
         "UNIFIED_FLOW": {
-            "start": "start_disclaimer",
+            "start": "q_situation_triage",
             "nodes": {
-                "start_disclaimer": {
-                    "id": "start_disclaimer",
-                    "type": "action",
-                    "title": "Safety First",
-                    "content": "Everyone has the right to feel safe, and digital spaces are no exception. If you are feeling unsafe online, there are ways to help you reclaim your sense of security. DISCLAIMER: This tool does not constitute legal advice.",
-                    "steps": [
-                        "Data is collected anonymously.",
-                        "If you are in imminent danger, please contact the police immediately.",
-                        "If you need to exit quickly, click the 'Emergency Exit' button."
-                    ],
-                    "options": [
-                        {
-                            "label": "I understand, start the tool",
-                            "nextId": "q_situation_triage"
-                        }
-                    ]
-                },
                 "q_situation_triage": {
                     "id": "q_situation_triage",
                     "question": "Which of the following best describes your current situation?",

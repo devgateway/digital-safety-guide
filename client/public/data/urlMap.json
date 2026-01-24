@@ -1,6 +1,5 @@
 {
     "codes": {
-        "A82-3E0": "start_disclaimer",
         "87D-22A": "q_situation_triage",
         "834-A1C": "q_main_category",
         "A19-EE5": "q_auth_check",
@@ -140,7 +139,6 @@
         "202-501": "res_dox_offline_12"
     },
     "ids": {
-        "start_disclaimer": "A82-3E0",
         "q_situation_triage": "87D-22A",
         "q_main_category": "834-A1C",
         "q_auth_check": "A19-EE5",
