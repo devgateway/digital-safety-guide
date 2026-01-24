@@ -35,22 +35,18 @@ export default function Quiz() {
     // 2. Handle Initial Redirect or Validation
     useEffect(() => {
         if (!loading && logicData && urlMap) {
-            // If no topic/code in URL, redirect home
-            if (!topicId) {
-                if (logicData.LOGIC_TREES.UNIFIED_FLOW) {
-                    const startNode = logicData.LOGIC_TREES.UNIFIED_FLOW.start;
-                    const startCode = urlMap.ids[startNode];
-                    navigate(`/quiz/UNIFIED_FLOW/${startCode}`, { replace: true });
-                } else {
-                    navigate('/', { replace: true });
-                }
-            } else if (!urlCode) {
-                // If topic provided but no code, go to start
-                if (logicData.LOGIC_TREES[topicId]) {
-                    const startNode = logicData.LOGIC_TREES[topicId].start;
-                    const startCode = urlMap.ids[startNode];
-                    navigate(`/quiz/${topicId}/${startCode}`, { replace: true });
-                }
+            // If no topic/code in URL, or if someone explicitly goes to /quiz, redirect home
+            // since the first question is now on the homepage.
+            if (!topicId || !urlCode) {
+                navigate('/', { replace: true });
+                return;
+            }
+
+            // If the code in the URL belongs to the START node of a tree, redirect home
+            const currentNodeId = urlMap.codes[urlCode];
+            const tree = logicData.LOGIC_TREES[topicId];
+            if (tree && currentNodeId === tree.start) {
+                navigate('/', { replace: true });
             }
         }
     }, [loading, logicData, urlMap, topicId, urlCode, navigate]);
@@ -74,6 +70,13 @@ export default function Quiz() {
         const tree = logicData?.LOGIC_TREES[topicId];
         if (tree && currentNodeId) {
             const currentNode = tree.nodes[currentNodeId];
+
+            // If this is the start node, go home
+            if (currentNodeId === tree.start) {
+                navigate('/');
+                return;
+            }
+
             if (currentNode && currentNode.parentId) {
                 // Find parent code
                 const parentCode = urlMap.ids[currentNode.parentId];
@@ -85,7 +88,7 @@ export default function Quiz() {
             }
         }
         // Fallback or if at root
-        navigate(-1);
+        navigate('/');
     };
 
     const copyCode = () => {
@@ -116,7 +119,7 @@ export default function Quiz() {
         const isResult = ['result', 'success', 'advice'].includes(node.type);
 
         return (
-            <div className="card animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto', minHeight: '400px', display: 'flex', flexDirection: 'column' }}>
+            <div className="card" style={{ maxWidth: '800px', margin: '0 auto', minHeight: '400px', display: 'flex', flexDirection: 'column' }}>
                 <div style={{ marginBottom: 'auto' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', alignItems: 'center' }}>
                         <button onClick={goBack} className="btn btn-outline" style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem' }}>

@@ -27,11 +27,15 @@ export default function Home() {
             fetch('/data/urlMap.json').then(res => res.json())
         ])
             .then(([data, map]) => {
-                if (data && data.LOGIC_TREES && data.LOGIC_TREES.UNIFIED_FLOW) {
+                if (data && data.LOGIC_TREES) {
+                    // Try to find the start node of the UNIFIED_FLOW
                     const tree = data.LOGIC_TREES.UNIFIED_FLOW;
-                    const node = tree.nodes['q_situation_triage'];
-                    if (node) {
-                        setStartNode(node);
+                    if (tree) {
+                        const startNodeId = tree.start;
+                        const node = tree.nodes[startNodeId];
+                        if (node) {
+                            setStartNode(node);
+                        }
                     }
                 }
                 setUrlMap(map);
@@ -50,7 +54,7 @@ export default function Home() {
             <section className="container" style={{ padding: '2rem 0' }}>
                 <div className="grid-split-screen">
                     {/* Left Column: Text & Context */}
-                    <div className="text-left animate-fade-in">
+                    <div className="text-left">
                         <h1 style={{ fontSize: '2.5em', marginBottom: '1.5rem', lineHeight: '1.1', background: 'linear-gradient(to right, #8b5cf6, #06b6d4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                             Safe. Secure. Supported.
                         </h1>
@@ -68,7 +72,7 @@ export default function Home() {
                     </div>
 
                     {/* Right Column: Interaction */}
-                    <div id="topic-selection" className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
+                    <div id="topic-selection">
                         <div style={{ background: 'var(--color-bg-tertiary)', padding: '2rem', borderRadius: 'var(--radius-lg)', border: '1px solid var(--color-bg-secondary)', boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)' }}>
                             <h2 className="mb-4" style={{ fontSize: '1.5rem' }}>
                                 {startNode ? startNode.question : "Loading options..."}
