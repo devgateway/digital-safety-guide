@@ -50,9 +50,12 @@ function App() {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Navbar onEmergency={() => setEmergency(true)} />
       <main style={{ flex: 1, padding: '2rem 0' }}>
+
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/quiz/*" element={<Quiz />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/quiz/:topicId" element={<Quiz />} />
+          <Route path="/quiz/:topicId/:nodeId" element={<Quiz />} />
           <Route path="/directory" element={<Directory />} />
           <Route path="/guide" element={<Guide />} />
         </Routes>

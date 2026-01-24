@@ -6,6 +6,7 @@ import { API_URL } from '../config';
 
 export default function Home() {
     const [startNode, setStartNode] = useState(null);
+    const [urlMap, setUrlMap] = useState(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -21,23 +22,27 @@ export default function Home() {
             }, 100);
         }
 
-        fetch(`${API_URL}/logic-trees`)
-            .then(res => res.json())
-            .then(data => {
+        Promise.all([
+            fetch('/data/logicTrees.json').then(res => res.json()),
+            fetch('/data/urlMap.json').then(res => res.json())
+        ])
+            .then(([data, map]) => {
                 if (data && data.LOGIC_TREES && data.LOGIC_TREES.UNIFIED_FLOW) {
-                    // Get the start node from the UNIFIED_FLOW
-                    // We know from requirements it is 'q_situation_triage'
-                    // But we can look it up dynamically or hardcode since we control it.
-                    // Let's use the actual node object for rendering.
                     const tree = data.LOGIC_TREES.UNIFIED_FLOW;
                     const node = tree.nodes['q_situation_triage'];
                     if (node) {
                         setStartNode(node);
                     }
                 }
+                setUrlMap(map);
             })
-            .catch(err => console.error('Failed to load logic trees:', err));
+            .catch(err => console.error('Failed to load guide data:', err));
     }, []);
+
+    const getLinkForNode = (nodeId) => {
+        if (!urlMap || !urlMap.ids[nodeId]) return '#'; // Fallback
+        return `/quiz/UNIFIED_FLOW/${urlMap.ids[nodeId]}`;
+    }
 
     return (
         <div className="animate-fade-in">
@@ -73,7 +78,7 @@ export default function Home() {
                                     startNode.options.map((option, idx) => (
                                         <Link
                                             key={idx}
-                                            to={`/quiz?topic=UNIFIED_FLOW&startNode=${option.nextId}`}
+                                            to={getLinkForNode(option.nextId)}
                                             className="card card-hover-effect"
                                             style={{
                                                 textDecoration: 'none',
@@ -100,10 +105,10 @@ export default function Home() {
             {/* Continue Report Section */}
             <section className="container mb-5 text-center">
                 <div style={{ display: 'inline-flex', gap: '0.5rem', alignItems: 'center', background: 'var(--color-bg-secondary)', padding: '1rem', borderRadius: 'var(--radius-md)' }}>
-                    <span style={{ marginRight: '0.5rem' }}>Have an existing report?</span>
+                    <span style={{ marginRight: '0.5rem' }}>Have a step code?</span>
                     <input
                         type="text"
-                        placeholder="Enter Access Key (e.g. A7B-X9Z)"
+                        placeholder="Enter Code (e.g. A7B-X9Z)"
                         style={{
                             background: 'var(--color-bg-primary)',
                             border: '1px solid var(--color-bg-tertiary)',
@@ -114,8 +119,8 @@ export default function Home() {
                         }}
                         onKeyDown={(e) => {
                             if (e.key === 'Enter') {
-                                const key = e.target.value.trim();
-                                if (key) navigate(`/quiz?key=${key}`);
+                                const key = e.target.value.trim().toUpperCase(); // Codes are upper case
+                                if (key) navigate(`/quiz/UNIFIED_FLOW/${key}`);
                             }
                         }}
                         id="resume-key-input"
@@ -123,11 +128,11 @@ export default function Home() {
                     <button
                         className="btn btn-secondary"
                         onClick={() => {
-                            const key = document.getElementById('resume-key-input').value.trim();
-                            if (key) navigate(`/quiz?key=${key}`);
+                            const key = document.getElementById('resume-key-input').value.trim().toUpperCase();
+                            if (key) navigate(`/quiz/UNIFIED_FLOW/${key}`);
                         }}
                     >
-                        Continue
+                        Go
                     </button>
                 </div>
             </section>

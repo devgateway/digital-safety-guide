@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-data": "node scripts/unroll_workflow.cjs"
   },
   "dependencies": {
     "lucide-react": "^0.556.0",
