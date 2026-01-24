@@ -137,7 +137,9 @@ export default function Quiz() {
                     {node.type === 'result' && <div className="badge" style={{ color: '#f59e0b', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', marginBottom: '0.5rem' }}><AlertTriangle size={24} /> Recommended Action</div>}
                     {node.type === 'success' && <div className="badge" style={{ color: 'var(--color-success)', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', marginBottom: '0.5rem' }}><CheckCircle size={24} /> Resolution</div>}
 
-                    <h2 style={{ marginTop: '0.5rem' }}>{node.question || node.title || node.agency}</h2>
+                    <h2 key={currentNodeId} className="animate-zen-breath" style={{ marginTop: '0.5rem' }}>
+                        {node.question || node.title || node.agency}
+                    </h2>
 
                     {node.content && <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', whiteSpace: 'pre-line' }}>{node.content}</p>}
                     {node.why && <p className="text-muted" style={{ fontStyle: 'italic', marginBottom: '1rem' }}>why: {node.why}</p>}
