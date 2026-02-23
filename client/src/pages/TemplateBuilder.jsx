@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { jsPDF } from 'jspdf';
+// import { jsPDF } from 'jspdf';
 import {
     Youtube,
     Instagram,
@@ -64,8 +64,9 @@ export default function TemplateBuilder() {
         setFormData(prev => ({ ...prev, [name]: value }));
     };
 
-    const generatePDF = () => {
+    const generatePDF = async () => {
         setIsGenerating(true);
+        const { jsPDF } = await import('jspdf');
         const doc = new jsPDF();
 
         const title = t('takedown.pdf.title');

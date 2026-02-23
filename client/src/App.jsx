@@ -1,17 +1,17 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint, Share2 } from 'lucide-react';
-import { useState, useRef, useEffect } from 'react';
+import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint, Share2, Loader2 } from 'lucide-react';
+import { useState, useRef, useEffect, Suspense, lazy } from 'react';
 
-import Home from './pages/Home';
-import Quiz from './pages/Quiz';
+const Home = lazy(() => import('./pages/Home'));
+const Quiz = lazy(() => import('./pages/Quiz'));
+const Directory = lazy(() => import('./pages/Directory'));
+const Guide = lazy(() => import('./pages/Guide'));
+const TemplateBuilder = lazy(() => import('./pages/TemplateBuilder'));
+const CounselingResources = lazy(() => import('./pages/CounselingResources'));
+const GlobalResources = lazy(() => import('./pages/GlobalResources'));
+const LawEnforcement = lazy(() => import('./pages/LawEnforcement'));
+const DataPrivacy = lazy(() => import('./pages/DataPrivacy'));
 
-import Directory from './pages/Directory';
-import Guide from './pages/Guide';
-import TemplateBuilder from './pages/TemplateBuilder';
-import CounselingResources from './pages/CounselingResources';
-import GlobalResources from './pages/GlobalResources';
-import LawEnforcement from './pages/LawEnforcement';
-import DataPrivacy from './pages/DataPrivacy';
 import EmergencyExit from './components/EmergencyExit';
 import { useLanguage, LANGUAGES } from './contexts/LanguageContext';
 
@@ -263,6 +263,14 @@ function Navbar({ onEmergency }) {
   );
 }
 
+function PageLoader() {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '50vh' }}>
+      <Loader2 size={40} className="text-accent animate-spin" />
+    </div>
+  );
+}
+
 function App() {
   const [emergency, setEmergency] = useState(false);
   const { t } = useLanguage();
@@ -275,20 +283,21 @@ function App() {
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <Navbar onEmergency={() => setEmergency(true)} />
       <main style={{ flex: 1, padding: '2rem 0' }}>
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/quiz/:topicId" element={<Quiz />} />
-          <Route path="/quiz/:topicId/:nodeId" element={<Quiz />} />
-          <Route path="/directory" element={<Directory />} />
-          <Route path="/guide" element={<Guide />} />
-          <Route path="/templates/takedown-request" element={<TemplateBuilder />} />
-          <Route path="/templates/counseling" element={<CounselingResources />} />
-          <Route path="/resources/global-tech" element={<GlobalResources />} />
-          <Route path="/templates/dict-cicc-hotline" element={<LawEnforcement />} />
-          <Route path="/templates/npc-complaint" element={<DataPrivacy />} />
-        </Routes>
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/quiz/:topicId" element={<Quiz />} />
+            <Route path="/quiz/:topicId/:nodeId" element={<Quiz />} />
+            <Route path="/directory" element={<Directory />} />
+            <Route path="/guide" element={<Guide />} />
+            <Route path="/templates/takedown-request" element={<TemplateBuilder />} />
+            <Route path="/templates/counseling" element={<CounselingResources />} />
+            <Route path="/resources/global-tech" element={<GlobalResources />} />
+            <Route path="/templates/dict-cicc-hotline" element={<LawEnforcement />} />
+            <Route path="/templates/npc-complaint" element={<DataPrivacy />} />
+          </Routes>
+        </Suspense>
       </main>
       <footer style={{ padding: '3rem 0', borderTop: '1px solid var(--color-bg-tertiary)', textAlign: 'center' }} className="text-muted">
         <div className="container">
