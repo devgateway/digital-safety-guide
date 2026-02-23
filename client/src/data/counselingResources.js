@@ -70,5 +70,13 @@ export const COUNSELING_RESOURCES = [
         viber: '0961-718-2654 / 2655 / 2658',
         facebook: 'facebook.com/CPTCSA.org',
         tags: ['children', 'online support', 'free service']
+    },
+    {
+        id: 'fma_helpline',
+        name: 'Foundation for Media Alternatives',
+        description: 'FMA has a helpline email for survivors of Technology-Facilitated Gender-Based Violence. All communications are handled with sensitivity, confidentiality, and care',
+        email: 'tfgbv.helpline@proton.me',
+        website: 'https://fma.ph/fma-launches-dedicated-helpline-email-for-survivors-of-technology-facilitated-gender-based-violence-tfgbv-on-world-mental-health-day/',
+        tags: ['GBV', 'online support', 'free service']
     }
 ];

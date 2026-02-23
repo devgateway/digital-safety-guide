@@ -11,11 +11,11 @@
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN’s DIY Online Safety Guide",
+                "name": "CHAYN\u2019s DIY Online Safety Guide",
                 "description": "Isang comprehensive, survivor-led guide para manatiling safe online, covering topics mula sa pag-secure ng accounts hanggang sa pag-deal sa harassment."
             },
             "australia_esafety": {
-                "name": "Australia’s E-Safety Guide",
+                "name": "Australia\u2019s E-Safety Guide",
                 "description": "Isang world-leading resource na tumatalakay sa key topics ng online safety, kasama ang deepfakes, cyberbullying, at image-based abuse."
             },
             "unfpa": {
@@ -33,6 +33,18 @@
             "svri": {
                 "name": "SVRI Global Library",
                 "description": "Isang malawak na repository ng research at resources na dedicated sa intersection ng technology at gender-based violence."
+            },
+            "pcw": {
+                "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
+                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+            },
+            "iwf": {
+                "name": "Internet Watch Foundation",
+                "description": "Report online child sexual abuse images & videos anonymously."
+            },
+            "stop_ncii": {
+                "name": "Stop Non-Consentual Intimate Image Abuse",
+                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
             }
         }
     }

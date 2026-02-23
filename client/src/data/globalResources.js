@@ -40,5 +40,26 @@ export const GLOBAL_RESOURCES = [
         description: 'A vast repository of research and resources dedicated specifically to the intersection of technology and gender-based violence.',
         url: 'https://www.svri.org/global-library/technology-facilitated-gbv/',
         tags: ['Research', 'Library', 'Knowledge-Base']
+    },
+    {
+        id: 'pcw',
+        name: 'Philippine Commission on Women - Gender and Development Library of Laws and Policies',
+        description: 'A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence.',
+        url: 'https://library.pcw.gov.ph/laws-and-policies/',
+        tags: ['Philippines', 'Legal Resources', 'Government']
+    },
+    {
+        id: 'iwf',
+        name: 'Internet Watch Foundation',
+        description: 'Report online child sexual abuse images & videos anonymously.',
+        url: 'https://www.iwf.org.uk/',
+        tags: ['Helpline', 'Anonymous', 'Takedown Requests']
+    },
+    {
+        id: 'stop_ncii',
+        name: 'Stop Non-Consentual Intimate Image Abuse',
+        description: 'StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online.',
+        url: 'http://StopNCII.org',
+        tags: ['Helpline', 'Empowerment', 'Takedown Requests']
     }
 ];

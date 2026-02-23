@@ -11,11 +11,11 @@
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN’s DIY Online Safety Guide",
+                "name": "CHAYN\u2019s DIY Online Safety Guide",
                 "description": "Maysa a comprehensive, survivor-led guide tapno agtalinaed a safe online, sakupenna dagiti topics manipud panag-secure ti accounts agingga iti panang-handle ti harassment."
             },
             "australia_esafety": {
-                "name": "Australia’s E-Safety Guide",
+                "name": "Australia\u2019s E-Safety Guide",
                 "description": "Maysa a world-leading resource nga mangtaltalakay kadagiti key topics ti online safety, karaman ti deepfakes, cyberbullying, ken image-based abuse."
             },
             "unfpa": {
@@ -33,6 +33,18 @@
             "svri": {
                 "name": "SVRI Global Library",
                 "description": "Maysa a nalawa a repository ti research ken resources nga dedicated iti intersection ti technology ken gender-based violence."
+            },
+            "pcw": {
+                "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
+                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+            },
+            "iwf": {
+                "name": "Internet Watch Foundation",
+                "description": "Report online child sexual abuse images & videos anonymously."
+            },
+            "stop_ncii": {
+                "name": "Stop Non-Consentual Intimate Image Abuse",
+                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
             }
         }
     }

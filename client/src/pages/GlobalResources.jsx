@@ -15,11 +15,14 @@ import { useLanguage } from '../contexts/LanguageContext';
 const ResourceIcon = ({ id }) => {
     switch (id) {
         case 'chayn': return <Shield size={24} className="text-accent" />;
-        case 'australia-esafety': return <Compass size={24} className="text-accent" />;
+        case 'australia-esafety': return <span style={{ fontSize: '24px' }}>🇦🇺</span>;
         case 'unfpa': return <Library size={24} className="text-accent" />;
-        case 'fma': return <HeartPulse size={24} className="text-accent" />;
+        case 'fma': return <span style={{ fontSize: '24px' }}>🇵🇭</span>;
         case 'cnxus': return <GraduationCap size={24} className="text-accent" />;
         case 'svri': return <BookOpen size={24} className="text-accent" />;
+        case 'pcw': return <span style={{ fontSize: '24px' }}>🇵🇭</span>;
+        case 'iwf': return <Shield size={24} className="text-accent" />;
+        case 'stop_ncii': return <Shield size={24} className="text-accent" />;
         default: return <Globe size={24} className="text-accent" />;
     }
 };

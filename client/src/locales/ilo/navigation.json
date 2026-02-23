@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "Online Harassment Support",
+        "brand": "Gabay Tech",
         "emergency": "Emergency Exit",
         "directory": "Direktoryo",
         "guide": "Giya",
@@ -8,15 +8,16 @@
         "takedown": "Takedown Requests",
         "mental_health": "Mental Health Services",
         "global_safety": "Global Safety Resources",
-        "law_enforcement": "Law Enforcement (1326)",
-        "data_privacy": "Data Privacy Support"
+        "law_enforcement": "Law Enforcement",
+        "data_privacy": "Data Privacy Support",
+        "about": "Maipapan iti Daytoy a Ramit"
     },
     "home": {
-        "hero_title": "Natalged. Natalna. Nasuportaran.",
-        "hero_subtitle": "Karbengan ti amin nga agbalin a safe, ken karaman ditoy dagiti digital spaces. No mariknam a saan ka a safe online, adda dagiti wagas tapno maala manen ti talna ti panunotmo: manipud iti civil ken criminal penalties, non-profit psychosocial support, agingga iti formal takedown requests direkta kadagiti IT companies. Daytoy a tool ket naaramid tapno tulongannaka a maawatan no ania dagiti mabalin nga aramiden dagiti Pilipino base iti safety violations a mapaspasaram.",
-        "description_2": "No adda orasmo a sungbatan ti sumagmamano a saludsod maipapan iti sitwasionmo, matulongannaka daytoy a tool a maawatan dagiti available options tapno makaaramidka iti husto a desision.",
+        "hero_title": "Philippine Online Safety Support Portal",
+        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
+        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
         "start_guide": "Irugi ang Safety Guide",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Daytoy a tool ket saan a legal advice. Dagiti datos ket na-collect anonymously ken saan a na-save wenno na-store. No addaka iti peggad wenno imminent danger, please contact the police immediately. No mariknam a saan ka a safe bayat nga us-usarem daytoy a tool, usarem ti “emergency exit” button ken agsublika laeng no safe kan."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
     },
     "footer": {
         "powered_by": "Powered by"

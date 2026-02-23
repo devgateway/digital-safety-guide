@@ -111,8 +111,8 @@ export default function Home() {
 
             {/* Continue Report Section */}
             <section className="container mb-5 text-center">
-                <div style={{ display: 'inline-flex', gap: '0.5rem', alignItems: 'center', background: 'var(--color-bg-secondary)', padding: '1rem', borderRadius: 'var(--radius-md)' }}>
-                    <span style={{ marginRight: '0.5rem' }}>Have a step code?</span>
+                <div style={{ display: 'inline-flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'center', justifyContent: 'center', background: 'var(--color-bg-secondary)', padding: '1rem', borderRadius: 'var(--radius-md)' }}>
+                    <span style={{ marginRight: '0.5rem' }}>Returning user? Paste a save code in the box below to jump to that page.</span>
                     <input
                         type="text"
                         placeholder="Enter Code (e.g. A7B-X9Z)"

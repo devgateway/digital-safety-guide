@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, FileText, Lock, Shield } from 'lucide-react';
+import { Camera, FileText, Lock, Shield, CheckSquare } from 'lucide-react';
 
 export default function Guide() {
     const [activeTab, setActiveTab] = useState('evidence');
@@ -14,21 +14,21 @@ export default function Guide() {
                     className={`btn ${activeTab === 'evidence' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => setActiveTab('evidence')}
                 >
-                    <Camera size={18} /> Evidence Checklist
+                    <CheckSquare size={18} /> Evidence Checklist
                 </button>
                 <button
                     className={`btn ${activeTab === 'legal' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => setActiveTab('legal')}
                 >
-                    <Shield size={18} /> Legal Rights
+                    <Shield size={18} /> Your Rights
                 </button>
             </div>
 
             {activeTab === 'evidence' && (
                 <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <div className="card mb-2">
-                        <h2><Camera className="text-accent" style={{ marginRight: '0.5rem' }} /> Preserving Digital Evidence</h2>
-                        <p className="mb-4">Do not delete anything! Even if it is painful to look at, it is your strongest tool for justice.</p>
+                        <h2><CheckSquare className="text-accent" style={{ marginRight: '0.5rem' }} /> Preserving Digital Evidence</h2>
+                        <p className="mb-4">If you wish to keep evidence, saving screenshots, messages, or links may help. If this feels distressing, you may store them securely and ask someone you trust to assist you.</p>
 
                         <h3 className="text-accent">1. Screenshots</h3>
                         <ul className="list-disc pl-5 mb-4" style={{ paddingLeft: '1.5rem', marginBottom: '2rem' }}>
@@ -41,7 +41,7 @@ export default function Guide() {
                         <ul className="list-disc pl-5 mb-4" style={{ paddingLeft: '1.5rem', marginBottom: '2rem' }}>
                             <li className="mb-2">Copy the <strong>direct link</strong> to the post, image, or profile.</li>
                             <li className="mb-2">If on a mobile app, use "Share &gt; Copy Link".</li>
-                            <li className="mb-2">Use services like <strong>Archive.today</strong> or <strong>Wayback Machine</strong> to save a permanent snapshot.</li>
+                            <li className="mb-2">Use services like <a href="https://archive.ph/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Archive.today</strong></a> or <a href="https://web.archive.org/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Wayback Machine</strong></a> to save a permanent snapshot.</li>
                         </ul>
 
                         <h3 className="text-accent">3. Metadata</h3>

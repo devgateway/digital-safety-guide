@@ -11,11 +11,11 @@
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN’s DIY Online Safety Guide",
+                "name": "CHAYN\u2019s DIY Online Safety Guide",
                 "description": "Usa ka comprehensive, survivor-led guide para magpabiling safe online, nag-cover sa topics gikan sa pag-secure sa accounts hangtod sa pag-atubang sa harassment."
             },
             "australia_esafety": {
-                "name": "Australia’s E-Safety Guide",
+                "name": "Australia\u2019s E-Safety Guide",
                 "description": "Usa ka world-leading resource nga naghisgot sa key topics sa online safety, apil na ang deepfakes, cyberbullying, ug image-based abuse."
             },
             "unfpa": {
@@ -33,6 +33,18 @@
             "svri": {
                 "name": "SVRI Global Library",
                 "description": "Usa ka dako nga repository sa research ug resources nga dedicated sa intersection sa technology ug gender-based violence."
+            },
+            "pcw": {
+                "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
+                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+            },
+            "iwf": {
+                "name": "Internet Watch Foundation",
+                "description": "Report online child sexual abuse images & videos anonymously."
+            },
+            "stop_ncii": {
+                "name": "Stop Non-Consentual Intimate Image Abuse",
+                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
             }
         }
     }

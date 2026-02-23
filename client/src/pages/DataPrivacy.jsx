@@ -100,7 +100,7 @@ export default function DataPrivacy() {
                     <h2 style={{ marginBottom: '1rem' }}>{t('privacy.ui.footer_title')}</h2>
                     <p className="text-muted mb-4">{t('privacy.ui.footer_desc')}</p>
                     <div className="flex-center" style={{ gap: '1rem', flexWrap: 'wrap' }}>
-                        <a href="https://privacy.gov.ph/complaints-main/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                        <a href="https://privacy.gov.ph/file-a-complaint/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                             {t('privacy.ui.btn_portal')} <FileText size={18} />
                         </a>
                         <a href="https://privacy.gov.ph/advisories/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">

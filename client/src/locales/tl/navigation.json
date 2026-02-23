@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "Suporta sa Online Harassment",
+        "brand": "Gabay Tech",
         "emergency": "Mabilisang Pag-alis",
         "directory": "Direktoryo",
         "guide": "Gabay",
@@ -8,15 +8,16 @@
         "takedown": "Kahilingan sa Pagpapatanggal",
         "mental_health": "Serbisyong Pangkalusugang Pangkaisipan",
         "global_safety": "Pandaigdigang Mapagkukunan sa Kaligtasan",
-        "law_enforcement": "Tagapagpatupad ng Batas (1326)",
-        "data_privacy": "Suporta sa Data Privacy"
+        "law_enforcement": "Law Enforcement",
+        "data_privacy": "Suporta sa Data Privacy",
+        "about": "About this Tool"
     },
     "home": {
-        "hero_title": "Ligtas. Panatag. Suportado.",
-        "hero_subtitle": "Karapatan ng bawat isa na maging ligtas, at hindi naiiba ang mundo ng internet. Kung pakiramdam mo ay hindi ka ligtas online, may mga paraan upang mabawi ang iyong seguridad: mula sa sibil at kriminal na parusa, hanggang sa psychosocial support, at pormal na takedown requests sa mga kumpanya ng IT. Ang tool na ito ay dinisenyo upang tulungan kang maunawaan kung anong mga aksyon ang maaaring gawin ng mga mamamayang Pilipino base sa uri ng paglabag sa kaligtasan na iyong nararanasan.",
-        "description_2": "Kung may oras kang sagutin ang ilang katanungan tungkol sa kung ano ang nagpaparamdam sa iyo ng hindi ligtas, matutulungan ka ng tool na ito na maunawaan kung anong mga opsyon ang mayroon ka upang makagawa ka ng desisyong may sapat na kaalaman.",
+        "hero_title": "Philippine Online Safety Support Portal",
+        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
+        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
         "start_guide": "Simulan ang Gabay Pangkaligtasan",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>PAUNAWA:</strong> Ang tool na ito ay hindi bumubuo ng legal na payo. Ang mga datos ay kinakalap nang hindi nagpapakilala at hindi iniimbak. Kung ikaw ay nasa napipintong panganib, mangyaring makipag-ugnayan agad sa pulisya. Kung sa anumang dahilan ay pakiramdam mo ay hindi ka ligtas habang ginagamit ang tool na ito, gamitin ang button na “emergency exit” at bumalik kapag ikaw ay ligtas na."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
     },
     "footer": {
         "powered_by": "Pinapagana ng"

@@ -100,7 +100,7 @@ export default function Quiz() {
     const copyCode = () => {
         const code = urlCode;
         navigator.clipboard.writeText(code).then(() => {
-            setNotification({ type: 'success', message: 'Current step code copied!' });
+            setNotification({ type: 'success', message: 'Current save code copied!' });
             setTimeout(() => setNotification(null), 3000);
         });
     }
@@ -116,13 +116,33 @@ export default function Quiz() {
     const renderNode = () => {
         if (!logicData || !topicId) return null;
 
+        if (urlCode === '8E1-525') {
+            return (
+                <div style={{ textAlign: 'center', padding: '4rem 2rem', background: 'rgba(239, 68, 68, 0.05)', border: '2px solid var(--color-danger)', borderRadius: 'var(--radius-lg)', marginTop: '2rem' }}>
+                    <AlertTriangle size={64} className="text-danger" style={{ marginBottom: '1.5rem' }} />
+                    <h1 style={{ color: 'var(--color-danger)', marginBottom: '1rem', fontSize: '2.5rem' }}>Immediate Physical Danger</h1>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-primary)', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
+                        Based on your input, you may be in immediate physical danger. Please prioritize your physical safety above all else.
+                    </p>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px', margin: '0 auto' }}>
+                        <a href="tel:911" className="btn btn-danger" style={{ padding: '1.25rem', fontSize: '1.2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.75rem' }}>
+                            <Phone size={24} /> Dial 911 Now
+                        </a>
+                        <button onClick={() => navigate('/directory')} className="btn btn-outline" style={{ padding: '1.25rem', fontSize: '1.1rem', borderColor: 'var(--color-danger)', color: 'var(--color-danger)', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.75rem' }}>
+                            Find Nearest WCPU
+                        </button>
+                    </div>
+                </div>
+            );
+        }
+
         if (!currentNodeId) {
             return (
                 <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
                     <AlertTriangle size={48} className="text-danger" style={{ marginBottom: '1rem' }} />
                     <h2>{t('common.error')}</h2>
                     <p style={{ fontSize: '1.2rem', color: 'var(--color-text-secondary)' }}>
-                        Invalid step code or content not found: <strong>{urlCode}</strong>
+                        Invalid save code or content not found: <strong>{urlCode}</strong>
                     </p>
                     <button onClick={() => navigate('/')} className="btn btn-primary" style={{ marginTop: '2rem' }}>
                         Go Home
@@ -148,8 +168,8 @@ export default function Quiz() {
                         </button>
 
                         <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <button onClick={copyCode} className="btn btn-ghost" title="Copy Step Code" style={{ padding: '0.5rem', color: 'var(--color-text-secondary)' }}>
-                                <span style={{ fontSize: '0.8rem', marginRight: '0.5rem', fontWeight: 'bold' }}>CODE: {urlCode}</span>
+                            <button onClick={copyCode} className="btn btn-ghost" title="Copy Save Code" style={{ padding: '0.5rem', color: 'var(--color-text-secondary)' }}>
+                                <span style={{ fontSize: '0.8rem', marginRight: '0.5rem', fontWeight: 'bold' }}>SAVE CODE: {urlCode}</span>
                                 <Copy size={18} />
                             </button>
                             <button onClick={copyLink} className="btn btn-ghost" title="Share Link" style={{ padding: '0.5rem', color: 'var(--color-text-secondary)' }}>

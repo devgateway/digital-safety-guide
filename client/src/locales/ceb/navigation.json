@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "Online Harassment Support",
+        "brand": "Gabay Tech",
         "emergency": "Emergency Exit",
         "directory": "Direktoryo",
         "guide": "Giya",
@@ -8,15 +8,16 @@
         "takedown": "Takedown Requests",
         "mental_health": "Mental Health Services",
         "global_safety": "Global Safety Resources",
-        "law_enforcement": "Law Enforcement (1326)",
-        "data_privacy": "Data Privacy Support"
+        "law_enforcement": "Law Enforcement",
+        "data_privacy": "Data Privacy Support",
+        "about": "Bahin Niini nga Himan"
     },
     "home": {
-        "hero_title": "Luwas. Malinawon. Gisuportahan.",
-        "hero_subtitle": "Katungod sa tanan nga mahimong safe, ug apil na dinhi ang digital spaces. Kung gibati nimo nga unsafe ka online, naay mga pamaagi para mabalik ang imong kalinaw: gikan sa civil ug criminal penalties, non-profit psychosocial support, hangtod sa formal takedown requests diretso sa mga IT companies. Kani nga tool gidesinyo para tabangan ka nga masabtan kung unsa ang mga lakang nga pwede buhaton sa mga Pilipino base sa safety violations nga imong nasinati.",
-        "description_2": "Kung naa kay oras nga tubagon ang pipila ka pangutana bahin sa imong sitwasyon, kani nga tool makatabang nimo nga masabtan ang mga available nga options para makahimo ka ug saktong desisyon.",
+        "hero_title": "Philippine Online Safety Support Portal",
+        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
+        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
         "start_guide": "Sugdi ang Safety Guide",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Kani nga tool dili legal advice. Ang mga data gi-collect anonymously ug wala gi-save o gi-store. Kung ikaw naa sa kakuyaw o imminent danger, palihog contact dayon sa police. Kung gibati nimo nga unsafe ka samtang naggamit niini nga tool, gamita ang “emergency exit” button ug balik lang kung safe na ka."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
     },
     "footer": {
         "powered_by": "Powered by"

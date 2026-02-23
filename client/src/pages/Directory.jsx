@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MapPin, Globe, Search } from 'lucide-react';
+import { Phone, Mail, Globe, Search } from 'lucide-react';
 
 const RESOURCES = [
     {
@@ -7,7 +7,6 @@ const RESOURCES = [
         type: 'Law Enforcement',
         hotline: '+63 998 598 8116',
         email: 'incidents@acg.pnp.gov.ph',
-        address: 'Camp Crame, Quezon City',
         website: 'acg.pnp.gov.ph',
         tags: ['police', 'cybercrime', 'reporting']
     },
@@ -16,7 +15,7 @@ const RESOURCES = [
         type: 'Law Enforcement',
         hotline: '+63 2 8523 8231',
         email: 'ccd@nbi.gov.ph',
-        address: 'NBI Building, Taft Avenue, Manila',
+        website: 'nbi.gov.ph',
         tags: ['investigation', 'cybercrime', 'nbi']
     },
     {
@@ -24,31 +23,42 @@ const RESOURCES = [
         type: 'Legal Support',
         hotline: '+63 2 8524 2265',
         email: 'cybercrime@doj.gov.ph',
-        address: 'Padre Faura St, Ermita, Manila',
         tags: ['legal', 'prosecution']
     },
     {
         name: 'National Privacy Commission (NPC)',
         type: 'Privacy Rights',
         hotline: '+63 2 8234 2228',
-        email: 'complaints@privacy.gov.ph',
-        address: 'PICC Complex, Pasay City',
+        website: 'privacy.gov.ph/file-a-complaint/',
         tags: ['privacy', 'doxxing', 'data']
     },
     {
         name: 'DSWD Recovery and Reintegration Program',
         type: 'Support Service',
         hotline: '+63 2 8931 8101',
-        address: 'Batasan Hills, Quezon City',
+        email: 'inquiry@dswd.gov.ph',
         tags: ['mental health', 'survivor support', 'counseling']
     },
     {
-        name: 'Commission on Human Rights (CHR)',
-        type: 'Human Rights',
-        hotline: '+63 2 8294 8704',
-        email: 'concerns@chr.gov.ph',
-        address: 'Commonwealth Ave, Diliman, Quezon City',
-        tags: ['human rights', 'women']
+        name: 'Cybercrime Investigation and Coordinating Center (CICC)',
+        type: 'Law Enforcement',
+        description: 'Inter-Agency response task force.',
+        hotline: '1326',
+        website: 'dict.gov.ph/cicc',
+        tags: ['Inter-agency', 'Reporting']
+    },
+    {
+        name: 'PNP Aling Pulis',
+        type: 'Law Enforcement',
+        description: '24/7 hotline dedicated specifically to responding to violence against women and children.',
+        hotline: '0919 777 7377',
+        tags: ['Police', 'Women', 'Children']
+    },
+    {
+        name: 'Local PNP Women and Children Protection Units',
+        type: 'Law Enforcement',
+        description: 'If you need immediate physical protection, it is always best to visit your nearest local police station and ask to speak to the WCPU desk.',
+        tags: ['Emergency', 'Physical Safety']
     }
 ];
 
@@ -65,6 +75,11 @@ export default function Directory() {
             <div className="text-center mb-4">
                 <h1>Resource Directory</h1>
                 <p className="text-muted">Verified contacts for legal, technical, and emotional support.</p>
+                <div style={{ background: 'rgba(139, 92, 246, 0.1)', border: '1px solid var(--color-primary)', borderRadius: 'var(--radius-md)', padding: '1rem', marginTop: '1.5rem', marginBottom: '1.5rem', maxWidth: '800px', margin: '1.5rem auto 0 auto', textAlign: 'left' }}>
+                    <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-primary)' }}>
+                        <strong>Tip:</strong> It is highly recommended that you contact multiple agencies simultaneously, as response times can vary depending on their current caseload.
+                    </p>
+                </div>
 
                 <div style={{ position: 'relative', maxWidth: '500px', margin: '2rem auto' }}>
                     <Search style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--color-text-secondary)' }} size={20} />
@@ -78,9 +93,9 @@ export default function Directory() {
                             width: '100%',
                             padding: '1rem 1rem 1rem 3rem',
                             borderRadius: 'var(--radius-md)',
-                            border: '1px solid var(--color-bg-tertiary)',
-                            background: 'var(--color-bg-secondary)',
-                            color: 'white',
+                            border: '1px solid rgba(0,0,0,0.1)',
+                            background: 'white',
+                            color: 'var(--color-text-primary)',
                             fontSize: '1rem'
                         }}
                     />
@@ -96,16 +111,21 @@ export default function Directory() {
                         </div>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                            {res.description && (
+                                <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)', marginBottom: '0.5rem' }}>
+                                    {res.description}
+                                </p>
+                            )}
                             {res.hotline && (
                                 <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem' }}>
                                     <Phone size={16} className="text-accent" />
                                     <span>{res.hotline}</span>
                                 </div>
                             )}
-                            {res.address && (
+                            {res.email && (
                                 <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem' }}>
-                                    <MapPin size={16} className="text-accent" />
-                                    <span>{res.address}</span>
+                                    <Mail size={16} className="text-accent" />
+                                    <a href={`mailto:${res.email}`}>{res.email}</a>
                                 </div>
                             )}
                             {res.website && (

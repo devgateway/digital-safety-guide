@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "Online Harassment Support",
+        "brand": "Gabay Tech",
         "emergency": "Emergency Exit",
         "directory": "Directory",
         "guide": "Guide",
@@ -8,15 +8,16 @@
         "takedown": "Takedown Requests",
         "mental_health": "Mental Health Services",
         "global_safety": "Global Safety Resources",
-        "law_enforcement": "Law Enforcement (1326)",
-        "data_privacy": "Data Privacy Support"
+        "law_enforcement": "Law Enforcement",
+        "data_privacy": "Data Privacy Support",
+        "about": "About this Tool"
     },
     "home": {
-        "hero_title": "Safe. Secure. Supported.",
-        "hero_subtitle": "Everyone has the right to feel safe, and digital spaces are no exception. If you are feeling unsafe online, there are ways to help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. This tool is designed to help you understand what actions Filipino citizens can take based on the kind of safety violations you’re experiencing.",
-        "description_2": "If you have time to answer a few questions about whats making you feel unsafe, this tool can help you understand exactly what avenues are available to you so you can make an informed decision.",
+        "hero_title": "Philippine Online Safety Support Portal",
+        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
+        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
         "start_guide": "Start Safety Guide",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Data are collected anonymously and not collected or stored. If you are in imminent danger, please contact the police immediately. If for some reason you feel unsafe while using this tool, utilize the “emergency exit” button and return when you are safe."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
     },
     "footer": {
         "powered_by": "Powered by"

@@ -1,11 +1,12 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint, Share2, Loader2 } from 'lucide-react';
+import { Shield, BookOpen, Phone, Menu, X, ChevronDown, FileText, Heart, Globe, Scale, Fingerprint, Share2, Loader2, Info } from 'lucide-react';
 import { useState, useRef, useEffect, Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./pages/Home'));
 const Quiz = lazy(() => import('./pages/Quiz'));
 const Directory = lazy(() => import('./pages/Directory'));
 const Guide = lazy(() => import('./pages/Guide'));
+const About = lazy(() => import('./pages/About'));
 const TemplateBuilder = lazy(() => import('./pages/TemplateBuilder'));
 const CounselingResources = lazy(() => import('./pages/CounselingResources'));
 const GlobalResources = lazy(() => import('./pages/GlobalResources'));
@@ -33,9 +34,9 @@ function Navbar({ onEmergency }) {
   }, []);
 
   return (
-    <nav style={{ borderBottom: '1px solid var(--color-bg-tertiary)', padding: '1rem 0', backdropFilter: 'blur(10px)', position: 'sticky', top: 0, zIndex: 100, backgroundColor: 'rgba(15, 23, 42, 0.8)' }}>
+    <nav style={{ borderBottom: '1px solid var(--color-bg-tertiary)', padding: '1rem 0', backdropFilter: 'blur(10px)', position: 'sticky', top: 0, zIndex: 100, backgroundColor: 'rgba(255, 255, 255, 0.8)' }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', fontWeight: 'bold', color: 'white' }} onClick={() => { setResourcesOpen(false); setIsOpen(false); }}>
+        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.25rem', fontWeight: 'bold', color: 'var(--color-text-primary)' }} onClick={() => { setResourcesOpen(false); setIsOpen(false); }}>
           <Shield className="text-accent" />
           <span>{t('nav.brand')}</span>
         </Link>
@@ -65,7 +66,7 @@ function Navbar({ onEmergency }) {
               onChange={(e) => setLanguage(e.target.value)}
               style={{
                 background: 'transparent',
-                color: 'white',
+                color: 'var(--color-text-primary)',
                 border: 'none',
                 fontSize: '1rem',
                 cursor: 'pointer',
@@ -82,6 +83,7 @@ function Navbar({ onEmergency }) {
 
           <Link to="/directory" className="flex-center" style={{ gap: '0.5rem' }}><Phone size={18} /> {t('nav.directory')}</Link>
           <Link to="/guide" className="flex-center" style={{ gap: '0.5rem' }}><BookOpen size={18} /> {t('nav.guide')}</Link>
+          <Link to="/about" className="flex-center" style={{ gap: '0.5rem' }}><Info size={18} /> {t('nav.about') || "About this Tool"}</Link>
 
           {/* Resources Dropdown */}
           <div style={{ position: 'relative' }} ref={dropdownRef}>
@@ -127,7 +129,7 @@ function Navbar({ onEmergency }) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.75rem',
-                    color: 'white'
+                    color: 'var(--color-text-primary)'
                   }}
                   className="card-hover-effect"
                   onClick={() => setResourcesOpen(false)}
@@ -143,7 +145,7 @@ function Navbar({ onEmergency }) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.75rem',
-                    color: 'white'
+                    color: 'var(--color-text-primary)'
                   }}
                   className="card-hover-effect"
                   onClick={() => setResourcesOpen(false)}
@@ -159,7 +161,7 @@ function Navbar({ onEmergency }) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.75rem',
-                    color: 'white'
+                    color: 'var(--color-text-primary)'
                   }}
                   className="card-hover-effect"
                   onClick={() => setResourcesOpen(false)}
@@ -175,7 +177,7 @@ function Navbar({ onEmergency }) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.75rem',
-                    color: 'white'
+                    color: 'var(--color-text-primary)'
                   }}
                   className="card-hover-effect"
                   onClick={() => setResourcesOpen(false)}
@@ -191,7 +193,7 @@ function Navbar({ onEmergency }) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.75rem',
-                    color: 'white'
+                    color: 'var(--color-text-primary)'
                   }}
                   className="card-hover-effect"
                   onClick={() => setResourcesOpen(false)}
@@ -208,7 +210,7 @@ function Navbar({ onEmergency }) {
         {isOpen && (
           <div className="mobile-menu">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-              <span style={{ fontWeight: 'bold', color: 'white' }}>Menu</span>
+              <span style={{ fontWeight: 'bold', color: 'var(--color-text-primary)' }}>Menu</span>
               {/* Language Switcher for Mobile */}
               <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
                 <Globe size={18} style={{ marginRight: '0.5rem', opacity: 0.8 }} />
@@ -217,7 +219,7 @@ function Navbar({ onEmergency }) {
                   onChange={(e) => setLanguage(e.target.value)}
                   style={{
                     background: 'transparent',
-                    color: 'white',
+                    color: 'var(--color-text-primary)',
                     border: 'none',
                     fontSize: '1rem',
                     cursor: 'pointer',
@@ -238,6 +240,9 @@ function Navbar({ onEmergency }) {
             </Link>
             <Link to="/guide" className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', padding: '0.5rem 0' }} onClick={() => setIsOpen(false)}>
               <BookOpen size={18} /> {t('nav.guide')}
+            </Link>
+            <Link to="/about" className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', padding: '0.5rem 0' }} onClick={() => setIsOpen(false)}>
+              <Info size={18} /> {t('nav.about') || "About this Tool"}
             </Link>
 
             <div style={{ padding: '0.5rem 0' }}>
@@ -291,6 +296,7 @@ function App() {
             <Route path="/quiz/:topicId/:nodeId" element={<Quiz />} />
             <Route path="/directory" element={<Directory />} />
             <Route path="/guide" element={<Guide />} />
+            <Route path="/about" element={<About />} />
             <Route path="/templates/takedown-request" element={<TemplateBuilder />} />
             <Route path="/templates/counseling" element={<CounselingResources />} />
             <Route path="/resources/global-tech" element={<GlobalResources />} />
@@ -301,13 +307,16 @@ function App() {
       </main>
       <footer style={{ padding: '3rem 0', borderTop: '1px solid var(--color-bg-tertiary)', textAlign: 'center' }} className="text-muted">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', opacity: 0.8 }}>
               <span style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{t('footer.powered_by')}</span>
-              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'white' }}>IREX</span>
+              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-text-primary)' }}>IREX</span>
               <span style={{ height: '20px', width: '1px', background: 'var(--color-text-secondary)' }}></span>
-              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'white' }}>Development Gateway</span>
+              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-text-primary)' }}>Development Gateway</span>
             </div>
+          </div>
+          <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>
+            Questions? Comments? Concerns? Contact <a href="mailto:info@developmentgateway.org">info@developmentgateway.org</a>
           </div>
         </div>
       </footer>
