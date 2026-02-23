@@ -116,26 +116,6 @@ export default function Quiz() {
     const renderNode = () => {
         if (!logicData || !topicId) return null;
 
-        if (urlCode === '8E1-525') {
-            return (
-                <div style={{ textAlign: 'center', padding: '4rem 2rem', background: 'rgba(239, 68, 68, 0.05)', border: '2px solid var(--color-danger)', borderRadius: 'var(--radius-lg)', marginTop: '2rem' }}>
-                    <AlertTriangle size={64} className="text-danger" style={{ marginBottom: '1.5rem' }} />
-                    <h1 style={{ color: 'var(--color-danger)', marginBottom: '1rem', fontSize: '2.5rem' }}>Immediate Physical Danger</h1>
-                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-primary)', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
-                        Based on your input, you may be in immediate physical danger. Please prioritize your physical safety above all else.
-                    </p>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px', margin: '0 auto' }}>
-                        <a href="tel:911" className="btn btn-danger" style={{ padding: '1.25rem', fontSize: '1.2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.75rem' }}>
-                            <Phone size={24} /> Dial 911 Now
-                        </a>
-                        <button onClick={() => navigate('/directory')} className="btn btn-outline" style={{ padding: '1.25rem', fontSize: '1.1rem', borderColor: 'var(--color-danger)', color: 'var(--color-danger)', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.75rem' }}>
-                            Find Nearest WCPU
-                        </button>
-                    </div>
-                </div>
-            );
-        }
-
         if (!currentNodeId) {
             return (
                 <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>

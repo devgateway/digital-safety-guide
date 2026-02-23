@@ -78,7 +78,7 @@ export default function CounselingResources() {
                     return (
                         <div key={res.id} className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                                <h3 style={{ fontSize: '1.25rem', margin: 0, color: 'white' }}>{name}</h3>
+                                <h3 style={{ fontSize: '1.25rem', margin: 0, color: 'var(--color-text-primary)' }}>{name}</h3>
                                 <UserCircle2 className="text-accent" size={24} />
                             </div>
 

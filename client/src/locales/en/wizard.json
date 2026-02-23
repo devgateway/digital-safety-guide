@@ -86,7 +86,9 @@
                 "title": "Emergency Action Required",
                 "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Dial 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details": {
@@ -234,7 +236,9 @@
                 "title": "Emergency Action Required",
                 "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Dial 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details_2": {

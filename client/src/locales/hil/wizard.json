@@ -86,7 +86,9 @@
                 "title": "Kinahanglan ang Emergency Action",
                 "content": "Palihog pangita sang safe nga lugar kag kontaka dayon ang pulis. Kung kinahanglan mo sang sensitibo nga bulig parte sa gender-based issues, pwede ka mamangkot sa inyo local VAWC Desk. Kung nahadlok ka mag-istorya sa local police, kontaka ang PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Tawag sa 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details": {

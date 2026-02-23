@@ -121,7 +121,7 @@ export default function Home() {
                             border: '1px solid var(--color-bg-tertiary)',
                             borderRadius: 'var(--radius-md)',
                             padding: '0.5rem 1rem',
-                            color: 'white',
+                            color: 'var(--color-text-primary)',
                             width: '240px'
                         }}
                         onKeyDown={(e) => {

@@ -13,17 +13,21 @@ import { GLOBAL_RESOURCES } from '../data/globalResources';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const ResourceIcon = ({ id }) => {
+    const iconSize = 36;
+    const emojiStyle = { fontSize: '36px' };
+    const iconColor = "var(--color-primary)";
+
     switch (id) {
-        case 'chayn': return <Shield size={24} className="text-accent" />;
-        case 'australia-esafety': return <span style={{ fontSize: '24px' }}>🇦🇺</span>;
-        case 'unfpa': return <Library size={24} className="text-accent" />;
-        case 'fma': return <span style={{ fontSize: '24px' }}>🇵🇭</span>;
-        case 'cnxus': return <GraduationCap size={24} className="text-accent" />;
-        case 'svri': return <BookOpen size={24} className="text-accent" />;
-        case 'pcw': return <span style={{ fontSize: '24px' }}>🇵🇭</span>;
-        case 'iwf': return <Shield size={24} className="text-accent" />;
-        case 'stop_ncii': return <Shield size={24} className="text-accent" />;
-        default: return <Globe size={24} className="text-accent" />;
+        case 'chayn': return <Shield size={iconSize} color={iconColor} />;
+        case 'australia-esafety': return <span style={emojiStyle}>🇦🇺</span>;
+        case 'unfpa': return <Library size={iconSize} color={iconColor} />;
+        case 'fma': return <span style={emojiStyle}>🇵🇭</span>;
+        case 'cnxus': return <GraduationCap size={iconSize} color={iconColor} />;
+        case 'svri': return <BookOpen size={iconSize} color={iconColor} />;
+        case 'pcw': return <span style={emojiStyle}>🇵🇭</span>;
+        case 'iwf': return <Shield size={iconSize} color={iconColor} />;
+        case 'stop_ncii': return <Shield size={iconSize} color={iconColor} />;
+        default: return <Globe size={iconSize} color={iconColor} />;
     }
 };
 
@@ -52,14 +56,15 @@ export default function GlobalResources() {
                         <div key={res.id} className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.25rem' }}>
                                 <div style={{
-                                    width: '48px',
-                                    height: '48px',
+                                    width: '64px',
+                                    height: '64px',
                                     borderRadius: 'var(--radius-md)',
-                                    background: 'rgba(255,255,255,0.05)',
+                                    background: 'rgba(139, 92, 246, 0.1)',
                                     display: 'flex',
+                                    flexShrink: 0,
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    border: '1px solid rgba(255,255,255,0.1)'
+                                    border: '1px solid rgba(139, 92, 246, 0.25)'
                                 }}>
                                     <ResourceIcon id={res.id} />
                                 </div>
@@ -72,7 +77,7 @@ export default function GlobalResources() {
                                 </div>
                             </div>
 
-                            <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', color: 'white' }}>{name}</h3>
+                            <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', color: 'var(--color-text-primary)' }}>{name}</h3>
                             <p className="text-muted" style={{ fontSize: '0.95rem', marginBottom: '1.5rem', flex: 1, lineHeight: '1.6' }}>
                                 {description}
                             </p>

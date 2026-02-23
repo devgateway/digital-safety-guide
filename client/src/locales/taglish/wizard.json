@@ -86,7 +86,9 @@
                 "title": "Emergency Action Required",
                 "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Dial 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details": {
@@ -234,7 +236,9 @@
                 "title": "Emergency Action Required",
                 "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Dial 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details_2": {

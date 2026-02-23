@@ -279,6 +279,16 @@
                     "links": [
                         {
                             "label": "guide.nodes.end_emergency.links.0",
+                            "url": "tel:911",
+                            "icon": "phone"
+                        },
+                        {
+                            "label": "guide.nodes.end_emergency.links.1",
+                            "url": "https://www.childprotectionnetwork.org/wcpu-directory/",
+                            "icon": "external-link"
+                        },
+                        {
+                            "label": "guide.nodes.end_emergency.links.2",
                             "url": "tel:117",
                             "icon": "phone"
                         }
@@ -926,6 +936,16 @@
                     "links": [
                         {
                             "label": "guide.nodes.end_emergency_2.links.0",
+                            "url": "tel:911",
+                            "icon": "phone"
+                        },
+                        {
+                            "label": "guide.nodes.end_emergency_2.links.1",
+                            "url": "https://www.childprotectionnetwork.org/wcpu-directory/",
+                            "icon": "external-link"
+                        },
+                        {
+                            "label": "guide.nodes.end_emergency_2.links.2",
                             "url": "tel:117",
                             "icon": "phone"
                         }

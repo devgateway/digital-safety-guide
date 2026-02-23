@@ -131,7 +131,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                             border: '1px solid var(--color-bg-tertiary)',
                             cursor: 'pointer',
                             textAlign: 'center',
-                            color: 'white'
+                            color: 'var(--color-text-primary)'
                         }}
                     >
                         <div style={{
@@ -161,7 +161,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                         border: '1px solid var(--color-primary)',
                         cursor: 'pointer',
                         textAlign: 'center',
-                        color: 'white'
+                        color: 'var(--color-text-primary)'
                     }}
                 >
                     <div style={{
@@ -292,7 +292,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                                 background: 'var(--color-bg-primary)',
                                 border: '1px solid var(--color-bg-tertiary)',
                                 borderRadius: 'var(--radius-md)',
-                                color: 'white'
+                                color: 'var(--color-text-primary)'
                             }}
                         />
                     </div>
@@ -311,7 +311,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                                     background: 'var(--color-bg-primary)',
                                     border: '1px solid var(--color-bg-tertiary)',
                                     borderRadius: 'var(--radius-md)',
-                                    color: 'white'
+                                    color: 'var(--color-text-primary)'
                                 }}
                             />
                         </div>
@@ -328,7 +328,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                                     background: 'var(--color-bg-primary)',
                                     border: '1px solid var(--color-bg-tertiary)',
                                     borderRadius: 'var(--radius-md)',
-                                    color: 'white'
+                                    color: 'var(--color-text-primary)'
                                 }}
                             />
                         </div>
@@ -348,7 +348,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                                 background: 'var(--color-bg-primary)',
                                 border: '1px solid var(--color-bg-tertiary)',
                                 borderRadius: 'var(--radius-md)',
-                                color: 'white',
+                                color: 'var(--color-text-primary)',
                                 resize: 'vertical'
                             }}
                         />
@@ -366,7 +366,7 @@ ${formData.victimName || t('takedown.pdf.concerned_user')}
                                 background: 'var(--color-bg-primary)',
                                 border: '1px solid var(--color-bg-tertiary)',
                                 borderRadius: 'var(--radius-md)',
-                                color: 'white'
+                                color: 'var(--color-text-primary)'
                             }}
                         >
                             <option value="Removal of content">{t('takedown.ui.options.removal')}</option>

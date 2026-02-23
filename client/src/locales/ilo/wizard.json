@@ -86,7 +86,9 @@
                 "title": "Masapul ti Emergency Action",
                 "content": "Pangngaasi ta agbirok ti safe a lugar ken kontaken dagus ti pulisya. No kasapulam ti sensitibo a tulong maipapan kadagiti gender-based issues, mabalinmo nga kontaken ti local VAWC Desk. No mabutengka nga agreport iti local police, kontaken ti PNP Anti-Cybercrime Group.",
                 "links": {
-                    "0": "PNP Anti-Cybercrime Group"
+                    "0": "Tumawag iti 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
                 }
             },
             "q_harass_details": {

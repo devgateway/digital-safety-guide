@@ -3,62 +3,67 @@ import { Phone, Mail, Globe, Search } from 'lucide-react';
 
 const RESOURCES = [
     {
+        name: 'Cybercrime Investigation and Coordinating Center (CICC)',
+        type: 'Legal support',
+        description: 'Inter-Agency response task force.',
+        hotline: ['#1326', '0991-481-4225 (Dito)', '0947-7147-105 (Smart)', '0966-976-5971 (Globe)'],
+        website: 'cicc.gov.ph/report/',
+        tags: ['reporting', 'cybercrime', 'investigation']
+    },
+    {
+        name: 'PNP Aling Pulis',
+        type: 'Gender Sensitive',
+        description: '24/7 hotline dedicated specifically to responding to violence against women and children.',
+        hotline: ['0919-7777377', '0966-7255961', '0920-9071717 (call or text)'],
+        email: 'alengpuliswcpc.didm@pnp.gov.ph',
+        website: 'facebook.com/pnpwcpc.alengpulis/',
+        tags: ['police', 'women', 'children']
+    },
+    {
         name: 'PNP Anti-Cybercrime Group (PNP-ACG)',
         type: 'Law Enforcement',
-        hotline: '+63 998 598 8116',
-        email: 'incidents@acg.pnp.gov.ph',
-        website: 'acg.pnp.gov.ph',
+        hotline: ['63-02-8723-0401 (local 7491)', '0968 867 4302 (Smart)', '09671360322 (Globe)', '09929893889 (Dito)'],
+        email: ['messagecenter.acg@pnp.gov.ph', 'onlinecims.ocs@gmail.com'],
+        website: 'acg.pnp.gov.ph/contact-us/',
         tags: ['police', 'cybercrime', 'reporting']
     },
     {
         name: 'NBI Cybercrime Division (NBI-CCD)',
         type: 'Law Enforcement',
-        hotline: '+63 2 8523 8231',
+        hotline: ['Direct: (02) 8525-6228', 'Mobile: 0929-6607861, 0945-4420773'],
         email: 'ccd@nbi.gov.ph',
-        website: 'nbi.gov.ph',
-        tags: ['investigation', 'cybercrime', 'nbi']
+        tags: ['investigation', 'cybercrime', 'reporting']
     },
     {
         name: 'DOJ - Office of Cybercrime',
         type: 'Legal Support',
-        hotline: '+63 2 8524 2265',
+        hotline: ['Direct: (02) 8524 8216', 'Reporting: 526-2747', 'Reporting: 521-8345'],
         email: 'cybercrime@doj.gov.ph',
-        tags: ['legal', 'prosecution']
+        tags: ['legal', 'investigation', 'cybercrime']
     },
     {
         name: 'National Privacy Commission (NPC)',
-        type: 'Privacy Rights',
-        hotline: '+63 2 8234 2228',
-        website: 'privacy.gov.ph/file-a-complaint/',
-        tags: ['privacy', 'doxxing', 'data']
+        type: 'Regulator',
+        hotline: '(02) 5322 1322',
+        email: 'complaints@privacy.gov.ph',
+        website: 'privacy.gov.ph/filing-a-complaint/',
+        tags: ['regulator', 'investigation', 'takedown requests']
     },
     {
-        name: 'DSWD Recovery and Reintegration Program',
-        type: 'Support Service',
-        hotline: '+63 2 8931 8101',
+        name: 'Department of Social Welfare and Development',
+        type: 'Social Services',
+        hotline: ['Smart: 0943-4648026, 0943-4648086', 'Globe: 0995-7153926, 0995-7153934'],
         email: 'inquiry@dswd.gov.ph',
+        website: 'www.dswd.gov.ph/e-services/',
         tags: ['mental health', 'survivor support', 'counseling']
     },
     {
-        name: 'Cybercrime Investigation and Coordinating Center (CICC)',
-        type: 'Law Enforcement',
-        description: 'Inter-Agency response task force.',
-        hotline: '1326',
-        website: 'dict.gov.ph/cicc',
-        tags: ['Inter-agency', 'Reporting']
-    },
-    {
-        name: 'PNP Aling Pulis',
-        type: 'Law Enforcement',
-        description: '24/7 hotline dedicated specifically to responding to violence against women and children.',
-        hotline: '0919 777 7377',
-        tags: ['Police', 'Women', 'Children']
-    },
-    {
         name: 'Local PNP Women and Children Protection Units',
-        type: 'Law Enforcement',
+        type: 'Gender Sensitive',
         description: 'If you need immediate physical protection, it is always best to visit your nearest local police station and ask to speak to the WCPU desk.',
-        tags: ['Emergency', 'Physical Safety']
+        website: 'childprotectionnetwork.org/wcpu-directory/',
+        websiteText: 'Find the phone number of the office nearest you',
+        tags: ['police', 'women', 'children']
     }
 ];
 
@@ -77,7 +82,7 @@ export default function Directory() {
                 <p className="text-muted">Verified contacts for legal, technical, and emotional support.</p>
                 <div style={{ background: 'rgba(139, 92, 246, 0.1)', border: '1px solid var(--color-primary)', borderRadius: 'var(--radius-md)', padding: '1rem', marginTop: '1.5rem', marginBottom: '1.5rem', maxWidth: '800px', margin: '1.5rem auto 0 auto', textAlign: 'left' }}>
                     <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-primary)' }}>
-                        <strong>Tip:</strong> It is highly recommended that you contact multiple agencies simultaneously, as response times can vary depending on their current caseload.
+                        Not sure which resource is right for you? Click the Gabay Tech icon in the top left corner, answer a few questions, and Gabay Tech will generate a recommendation based on your unique situation.
                     </p>
                 </div>
 
@@ -117,28 +122,47 @@ export default function Directory() {
                                 </p>
                             )}
                             {res.hotline && (
-                                <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem' }}>
-                                    <Phone size={16} className="text-accent" />
-                                    <span>{res.hotline}</span>
+                                <div className="flex-center" style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: '0.5rem' }}>
+                                    <Phone size={16} className="text-accent" style={{ marginTop: '0.2rem' }} />
+                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                        {Array.isArray(res.hotline) ? (
+                                            res.hotline.map((h, i) => <span key={i}>{h}</span>)
+                                        ) : (
+                                            <span>{res.hotline}</span>
+                                        )}
+                                    </div>
                                 </div>
                             )}
                             {res.email && (
-                                <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem' }}>
-                                    <Mail size={16} className="text-accent" />
-                                    <a href={`mailto:${res.email}`}>{res.email}</a>
+                                <div className="flex-center" style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: '0.5rem' }}>
+                                    <Mail size={16} className="text-accent" style={{ marginTop: '0.2rem' }} />
+                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                        {Array.isArray(res.email) ? (
+                                            res.email.map((e, i) => <a key={i} href={`mailto:${e}`}>{e}</a>)
+                                        ) : (
+                                            <a href={`mailto:${res.email}`}>{res.email}</a>
+                                        )}
+                                    </div>
                                 </div>
                             )}
                             {res.website && (
-                                <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem' }}>
-                                    <Globe size={16} className="text-accent" />
-                                    <a href={`https://${res.website}`} target="_blank" rel="noreferrer">{res.website}</a>
+                                <div className="flex-center" style={{ justifyContent: 'flex-start', alignItems: res.websiteText ? 'flex-start' : 'center', gap: '0.5rem' }}>
+                                    <Globe size={16} className="text-accent" style={{ marginTop: res.websiteText ? '0.2rem' : '0' }} />
+                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                        {res.websiteText && (
+                                            <span style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)', marginBottom: '0.2rem' }}>{res.websiteText}:</span>
+                                        )}
+                                        <a href={`https://${res.website}`} target="_blank" rel="noreferrer">{res.website}</a>
+                                    </div>
                                 </div>
                             )}
                         </div>
 
-                        <div style={{ marginTop: '1.5rem', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                        <div style={{ marginTop: '1.5rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
                             {res.tags.map(tag => (
-                                <span key={tag} style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', background: 'rgba(255,255,255,0.05)', padding: '0.1rem 0.4rem', borderRadius: '4px' }}>#{tag}</span>
+                                <span key={tag} style={{ fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.5px', background: 'rgba(56, 189, 248, 0.1)', padding: '0.2rem 0.5rem', borderRadius: '4px', color: 'var(--color-text-accent)' }}>
+                                    {tag}
+                                </span>
                             ))}
                         </div>
                     </div>

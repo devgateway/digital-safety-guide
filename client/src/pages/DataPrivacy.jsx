@@ -50,7 +50,7 @@ export default function DataPrivacy() {
                                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                                         <span style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', textTransform: 'uppercase' }}>{item.label}</span>
                                         {item.url ? (
-                                            <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ fontWeight: '500', color: 'white' }}>{item.value}</a>
+                                            <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ fontWeight: '500', color: 'var(--color-text-primary)' }}>{item.value}</a>
                                         ) : (
                                             <span style={{ fontWeight: '500' }}>{item.value}</span>
                                         )}

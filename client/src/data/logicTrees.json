@@ -247,6 +247,16 @@
                     "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
                     "links": [
                         {
+                            "label": "Dial 911",
+                            "url": "tel:911",
+                            "icon": "phone"
+                        },
+                        {
+                            "label": "Women and Children Protection Units (WCPUs)",
+                            "url": "https://www.childprotectionnetwork.org/wcpu-directory/",
+                            "icon": "external-link"
+                        },
+                        {
                             "label": "PNP Anti-Cybercrime Group",
                             "url": "tel:117",
                             "icon": "phone"
