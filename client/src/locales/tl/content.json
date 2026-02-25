@@ -1,0 +1,161 @@
+{
+    "content": {
+        "about": {
+            "title": "Tungkol sa Tool na Ito",
+            "desc_1": "Ang Gabay Tech ay isang espesyal na digital resource ",
+            "desc_2": "na sadyang ginawa para sa Pilipinas",
+            "desc_3": " upang tulay ang agwat sa pagitan ng pakiramdam na hindi ligtas online at paggawa ng epektibong aksyon. Binuo bilang bahagi ng inisyatibong National Models for Women's Safety Online (NMWSO) ng IREX at Development Gateway: Isang IREX Venture, ang platform na ito ay nagbibigay ng aktibo at nakasentro sa survivor na landas patungo sa digital na seguridad. ",
+            "desc_link": "Alamin ang higit pa tungkol sa programa ng NMWSO rito",
+            "mission_title": "Ang Aming Misyon",
+            "mission_desc": "Ang aming misyon ay bigyan ng kakayahan ang mga indibidwal—siyempre lalo na ang mga kababaihan at marginalized na komunidad—na mabawi ang kanilang digital na kalayaan. Hindi lamang kami nagbibigay ng pangkalahatang payo; nagbibigay kami ng direktang impormasyon sa pakikipag-ugnayan para sa mga itinatag na response network at ng partikular na digital na pinsala na kinakaharap ng isang user. Naghahanap ka man ng legal na lunas, sikolohikal na suporta, o teknikal na tulong sa pag-uulat sa platform, nakakonekta ka sa mga lehitimo at aktibong entidad sa Pilipinas at sa buong mundo na may kakayahang tumulong.",
+            "collab_title": "Isang Pagtutulungang Pagsusumikap",
+            "collab_desc_1": "Ang platform na ito ay resulta ng isang masinsinan at maramihang pakikipagtulungan ng mga stakeholder. Ito ay nilikha kasabay at may direktang suporta ng marami sa mga ",
+            "collab_desc_2": "ahensya ng gobyerno ng Pilipinas at mga non-government organization (NGO)",
+            "collab_desc_3": " na nakalista sa loob ng tool. Sa pamamagitan ng pagtutulungan ng mga nangungunang tagapagtaguyod ng digital na karapatan sa bansa, mga eksperto sa batas, at mga nagbibigay ng serbisyong panlipunan, tiniyak namin na ang patnubay na ibinigay ay hindi lamang praktikal kundi nakaugat nang malalim sa legal at panlipunang konteksto ng Pilipinas.",
+            "how_title": "Paano Ito Gumagana",
+            "how_desc": "Gagabayan ka ng tool sa isang trauma-informed na pagtatasa upang makatulong na maiuri ang mga online na banta, mula sa mga paglabag sa privacy hanggang sa puntiryang pang-aabuso. Batay sa iyong natatanging sitwasyon, nagbibigay ito ng:",
+            "how_li1_title": "Mga Hakbang-hakbang na Action Plan:",
+            "how_li1_desc": " Malinaw na mga tagubilin kung paano i-secure ang iyong mga account at panatilihin ang mga ebidensya.",
+            "how_li2_title": "Mga Gabay na Partikular sa Platform:",
+            "how_li2_desc": " Direktang mga link at pamamaraan para sa pag-uulat ng mga paglabag sa mga pangunahing provider ng social media at digital na serbisyo.",
+            "how_li3_title": "Mga Referral sa Suporta:",
+            "how_li3_desc": " Mga koneksyon sa mga lokal na serbisyo ng suporta sa legal, sikolohikal, at komunidad.",
+            "safety_title": "Kaligtasan ayon sa Disenyo",
+            "safety_desc_1": "Itinayo ayon sa mga prinsipyo ng ",
+            "safety_desc_2": "Safety by Design",
+            "safety_desc_3": ", ang tool na ito ay nakatuon sa pag-iwas at pagbibigay-kakayahan. Naniniwala kami na ang kaligtasan ay hindi dapat isang isiping nahuhuli kundi isang pangunahing tampok ng karanasan sa digital. Sa pamamagitan ng pagsasama ng mga pananaw sa ibinahaging karanasan at teknikal na kadalubhasaan, tinitiyak namin na ang bawat mapagkukunang ibinigay ay praktikal, naa-access, at nakaugat sa realidad ng mga pinakabulnerable sa online na pinsala.",
+            "privacy_title": "Privacy ng Data",
+            "privacy_desc_1": "Ang iyong kaligtasan at privacy ay aming pinakamataas na priyoridad. Ang tool na ito ay idinisenyo para sa kabuuang anonymity: ",
+            "privacy_desc_2": "hindi kami kumukuha, nag-iimbak, o sumusubaybay ng anumang personal na data, kasaysayan ng interaksyon, o mga resulta.",
+            "privacy_desc_3": " Ang lahat ng impormasyon na ipapasok mo ay mananatili lamang sa iyong lokal na device at hindi kailanman ipinapasa sa aming mga server o inilalabas sa mga ikatlong partido. Sa sandaling isara mo ang tab ng iyong browser, ang data ng iyong session ay iki-clear. Naniniwala kami na ang paghingi ng tulong ay hindi dapat mag-iwan ng digital na bakas, kaya maaari mong ma-access ang mga na-verify na mapagkukunan ng Pilipinas na may kumpletong kapayapaan ng isip.",
+            "privacy_not_alone": "Hindi ka nag-iisa. Ang tool na ito ang iyong unang hakbang patungo sa isang mas ligtas at mas panatag na digital na buhay."
+        },
+        "guide_content": {
+            "title": "Gabay ng Survivor",
+            "tab_evidence": "Checklist ng Ebidensya",
+            "tab_legal": "Iyong Mga Karapatan",
+            "evidence_title": "Pagpapanatili ng Digital na Ebidensya",
+            "evidence_desc": "Kung nais mong magtabi ng ebidensya, ang pag-save ng mga screenshot, mensahe, o link ay maaaring makatulong. Kung ito ay nagdudulot ng labis na takot, maaari mo itong i-store nang ligtas at humingi ng tulong sa isang taong pinagkakatiwalaan mo.",
+            "evidence_1_title": "1. Mga Screenshot",
+            "evidence_1_li1_1": "I-capture ang ",
+            "evidence_1_li1_2": "buong screen",
+            "evidence_1_li1_3": ", kasama ang URL bar at orasan ng system.",
+            "evidence_1_li2_1": "Tiyaking ang ",
+            "evidence_1_li2_2": "pangalan ng profile/sender",
+            "evidence_1_li2_3": " ay nakikita.",
+            "evidence_1_li3": "I-click ang mga timestamp o ang icon na \"Tatlong tuldok\" upang ipakita ang eksaktong oras at petsa kung maaari.",
+            "evidence_2_title": "2. Mga URL (Link)",
+            "evidence_2_li1_1": "Kopyahin ang ",
+            "evidence_2_li1_2": "direktang link",
+            "evidence_2_li1_3": " patungo sa post, larawan, o profile.",
+            "evidence_2_li2": "Kung gumagamit ng mobile app, gamitin ang \"Share > Copy Link\".",
+            "evidence_2_li3_1": "Gumamit ng mga serbisyo tulad ng ",
+            "evidence_2_li3_2": " o ",
+            "evidence_2_li3_3": " upang i-save ang isang permanenteng kopya.",
+            "evidence_3_title": "3. Metadata",
+            "evidence_3_desc_1": "Kung nakatanggap ka ng file (larawan/video), itago ang ",
+            "evidence_3_desc_2": "orihinal na file",
+            "evidence_3_desc_3": ". Huwag lamang mag-screenshot nito. Ang orihinal na file ay may taglay na \"EXIF\" data (petsa kung kailan kinuha, device na ginamit) na nagsisilbing digital na fingerprint.",
+            "legal_title": "Alamin ang Iyong Mga Karapatan",
+            "legal_desc": "Protektado ka ng mga batas ng Pilipinas laban sa online na panggigipit.",
+            "legal_1_title": "RA 10175: Cybercrime Prevention Act",
+            "legal_1_desc_1": "Sumasaklaw sa ",
+            "legal_1_desc_2": "Cyber-Libel",
+            "legal_1_desc_3": ", ",
+            "legal_1_desc_4": "Computer-related Identity Theft",
+            "legal_1_desc_5": ", at ilegal na pag-access. Kung may nang-hack sa iyong account o nag-post ng mapanirang kasinungalingan online, maaari itong i-apply.",
+            "legal_2_title": "RA 9995: Anti-Photo and Video Voyeurism Act",
+            "legal_2_desc_1": "Mahigpit na ipinagbabawal ang pagkuha, pagkopya, o pagbabahagi ng larawan/video ng maseselang bahagi o sekswal na gawain ng isang tao nang walang pahintulot. Ang ",
+            "legal_2_desc_2": "\"Voyeurism\"",
+            "legal_2_desc_3": " ay maaari pa ring mag-apply kahit na ang tao sa video ay orihinal na pumayag sa pagrekord ngunit HINDI pumayag sa pagbabahagi (revenge porn).",
+            "legal_3_title": "RA 11313: Safe Spaces Act (Bawal Bastos)",
+            "legal_3_desc_1": "Nagpaparusa sa ",
+            "legal_3_desc_2": "Online Sexual Harassment",
+            "legal_3_desc_3": " (OSH). Kabilang dito ang inaayawang sekswal na komento, mapanlait na pananalitang nakakababa sa kababaihan o homosekswal, at cyberstalking."
+        },
+        "directory": {
+            "title": "Direktoryo ng Mapagkukunan",
+            "desc": "Mga na-verify na kontak para sa legal, teknikal, at emosyonal na suporta.",
+            "info_banner": "Hindi sigurado kung aling mapagkukunan ang tama para sa iyo? I-click ang icon ng Gabay Tech sa kaliwang tuktok, sagutin ang ilang mga katanungan, at ang Gabay Tech ay bubuo ng rekomendasyon batay sa iyong natatanging sitwasyon.",
+            "search_placeholder": "Maghanap ng mga ahensya, tag...",
+            "resources": {
+                "cicc": {
+                    "name": "Cybercrime Investigation and Coordinating Center (CICC)",
+                    "type": "Legal na suporta",
+                    "description": "Task force para sa Inter-Ahensyang pagtugon.",
+                    "tags": [
+                        "pag-uulat",
+                        "cybercrime",
+                        "imbestigasyon"
+                    ]
+                },
+                "aleng_pulis": {
+                    "name": "PNP Aling Pulis",
+                    "type": "Gender Sensitive",
+                    "description": "24/7 na hotline na partikular na nakatuon sa pagtugon sa karahasan laban sa kababaihan at mga bata.",
+                    "tags": [
+                        "pulisya",
+                        "kababaihan",
+                        "mga bata"
+                    ]
+                },
+                "pnp_acg": {
+                    "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
+                    "type": "Pagpapatupad ng Batas",
+                    "tags": [
+                        "pulisya",
+                        "cybercrime",
+                        "pag-uulat"
+                    ]
+                },
+                "nbi_ccd": {
+                    "name": "NBI Cybercrime Division (NBI-CCD)",
+                    "type": "Pagpapatupad ng Batas",
+                    "tags": [
+                        "imbestigasyon",
+                        "cybercrime",
+                        "pag-uulat"
+                    ]
+                },
+                "doj_occ": {
+                    "name": "DOJ - Office of Cybercrime",
+                    "type": "Legal na Suporta",
+                    "tags": [
+                        "legal",
+                        "imbestigasyon",
+                        "cybercrime"
+                    ]
+                },
+                "npc": {
+                    "name": "National Privacy Commission (NPC)",
+                    "type": "Regulator",
+                    "tags": [
+                        "regulator",
+                        "imbestigasyon",
+                        "takedown request"
+                    ]
+                },
+                "dswd": {
+                    "name": "Department of Social Welfare and Development",
+                    "type": "Serbisyong Panlipunan",
+                    "tags": [
+                        "mental health",
+                        "suporta sa survivor",
+                        "counseling"
+                    ]
+                },
+                "wcpu": {
+                    "name": "Local PNP Women and Children Protection Units",
+                    "type": "Gender Sensitive",
+                    "description": "Kung kailangan mo ng agarang pisikal na proteksyon, palaging pinakamahusay na bisitahin ang pinakamalapit na lokal na istasyon ng pulisya at humingi ng tulong sa WCPU desk.",
+                    "websiteText": "Hanapin ang numero ng telepono ng tanggapan na pinakamalapit sa iyo",
+                    "tags": [
+                        "pulisya",
+                        "kababaihan",
+                        "mga bata"
+                    ]
+                }
+            }
+        }
+    }
+}

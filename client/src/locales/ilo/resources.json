@@ -48,7 +48,7 @@
                 "content": "Kasla masapulmo a solbaren daytoy direkta iti platform wenno iti tao a maseknan. Matulongandaka nga agsagana ti formal complaint base iti impormasyon nga intedmo, wenno ikonektadaka kadagiti dadduma a resources.",
                 "links": {
                     "0": "Kitaen dagiti Takedown Request Templates",
-                    "1": "Mediation / Counseling"
+                    "1": "Mediation / Panagbalakad"
                 }
             },
             "res_imp_security": {
@@ -87,15 +87,315 @@
                 }
             },
             "res_dox_npc": {
-                "title": "Data Privacy Violation",
+                "title": "Panaglabsing iti Data Privacy",
                 "content": "Kasla ti mapaspasaram ket maysa a violation ti Data Privacy Act (RA 10173). Matulongandaka a mag-draft ti formal complaint.",
                 "links": {
-                    "0": "Draft NPC Complaint"
+                    "0": "Bukliden ti Reklamo iti NPC"
                 }
             },
             "res_dox_offline": {
-                "title": "Offline/Other Violation",
+                "title": "Offline/Sabali a Panaglabsing",
                 "content": "No saan a napasamak daytoy babaen ti computer system, baka saan a violation ti Data Privacy Act, ngem posible pay laeng nga illegal. Consult legal counsel."
+            },
+            "res_imp_action_2": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "Patalgeden dagiti Account-mo",
+                "content": "No naiparang ti impormasionmo iti panag-login, maidawat a sukatam a dagus dagiti passwordmo ken pagandarem ti Two-Factor Authentication (2FA) kadagiti amin nga account.",
+                "options": {
+                    "0": "Ituloy kadagiti Addang ti Panag-report"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Posible a Panaglabsing: Anti-Cybercrime Act",
+                "content": "No dagiti ladawan ket naaramid babaen iti digital, nabaliwan, na-edit, wenno dinoktor, daytoy ket mabalin a panaglabsing iti Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Posible a Panaglabsing: Safe Spaces Act",
+                "content": "No dagiti ladawan wenno video a maseknan ket mangipababa, mangdadael iti pammadayaw, wenno mangipangta iti kababalinna, daytoy ket mabalin a panaglabsing iti Safe Spaces Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Posible a Panaglabsing: Data Privacy Act",
+                "content": "No dagiti ladawan wenno video a maseknan ket us-usarenda ti kinasiasinom tapno ag-impersonate kenka, daytoy ket mabalin a panaglabsing iti Data Privacy Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Posible a Panaglabsing: Anti-Photo/Video Voyeurism Act",
+                "content": "No dagiti ladawan wenno video a maseknan ket naala a sililimed wenno awan ti pammalubosmo, daytoy ket mabalin a panaglabsing iti Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Posible a Panaglabsing: Safe Spaces / Voyeurism",
+                "content": "No dagiti ladawan ket addaan iti intimo wenno eksplikito a materyal, daytoy ket mabalin a panaglabsing iti Safe Spaces Act, Anti-Photo/Video Voyeurism Act, ken dadduma pay nga espesial a proteksion.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Posible a Panaglabsing: Anti-OSAEC / Anti-Child Abuse",
+                "content": "No dagiti ladawan ket addaan iti ubbing (ub-ubing ngem 18 ti tawenna), daytoy ket mabalin a panaglabsing iti Anti-OSAEC Law, Anti-Child Abuse Law, ken mabalin a maikkanka kadagiti espesial a proteksion.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "Patalgeden dagiti Account-mo",
+                "content": "No naiparang ti impormasionmo iti panag-login, maidawat a sukatam a dagus dagiti passwordmo ken pagandarem ti Two-Factor Authentication (2FA) kadagiti amin nga account.",
+                "options": {
+                    "0": "Ituloy kadagiti Addang ti Panag-report"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "Patalgeden dagiti Account-mo",
+                "content": "No naiparang ti impormasionmo iti panag-login, maidawat a sukatam a dagus dagiti passwordmo ken pagandarem ti Two-Factor Authentication (2FA) kadagiti amin nga account.",
+                "options": {
+                    "0": "Ituloy kadagiti Addang ti Panag-report"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Posible a Panaglabsing: Anti-Cybercrime Act",
+                "content": "Ti panangriribuk/pangta ket ramanenna ti maulit-ulit ken saan a kayat a pannakikontak babaen kadagiti digital a pamay-an. Daytoy ket mabalin a panaglabsing iti Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Posible a Panaglabsing: Grave Threats (Artikulo 282)",
+                "content": "No ti panangriribuk ket ramanenna ti pangta iti pisikal, reputasional, wenno pinansial a pannakadadael, daytoy ket mabalin a panaglabsing iti Artikulo 282 (Grave Threats).",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Posible a Panaglabsing: Safe Spaces Act",
+                "content": "No ti panangriribuk ket naiturong iti babai ken/wenno ubing, daytoy ket mabalin a panaglabsing iti Safe Spaces Act.",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Posible a Panaglabsing: linteg ti Anti-VAWC",
+                "content": "No ti panangriribuk ket agtaud iti agdama wenno dati nga intimo a kapareha, daytoy ket mabalin a panaglabsing kadagiti Linteg ti Anti-VAWC (RA 9262).",
+                "options": {
+                    "0": "Kitaen dagiti opsionko para iti aksion"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "I-report ti Panang-impersonate",
+                "content": "Kasla kasapulam a risuten daytoy a direkta iti plataforma wenno iti tao a maseknan. Makatulongkami kenka nga agisagana iti pormal a reklamo a naibasar iti impormasion nga intedmo, wenno makatulongkami a mangikonektar kenka kadagiti dadduma a resources.",
+                "links": {
+                    "0": "Kitaen dagiti Takedown Request Templates",
+                    "1": "Mediation / Panagbalakad"
+                }
+            },
+            "res_dox_npc_2": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_3": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_4": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_5": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_6": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_7": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_8": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_9": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_10": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_11": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
+            },
+            "res_dox_npc_12": {
+                "title": "Panaglabsing iti Data Privacy",
+                "content": "Kasla ti mapaspasaram ket mabalin a panaglabsing iti Data Privacy Act (RA 10173). Makatulongkami kenka nga agisagana iti pormal a reklamo.",
+                "links": {
+                    "0": "Bukliden ti Reklamo iti NPC"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Sabali a Panaglabsing",
+                "content": "No saan a napasamak daytoy babaen iti sistema ti kompyuter, mabalin a saan a panaglabsing iti Data Privacy Act, ngem mabalin latta nga ilegal. Agkonsulta iti legal a konseho."
             }
         }
     }

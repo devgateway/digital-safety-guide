@@ -8,16 +8,16 @@
         "takedown": "Kahilingan sa Pagpapatanggal",
         "mental_health": "Serbisyong Pangkalusugang Pangkaisipan",
         "global_safety": "Pandaigdigang Mapagkukunan sa Kaligtasan",
-        "law_enforcement": "Law Enforcement",
+        "law_enforcement": "Tagapagpatupad ng Batas",
         "data_privacy": "Suporta sa Data Privacy",
-        "about": "About this Tool"
+        "about": "Tungkol sa Tool na Ito"
     },
     "home": {
         "hero_title": "Philippine Online Safety Support Portal",
-        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
-        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
+        "hero_subtitle": "Kung nararamdaman mong hindi ka ligtas online, maraming lokal at pandaigdigang mapagkukunan na maaaring makatulong sa iyo na muling maibalik ang iyong pakiramdam ng seguridad: mula sa mga sibil at kriminal na parusa, hanggang sa psychosocial na suporta mula sa mga non-profit, maging sa pormal na mga kahilingan sa pagpapatanggal na direkta sa mga kumpanya ng IT. Ngunit ang pag-navigate sa mga mapagkukunang ito at pagtukoy kung sino ang dapat lapitan (at kung paano) ay maaaring nakakalula.",
+        "description_2": "Kung masasagot mo ang ilang mga katanungan tungkol sa kung ano ang nagpaparamdam sa iyo na hindi ka ligtas, ang Gabay Tech ay magrerekomenda ng mga organisasyon at mapagkukunan na maaaring makatulong batay sa iyong natatanging sitwasyon.",
         "start_guide": "Simulan ang Gabay Pangkaligtasan",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> Ang tool na ito ay hindi nagbibigay ng legal na payo. Ang paggamit ng tool na ito ay ganap na anonymous: walang impormasyon ng gumagamit na kinokolekta o iniimbak. Kung sa anumang dahilan ay pakiramdam mo ay hindi ka ligtas habang ginagamit ang tool na ito, gamitin ang “mabilisang pag-alis” (emergency exit) na button at bumalik kapag ikaw ay ligtas na. Kung ikaw ay nasa nakaambang panganib, mangyaring makipag-ugnayan agad sa 911."
     },
     "footer": {
         "powered_by": "Pinapagana ng"

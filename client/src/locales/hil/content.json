@@ -1,0 +1,161 @@
+{
+    "content": {
+        "about": {
+            "title": "Tuhoy sa sini nga Himan",
+            "desc_1": "Ang Gabay Tech isa ka espesyal nga digital resource ",
+            "desc_2": "nga gintuyo para sa Pilipinas",
+            "desc_3": " agud taytayan ang ab-ab sa tunga sang pagbatyag nga indi hilway online kag sang paghimo sang epektibo nga aksyon. Gindihon bilang bahin sang inisyatibo nga National Models for Women's Safety Online (NMWSO) sang IREX kag Development Gateway: Isa ka IREX Venture, ini nga plataporma nagahatag sang aktibo kag nakasentro sa survivor nga alagyan padulong sa digital nga kasiguruhan. ",
+            "desc_link": "Hibal-a ang dugang tuhoy sa NMWSO programa diri",
+            "mission_title": "Ang Amon Misyon",
+            "mission_desc": "Ang amon misyon amo ang paghatag gahom sa mga indibidwal—labi na gid sa mga kababayin-an kag mga komunidad nga ginapahigad—nga mabawi ang ila digital nga ahensya. Wala lang kami nagahatag sang kabilugang laygay; nagahatag kami sang direkta nga impormasyon sa pagpakig-angot para sa mga natukod nga response network kag sa partikular nga digital nga kahalitan nga ginaatubang sang isa ka user. Nagapangita ka man sang legal nga bulig, sikolohikal nga suporta, ukon teknikal nga pagbulig sa pag-report sa plataporma, gina-konektar ka namon sa mga lehitimo kag aktibo nga mga ahensya sa Pilipinas kag sa bug-os nga kalibutan nga may ikasarang sa pagbulig.",
+            "collab_title": "Isa ka Pagbuligay nga Paghimud-os",
+            "collab_desc_1": "Ini nga plataporma resulta sang isa ka masangkad kag madamo sang stakeholder nga pagbuligay. Gintuga ini upod kag sa direkta nga suporta sang madamo nga mga ",
+            "collab_desc_2": "ahensya sang gobyerno sang Pilipinas kag mga non-government organization (NGO)",
+            "collab_desc_3": " nga nalista sa sulod sang himan. Paagi sa pag-obra sing ululupod kaupod ang mga nagapanguna nga tagasakdag sang digital nga kinamatarong, mga eksperto sa kasuguan, kag mga nagahatag sang serbisyo sosyal sa komunidad, ginapasiguro namon nga ang laygay nga ginhatag indi lamang praktikal kundi nakagamot sing madalom sa legal kag sosyal nga konteksto sang Pilipinas.",
+            "how_title": "Paano Ini Nagagana",
+            "how_desc": "Ang himan magatuytoy sa imo paagi sa isa ka trauma-informed nga pag-usisa agud makabulig nga maklasipikar ang mga pamahog online, halin sa mga paglapas sa pribasiya tubtob sa ginpuntirya nga pagpang-abuso. Base sa imo pinasahi nga kahimtangan, ini magahatag sang:",
+            "how_li1_title": "Isig-tikang nga Planong Pag-aksyon:",
+            "how_li1_desc": " Klaro nga mga pagsulundan kon paano amligan ang imo mga account kag tipigan ang mga ebidensya.",
+            "how_li2_title": "Pinasahi sa Plataporma nga mga Giya:",
+            "how_li2_desc": " Direkta nga mga link kag mga pamaagi para sa pag-report sang mga paglapas sa mga panguna nga social media kag digital service provider.",
+            "how_li3_title": "Mga Referrals sa Suporta:",
+            "how_li3_desc": " Mga koneksyon sa mga lokal nga legal, sikolohikal, kag komunidad nga serbisyo sa pagsuporta.",
+            "safety_title": "Kaluwasan paagi sa Disenyo",
+            "safety_desc_1": "Gintukod sandig sa mga prinsipyo sang ",
+            "safety_desc_2": "Safety by Design",
+            "safety_desc_3": ", ini nga himan nagatutok sa pagpang-amlig kag paghatag sang gahom. Nagapati kami nga ang kaluwasan indi dapat isa ka ulihi nga paminsaron kundi isa ka sadsaran nga kinaiya sang digital nga eksperyensiya. Paagi sa pag-tingob sang mga pag-intiende sa inagihan kag teknikal nga kahanas, ginasiguro namon nga ang kada mapagkuhaan nga gintanyag praktikal, masayon malab-ot, kag nakagamot sa reyalidad sadtong pinakamadali maapektuhan sang halit online.",
+            "privacy_title": "Pribasiya sang Datos",
+            "privacy_desc_1": "Ang imo kaluwasan kag pribasiya amo ang amon pinakamataas nga prayoridad. Ini nga himan gindisenyo para sa bug-os nga anonymity: ",
+            "privacy_desc_2": "wala kami nagakolekta, nagatago, ukon naga-track sang bisan ano nga personal nga datos, kasaysayan sang interaksyon, ukon resulta.",
+            "privacy_desc_3": " Ang tanan nga impormasyon nga imo isulod magapabilin gid sa imo lokal nga device kag indi gid ma-transmit sa amon mga server ukon ipaambit sa mga third party. Pagkasira mo sang imo browser tab, panason ang datos sang imo sesyon. Nagapati kami nga ang pagpangayo sang bulig indi dapat magbilin sang digital footprint, agud makalab-ot ka sa mga beripikado nga mapagkuhaan sa Pilipinas nga may bug-os nga pagbangon sa hunahuna.",
+            "privacy_not_alone": "Wala ka nagaisahanon. Ini nga himan amo ang imo una nga tikang padulong sa mas luwas, kag mas masaligan nga digital nga kabuhi."
+        },
+        "guide_content": {
+            "title": "Giya sang Survivor",
+            "tab_evidence": "Listahan sang Ebidensya",
+            "tab_legal": "Imo nga mga Kinamatarong",
+            "evidence_title": "Pagtipig sang Digital nga Ebidensya",
+            "evidence_desc": "Kon luyag mo nga maghupot sang ebidensya, ang pag-save sang mga screenshot, mensahe, ukon link makabulig. Kon ini nagahatag sang kasubo ukon kabalaka, pwede mo sila i-save sing luwas kag mangayo sang bulig sa isa ka tawo nga imo ginakasaligan.",
+            "evidence_1_title": "1. Mga Screenshot",
+            "evidence_1_li1_1": "I-capture ang ",
+            "evidence_1_li1_2": "bug-os nga screen",
+            "evidence_1_li1_3": ", lakip na ang URL bar kag sistema sang orasan.",
+            "evidence_1_li2_1": "Siguraduha nga ang ",
+            "evidence_1_li2_2": "pangalan sang profile/nagpadala",
+            "evidence_1_li2_3": " makin-an.",
+            "evidence_1_li3": "I-click ang mga timestamp ukon ang \"Tatlo ka tuldok\" nga menu agud mapakita ang eksakto nga oras/petsa kon posible.",
+            "evidence_2_title": "2. Mga URL (Links)",
+            "evidence_2_li1_1": "Kopyaha ang ",
+            "evidence_2_li1_2": "direkta nga link",
+            "evidence_2_li1_3": " padulong sa post, laragway, ukon profile.",
+            "evidence_2_li2": "Kon nagagamit sang mobile app, gamiton ang \"Share > Copy Link\".",
+            "evidence_2_li3_1": "Gamiton ang mga serbisyo kaangay sang ",
+            "evidence_2_li3_2": " ukon ",
+            "evidence_2_li3_3": " agud ma-save ang isa ka permanente nga kopya.",
+            "evidence_3_title": "3. Metadata",
+            "evidence_3_desc_1": "Kon nakabaton ka sang file (laragway/video), itago ang ",
+            "evidence_3_desc_2": "orihinal nga file",
+            "evidence_3_desc_3": ". Indi lang pagkuhaan sang screenshot ini. Ang orihinal nga file naga-unod sang \"EXIF\" data (petsa diin ginkuha, himan nga gingamit) nga nagapanghikot subong fingerprint.",
+            "legal_title": "Hibal-a Ang Imo mga Kinamatarong",
+            "legal_desc": "Ginaprotektahan ka sang mga kasuguan sang Pilipinas batok sa online harassment.",
+            "legal_1_title": "RA 10175: Cybercrime Prevention Act",
+            "legal_1_desc_1": "Nagasakup sa ",
+            "legal_1_desc_2": "Cyber-Libel",
+            "legal_1_desc_3": ", ",
+            "legal_1_desc_4": "Computer-related Identity Theft",
+            "legal_1_desc_5": ", kag ilegal nga access. Kon gin-hack sang isa ka tawo ang imo account ukon nag-post sang malisyoso nga mga binutig online, ma-apply ini.",
+            "legal_2_title": "RA 9995: Anti-Photo and Video Voyeurism Act",
+            "legal_2_desc_1": "Hugot nga ginadumilian ang pagkuha, pagkopya, ukon pagpaambit sang mga laragway/video nga may malawig nga bahin sang lawas ukon sekswal nga mga gawi nga wala sing pagpangayo paalam. Ang ",
+            "legal_2_desc_2": "\"Voyeurism\"",
+            "legal_2_desc_3": " maga-apply bisan pa kon ang tawo sa video orihinal nga nagtugot sa pag-record apang WALA nagtugot sa pagpaambit (revenge porn).",
+            "legal_3_title": "RA 11313: Safe Spaces Act (Bawal Bastos)",
+            "legal_3_desc_1": "Nagapasakit sang ",
+            "legal_3_desc_2": "Online Sexual Harassment",
+            "legal_3_desc_3": " (OSH). Nalakip diri ang indi luyag nga sekswal nga mga hambal, misogynistic ukon homophobic nga mga pagpakanubo, kag cyberstalking."
+        },
+        "directory": {
+            "title": "Direktoryo sang Mapagkuhaan",
+            "desc": "Mga beripikado kag eksakto nga kontak para sa legal, teknikal, kag emosyonal nga suporta.",
+            "info_banner": "Indi sigurado kon diin nga pamaagi ang insakto para sa imo? I-click ang Gabay Tech icon sa ibabaw nga wala nga bahin, sabton ang pila ka pamangkot, kag ang Gabay Tech magahimo sang isa ka rekomendasyon suno sa imo natatangi nga kahimtangan.",
+            "search_placeholder": "Pangitaa ang mga ahensya, tag...",
+            "resources": {
+                "cicc": {
+                    "name": "Cybercrime Investigation and Coordinating Center (CICC)",
+                    "type": "Ligal nga suporta",
+                    "description": "Task force sa Inter-Agency response.",
+                    "tags": [
+                        "pag-report",
+                        "cybercrime",
+                        "imbestigasyon"
+                    ]
+                },
+                "aleng_pulis": {
+                    "name": "PNP Aling Pulis",
+                    "type": "Gender Sensitive",
+                    "description": "24/7 hotline nga nakatalana partikularmente sa paghatag igtalupangod sa bayolensiya batok sa kababayin-an kag kabataan.",
+                    "tags": [
+                        "pulis",
+                        "kababayin-an",
+                        "kabataan"
+                    ]
+                },
+                "pnp_acg": {
+                    "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
+                    "type": "Pagpatuman sang Kasuguan",
+                    "tags": [
+                        "pulis",
+                        "cybercrime",
+                        "pag-report"
+                    ]
+                },
+                "nbi_ccd": {
+                    "name": "NBI Cybercrime Division (NBI-CCD)",
+                    "type": "Pagpatuman sang Kasuguan",
+                    "tags": [
+                        "imbestigasyon",
+                        "cybercrime",
+                        "pag-report"
+                    ]
+                },
+                "doj_occ": {
+                    "name": "DOJ - Office of Cybercrime",
+                    "type": "Legal nga Suporta",
+                    "tags": [
+                        "legal",
+                        "imbestigasyon",
+                        "cybercrime"
+                    ]
+                },
+                "npc": {
+                    "name": "National Privacy Commission (NPC)",
+                    "type": "Ahensya sang Gobyerno",
+                    "tags": [
+                        "regulator",
+                        "imbestigasyon",
+                        "takedown requests"
+                    ]
+                },
+                "dswd": {
+                    "name": "Department of Social Welfare and Development",
+                    "type": "Serbisyo Sosyal",
+                    "tags": [
+                        "mental nga ikaayong-lawas",
+                        "suporta sang survivor",
+                        "counseling"
+                    ]
+                },
+                "wcpu": {
+                    "name": "Local PNP Women and Children Protection Units",
+                    "type": "Gender Sensitive",
+                    "description": "Kon kailangan mo sang gilayon nga physical proteksyon, pinakamaayo permi nga magbisita sa pinakamalapit nga local police station kag maghambal sa WCPU desk.",
+                    "websiteText": "Pangita-on ang numero sang telepono sg pinakamalapit sa inyo",
+                    "tags": [
+                        "pulis",
+                        "kababayin-an",
+                        "kabataan"
+                    ]
+                }
+            }
+        }
+    }
+}

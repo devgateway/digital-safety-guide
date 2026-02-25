@@ -1,88 +1,84 @@
 import React, { useState } from 'react';
 import { Phone, Mail, Globe, Search } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
-const RESOURCES = [
+const RESOURCE_DATA = [
     {
-        name: 'Cybercrime Investigation and Coordinating Center (CICC)',
-        type: 'Legal support',
-        description: 'Inter-Agency response task force.',
+        id: 'cicc',
         hotline: ['#1326', '0991-481-4225 (Dito)', '0947-7147-105 (Smart)', '0966-976-5971 (Globe)'],
-        website: 'cicc.gov.ph/report/',
-        tags: ['reporting', 'cybercrime', 'investigation']
+        website: 'cicc.gov.ph/report/'
     },
     {
-        name: 'PNP Aling Pulis',
-        type: 'Gender Sensitive',
-        description: '24/7 hotline dedicated specifically to responding to violence against women and children.',
+        id: 'aleng_pulis',
         hotline: ['0919-7777377', '0966-7255961', '0920-9071717 (call or text)'],
         email: 'alengpuliswcpc.didm@pnp.gov.ph',
-        website: 'facebook.com/pnpwcpc.alengpulis/',
-        tags: ['police', 'women', 'children']
+        website: 'facebook.com/pnpwcpc.alengpulis/'
     },
     {
-        name: 'PNP Anti-Cybercrime Group (PNP-ACG)',
-        type: 'Law Enforcement',
+        id: 'pnp_acg',
         hotline: ['63-02-8723-0401 (local 7491)', '0968 867 4302 (Smart)', '09671360322 (Globe)', '09929893889 (Dito)'],
         email: ['messagecenter.acg@pnp.gov.ph', 'onlinecims.ocs@gmail.com'],
-        website: 'acg.pnp.gov.ph/contact-us/',
-        tags: ['police', 'cybercrime', 'reporting']
+        website: 'acg.pnp.gov.ph/contact-us/'
     },
     {
-        name: 'NBI Cybercrime Division (NBI-CCD)',
-        type: 'Law Enforcement',
+        id: 'nbi_ccd',
         hotline: ['Direct: (02) 8525-6228', 'Mobile: 0929-6607861, 0945-4420773'],
-        email: 'ccd@nbi.gov.ph',
-        tags: ['investigation', 'cybercrime', 'reporting']
+        email: 'ccd@nbi.gov.ph'
     },
     {
-        name: 'DOJ - Office of Cybercrime',
-        type: 'Legal Support',
+        id: 'doj_occ',
         hotline: ['Direct: (02) 8524 8216', 'Reporting: 526-2747', 'Reporting: 521-8345'],
-        email: 'cybercrime@doj.gov.ph',
-        tags: ['legal', 'investigation', 'cybercrime']
+        email: 'cybercrime@doj.gov.ph'
     },
     {
-        name: 'National Privacy Commission (NPC)',
-        type: 'Regulator',
+        id: 'npc',
         hotline: '(02) 5322 1322',
         email: 'complaints@privacy.gov.ph',
-        website: 'privacy.gov.ph/filing-a-complaint/',
-        tags: ['regulator', 'investigation', 'takedown requests']
+        website: 'privacy.gov.ph/filing-a-complaint/'
     },
     {
-        name: 'Department of Social Welfare and Development',
-        type: 'Social Services',
+        id: 'dswd',
         hotline: ['Smart: 0943-4648026, 0943-4648086', 'Globe: 0995-7153926, 0995-7153934'],
         email: 'inquiry@dswd.gov.ph',
-        website: 'www.dswd.gov.ph/e-services/',
-        tags: ['mental health', 'survivor support', 'counseling']
+        website: 'www.dswd.gov.ph/e-services/'
     },
     {
-        name: 'Local PNP Women and Children Protection Units',
-        type: 'Gender Sensitive',
-        description: 'If you need immediate physical protection, it is always best to visit your nearest local police station and ask to speak to the WCPU desk.',
-        website: 'childprotectionnetwork.org/wcpu-directory/',
-        websiteText: 'Find the phone number of the office nearest you',
-        tags: ['police', 'women', 'children']
+        id: 'wcpu',
+        website: 'childprotectionnetwork.org/wcpu-directory/'
     }
 ];
 
 export default function Directory() {
+    const { t } = useLanguage();
     const [query, setQuery] = useState('');
+
+    const RESOURCES = RESOURCE_DATA.map(r => {
+        const tr = t(`content.directory.resources.${r.id}`);
+        // ensure tr is treated as object
+        const tx = (typeof tr === 'object' && tr !== null) ? tr : {};
+        return {
+            ...r,
+            name: tx.name || '',
+            type: tx.type || '',
+            description: tx.description || '',
+            tags: tx.tags || [],
+            websiteText: tx.websiteText || ''
+        };
+    });
 
     const filtered = RESOURCES.filter(r =>
         r.name.toLowerCase().includes(query.toLowerCase()) ||
-        r.tags.some(t => t.includes(query.toLowerCase()))
+        (r.tags && r.tags.some(tg => tg.toLowerCase().includes(query.toLowerCase())))
     );
 
     return (
         <div className="container animate-fade-in">
             <div className="text-center mb-4">
-                <h1>Resource Directory</h1>
-                <p className="text-muted">Verified contacts for legal, technical, and emotional support.</p>
+                <h1>{t('content.directory.title')}</h1>
+                <p className="text-muted">{t('content.directory.desc')}</p>
                 <div style={{ background: 'rgba(139, 92, 246, 0.1)', border: '1px solid var(--color-primary)', borderRadius: 'var(--radius-md)', padding: '1rem', marginTop: '1.5rem', marginBottom: '1.5rem', maxWidth: '800px', margin: '1.5rem auto 0 auto', textAlign: 'left' }}>
                     <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-primary)' }}>
-                        Not sure which resource is right for you? Click the Gabay Tech icon in the top left corner, answer a few questions, and Gabay Tech will generate a recommendation based on your unique situation.
+                        {t('content.directory.info_banner')}
                     </p>
                 </div>
 
@@ -90,7 +86,7 @@ export default function Directory() {
                     <Search style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--color-text-secondary)' }} size={20} />
                     <input
                         type="text"
-                        placeholder="Search agencies, tags..."
+                        placeholder={t('content.directory.search_placeholder') || "Search agencies, tags..."}
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                         className="input"
@@ -138,7 +134,7 @@ export default function Directory() {
                                     <Mail size={16} className="text-accent" style={{ marginTop: '0.2rem' }} />
                                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                                         {Array.isArray(res.email) ? (
-                                            res.email.map((e, i) => <a key={i} href={`mailto:${e}`}>{e}</a>)
+                                            res.email.map((e, j) => <a key={j} href={`mailto:${e}`}>{e}</a>)
                                         ) : (
                                             <a href={`mailto:${res.email}`}>{res.email}</a>
                                         )}
@@ -159,7 +155,7 @@ export default function Directory() {
                         </div>
 
                         <div style={{ marginTop: '1.5rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
-                            {res.tags.map(tag => (
+                            {res.tags && res.tags.map(tag => (
                                 <span key={tag} style={{ fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.5px', background: 'rgba(56, 189, 248, 0.1)', padding: '0.2rem 0.5rem', borderRadius: '4px', color: 'var(--color-text-accent)' }}>
                                     {tag}
                                 </span>

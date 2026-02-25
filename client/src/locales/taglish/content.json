@@ -1,0 +1,161 @@
+{
+    "content": {
+        "about": {
+            "title": "About sa Tool na Ito",
+            "desc_1": "Ang Gabay Tech ay isang specialized na digital resource ",
+            "desc_2": "na custom-built para sa Pilipinas",
+            "desc_3": " upang i-bridge ang gap sa pagitan ng feeling unsafe online at paggawa ng effective action. Binuo bilang part ng National Models for Women's Safety Online (NMWSO) initiative ng IREX at Development Gateway: Isang IREX Venture, itong platform ay nagpo-provide ng proactive at survivor-centered na pathway sa digital security. ",
+            "desc_link": "Learn more about sa NMWSO program here",
+            "mission_title": "Our Mission",
+            "mission_desc": "Ang aming mission ay i-empower ang mga individuals—particularly women at marginalized communities—na i-reclaim ang kanilang digital agency. Hindi lang kami nagpo-provide ng general advice; we offer direct contact information sa mga established na response networks at specific digital harm na i-fa-face ng user. Kung naghahanap ka man ng legal recourse, psychological support, o technical assistance sa platform reporting, iko-connect ka namin sa mga legitimate at active na Philippine and global entities na equipped para maka-help.",
+            "collab_title": "A Collaborative Effort",
+            "collab_desc_1": "This platform ay result ng isang intensive, multi-stakeholder collaboration. Na-co-create ito alongside and with direct support ng maraming ",
+            "collab_desc_2": "Philippine government agencies at non-government organizations (NGOs)",
+            "collab_desc_3": " na listed sa loob ng tool. By working hand-in-hand layuan ng nation's leading digital rights advocates, legal experts, at social service providers, we ensured na ang guidance na provided ay hindi lang practical but deeply rooted sa Philippine legal at social context.",
+            "how_title": "Paano Ito Gumagana",
+            "how_desc": "Igu-guide ka ng tool sa isang trauma-informed assessment to help categorize online threats, ranging from privacy breaches to targeted abuse. Based sa unique situation mo, nagpo-provide ito ng:",
+            "how_li1_title": "Step-by-Step Action Plans:",
+            "how_li1_desc": " Clear instructions on how to secure your accounts and preserve evidence.",
+            "how_li2_title": "Platform-Specific Guides:",
+            "how_li2_desc": " Direct links and methods para mag-report ng violations sa major social media at digital service providers.",
+            "how_li3_title": "Support Referrals:",
+            "how_li3_desc": " Connections sa mga localized na legal, psychological, at community support services.",
+            "safety_title": "Safety by Design",
+            "safety_desc_1": "Built on the principles of ",
+            "safety_desc_2": "Safety by Design",
+            "safety_desc_3": ", nagfo-focus ang tool na ito sa prevention at empowerment. We believe na ang safety ay hindi dapat afterthought kundi fundamental feature ng digital experience. By combining lived-experience insights with technical expertise, sine-secure namin na every resource provided is practical, accessible, at rooted sa reality ng mga taong most vulnerable to online harm.",
+            "privacy_title": "Data Privacy",
+            "privacy_desc_1": "Ang safety at privacy mo ay among highest priorities. Designed itong tool for total anonymity: ",
+            "privacy_desc_2": "hindi kami nagco-collect, nag-i-store, or nagta-track ng kahit anong personal data, interaction history, o results.",
+            "privacy_desc_3": " All information you input ay remain strictly sa local device mo at never transmitted sa aming servers o shini-share with third parties. Once na close mo ang browser tab mo, cleared na ang session data mo. Naniniwala kami na ang pag-seek ng help shouldn't leave a digital footprint, kaya you can access verified Philippine resources with complete peace of mind.",
+            "privacy_not_alone": "You are not alone. Ang tool na ito ang first step mo toward a safer, more secure digital life."
+        },
+        "guide_content": {
+            "title": "Survivor's Guide",
+            "tab_evidence": "Evidence Checklist",
+            "tab_legal": "Your Rights",
+            "evidence_title": "Pagpe-preserve ng Digital Evidence",
+            "evidence_desc": "Kung gusto mong i-keep ang evidence, ang pag-save ng screenshots, messages, o links may help. Kung na-i-stress ka o feeling distressed nito, you may store them securely at mag-ask sa isang trusted someone to assist you.",
+            "evidence_1_title": "1. Screenshots",
+            "evidence_1_li1_1": "I-capture ang ",
+            "evidence_1_li1_2": "entire screen",
+            "evidence_1_li1_3": ", including ang URL bar at system clock.",
+            "evidence_1_li2_1": "Ensure na ang ",
+            "evidence_1_li2_2": "profile or sender name",
+            "evidence_1_li2_3": " ay visible.",
+            "evidence_1_li3": "Pindutin ang timestamps o \"Three dots\" menus para lumabas ang exact dates o times kung possible.",
+            "evidence_2_title": "2. URLs (Links)",
+            "evidence_2_li1_1": "Kopyahin ang ",
+            "evidence_2_li1_2": "direct link",
+            "evidence_2_li1_3": " papunta sa post, image, o profile.",
+            "evidence_2_li2": "Kung nasa mobile app ka, use \"Share > Copy Link\".",
+            "evidence_2_li3_1": "Use services like ",
+            "evidence_2_li3_2": " o ",
+            "evidence_2_li3_3": " para i-save bilang permanent snapshot.",
+            "evidence_3_title": "3. Metadata",
+            "evidence_3_desc_1": "If may na-receive kang file (photo/video), i-keep ang ",
+            "evidence_3_desc_2": "original file",
+            "evidence_3_desc_3": ". Huwag kang basta-bastang mag-take ng screenshot nito lang. Ang original file contains \"EXIF\" data (kung the date taken at the device used) na uma-act as a fingerprint.",
+            "legal_title": "Know Your Rights",
+            "legal_desc": "Protektado ka ng Philippine laws laban sa online harassment.",
+            "legal_1_title": "RA 10175: Cybercrime Prevention Act",
+            "legal_1_desc_1": "Ito ay nagko-cover ng ",
+            "legal_1_desc_2": "Cyber-Libel",
+            "legal_1_desc_3": ", ",
+            "legal_1_desc_4": "Computer-related Identity Theft",
+            "legal_1_desc_5": ", at illegal access. If someone hacks your account o nag-post ng malicious lies online, this applies.",
+            "legal_2_title": "RA 9995: Anti-Photo at Video Voyeurism Act",
+            "legal_2_desc_1": "Strictly ipinagbabawal ang pag-take, copy, o sharing of photo o video of a person's private parts o mga sexual acts ng walang consent. Ang ",
+            "legal_2_desc_2": "\"Voyeurism\"",
+            "legal_2_desc_3": " ay mag-a-apply even if someone sa video originally consented to the recording pero HINDI sa sharing nito (revenge porn).",
+            "legal_3_title": "RA 11313: Safe Spaces Act (Bawal Bastos)",
+            "legal_3_desc_1": "Pinaparusahan nito ang ",
+            "legal_3_desc_2": "Online Sexual Harassment",
+            "legal_3_desc_3": " (OSH). This also includes the unwanted sexual remarks, misogynistic man o homophobic slurs, and miski ang cyberstalking."
+        },
+        "directory": {
+            "title": "Resource Directory",
+            "desc": "Verified contacts para sa legal, technical, at emotional support.",
+            "info_banner": "Not sure kung which resource ang right for you? Click the Gabay Tech icon sa the top left corner, then after, answer a few questions and eventually Gabay Tech will generate a recommendation based purely sa iyong unique situation.",
+            "search_placeholder": "Search from agencies, tags...",
+            "resources": {
+                "cicc": {
+                    "name": "Cybercrime Investigation at Coordinating Center (CICC)",
+                    "type": "Legal support",
+                    "description": "Inter-Agency response task force.",
+                    "tags": [
+                        "reporting",
+                        "cybercrime",
+                        "investigation"
+                    ]
+                },
+                "aleng_pulis": {
+                    "name": "PNP Aling Pulis",
+                    "type": "Gender Sensitive",
+                    "description": "24/7 hotline dedicated specifically for the response ng forms of violence against women at children.",
+                    "tags": [
+                        "police",
+                        "women",
+                        "children"
+                    ]
+                },
+                "pnp_acg": {
+                    "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
+                    "type": "Law Enforcement",
+                    "tags": [
+                        "police",
+                        "cybercrime",
+                        "reporting"
+                    ]
+                },
+                "nbi_ccd": {
+                    "name": "NBI Cybercrime Division (NBI-CCD)",
+                    "type": "Law Enforcement",
+                    "tags": [
+                        "investigation",
+                        "cybercrime",
+                        "reporting"
+                    ]
+                },
+                "doj_occ": {
+                    "name": "DOJ - Office of Cybercrime",
+                    "type": "Legal Support",
+                    "tags": [
+                        "legal",
+                        "investigation",
+                        "cybercrime"
+                    ]
+                },
+                "npc": {
+                    "name": "National Privacy Commission (NPC)",
+                    "type": "Regulator",
+                    "tags": [
+                        "regulator",
+                        "investigation",
+                        "takedown requests"
+                    ]
+                },
+                "dswd": {
+                    "name": "Department of Social Welfare at Development",
+                    "type": "Social Services",
+                    "tags": [
+                        "mental health",
+                        "survivor support",
+                        "counseling"
+                    ]
+                },
+                "wcpu": {
+                    "name": "Local PNP Women at Children Protection Units",
+                    "type": "Gender Sensitive",
+                    "description": "If you need an immediate physical protection, it's always best talaga na you can visit your nearest na local police station and let them know so that they can speak with you on the WCPU desk.",
+                    "websiteText": "Mag-hanap ng number of the office of the most nearest point to you",
+                    "tags": [
+                        "police",
+                        "women",
+                        "children"
+                    ]
+                }
+            }
+        }
+    }
+}

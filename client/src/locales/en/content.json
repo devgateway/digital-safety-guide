@@ -1,0 +1,161 @@
+{
+    "content": {
+        "about": {
+            "title": "About this Tool",
+            "desc_1": "Gabay Tech is a specialized digital resource ",
+            "desc_2": "custom-built for the Philippines",
+            "desc_3": " to bridge the gap between feeling unsafe online and taking effective action. Developed as part of the National Models for Women's Safety Online (NMWSO) initiative by IREX and Development Gateway: An IREX Venture, this platform provides a proactive, survivor-centered pathway to digital security. ",
+            "desc_link": "Learn more about the NMWSO program here",
+            "mission_title": "Our Mission",
+            "mission_desc": "Our mission is to empower individuals—particularly women and marginalized communities—to reclaim their digital agency. We do not simply provide general advice; we offer direct contact information for established response networks and the specific digital harm that a user is facing. Whether you are seeking legal recourse, psychological support, or technical assistance with platform reporting, you are being connected to legitimate, active Philippine and global entities equipped to help.",
+            "collab_title": "A Collaborative Effort",
+            "collab_desc_1": "This platform is the result of an intensive, multi-stakeholder collaboration. It was co-created alongside and with the direct support of many of the ",
+            "collab_desc_2": "Philippine government agencies and non-government organizations (NGOs)",
+            "collab_desc_3": " listed within the tool. By working hand-in-hand with the nation's leading digital rights advocates, legal experts, and social service providers, we have ensured that the guidance provided is not only practical but deeply rooted in the Philippine legal and social context.",
+            "how_title": "How It Works",
+            "how_desc": "The tool guides you through a trauma-informed assessment to help categorize online threats, ranging from privacy breaches to targeted abuse. Based on your unique situation, it provides:",
+            "how_li1_title": "Step-by-Step Action Plans:",
+            "how_li1_desc": " Clear instructions on how to secure your accounts and preserve evidence.",
+            "how_li2_title": "Platform-Specific Guides:",
+            "how_li2_desc": " Direct links and methods for reporting violations to major social media and digital service providers.",
+            "how_li3_title": "Support Referrals:",
+            "how_li3_desc": " Connections to localized legal, psychological, and community support services.",
+            "safety_title": "Safety by Design",
+            "safety_desc_1": "Built on the principles of ",
+            "safety_desc_2": "Safety by Design",
+            "safety_desc_3": ", this tool focuses on prevention and empowerment. We believe that safety should not be an afterthought but a fundamental feature of the digital experience. By combining lived-experience insights with technical expertise, we ensure that every resource provided is practical, accessible, and rooted in the reality of those most vulnerable to online harm.",
+            "privacy_title": "Data Privacy",
+            "privacy_desc_1": "Your safety and privacy are our highest priorities. This tool is designed for total anonymity: ",
+            "privacy_desc_2": "we do not collect, store, or track any personal data, interaction history, or results.",
+            "privacy_desc_3": " All information you input remains strictly on your local device and is never transmitted to our servers or shared with third parties. Once you close your browser tab, your session data is cleared. We believe that seeking help should not leave a digital footprint, allowing you to access verified Philippine resources with complete peace of mind.",
+            "privacy_not_alone": "You are not alone. This tool is your first step toward a safer, more secure digital life."
+        },
+        "guide_content": {
+            "title": "Survivor's Guide",
+            "tab_evidence": "Evidence Checklist",
+            "tab_legal": "Your Rights",
+            "evidence_title": "Preserving Digital Evidence",
+            "evidence_desc": "If you wish to keep evidence, saving screenshots, messages, or links may help. If this feels distressing, you may store them securely and ask someone you trust to assist you.",
+            "evidence_1_title": "1. Screenshots",
+            "evidence_1_li1_1": "Capture the ",
+            "evidence_1_li1_2": "entire screen",
+            "evidence_1_li1_3": ", including the URL bar and system clock.",
+            "evidence_1_li2_1": "Ensure the ",
+            "evidence_1_li2_2": "profile/sender name",
+            "evidence_1_li2_3": " is visible.",
+            "evidence_1_li3": "Click on timestamps or \"Three dots\" menus to reveal exact dates/times if possible.",
+            "evidence_2_title": "2. URLs (Links)",
+            "evidence_2_li1_1": "Copy the ",
+            "evidence_2_li1_2": "direct link",
+            "evidence_2_li1_3": " to the post, image, or profile.",
+            "evidence_2_li2": "If on a mobile app, use \"Share > Copy Link\".",
+            "evidence_2_li3_1": "Use services like ",
+            "evidence_2_li3_2": " or ",
+            "evidence_2_li3_3": " to save a permanent snapshot.",
+            "evidence_3_title": "3. Metadata",
+            "evidence_3_desc_1": "If you received a file (photo/video), keep the ",
+            "evidence_3_desc_2": "original file",
+            "evidence_3_desc_3": ". Do not just take a screenshot of it. The original file contains \"EXIF\" data (date taken, device used) that acts as a fingerprint.",
+            "legal_title": "Know Your Rights",
+            "legal_desc": "You are protected by Philippine laws against online harassment.",
+            "legal_1_title": "RA 10175: Cybercrime Prevention Act",
+            "legal_1_desc_1": "Covers ",
+            "legal_1_desc_2": "Cyber-Libel",
+            "legal_1_desc_3": ", ",
+            "legal_1_desc_4": "Computer-related Identity Theft",
+            "legal_1_desc_5": ", and illegal access. If someone hacks your account or posts malicious lies online, this applies.",
+            "legal_2_title": "RA 9995: Anti-Photo and Video Voyeurism Act",
+            "legal_2_desc_1": "Strictly prohibits taking, copying, or sharing photo/video of a person's private parts or sexual acts without consent. ",
+            "legal_2_desc_2": "\"Voyeurism\"",
+            "legal_2_desc_3": " applies even if the person in the video originally consented to the recording but NOT to the sharing (revenge porn).",
+            "legal_3_title": "RA 11313: Safe Spaces Act (Bawal Bastos)",
+            "legal_3_desc_1": "Penalizes ",
+            "legal_3_desc_2": "Online Sexual Harassment",
+            "legal_3_desc_3": " (OSH). This includes unwanted sexual remarks, misogynistic or homophobic slurs, and cyberstalking."
+        },
+        "directory": {
+            "title": "Resource Directory",
+            "desc": "Verified contacts for legal, technical, and emotional support.",
+            "info_banner": "Not sure which resource is right for you? Click the Gabay Tech icon in the top left corner, answer a few questions, and Gabay Tech will generate a recommendation based on your unique situation.",
+            "search_placeholder": "Search agencies, tags...",
+            "resources": {
+                "cicc": {
+                    "name": "Cybercrime Investigation and Coordinating Center (CICC)",
+                    "type": "Legal support",
+                    "description": "Inter-Agency response task force.",
+                    "tags": [
+                        "reporting",
+                        "cybercrime",
+                        "investigation"
+                    ]
+                },
+                "aleng_pulis": {
+                    "name": "PNP Aling Pulis",
+                    "type": "Gender Sensitive",
+                    "description": "24/7 hotline dedicated specifically to responding to violence against women and children.",
+                    "tags": [
+                        "police",
+                        "women",
+                        "children"
+                    ]
+                },
+                "pnp_acg": {
+                    "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
+                    "type": "Law Enforcement",
+                    "tags": [
+                        "police",
+                        "cybercrime",
+                        "reporting"
+                    ]
+                },
+                "nbi_ccd": {
+                    "name": "NBI Cybercrime Division (NBI-CCD)",
+                    "type": "Law Enforcement",
+                    "tags": [
+                        "investigation",
+                        "cybercrime",
+                        "reporting"
+                    ]
+                },
+                "doj_occ": {
+                    "name": "DOJ - Office of Cybercrime",
+                    "type": "Legal Support",
+                    "tags": [
+                        "legal",
+                        "investigation",
+                        "cybercrime"
+                    ]
+                },
+                "npc": {
+                    "name": "National Privacy Commission (NPC)",
+                    "type": "Regulator",
+                    "tags": [
+                        "regulator",
+                        "investigation",
+                        "takedown requests"
+                    ]
+                },
+                "dswd": {
+                    "name": "Department of Social Welfare and Development",
+                    "type": "Social Services",
+                    "tags": [
+                        "mental health",
+                        "survivor support",
+                        "counseling"
+                    ]
+                },
+                "wcpu": {
+                    "name": "Local PNP Women and Children Protection Units",
+                    "type": "Gender Sensitive",
+                    "description": "If you need immediate physical protection, it is always best to visit your nearest local police station and ask to speak to the WCPU desk.",
+                    "websiteText": "Find the phone number of the office nearest you",
+                    "tags": [
+                        "police",
+                        "women",
+                        "children"
+                    ]
+                }
+            }
+        }
+    }
+}

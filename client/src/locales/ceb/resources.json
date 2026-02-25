@@ -87,15 +87,315 @@
                 }
             },
             "res_dox_npc": {
-                "title": "Data Privacy Violation",
+                "title": "Kalapasan sa Data Privacy",
                 "content": "Mura'g ang imong nasinati usa ka violation sa Data Privacy Act (RA 10173). Pwede mi motabang nimo pag-draft og formal complaint.",
                 "links": {
-                    "0": "Draft NPC Complaint"
+                    "0": "Paghimo og Reklamo sa NPC"
                 }
             },
             "res_dox_offline": {
-                "title": "Offline/Other Violation",
+                "title": "Offline/Laing Kalapasan",
                 "content": "Kung wala kini nahitabo gamit ang computer system, basin dili kini violation sa Data Privacy Act, pero posible gihapon nga illegal. Consult legal counsel."
+            },
+            "res_imp_action_2": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "I-secure ang Imong mga Account",
+                "content": "Kung na-expose ang imong login information, palihog usba dayon ang imong passwords ug i-enable ang Two-Factor Authentication (2FA) sa tanang accounts.",
+                "options": {
+                    "0": "Ipadayon sa mga Lakang sa Pag-report"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Posibleng Kalapasan: Anti-Cybercrime Act",
+                "content": "Kung ang mga hulagway digitally produced, altered, edited, o doctored, mahimo kining kalapasan sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Posibleng Kalapasan: Safe Spaces Act",
+                "content": "Kung ang mga hulagway o video kay makauulaw, makadaot sa dungog, o sa kinaiya nga naghulga, mahimo kining kalapasan sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Posibleng Kalapasan: Data Privacy Act",
+                "content": "Kung ang mga hulagway o video gigamit aron i-impersonate ka, mahimo kining kalapasan sa Data Privacy Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Posibleng Kalapasan: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung ang mga hulagway o video nakuha nga tago o walay pagtugot, mahimo kining kalapasan sa Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Posibleng Kalapasan: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga hulagway adunay intimate o explicit nga materyales, mahimo kining kalapasan sa Safe Spaces Act, Anti-Photo/Video Voyeurism Act, ug uban pang espesyal nga proteksyon.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Posibleng Kalapasan: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung sa hulagway adunay mga menor de edad (ubos sa 18), mahimo kining kalapasan sa Anti-OSAEC Law, Anti-Child Abuse Law, ug may katungod ka sa espesyal nga proteksyon.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "I-secure ang Imong mga Account",
+                "content": "Kung na-expose ang imong login information, palihog usba dayon ang imong passwords ug i-enable ang Two-Factor Authentication (2FA) sa tanang accounts.",
+                "options": {
+                    "0": "Ipadayon sa mga Lakang sa Pag-report"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "I-secure ang Imong mga Account",
+                "content": "Kung na-expose ang imong login information, palihog usba dayon ang imong passwords ug i-enable ang Two-Factor Authentication (2FA) sa tanang accounts.",
+                "options": {
+                    "0": "Ipadayon sa mga Lakang sa Pag-report"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Posibleng Kalapasan: Anti-Cybercrime Act",
+                "content": "Ang pag-harass o pagpanghulga naglambigit sa balik-balik ug dili gusto nga pagkontak pinaagi sa digital means. Mahimo kining kalapasan sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Posibleng Kalapasan: Grave Threats (Article 282)",
+                "content": "Kung ang harassment naglambigit og hulga nga grabe, reputational nga kadaut o pinansyal, mahimo kining kalapasan sa Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Posibleng Kalapasan: Safe Spaces Act",
+                "content": "Kung ang harassment gitumong sa babaye o bata, mahimo kining kalapasan sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Posibleng Kalapasan: Anti-VAWC Laws",
+                "content": "Kung ang harassment gikan sa kasamtangan o kanhing kapikas, mahimo kining kalapasan sa Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tan-awa ang akong mga kapilian sa aksyon"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "I-report ang Impersonation",
+                "content": "Basin kinahanglan nimo kining sulbaron diretso sa platform o sa hingtungdan. Makatabang mi pag-andam og pormal nga reklamo base sa impormasyon nga imong gihatag, o makakonektar mi nimo sa ubang kapanguhaan.",
+                "links": {
+                    "0": "Tan-awa ang mga Takedown Request Template",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_dox_npc_2": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_3": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_4": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_5": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_6": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_7": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_8": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_9": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_10": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_11": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
+            },
+            "res_dox_npc_12": {
+                "title": "Kalapasan sa Data Privacy",
+                "content": "Base sa imong nasinati, mahimo kining kalapasan sa Data Privacy Act (RA 10173). Makatabang mi nimo paghimo og pormal nga reklamo.",
+                "links": {
+                    "0": "Paghimo og Reklamo sa NPC"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Laing Kalapasan",
+                "content": "Kung wala kini nahitabo pinaagi sa computer system, mahimong dili kini kalapasan sa Data Privacy Act, apan mahimo gihapon kining ilegal. Pakigsulti sa legal counsel."
             }
         }
     }

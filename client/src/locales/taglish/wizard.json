@@ -76,14 +76,14 @@
                 }
             },
             "end_no_auth": {
-                "title": "Authorization Needed",
+                "title": "Kailangan ng Authorization",
                 "content": "Gets. Unfortunately, hindi ka pwedeng mag-pursue ng legal action para sa kanila nang walang proper authorization. Pero, pwede naming ipaliwanag sa'yo kung anong pwede nilang gawin at ituro ka sa ibang non-legal resources.",
                 "links": {
                     "0": "Tingnan ang Non-Legal Support Resources"
                 }
             },
             "end_emergency": {
-                "title": "Emergency Action Required",
+                "title": "Kailangan ng Emergency Action",
                 "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
                 "links": {
                     "0": "Dial 911",
@@ -233,7 +233,7 @@
                 "content": "Nakaka-frustrate 'yan. Kahit hindi ka direktang na-identify, pwede mong protektahan ang privacy mo by reporting the content to the platform at pag-adjust ng privacy settings mo."
             },
             "end_emergency_2": {
-                "title": "Emergency Action Required",
+                "title": "Kailangan ng Emergency Action",
                 "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
                 "links": {
                     "0": "Dial 911",

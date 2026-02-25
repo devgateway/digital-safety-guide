@@ -125,7 +125,7 @@
                 }
             },
             "end_dox_frustrating": {
-                "title": "Privacy Advice",
+                "title": "Laygay sa Privacy",
                 "content": "Maka-frustrate ina. Bisan kung indi ka direkta nga ma-identify, pwede mo protektahan ang imo privacy pinaagi sa pag-report sang content sa platform kag pag-adjust sang imo privacy settings."
             },
             "menu_actions_harass": {
@@ -135,7 +135,7 @@
                     "0": "Kontaka ang Law Enforcement",
                     "1": "Mag-submit sang Takedown Request",
                     "2": "Mag-istorya sa Counselor",
-                    "3": "Online Safety Resources"
+                    "3": "Mga Resources para sa Online Safety"
                 }
             },
             "end_dox_check_legal": {
@@ -158,7 +158,7 @@
                 }
             },
             "end_dox_wait": {
-                "title": "Exhaustion of Remedies",
+                "title": "Pag-ubos sang mga Remedyo",
                 "content": "Kasanagan, indi ka maka-file sang complaint sa Data Privacy Commission hasta wala mo gintestingan nga solbaron ang isyu direkta sa tawo/entity kag naghulat sang 15 days."
             },
             "q_dox_exceptions": {
@@ -167,6 +167,440 @@
                     "0": "Huud",
                     "1": "Wala"
                 }
+            },
+            "q_dox_identify_2": {
+                "question": "Ini bala nga impormasyon nagapakilala sa imo? (ngalan, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "q_img_nature_2": {
+                "question": "Sige. Makabulig ako sa imo paagi sa mga simple nga steps para mag-feel ka nga mas luwas. Una, pilia ang pinaka-angay parte sa mga litrato/video:",
+                "options": {
+                    "0": "Nagaduda ako nga ang mga litrato ginhimo gamit ang digital tools, in-edit, ukon doctored (Deepfakes)",
+                    "1": "Ang mga litrato makahuluya, makaguba sang dungog, ukon nagapahog",
+                    "2": "Ang mga litrato nagagamit para i-impersonate ako",
+                    "3": "Ang mga litrato nakuha nga sekreto ukon wala sang akon pagtugot (Voyeurism)",
+                    "4": "Ang mga litrato may unod nga intimate ukon explicit nga materyales",
+                    "5": "Ang mga litrato nagapakita sang minors (bata nga wala pa 18 anyos)"
+                }
+            },
+            "q_danger_check_2": {
+                "question": "Makakakulba ina. Yara ka bala sa immediate danger?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Wala, pero gusto ko mag-feel nga mas luwas"
+                }
+            },
+            "q_imp_method_2": {
+                "question": "Paano ka gina-impersonate sang sini nga tawo?",
+                "options": {
+                    "0": "Nagagamit sang akon litrato ukon video",
+                    "1": "Nagagamit sang akon bug-os nga legal name",
+                    "2": "Nagagamit sang akon address ukon phone number",
+                    "3": "Nagagamit sang akon login information (username/password)",
+                    "4": "Iban pa"
+                }
+            },
+            "q_dox_info_2": {
+                "question": "Ano nga impormasyon ang na-expose?",
+                "options": {
+                    "0": "Litrato ukon video",
+                    "1": "Login information",
+                    "2": "Iban nga personal info (Address, ID, etc)"
+                }
+            },
+            "menu_actions_img_2": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_3": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_4": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_5": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_6": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "q_dox_consent_2": {
+                "question": "May rason ka bala nga magduda nga ang indibidwal ukon entidad nga nagpalapta sini nga impormasyon may CONSENT ukon LEGAL BASIS sa paghimo sini?",
+                "options": {
+                    "0": "Huud / Wala ako kabalo",
+                    "1": "Indi"
+                }
+            },
+            "end_dox_frustrating_2": {
+                "title": "Laygay sa Privacy",
+                "content": "Maka-frustrate ina. Bisan kung indi gid sini ma-identify ka sing direkta, pwede mo testingan nga protektahan ang imo privacy paagi sa pag-report sang content sa platform kag pag-adjust sang imo privacy settings."
+            },
+            "end_emergency_2": {
+                "title": "Kinahanglan sang Emergency nga Aksyon",
+                "content": "Palihog mangita sang luwas nga lugar kag kontaka dayon ang pulis. Kung kinahanglan mo sang sensitibo nga bulig parte sa mga gender-based issues, pwede ka mangayo sang bulig sa inyo local VAWC Desk. Kung nahadlok ka makipag-ugnayan sa inyo local police para sa iban nga rason, kontaka ang PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "Tawag sa 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details_2": {
+                "question": "Kahalo ko. Makabulig ako sa imo paagi sa mga simple nga steps para mag-feel ka nga mas luwas. Una, pilia ang tanan nga naga-apply:",
+                "options": {
+                    "0": "Ang harassment nagasakop sang pauli-uli kag indi gusto nga contact gamit ang digital nga pamaagi",
+                    "1": "Ang harassment nagasakop sang mga pagpahog sang pisikal, reputational, ukon pinansyal nga kahalitan",
+                    "2": "Ang harassment ginatumod sa isa ka babayi kag/ukon bata",
+                    "3": "Ang harassment nagahalin sa isa ka subong ukon sang-una nga intimate partner (uyab o asawa)"
+                }
+            },
+            "q_dox_identify_3": {
+                "question": "Ini bala nga impormasyon nagapakilala sa imo? (ngalan, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "q_dox_identify_4": {
+                "question": "Ini bala nga impormasyon nagapakilala sa imo? (ngalan, address, phone, workplace, IDs, accounts)",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "menu_actions_harass_2": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "menu_actions_harass_3": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "menu_actions_harass_4": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "end_dox_check_legal_2": {
+                "title": "I-check ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal ukon entidad basi nakabaton sang imo consent (e.g., paagi sa Terms of Service) ukon may legal nga basehan (public officials). Kung indi ka sigurado, basi kinahanglan mo magkonsulta sa isa ka abogado."
+            },
+            "q_dox_15_days_2": {
+                "question": "Nakabuhat ka na bala sang tikang para masolbar ini diretso upod sang violator/platform KAG nagligad na bala ang 15 dias halin sang imo pagtesting nga solbaron ini?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi",
+                    "2": "Huud, pero wala ako nakabaton sang sabat / wala pa nasolbar"
+                }
+            },
+            "menu_actions_img_7": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_8": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_9": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_10": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_11": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "menu_actions_img_12": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "May pila ka mga butang nga pwede mo mahimo para makabulig nga mag-feel ka nga mas safe kag para pasimplehon ang mga bagay. I-click ang isa sa mga opsyon sa idalom para mag-explore pa:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan / File sang Kriminal nga Reklamo",
+                    "1": "Mag-submit sang Takedown Request sa Platform",
+                    "2": "Mag-istorya sa Professional / Counselor (Mediation)",
+                    "3": "Magtuon pa gid parte sa Online Safety"
+                }
+            },
+            "q_dox_consent_3": {
+                "question": "May rason ka bala nga magduda nga ang indibidwal ukon entidad nga nagpalapta sini nga impormasyon may CONSENT ukon LEGAL BASIS sa paghimo sini?",
+                "options": {
+                    "0": "Huud / Wala ako kabalo",
+                    "1": "Indi"
+                }
+            },
+            "end_dox_frustrating_3": {
+                "title": "Laygay sa Privacy",
+                "content": "Maka-frustrate ina. Bisan kung indi gid sini ma-identify ka sing direkta, pwede mo testingan nga protektahan ang imo privacy paagi sa pag-report sang content sa platform kag pag-adjust sang imo privacy settings."
+            },
+            "q_dox_consent_4": {
+                "question": "May rason ka bala nga magduda nga ang indibidwal ukon entidad nga nagpalapta sini nga impormasyon may CONSENT ukon LEGAL BASIS sa paghimo sini?",
+                "options": {
+                    "0": "Huud / Wala ako kabalo",
+                    "1": "Indi"
+                }
+            },
+            "end_dox_frustrating_4": {
+                "title": "Laygay sa Privacy",
+                "content": "Maka-frustrate ina. Bisan kung indi gid sini ma-identify ka sing direkta, pwede mo testingan nga protektahan ang imo privacy paagi sa pag-report sang content sa platform kag pag-adjust sang imo privacy settings."
+            },
+            "q_dox_computer_2": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_computer_3": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_exceptions_2": {
+                "question": "May nagamit bala diri sa masunod? 1. Seryoso/indi makay-o nga kahalitan. 2. Ang violator indi makahatag sang solusyon. 3. Ang aksyon maathag nga iligal.",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "q_dox_computer_4": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "menu_actions_harass_5": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "menu_actions_harass_6": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "menu_actions_harass_7": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "menu_actions_harass_8": {
+                "title": "Ang Mga Pwede Mo Mahimo",
+                "content": "Para mag-feel nga mas luwas, ikonsidera ini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Pagpatuman sang Kasuguan",
+                    "1": "Mag-submit sang Takedown Request",
+                    "2": "Makig-istorya sa Counselor",
+                    "3": "Mga Resources para sa Online Safety"
+                }
+            },
+            "end_dox_check_legal_3": {
+                "title": "I-check ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal ukon entidad basi nakabaton sang imo consent (e.g., paagi sa Terms of Service) ukon may legal nga basehan (public officials). Kung indi ka sigurado, basi kinahanglan mo magkonsulta sa isa ka abogado."
+            },
+            "q_dox_15_days_3": {
+                "question": "Nakabuhat ka na bala sang tikang para masolbar ini diretso upod sang violator/platform KAG nagligad na bala ang 15 dias halin sang imo pagtesting nga solbaron ini?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi",
+                    "2": "Huud, pero wala ako nakabaton sang sabat / wala pa nasolbar"
+                }
+            },
+            "end_dox_check_legal_4": {
+                "title": "I-check ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal ukon entidad basi nakabaton sang imo consent (e.g., paagi sa Terms of Service) ukon may legal nga basehan (public officials). Kung indi ka sigurado, basi kinahanglan mo magkonsulta sa isa ka abogado."
+            },
+            "q_dox_15_days_4": {
+                "question": "Nakabuhat ka na bala sang tikang para masolbar ini diretso upod sang violator/platform KAG nagligad na bala ang 15 dias halin sang imo pagtesting nga solbaron ini?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi",
+                    "2": "Huud, pero wala ako nakabaton sang sabat / wala pa nasolbar"
+                }
+            },
+            "q_dox_computer_5": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_computer_6": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "end_dox_wait_2": {
+                "title": "Pag-ubos sang mga Remedyo",
+                "content": "Sa pangkabilugan, indi ka maka-file sang reklamo sa Data Privacy commission hasta wala mo testingi nga solbaron ang isyu diretso sa tawo/entidad kag naghulat sang 15 dias."
+            },
+            "q_dox_computer_7": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_exceptions_3": {
+                "question": "May nagamit bala diri sa masunod? 1. Seryoso/indi makay-o nga kahalitan. 2. Ang violator indi makahatag sang solusyon. 3. Ang aksyon maathag nga iligal.",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "q_dox_computer_8": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_computer_9": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_exceptions_4": {
+                "question": "May nagamit bala diri sa masunod? 1. Seryoso/indi makay-o nga kahalitan. 2. Ang violator indi makahatag sang solusyon. 3. Ang aksyon maathag nga iligal.",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi"
+                }
+            },
+            "q_dox_computer_10": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "q_dox_computer_11": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "end_dox_wait_3": {
+                "title": "Pag-ubos sang mga Remedyo",
+                "content": "Sa pangkabilugan, indi ka maka-file sang reklamo sa Data Privacy commission hasta wala mo testingi nga solbaron ang isyu diretso sa tawo/entidad kag naghulat sang 15 dias."
+            },
+            "q_dox_computer_12": {
+                "question": "Sa imo nahibal-an, ang impormasyon bala ginkolekta ukon naglapta paagi sa isa ka computer system?",
+                "options": {
+                    "0": "Huud",
+                    "1": "Indi / Wala ako kabalo"
+                }
+            },
+            "end_dox_wait_4": {
+                "title": "Pag-ubos sang mga Remedyo",
+                "content": "Sa pangkabilugan, indi ka maka-file sang reklamo sa Data Privacy commission hasta wala mo testingi nga solbaron ang isyu diretso sa tawo/entidad kag naghulat sang 15 dias."
             }
         }
     }

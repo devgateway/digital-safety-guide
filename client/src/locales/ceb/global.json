@@ -1,25 +1,25 @@
 {
     "global": {
         "ui": {
-            "title": "TFGBV Global Resources",
+            "title": "Mga Pangkalibutang Kapanguhaan sa TFGBV",
             "subtitle": "Educational resources ug international guides bahin sa online safety ug Technology-Facilitated Gender-Based Violence (TFGBV).",
-            "btn_access": "Access Resource",
+            "btn_access": "Aksesa ang Kapanguhaan",
             "local_support_title": "Nagkinahanglan ka bag immediate support sa Pilipinas?",
             "local_support_desc": "Nag-compile mi og specialized local resources para sa survivors sa online harassment ug gender-based violence.",
-            "btn_counseling": "Social & Mental Health Services",
+            "btn_counseling": "Mga Serbisyo sa Sosyal ug Mental Health",
             "btn_takedown": "Takedown Request Builder"
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN\u2019s DIY Online Safety Guide",
+                "name": "DIY Online Safety Giya sa CHAYN",
                 "description": "Usa ka comprehensive, survivor-led guide para magpabiling safe online, nag-cover sa topics gikan sa pag-secure sa accounts hangtod sa pag-atubang sa harassment."
             },
             "australia_esafety": {
-                "name": "Australia\u2019s E-Safety Guide",
+                "name": "E-Safety Giya sa Australia",
                 "description": "Usa ka world-leading resource nga naghisgot sa key topics sa online safety, apil na ang deepfakes, cyberbullying, ug image-based abuse."
             },
             "unfpa": {
-                "name": "UNFPA: TFGBV Considerations",
+                "name": "UNFPA: Mga Konsiderasyon sa TFGBV",
                 "description": "Usa ka critical resource nga naay title nga: \"Technology-facilitated gender-based violence: Considerations across the life course\", nga nagtuon sa epekto sa digital harm."
             },
             "fma": {
@@ -27,24 +27,24 @@
                 "description": "Usa ka Philippine-based NGO nga naka-focus sa intersection sa technology ug human rights. Naa silay specific resources bahin sa gender-based violence ug dedicated helpline."
             },
             "cnxus": {
-                "name": "She Leads Curriculum on TFGBV",
+                "name": "Kurikulum sa She Leads bahin sa TFGBV",
                 "description": "Usa ka specialized educational curriculum nga gidesinyo para i-empower ang leaders ug advocates nga solusyunan ang technology-facilitated gender-based violence."
             },
             "svri": {
-                "name": "SVRI Global Library",
+                "name": "Pangkalibutang Librarya sa SVRI",
                 "description": "Usa ka dako nga repository sa research ug resources nga dedicated sa intersection sa technology ug gender-based violence."
             },
             "pcw": {
-                "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
-                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+                "name": "Philippine Commission on Women - Giya sa mga Balaod ug Polisiya",
+                "description": "Usa ka komprehensibong tipiganan sa mga impormasyon bahin sa mga balaod ug polisiya sa gender sa Pilipinas, lakip ang mga case study ug legal nga proteksyon para sa online ug offline nga gender-based violence."
             },
             "iwf": {
                 "name": "Internet Watch Foundation",
-                "description": "Report online child sexual abuse images & videos anonymously."
+                "description": "I-report ang mga hulagway ug video sa online child sexual abuse nga walay pagpaila (anonymously)."
             },
             "stop_ncii": {
-                "name": "Stop Non-Consentual Intimate Image Abuse",
-                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
+                "name": "Hunonga ang Pag-abuso pinaagi sa Non-Consensual Intimate Image",
+                "description": "Ang StopNCII.org kay usa ka libre nga gamit aron pagsuporta sa mga biktima sa pang-abuso pinaagi sa Non-Consensual Intimate Image (NCII). Naghimo kinig hash gikan sa imong intimate nga mga hulagway/video ug i-share kini sa mga kompanya aron ilang ma-detect ug matangtang ang mga hulagway online."
             }
         }
     }

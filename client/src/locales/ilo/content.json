@@ -1,0 +1,161 @@
+{
+    "content": {
+        "about": {
+            "title": "Maipapan iti daytoy a Ramit",
+            "desc_1": "Ti Gabay Tech ket maysa a naipangpangruna a digital resource ",
+            "desc_2": "nga inaramid para iti Pilipinas",
+            "desc_3": " tapno pagtalinaeden ti baet dagiti marikna a saan a natalged online ken ti mangaramid iti umiso a banag. Napartuat a kas paset ti inisiatibo a National Models for Women's Safety Online (NMWSO) ti IREX ken Development Gateway: Maysa nga IREX Venture, mangted daytoy a plataporma iti nasayaat, a masentro iti survivor, a pagdalanan a mangiturong iti kinatalged a digital. ",
+            "desc_link": "Ammuen ti ad-adu pay maipapan iti programa ti NMWSO ditoy",
+            "mission_title": "Ti Misyonmi",
+            "mission_desc": "Ti misyonmi ket mangted gundaway kadagiti indibidual—kangrunaan dagiti babbai ken kadagiti nadeprimido a komunidad—tapno manamnama ti bukodda a digital agency. Saan laeng a basta mami-kami ibagbaga no aniad ti ikap-ag. Nangipaaykami ti direkta nga informasyon no sadino ti makita ken maikkan idin ti spesipiko a digital harm. Uray agsapsapul iti legal a tulong, mental a suporta wenno iti pannakaawat iti tulong iti plataporma, naisamitda kadagiti opisial nga ahensiya ti Pilipinas a nakasagana a tumulong.",
+            "collab_title": "Maysa a Nagkaduwaan a Gakat",
+            "collab_desc_1": "Daytoy a plataporma ket resulta ti maysa a naridam ken napintas a pinangikurugan dagiti nadumaduma a stakeholder. Naaramid daytoy babaen iti isyu ti daduma pay nga agpayso nga insentibo nga ti inisiyatibo a naaddaan iti suporta manipud kadagiti ",
+            "collab_desc_2": "Ahensiya ti Gobyerno ti Pilipinas ken dagiti Non-Government Organization (NGO)",
+            "collab_desc_3": " a nailista iti listaan. Babaen ti pannakikaykaysa kadagiti kangrunaan a manangisakit kadagiti karbengan dagiti babai ken abogado ti komunidad, impasigurado a mairamut pay dagiti nalawag a pammagbaga kadagiti legal ken sosyol a pakaisaksarakan ti Pilipinas.",
+            "how_title": "Kasano a Mabayag",
+            "how_desc": "Idalanannaka ti ramit babaen ti trauma-informed nga ebalwasyon tapno makatulong a mangiklasipikar iti pamamayan wenno pagdandanagan kas iti panagraang ken abuse online. Batay iti pammuskol daytoy a situasyon, ipaayna dagiti:",
+            "how_li1_title": "Planong Pagtulugan a Makipaset:",
+            "how_li1_desc": " Nalawag a pammagbaga no kasanom ti maminggeden agsalwad ti panangusar iti social account ken agtaripato kadagiti ebidensiya.",
+            "how_li2_title": "Naindasig dagiti Palagip a Platform-Specific:",
+            "how_li2_desc": " Direkta a link dagiti palawag wenno panagduduma-aramid ti pang-report para iti social media.",
+            "how_li3_title": "Dagiti Mangisuporta a Rekomendasyon:",
+            "how_li3_desc": " Nalaka a koneksion nga usaren nga aggapu kadagiti serbisio iti legal ken komun a tulong.",
+            "safety_title": "Katalged babaen ti Desinio",
+            "safety_desc_1": "Naipanamnama dagiti kangrunaan a linteg a ",
+            "safety_desc_2": "Safety by Design",
+            "safety_desc_3": ", ket pinagsesetan iti desinio ti daytoy a panagpabauting. Pangipaawatkami a ti kinatalged saan a maipangpangruna nu di ket pagusaranan tapus, tapno dagitoy ti pakakitaan iti padas tapus technical a patugod.",
+            "privacy_title": "Mangsalakniban ti Datam",
+            "privacy_desc_1": "Kangrunaan nga adad ti kalikagumtayo iti namnamaen a seguridad.",
+            "privacy_desc_2": "Saanm a pidpiliwen ti porma a pangpaammo dagitoy nga impormasion wenno agiwayway",
+            "privacy_desc_3": " No ania man ti mapaltad mu nga inbutus nga account nga apan koma idjay local server idinto tapno matartaraigumanan.",
+            "privacy_not_alone": "Sika ket saan nga agmaymaysa nga mangigawa. Daytoy a ramit isu ti unang ramanan nga awisam dagiti namati agpakada kadagiti panangusar tapus iti nakem-nasyon iti biag."
+        },
+        "guide_content": {
+            "title": "Giya ti Survivor",
+            "tab_evidence": "Ebidensya a Listaan",
+            "tab_legal": "Ti Karbengam",
+            "evidence_title": "Pangipreserba iti Digital nga Ebidensiya",
+            "evidence_desc": "Itedmo daytoy a tulong, no adda idiay dita dagiti mensahe, ken agpabigbig idjay dita a makaammo tapno maidagaan mo. Ibalon daytoy a mapnek idinto tapno di kailangang.",
+            "evidence_1_title": "1. Screenshots",
+            "evidence_1_li1_1": "Pidutan iti ",
+            "evidence_1_li1_2": "buo a screen",
+            "evidence_1_li1_3": ", nairaman dita dagiti URL bar ken petsa ti sistema.",
+            "evidence_1_li2_1": "Siguraduen nga ti ",
+            "evidence_1_li2_2": "profile/nagan ti sender",
+            "evidence_1_li2_3": " makitkita met lang.",
+            "evidence_1_li3": "Pinduten ti timestamp wenno dagiti menu a pamin-anan \"Tallo ti dotak\".",
+            "evidence_2_title": "2. Mga URL (Link)",
+            "evidence_2_li1_1": "Kopiaen yung ",
+            "evidence_2_li1_2": "direkta a link",
+            "evidence_2_li1_3": " mapunta iti post.",
+            "evidence_2_li2": "Idiay selpon tapus ti app, agusar \"Share > Copy Link\".",
+            "evidence_2_li3_1": "Agusar kadagiti serbies dagitoy wenno ",
+            "evidence_2_li3_2": " o ",
+            "evidence_2_li3_3": " agtipid i-save tapno matartaraigumanan nangisave iti permanente.",
+            "evidence_3_title": "3. Metadatum",
+            "evidence_3_desc_1": "Idiay nakakagat ti pinagduduma idjya orihinal ",
+            "evidence_3_desc_2": "orihinal file",
+            "evidence_3_desc_3": " iserrek ti EXIF a pagpamatmat ti digital fingerprint.",
+            "legal_title": "Amuem iti Karbengan",
+            "legal_desc": "Protektado babaen iti batas para harasment idjyi impurtasion online.",
+            "legal_1_title": "RA 10175: Cybercrime Prevention Act",
+            "legal_1_desc_1": "Naipangrunaan kadagiti sumangid iti ",
+            "legal_1_desc_2": "Cyber-Libel",
+            "legal_1_desc_3": ", ",
+            "legal_1_desc_4": "Computer-related Identity Theft",
+            "legal_1_desc_5": ", at ilegal a pagserrek.",
+            "legal_2_title": "RA 9995: Anti-Photo and Video Voyeurism Act",
+            "legal_2_desc_1": "Panangpapabigbig a di kaammo manipud idyay sumangid at the time iti picture dagiti video of the time idjayi nga idalan, ang ti ",
+            "legal_2_desc_2": "\"Voyeurism\"",
+            "legal_2_desc_3": " is for sharing the iday tapos nagpaaramidan (revenge porn).",
+            "legal_3_title": "RA 11313: Safe Spaces Act (Bawal Bastos)",
+            "legal_3_desc_1": "Nagasentensiya idi ",
+            "legal_3_desc_2": "Online Sexual Harassment",
+            "legal_3_desc_3": " (OSH). Sumaklaw itiy kababaihan o homosekswal idijay."
+        },
+        "directory": {
+            "title": "Directorya ti Ramit",
+            "desc": "Dagiti kontak a naibaliktaran tapus tapno iserrek idiay suporta",
+            "info_banner": "Ag-check dagiti listahan, iklik iti mapaspasidalan tapos i-generate ti Gabay Tech.",
+            "search_placeholder": "Birok...",
+            "resources": {
+                "cicc": {
+                    "name": "Cybercrime Investigation and Coordinating Center (CICC)",
+                    "type": "Tulong Legal",
+                    "description": "Task force ti Inter-Agency response.",
+                    "tags": [
+                        "panag-report",
+                        "cybercrime",
+                        "imbestigasyon"
+                    ]
+                },
+                "aleng_pulis": {
+                    "name": "PNP Aling Pulis",
+                    "type": "Gender Sensitive",
+                    "description": "24/7 hotline ti bayolensya a naipangpangruna kdagiti babbai o ub-ubing.",
+                    "tags": [
+                        "pulis",
+                        "babbai",
+                        "ub-ubing"
+                    ]
+                },
+                "pnp_acg": {
+                    "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
+                    "type": "Mangpapiliig Dagiti Paglintegan",
+                    "tags": [
+                        "pulis",
+                        "cybercrime",
+                        "panag-report"
+                    ]
+                },
+                "nbi_ccd": {
+                    "name": "NBI Cybercrime Division (NBI-CCD)",
+                    "type": "Mangpapiliig Dagiti Paglintegan",
+                    "tags": [
+                        "imbestigasyon",
+                        "cybercrime",
+                        "panag-report"
+                    ]
+                },
+                "doj_occ": {
+                    "name": "DOJ - Office of Cybercrime",
+                    "type": "Tulong a Legal",
+                    "tags": [
+                        "legal",
+                        "imbestigasyon",
+                        "cybercrime"
+                    ]
+                },
+                "npc": {
+                    "name": "National Privacy Commission (NPC)",
+                    "type": "Regulador",
+                    "tags": [
+                        "regulador",
+                        "imbestigasyon",
+                        "takedown requests"
+                    ]
+                },
+                "dswd": {
+                    "name": "Department of Social Welfare and Development",
+                    "type": "Serbisyong Panlipunan",
+                    "tags": [
+                        "mental nga ikaayong-lawas",
+                        "supporta sang survivor",
+                        "counseling"
+                    ]
+                },
+                "wcpu": {
+                    "name": "Local PNP Women and Children Protection Units",
+                    "type": "Gender Sensitive",
+                    "description": "Kon agsapul i-report dita desk sg Local Police station sa WCPU idjay posisyon ti balay mo.",
+                    "websiteText": "Biroen ti numero dita sga posisyon nyo",
+                    "tags": [
+                        "pulis",
+                        "babai",
+                        "ubing"
+                    ]
+                }
+            }
+        }
+    }
+}

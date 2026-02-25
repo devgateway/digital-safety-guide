@@ -62,7 +62,7 @@
                 "question": "Unsa nga impormasyon ang na-expose?",
                 "options": {
                     "0": "Litrato o video",
-                    "1": "Login information",
+                    "1": "Impormasyon sa Pag-login",
                     "2": "Ubang personal info (Address, ID, etc)"
                 }
             },
@@ -125,7 +125,7 @@
                 }
             },
             "end_dox_frustrating": {
-                "title": "Privacy Advice",
+                "title": "Tambag sa Privacy",
                 "content": "Maka-frustrate kana. Bisan kung dili ka direkta nga ma-identify, pwede nimo protektahan ang imong privacy pinaagi sa pag-report sa content ngadto sa platform ug pag-adjust sa imong privacy settings."
             },
             "menu_actions_harass": {
@@ -135,7 +135,7 @@
                     "0": "Kontaka ang Law Enforcement",
                     "1": "Pag-submit og Takedown Request",
                     "2": "Pakig-istorya sa Counselor",
-                    "3": "Online Safety Resources"
+                    "3": "Mga Kapanguhaan sa Online Safety"
                 }
             },
             "end_dox_check_legal": {
@@ -158,7 +158,7 @@
                 }
             },
             "end_dox_wait": {
-                "title": "Exhaustion of Remedies",
+                "title": "Paghurot sa mga Remediya",
                 "content": "Kasagaran, dili ka maka-file og complaint sa Data Privacy Commission hangtod wala nimo gisulayan nga solbaron ang isyu direkta sa tawo/entity ug naghuwat og 15 days."
             },
             "q_dox_exceptions": {
@@ -167,6 +167,440 @@
                     "0": "Oo",
                     "1": "Wala"
                 }
+            },
+            "q_dox_identify_2": {
+                "question": "Kini ba nga impormasyon nagpaila nimo? (pangalan, address, telepono, trabahoan, mga ID, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "q_img_nature_2": {
+                "question": "Nakasabot ko. Makatabang ko nimo sa paghimo og pipila ka simpleng lakang aron mobati nga mas luwas. Una, pilia kung asa ang pinakahaom sa mga hulagway/video:",
+                "options": {
+                    "0": "Duda nako ang mga hulagway kay digitally produced, altered, o doctored (Deepfakes)",
+                    "1": "Ang mga hulagway kay makauulaw, makadaot sa dungog, o naghulga",
+                    "2": "Ang mga hulagway kay ginagamit aron i-impersonate ko",
+                    "3": "Ang mga hulagway kay nakuha nga sekreto o walay pananghid nako (Voyeurism)",
+                    "4": "Ang mga hulagway naglakip og intimate o explicit materials",
+                    "5": "Ang mga hulagway naglakip sa mga menor de edad (ubos sa 18)"
+                }
+            },
+            "q_danger_check_2": {
+                "question": "Medyo makapabalaka kana. Naa ba ka sa kakuyaw o kapeligro?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili, but I'd like to feel safer"
+                }
+            },
+            "q_imp_method_2": {
+                "question": "Giunsa ka pag-impersonate niining tawhana?",
+                "options": {
+                    "0": "Paggamit sa akong hulagway o video",
+                    "1": "Paggamit sa akong tibuok pangalan",
+                    "2": "Paggamit sa akong adres o numero sa telepono",
+                    "3": "Paggamit sa akong login info (username/password)",
+                    "4": "Ang Uban (Other)"
+                }
+            },
+            "q_dox_info_2": {
+                "question": "Unsang impormasyon ang na-expose?",
+                "options": {
+                    "0": "Hulagway o video",
+                    "1": "Impormasyon sa Pag-login",
+                    "2": "Ang Uban (Other) personal info (Address, ID, etc)"
+                }
+            },
+            "menu_actions_img_2": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_3": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_4": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_5": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_6": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "q_dox_consent_2": {
+                "question": "Asa ka man adunay rason nga magduda nga kining nagpakatag sa impormasyon adunay imong VALIDONG PAGTUGOT o adunay LEGAL NGA BASEHAN sa pagbuhat niini?",
+                "options": {
+                    "0": "Oo / I don't know",
+                    "1": "Dili"
+                }
+            },
+            "end_dox_frustrating_2": {
+                "title": "Tambag sa Privacy",
+                "content": "Makapaluya kana. Bisan og dili kini eksakto nagpaila nimo, pwede nimong panalipdan ang imong pribasiya pinaagi sa pag-report sa content sa platform ug i-adjust ang imong privacy settings."
+            },
+            "end_emergency_2": {
+                "title": "Gikinahanglan ang Dharang Aksyon sa Emerhensya",
+                "content": "Palihug pangita ug safe nga lugar ug kontaka dayon ang pulis. Kung nagkinahanglan ka ug tabang nga may kalabotan sa gender-based issues, pwede ka mangutana sa inyong local VAWC Desk. Kung naa kay kahadlok nga makig-istorya sa lokal nga pulis, i-kontak ang PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "Tawag sa 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details_2": {
+                "question": "Nakasabot ko. Makatabang ko nimo sa pagpili og unsay imong buhaton aron makabati ka nga mas luwas. Una, pilia ang tanan nga nag-apply:",
+                "options": {
+                    "0": "Ang harassment naglangkob sa balik-balik ug dili gusto nga komunikasyon pinaagi sa digital nga paagi",
+                    "1": "Ang harassment adunay mga hulga nga nakadaot sa panlawas, dungog, o sa panalapi",
+                    "2": "Ang harassment kay direkta sa usa ka babaye ug/o bata",
+                    "3": "Ang harassment naggikan sa kasamtangan o usa ka kanhi íntimate nga partner"
+                }
+            },
+            "q_dox_identify_3": {
+                "question": "Kini ba nga impormasyon nagpaila nimo? (pangalan, address, telepono, trabahoan, mga ID, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "q_dox_identify_4": {
+                "question": "Kini ba nga impormasyon nagpaila nimo? (pangalan, address, telepono, trabahoan, mga ID, accounts)",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "menu_actions_harass_2": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_3": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_4": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "end_dox_check_legal_2": {
+                "title": "Susiha ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal o entidad adunay nahuptang pagtugot nimo (pananglitan, via Terms of Service) o may legal nga basehan (public officials). Kung dili ka sigurado, kinahanglan ka makigsulti ug usa ka abogado."
+            },
+            "q_dox_15_days_2": {
+                "question": "Nakahimo na ba ka'g lakang aron kining resolbahon diretso ngadto sa violator/platform UG nahimong miaging 15 ka adlaw ba kini human nimo misuway?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili",
+                    "2": "Oo, but I have not heard back / not resolved"
+                }
+            },
+            "menu_actions_img_7": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_8": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_9": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_10": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_11": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "menu_actions_img_12": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Adunay pipila ka mga butang nga imong mabuhat aron makabati ka og kaluwasan. I-click ang usa sa mga opsyon sa ubos aron mahibal-an pa:",
+                "links": {
+                    "0": "Kontaka ang Tagpatuman sa Balaod / I-file ang Kriminal nga Reklamo",
+                    "1": "Paghimo og Takedown Request sa Platform",
+                    "2": "Makigsulti o Magpa-mediate sa usa ka Propesyonal / Magtatambag",
+                    "3": "Susiha ang uban pa mahitungod sa Online Safety"
+                }
+            },
+            "q_dox_consent_3": {
+                "question": "Asa ka man adunay rason nga magduda nga kining nagpakatag sa impormasyon adunay imong VALIDONG PAGTUGOT o adunay LEGAL NGA BASEHAN sa pagbuhat niini?",
+                "options": {
+                    "0": "Oo / I don't know",
+                    "1": "Dili"
+                }
+            },
+            "end_dox_frustrating_3": {
+                "title": "Tambag sa Privacy",
+                "content": "Makapaluya kana. Bisan og dili kini eksakto nagpaila nimo, pwede nimong panalipdan ang imong pribasiya pinaagi sa pag-report sa content sa platform ug i-adjust ang imong privacy settings."
+            },
+            "q_dox_consent_4": {
+                "question": "Asa ka man adunay rason nga magduda nga kining nagpakatag sa impormasyon adunay imong VALIDONG PAGTUGOT o adunay LEGAL NGA BASEHAN sa pagbuhat niini?",
+                "options": {
+                    "0": "Oo / I don't know",
+                    "1": "Dili"
+                }
+            },
+            "end_dox_frustrating_4": {
+                "title": "Tambag sa Privacy",
+                "content": "Makapaluya kana. Bisan og dili kini eksakto nagpaila nimo, pwede nimong panalipdan ang imong pribasiya pinaagi sa pag-report sa content sa platform ug i-adjust ang imong privacy settings."
+            },
+            "q_dox_computer_2": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_computer_3": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_exceptions_2": {
+                "question": "Asa man ani ang nakapalinya? 1. Naay dako/irreparable nga kadaot. 2. Wala pa gyud kalainan sa matanyag ang nanglapas. 3. Ang aksiyon tataw nga ilegal.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "q_dox_computer_4": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "menu_actions_harass_5": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_6": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_7": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "menu_actions_harass_8": {
+                "title": "Unsa ang Imong Mabuhat",
+                "content": "Para makabati og kasiguraduhan, idugang kini nga mga opsyon:",
+                "links": {
+                    "0": "Kontaka ang Tigpatuman sa Balaod",
+                    "1": "I-submit ang Takedown Request",
+                    "2": "Pakighinabi ug Usa ka Magtatambag",
+                    "3": "Mga Kapanguhaan sa Online Safety"
+                }
+            },
+            "end_dox_check_legal_3": {
+                "title": "Susiha ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal o entidad adunay nahuptang pagtugot nimo (pananglitan, via Terms of Service) o may legal nga basehan (public officials). Kung dili ka sigurado, kinahanglan ka makigsulti ug usa ka abogado."
+            },
+            "q_dox_15_days_3": {
+                "question": "Nakahimo na ba ka'g lakang aron kining resolbahon diretso ngadto sa violator/platform UG nahimong miaging 15 ka adlaw ba kini human nimo misuway?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili",
+                    "2": "Oo, but I have not heard back / not resolved"
+                }
+            },
+            "end_dox_check_legal_4": {
+                "title": "Susiha ang Legal nga Basehan",
+                "content": "Usahay, ang mga indibidwal o entidad adunay nahuptang pagtugot nimo (pananglitan, via Terms of Service) o may legal nga basehan (public officials). Kung dili ka sigurado, kinahanglan ka makigsulti ug usa ka abogado."
+            },
+            "q_dox_15_days_4": {
+                "question": "Nakahimo na ba ka'g lakang aron kining resolbahon diretso ngadto sa violator/platform UG nahimong miaging 15 ka adlaw ba kini human nimo misuway?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili",
+                    "2": "Oo, but I have not heard back / not resolved"
+                }
+            },
+            "q_dox_computer_5": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_computer_6": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "end_dox_wait_2": {
+                "title": "Paghurot sa mga Remediya",
+                "content": "Sagad, dili ka diretsong maka-file ug reklamo ngadto sa Data Privacy Commission usa pa nimo pagsulayan og resolba ang isyu diretso ngadto sa tawo/entidad ug naghulat ba sad ug 15 ka adlaw."
+            },
+            "q_dox_computer_7": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_exceptions_3": {
+                "question": "Asa man ani ang nakapalinya? 1. Naay dako/irreparable nga kadaot. 2. Wala pa gyud kalainan sa matanyag ang nanglapas. 3. Ang aksiyon tataw nga ilegal.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "q_dox_computer_8": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_computer_9": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_exceptions_4": {
+                "question": "Asa man ani ang nakapalinya? 1. Naay dako/irreparable nga kadaot. 2. Wala pa gyud kalainan sa matanyag ang nanglapas. 3. Ang aksiyon tataw nga ilegal.",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili"
+                }
+            },
+            "q_dox_computer_10": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "q_dox_computer_11": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "end_dox_wait_3": {
+                "title": "Paghurot sa mga Remediya",
+                "content": "Sagad, dili ka diretsong maka-file ug reklamo ngadto sa Data Privacy Commission usa pa nimo pagsulayan og resolba ang isyu diretso ngadto sa tawo/entidad ug naghulat ba sad ug 15 ka adlaw."
+            },
+            "q_dox_computer_12": {
+                "question": "Sa imong kahibalo, ang impormasyon nakuha ba o nagkatag pinaagi sa computer system?",
+                "options": {
+                    "0": "Oo",
+                    "1": "Dili / I don't know"
+                }
+            },
+            "end_dox_wait_4": {
+                "title": "Paghurot sa mga Remediya",
+                "content": "Sagad, dili ka diretsong maka-file ug reklamo ngadto sa Data Privacy Commission usa pa nimo pagsulayan og resolba ang isyu diretso ngadto sa tawo/entidad ug naghulat ba sad ug 15 ka adlaw."
             }
         }
     }

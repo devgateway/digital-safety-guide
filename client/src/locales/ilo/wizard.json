@@ -62,7 +62,7 @@
                 "question": "Ania nga impormasion ti na-expose?",
                 "options": {
                     "0": "Ladawan wenno video",
-                    "1": "Login information",
+                    "1": "Impormasion iti panag-login",
                     "2": "Dadduma a personal info (Address, ID, etc)"
                 }
             },
@@ -125,7 +125,7 @@
                 }
             },
             "end_dox_frustrating": {
-                "title": "Privacy Advice",
+                "title": "Balakad maipapan iti Privacy",
                 "content": "Makapaupay dayta. Uray no saan a direkta a mangilasin kenka, mabalinmo a protektaran ti privacy-m babaen ti pag-report ti content iti platform ken pag-adjust ti privacy settings-mo."
             },
             "menu_actions_harass": {
@@ -135,7 +135,7 @@
                     "0": "Kontaken ti Law Enforcement",
                     "1": "Ag-submit ti Takedown Request",
                     "2": "Makisarita iti Counselor",
-                    "3": "Online Safety Resources"
+                    "3": "Resources ti Kinasalun-at ti Online"
                 }
             },
             "end_dox_check_legal": {
@@ -158,7 +158,7 @@
                 }
             },
             "end_dox_wait": {
-                "title": "Exhaustion of Remedies",
+                "title": "Panangusar kadagiti Amin a Pamay-an",
                 "content": "Kaaduan, saanka a maka-file ti complaint iti Data Privacy Commission agingga a di nupay inaramid ti wagas a solbaren ti isyu direkta iti tao/entity ken naguray ti 15 days."
             },
             "q_dox_exceptions": {
@@ -167,6 +167,440 @@
                     "0": "Wen",
                     "1": "Saan"
                 }
+            },
+            "q_dox_identify_2": {
+                "question": "Ipakita kadi daytoy nga impormasion ti kinasiasinom? (nagan, address, telepono, lugar ti trabaho, ID, account)",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_img_nature_2": {
+                "question": "Naawatko. Makatulongak kenka a mangaramid iti sumagmamano a simple nga addang tapno natalgedka a riknaem. Umuna, pilien ti kaaduan a maipakat kadagiti ladawan/video:",
+                "options": {
+                    "0": "Pattapattaek a dagiti ladawan ket naaramid babaen ti digital, nabaliwan, wenno dinoktor (Deepfakes)",
+                    "1": "Dagiti ladawan ket mangipababa, mangdadael iti pammadayaw, wenno mangipangta",
+                    "2": "Dagiti ladawan ket ag-impersonate kaniak",
+                    "3": "Dagiti ladawan ket naala a sililimed wenno awan ti pammalubosko (Voyeurism)",
+                    "4": "Dagiti ladawan ket addaan iti intimo wenno eksplikito a materyal",
+                    "5": "Dagiti ladawan ket addaan iti ubbing (ub-ubing ngem 18)"
+                }
+            },
+            "q_danger_check_2": {
+                "question": "Nakaladliday dayta. Addaka kadi iti asideg a peggad?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan, ngem kayatko a marikna a nataltalgedak"
+                }
+            },
+            "q_imp_method_2": {
+                "question": "Kasano a daytoy a tao ag-impersonate kenka?",
+                "options": {
+                    "0": "Babaen ti panangusar ti ladawan wenno videok",
+                    "1": "Babaen ti panangusar ti napno a legal a naganko",
+                    "2": "Babaen ti panangusar ti address wenno numero ti teleponok",
+                    "3": "Babaen ti panangusar ti impormasionko iti panag-login (username/password)",
+                    "4": "Dadduma pay"
+                }
+            },
+            "q_dox_info_2": {
+                "question": "Ania nga impormasion ti naiparang?",
+                "options": {
+                    "0": "Ladawan wenno video",
+                    "1": "Impormasion iti panag-login",
+                    "2": "Dadduma pay a personal nga impormasion (Address, ID, idt)"
+                }
+            },
+            "menu_actions_img_2": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_3": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_4": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_5": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_6": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "q_dox_consent_2": {
+                "question": "Adda kadi rasonmo a mangipagarup a ti indibidual wenno entidad a mangikaiwar iti daytoy nga impormasion ket addaan iti PAMMALUBOSMO wenno LEGAL A BASABARAS nga agaramid iti kasta?",
+                "options": {
+                    "0": "Wen / Saanko nga ammo",
+                    "1": "Saan"
+                }
+            },
+            "end_dox_frustrating_2": {
+                "title": "Balakad maipapan iti Privacy",
+                "content": "Nakasursuron dayta. Uray no saan a nainget a mangipakita ti kinasiasinom, mabalinmo a padasen a salakniban ti privacymo babaen ti panag-report iti karga iti plataforma ken panang-adjust kadagiti privacy settings-mo."
+            },
+            "end_emergency_2": {
+                "title": "Kasapulan ti Nasiglat nga Aksion",
+                "content": "Maidawat a birokem ti natalged a lugar ken kontaken a dagus dagiti pulis. No kasapulam ti sensitibo a tulong maipapan kadagiti isyu maipapan iti gender, mabalinmo a damagen ti lokal a VAWC Desk. No mabutengka gapu iti maysa a rason iti pannakikontak kadagiti lokal a pulis, kontaken ti PNP Anti-Cybercrime Group.",
+                "links": {
+                    "0": "I-dial ti 911",
+                    "1": "Women and Children Protection Units (WCPUs)",
+                    "2": "PNP Anti-Cybercrime Group"
+                }
+            },
+            "q_harass_details_2": {
+                "question": "Naawatko. Makatulongak kenka a mangaramid iti sumagmamano a simple nga addang tapno natalgedka a riknaem. Umuna, pilien amin a maipakat:",
+                "options": {
+                    "0": "Ti panangriribuk ket ramanenna ti maulit-ulit ken saan a kayat a pannakikontak babaen kadagiti digital a pamay-an",
+                    "1": "Ti panangriribuk ket ramanenna ti pangta iti pisikal, reputasional, wenno pinansial a pannakadadael",
+                    "2": "Ti panangriribuk ket naiturong iti babai ken/wenno ubing",
+                    "3": "Ti panangriribuk ket agtaud iti agdama wenno dati nga intimo a kapareha"
+                }
+            },
+            "q_dox_identify_3": {
+                "question": "Ipakita kadi daytoy nga impormasion ti kinasiasinom? (nagan, address, telepono, lugar ti trabaho, ID, account)",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_dox_identify_4": {
+                "question": "Ipakita kadi daytoy nga impormasion ti kinasiasinom? (nagan, address, telepono, lugar ti trabaho, ID, account)",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "menu_actions_harass_2": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_harass_3": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_harass_4": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "end_dox_check_legal_2": {
+                "title": "Sipatan ti Legal a Basabaras",
+                "content": "No dadduma, dagiti indibidual wenno entidad ket mabalin a naawatda ti pammalubosmo (k.a., babaen ti Terms of Service) wenno addaan iti legal a basabaras (publiko nga opisyal). No saanka a sigurado, mabalin a kasapulam ti agkonsulta iti abogado."
+            },
+            "q_dox_15_days_2": {
+                "question": "Nangaramidka kadi kadagiti addang tapno risuten daytoy a direkta iti naglabsing/plataforma KEN napalabasen nga 15 nga aldaw manipud idi pinadasmo a risuten?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan",
+                    "2": "Wen, ngem saanak a nakangngeg manen / saan a narisut"
+                }
+            },
+            "menu_actions_img_7": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_8": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_9": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_10": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_11": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_img_12": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Adda sumagmamano a banag a mabalinmo nga aramiden tapno makatulong a mariknam a natalgedka ken palakaen dagiti banag. I-click ti maysa kadagiti opsion dita baba tapno mangsukimat pay:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg / Mangipila ti Kriminal a Reklamo",
+                    "1": "Mangipatulod ti Takedown Request iti Plataforma",
+                    "2": "Makipagtulag iti maysa a Profesional / Counselor",
+                    "3": "Sursuruan ti ad-adu pay maipapan iti Kinasalun-at ti Online"
+                }
+            },
+            "q_dox_consent_3": {
+                "question": "Adda kadi rasonmo a mangipagarup a ti indibidual wenno entidad a mangikaiwar iti daytoy nga impormasion ket addaan iti PAMMALUBOSMO wenno LEGAL A BASABARAS nga agaramid iti kasta?",
+                "options": {
+                    "0": "Wen / Saanko nga ammo",
+                    "1": "Saan"
+                }
+            },
+            "end_dox_frustrating_3": {
+                "title": "Balakad maipapan iti Privacy",
+                "content": "Nakasursuron dayta. Uray no saan a nainget a mangipakita ti kinasiasinom, mabalinmo a padasen a salakniban ti privacymo babaen ti panag-report iti karga iti plataforma ken panang-adjust kadagiti privacy settings-mo."
+            },
+            "q_dox_consent_4": {
+                "question": "Adda kadi rasonmo a mangipagarup a ti indibidual wenno entidad a mangikaiwar iti daytoy nga impormasion ket addaan iti PAMMALUBOSMO wenno LEGAL A BASABARAS nga agaramid iti kasta?",
+                "options": {
+                    "0": "Wen / Saanko nga ammo",
+                    "1": "Saan"
+                }
+            },
+            "end_dox_frustrating_4": {
+                "title": "Balakad maipapan iti Privacy",
+                "content": "Nakasursuron dayta. Uray no saan a nainget a mangipakita ti kinasiasinom, mabalinmo a padasen a salakniban ti privacymo babaen ti panag-report iti karga iti plataforma ken panang-adjust kadagiti privacy settings-mo."
+            },
+            "q_dox_computer_2": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_computer_3": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_exceptions_2": {
+                "question": "Adda kadi maipakat kadagitoy sumaganad? 1. Nakaro/saan a mapaimbag a pannakadadael. 2. Saan a makaipaay iti solusion ti naglabsing. 3. Nalawag nga ilegal ti aksion.",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_dox_computer_4": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "menu_actions_harass_5": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_harass_6": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_harass_7": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "menu_actions_harass_8": {
+                "title": "Ania ti Mabalinmo nga Aramiden",
+                "content": "Tapno nataltalgedka, panunotem dagitoy nga opsion:",
+                "links": {
+                    "0": "Kontaken ti Mangipatpatungpal iti Linteg",
+                    "1": "Mangipatulod ti Takedown Request",
+                    "2": "Kausapen ti Counselor",
+                    "3": "Resources ti Kinasalun-at ti Online"
+                }
+            },
+            "end_dox_check_legal_3": {
+                "title": "Sipatan ti Legal a Basabaras",
+                "content": "No dadduma, dagiti indibidual wenno entidad ket mabalin a naawatda ti pammalubosmo (k.a., babaen ti Terms of Service) wenno addaan iti legal a basabaras (publiko nga opisyal). No saanka a sigurado, mabalin a kasapulam ti agkonsulta iti abogado."
+            },
+            "q_dox_15_days_3": {
+                "question": "Nangaramidka kadi kadagiti addang tapno risuten daytoy a direkta iti naglabsing/plataforma KEN napalabasen nga 15 nga aldaw manipud idi pinadasmo a risuten?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan",
+                    "2": "Wen, ngem saanak a nakangngeg manen / saan a narisut"
+                }
+            },
+            "end_dox_check_legal_4": {
+                "title": "Sipatan ti Legal a Basabaras",
+                "content": "No dadduma, dagiti indibidual wenno entidad ket mabalin a naawatda ti pammalubosmo (k.a., babaen ti Terms of Service) wenno addaan iti legal a basabaras (publiko nga opisyal). No saanka a sigurado, mabalin a kasapulam ti agkonsulta iti abogado."
+            },
+            "q_dox_15_days_4": {
+                "question": "Nangaramidka kadi kadagiti addang tapno risuten daytoy a direkta iti naglabsing/plataforma KEN napalabasen nga 15 nga aldaw manipud idi pinadasmo a risuten?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan",
+                    "2": "Wen, ngem saanak a nakangngeg manen / saan a narisut"
+                }
+            },
+            "q_dox_computer_5": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_computer_6": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "end_dox_wait_2": {
+                "title": "Panangusar kadagiti Amin a Pamay-an",
+                "content": "Sakbay, saanka a makapangipila ti reklamo iti Data Privacy commission agingga a saanka a nangpadas a mangrisut iti isyu a direkta iti tao/entidad ken naguray iti 15 nga aldaw."
+            },
+            "q_dox_computer_7": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_exceptions_3": {
+                "question": "Adda kadi maipakat kadagitoy sumaganad? 1. Nakaro/saan a mapaimbag a pannakadadael. 2. Saan a makaipaay iti solusion ti naglabsing. 3. Nalawag nga ilegal ti aksion.",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_dox_computer_8": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_computer_9": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_exceptions_4": {
+                "question": "Adda kadi maipakat kadagitoy sumaganad? 1. Nakaro/saan a mapaimbag a pannakadadael. 2. Saan a makaipaay iti solusion ti naglabsing. 3. Nalawag nga ilegal ti aksion.",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan"
+                }
+            },
+            "q_dox_computer_10": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "q_dox_computer_11": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "end_dox_wait_3": {
+                "title": "Panangusar kadagiti Amin a Pamay-an",
+                "content": "Sakbay, saanka a makapangipila ti reklamo iti Data Privacy commission agingga a saanka a nangpadas a mangrisut iti isyu a direkta iti tao/entidad ken naguray iti 15 nga aldaw."
+            },
+            "q_dox_computer_12": {
+                "question": "Iti ammom, ti impormasion kadi ket naurnong wenno naiwaras babaen iti sistema ti kompyuter?",
+                "options": {
+                    "0": "Wen",
+                    "1": "Saan / Saanko nga ammo"
+                }
+            },
+            "end_dox_wait_4": {
+                "title": "Panangusar kadagiti Amin a Pamay-an",
+                "content": "Sakbay, saanka a makapangipila ti reklamo iti Data Privacy commission agingga a saanka a nangpadas a mangrisut iti isyu a direkta iti tao/entidad ken naguray iti 15 nga aldaw."
             }
         }
     }

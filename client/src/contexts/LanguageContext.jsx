@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 
 import React, { createContext, useState, useContext, useEffect } from 'react';
 
@@ -12,6 +13,7 @@ import enCounseling from '../locales/en/counseling.json';
 import enGlobal from '../locales/en/global.json';
 import enLaw from '../locales/en/law.json';
 import enPrivacy from '../locales/en/privacy.json';
+import enContent from '../locales/en/content.json';
 
 import tlNav from '../locales/tl/navigation.json';
 import tlWiz from '../locales/tl/wizard.json';
@@ -21,6 +23,7 @@ import tlCounseling from '../locales/tl/counseling.json';
 import tlGlobal from '../locales/tl/global.json';
 import tlLaw from '../locales/tl/law.json';
 import tlPrivacy from '../locales/tl/privacy.json';
+import tlContent from '../locales/tl/content.json';
 
 import cebNav from '../locales/ceb/navigation.json';
 import cebWiz from '../locales/ceb/wizard.json';
@@ -30,6 +33,7 @@ import cebCounseling from '../locales/ceb/counseling.json';
 import cebGlobal from '../locales/ceb/global.json';
 import cebLaw from '../locales/ceb/law.json';
 import cebPrivacy from '../locales/ceb/privacy.json';
+import cebContent from '../locales/ceb/content.json';
 
 import iloNav from '../locales/ilo/navigation.json';
 import iloWiz from '../locales/ilo/wizard.json';
@@ -39,6 +43,7 @@ import iloCounseling from '../locales/ilo/counseling.json';
 import iloGlobal from '../locales/ilo/global.json';
 import iloLaw from '../locales/ilo/law.json';
 import iloPrivacy from '../locales/ilo/privacy.json';
+import iloContent from '../locales/ilo/content.json';
 
 import hilNav from '../locales/hil/navigation.json';
 import hilWiz from '../locales/hil/wizard.json';
@@ -48,6 +53,7 @@ import hilCounseling from '../locales/hil/counseling.json';
 import hilGlobal from '../locales/hil/global.json';
 import hilLaw from '../locales/hil/law.json';
 import hilPrivacy from '../locales/hil/privacy.json';
+import hilContent from '../locales/hil/content.json';
 
 import taglishNav from '../locales/taglish/navigation.json';
 import taglishWiz from '../locales/taglish/wizard.json';
@@ -57,11 +63,12 @@ import taglishCounseling from '../locales/taglish/counseling.json';
 import taglishGlobal from '../locales/taglish/global.json';
 import taglishLaw from '../locales/taglish/law.json';
 import taglishPrivacy from '../locales/taglish/privacy.json';
+import taglishContent from '../locales/taglish/content.json';
 
 const LanguageContext = createContext();
 
 // Deep merge helper could be used, but for this structure we can manually merge
-const mergeLocales = (nav, wiz, res, takedown, counseling, global, law, privacy) => {
+const mergeLocales = (nav, wiz, res, takedown, counseling, global, law, privacy, content) => {
     return {
         ...nav,
         guide: {
@@ -75,17 +82,18 @@ const mergeLocales = (nav, wiz, res, takedown, counseling, global, law, privacy)
         ...counseling,
         ...global,
         ...law,
-        ...privacy
+        ...privacy,
+        ...content
     };
 };
 
 const translations = {
-    en: mergeLocales(enNav, enWiz, enRes, enTakedown, enCounseling, enGlobal, enLaw, enPrivacy),
-    tl: mergeLocales(tlNav, tlWiz, tlRes, tlTakedown, tlCounseling, tlGlobal, tlLaw, tlPrivacy),
-    ceb: mergeLocales(cebNav, cebWiz, cebRes, cebTakedown, cebCounseling, cebGlobal, cebLaw, cebPrivacy),
-    ilo: mergeLocales(iloNav, iloWiz, iloRes, iloTakedown, iloCounseling, iloGlobal, iloLaw, iloPrivacy),
-    hil: mergeLocales(hilNav, hilWiz, hilRes, hilTakedown, hilCounseling, hilGlobal, hilLaw, hilPrivacy),
-    taglish: mergeLocales(taglishNav, taglishWiz, taglishRes, taglishTakedown, taglishCounseling, taglishGlobal, taglishLaw, taglishPrivacy)
+    en: mergeLocales(enNav, enWiz, enRes, enTakedown, enCounseling, enGlobal, enLaw, enPrivacy, enContent),
+    tl: mergeLocales(tlNav, tlWiz, tlRes, tlTakedown, tlCounseling, tlGlobal, tlLaw, tlPrivacy, tlContent),
+    ceb: mergeLocales(cebNav, cebWiz, cebRes, cebTakedown, cebCounseling, cebGlobal, cebLaw, cebPrivacy, cebContent),
+    ilo: mergeLocales(iloNav, iloWiz, iloRes, iloTakedown, iloCounseling, iloGlobal, iloLaw, iloPrivacy, iloContent),
+    hil: mergeLocales(hilNav, hilWiz, hilRes, hilTakedown, hilCounseling, hilGlobal, hilLaw, hilPrivacy, hilContent),
+    taglish: mergeLocales(taglishNav, taglishWiz, taglishRes, taglishTakedown, taglishCounseling, taglishGlobal, taglishLaw, taglishPrivacy, taglishContent)
 };
 
 export const LANGUAGES = [

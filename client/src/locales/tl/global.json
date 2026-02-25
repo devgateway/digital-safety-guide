@@ -11,11 +11,11 @@
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN\u2019s DIY Online Safety Guide",
+                "name": "CHAYN’s DIY Online Safety Guide",
                 "description": "Isang komprehensibo at survivor-led na gabay upang manatiling ligtas online, sumasaklaw sa mga paksa mula sa pag-secure ng mga account hanggang sa pagharap sa harassment."
             },
             "australia_esafety": {
-                "name": "Australia\u2019s E-Safety Guide",
+                "name": "Australia’s E-Safety Guide",
                 "description": "Isang nangungunang mapagkukunan sa mundo na sumasaklaw sa mga pangunahing paksa sa kaligtasan online, kabilang ang deepfakes, cyberbullying, at pang-aabuso gamit ang mga larawan."
             },
             "unfpa": {
@@ -36,15 +36,15 @@
             },
             "pcw": {
                 "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
-                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+                "description": "Isang komprehensibong repositoryo ng mga mapagkukunan ukol sa mga batas at patakaran sa kasarian sa Pilipinas, kabilang ang mga case study, mapagkukunan, at legal na proteksyon para sa parehong online at offline na karahasang nakabatay sa kasarian."
             },
             "iwf": {
                 "name": "Internet Watch Foundation",
-                "description": "Report online child sexual abuse images & videos anonymously."
+                "description": "Iulat ang mga online na larawan at video ng sekswal na pang-aabuso sa bata nang hindi nagpapakilala."
             },
             "stop_ncii": {
-                "name": "Stop Non-Consentual Intimate Image Abuse",
-                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
+                "name": "Stop Non-Consensual Intimate Image Abuse",
+                "description": "Ang StopNCII.org ay isang libreng tool na idinisenyo upang suportahan ang mga biktima ng pang-aabuso gamit ang Non-Consensual Intimate Image (NCII). Gumagana ang tool sa pamamagitan ng pagbuo ng hash mula sa iyong (mga) intimate na larawan o video. Ibinabahagi ng StopNCII.org ang hash sa mga nakikilahok na kumpanya upang matulungan silang matukoy at alisin ang mga larawan mula sa pagkalat online."
             }
         }
     }

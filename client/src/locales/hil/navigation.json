@@ -1,23 +1,23 @@
 {
     "nav": {
         "brand": "Gabay Tech",
-        "emergency": "Emergency Exit",
+        "emergency": "Emergency Paggwa",
         "directory": "Direktoryo",
         "guide": "Giya",
         "resources": "Mga Resources",
         "takedown": "Takedown Requests",
         "mental_health": "Mental Health Services",
-        "global_safety": "Global Safety Resources",
-        "law_enforcement": "Law Enforcement",
-        "data_privacy": "Data Privacy Support",
+        "global_safety": "Pangkalibutanon nga Safety Resources",
+        "law_enforcement": "Pagpatuman sang Kasuguan",
+        "data_privacy": "Suporta sa Data Privacy",
         "about": "Tuhoy sini nga Tool"
     },
     "home": {
         "hero_title": "Philippine Online Safety Support Portal",
-        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
-        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
+        "hero_subtitle": "Kung indi ka makabatyag sing luwas online, may madamo nga lokal kag pangkalibutanon nga resources nga makabulig sa imo nga mabawi ang imo kaluwasan: halin sa sibil kag kriminal nga mga penalidad, sa mga non-profit nga psychosocial support, asta sa pormal nga takedown requests diretso sa mga IT companies. Apang ang pagpangita sa mga directories kag kon sin-o ang imo palapitan (kag paano) mahimo nga mabudlay pamatian.",
+        "description_2": "Kung masabat mo ang pila ka pamangkot parte sa nagapabatyag sa imo nga indi luwas, Gabay Tech magasugyot sing mga organisasyon kag resources nga makabulig base sa imo pinasahi nga sitwasyon.",
         "start_guide": "Umpisahan ang Safety Guide",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>PAHINUMDOM:</strong> ini nga tool wala nagahatag sing legal nga laygay. Ang paggamit sini nga tool pribado kag wala nagakolekta ukon nagatago sang user data. Kung sa ano man nga rason indi ka makabatyag sing luwas habang nagagamit sini, gamita ang “emergency exit” button kag magbalik kung luwas ka na. Kung yara ka sa di-malikawan nga katalagman, palihug tawag sa 911 dayon."
     },
     "footer": {
         "powered_by": "Powered by"

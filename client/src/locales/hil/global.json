@@ -1,21 +1,21 @@
 {
     "global": {
         "ui": {
-            "title": "TFGBV Global Resources",
+            "title": "Pangkalibutanon nga Resources para sa TFGBV",
             "subtitle": "Educational resources kag international guides parte sa online safety kag Technology-Facilitated Gender-Based Violence (TFGBV).",
-            "btn_access": "Access Resource",
+            "btn_access": "I-access ang Resource",
             "local_support_title": "Kinahanglan mo bala sang immediate support sa Pilipinas?",
             "local_support_desc": "Nag-compile kami sang specialized local resources para sa survivors sang online harassment kag gender-based violence.",
-            "btn_counseling": "Social & Mental Health Services",
+            "btn_counseling": "Serbisyo para sa Social kag Mental Health",
             "btn_takedown": "Takedown Request Builder"
         },
         "resources": {
             "chayn": {
-                "name": "CHAYN\u2019s DIY Online Safety Guide",
+                "name": "CHAYN’s DIY Online Safety Guide",
                 "description": "Isa ka comprehensive, survivor-led guide para magpabilin nga safe online, naga-cover sang topics halin sa pag-secure sang accounts hasta sa pag-atubang sa harassment."
             },
             "australia_esafety": {
-                "name": "Australia\u2019s E-Safety Guide",
+                "name": "Australia’s E-Safety Guide",
                 "description": "Isa ka world-leading resource nga nagatalakay sang key topics sa online safety, dala ang deepfakes, cyberbullying, kag image-based abuse."
             },
             "unfpa": {
@@ -36,15 +36,15 @@
             },
             "pcw": {
                 "name": "Philippine Commission on Women - Gender and Development Library of Laws and Policies",
-                "description": "A comprehensive repository of resources on gender laws and policies in the Philippines, including case studies, resources, and legal protections for both online and offline gender-based violence."
+                "description": "Isa ka komprehensibo nga repository sang resources parte sa gender laws kag policies sa Pilipinas, lakip na ang case studies, resources, kag legal proteksyon para sa online kag offline gender-based violence."
             },
             "iwf": {
                 "name": "Internet Watch Foundation",
-                "description": "Report online child sexual abuse images & videos anonymously."
+                "description": "I-report sang anonymous ang mga litrato kag video sang online child sexual abuse."
             },
             "stop_ncii": {
-                "name": "Stop Non-Consentual Intimate Image Abuse",
-                "description": "StopNCII.org is a free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse. The tool works by generating a hash from your intimate image(s)/video(s). StopNCII.org then shares the hash with participating companies so they can help detect and remove the images from being shared online."
+                "name": "Stop Non-Consensual Intimate Image Abuse",
+                "description": "Ang StopNCII.org isa ka libre nga tool nga gindesinyo para suportahan ang mga biktima sang Non-Consensual Intimate Image (NCII) abuse. Nagatrabaho ang tool paagi sa pag-generate sang hash halin sa imo intimate image(s)/video(s). Gina-share dayon sang StopNCII.org ang hash sa mga participating companies para makabulig sila nga detect kag dulaon ang mga litrato nga gina-share online."
             }
         }
     }

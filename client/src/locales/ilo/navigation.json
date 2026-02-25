@@ -5,19 +5,19 @@
         "directory": "Direktoryo",
         "guide": "Giya",
         "resources": "Dagiti Resources",
-        "takedown": "Takedown Requests",
-        "mental_health": "Mental Health Services",
-        "global_safety": "Global Safety Resources",
-        "law_enforcement": "Law Enforcement",
-        "data_privacy": "Data Privacy Support",
+        "takedown": "Damag-ti-Takedown (Takedown Requests)",
+        "mental_health": "Serbisio ti Salun-at ti Panunot",
+        "global_safety": "Global a Resources ti Kinasalun-at",
+        "law_enforcement": "Mangipatpatungpal iti Linteg",
+        "data_privacy": "Suporta iti Data Privacy",
         "about": "Maipapan iti Daytoy a Ramit"
     },
     "home": {
         "hero_title": "Philippine Online Safety Support Portal",
-        "hero_subtitle": "If you are feeling unsafe online, there are many local and global resources that can help you reclaim your sense of security: from civil and criminal penalties, to non-profit psychosocial support, to formal takedown requests direct to IT companies. But navigating those resources and determining who to reach out to (and how) can be overwhelming.",
-        "description_2": "If you can answer a few questions about what's making you feel unsafe, Gabay Tech will recommend organizations and resources that can help based on your unique situation.",
+        "hero_subtitle": "No mariknam a saanka a natalged online, adu dagiti lokal ken global a resources a makatulong kenka a mangsubli ti rikna ti kinatalged: manipud kadagiti sibil ken kriminal a dusa, agingga kadagiti non-profit a psychosocial a suporta, agingga kadagiti pormal a damag-ti-takedown a direkta kadagiti kumpanya ti IT. Ngem no kasano iti panangkemmeg kadagitoy a resources ken mangikeddeng no asino ti kontaken (ken kasano) ket mabalin a makapasugnod.",
+        "description_2": "No mabalinmo a sungbatan ti sumagmamano a saludsod maipapan iti no ania ti mangparikna kenka a saanka a natalged, irrekomenda ti Gabay Tech dagiti organisasion ken resources a makatulong bassit iti naiisangsangayan a sitwasionmo.",
         "start_guide": "Irugi ang Safety Guide",
-        "disclaimer": "<strong style={{ color: '#f87171' }}>DISCLAIMER:</strong> this tool does not constitute legal advice. Use of this tool is completely anonymous: no user data is collected or stored. If for some reason you feel unsafe while using this tool, utilize the \u201cemergency exit\u201d button and return when you are safe. If you are in imminent danger, please contact 911 immediately."
+        "disclaimer": "<strong style={{ color: '#f87171' }}>PABLAAK:</strong> daytoy a ramit ket saan a pormal a legal a balakad. Ti panangusar iti daytoy a ramit ket saan a mabigbig: awan ti maumnong wenno maidulin a datos ti agar-aramat. No gapu iti maysa a rason makariknaka a saanka a natalged bayat ti panangusar iti daytoy a ramit, usarem ti buton nga “emergency exit” ken agsubli no natalgedkan. No addaka iti asideg a peggad, maidawat a kontaken a dagus ti 911."
     },
     "footer": {
         "powered_by": "Powered by"

@@ -1,13 +1,13 @@
 {
     "counseling": {
         "ui": {
-            "title": "Social & Mental Health Services",
+            "title": "Mga Serbisyo sa Sosyal ug Mental Health",
             "subtitle": "Immediate access sa non-law-enforcement professional support. Kani nga resources para ni sa imong safety ug care.",
             "label_hotline": "Hotline",
             "label_viber": "Viber",
             "label_email": "Email",
             "btn_chat": "Chat Now",
-            "btn_website": "Visit Website",
+            "btn_website": "Bisitaha ang Website",
             "btn_facebook": "Facebook Page",
             "takedown_promo": "Nagkinahanglan ka bag tabang sa formal takedown request?",
             "btn_takedown": "Adto sa Takedown Request Builder"
@@ -24,12 +24,12 @@
             "lunas": {
                 "name": "Lunas Collective",
                 "description": "Usa ka volunteer-powered care space para sa mga babae ug members/allies sa LGBTQIA+ community nga nakasinati og gender-based violence o naay sexual ug reproductive health concerns.",
-                "note": "Specifically for women and LGBTQIA+ community."
+                "note": "Ilabi na alang sa mga babaye ug komunidad sa LGBTQIA+."
             },
             "bantay_bata": {
                 "name": "Bantay Bata Helpline 163",
                 "description": "Motubag sa reports bahin sa child abuse, exploitation, ug neglect, ug mo-connect sa callers sa appropriate agencies.",
-                "note": "Specialized for child abuse and exploitation."
+                "note": "Espesyalista para sa pang-abuso ug eksploytasyon sa bata."
             },
             "ncmh": {
                 "name": "National Center for Mental Health (NCMH) Crisis Line",
@@ -45,7 +45,7 @@
             },
             "fma_helpline": {
                 "name": "Foundation for Media Alternatives",
-                "description": "FMA has a helpline email for survivors of Technology-Facilitated Gender-Based Violence. All communications are handled with sensitivity, confidentiality, and care"
+                "description": "Ang FMA adunay helpline email aron pagtabang sa mga nakasinati og Technology-Facilitated Gender-Based Violence. Ang tanang komunikasyon atimanon nga adunay pagbati, kompidensyal, ug pag-amuma."
             }
         }
     }

@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Camera, FileText, Lock, Shield, CheckSquare } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Guide() {
     const [activeTab, setActiveTab] = useState('evidence');
+    const { t } = useLanguage();
 
     return (
         <div className="container animate-fade-in">
-            <h1 className="text-center mb-4">Survivor's Guide</h1>
+            <h1 className="text-center mb-4">{t('content.guide_content.title')}</h1>
 
             {/* Tabs */}
             <div className="flex-center" style={{ gap: '1rem', marginBottom: '3rem' }}>
@@ -14,38 +16,38 @@ export default function Guide() {
                     className={`btn ${activeTab === 'evidence' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => setActiveTab('evidence')}
                 >
-                    <CheckSquare size={18} /> Evidence Checklist
+                    <CheckSquare size={18} /> {t('content.guide_content.tab_evidence')}
                 </button>
                 <button
                     className={`btn ${activeTab === 'legal' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => setActiveTab('legal')}
                 >
-                    <Shield size={18} /> Your Rights
+                    <Shield size={18} /> {t('content.guide_content.tab_legal')}
                 </button>
             </div>
 
             {activeTab === 'evidence' && (
                 <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <div className="card mb-2">
-                        <h2><CheckSquare className="text-accent" style={{ marginRight: '0.5rem' }} /> Preserving Digital Evidence</h2>
-                        <p className="mb-4">If you wish to keep evidence, saving screenshots, messages, or links may help. If this feels distressing, you may store them securely and ask someone you trust to assist you.</p>
+                        <h2><CheckSquare className="text-accent" style={{ marginRight: '0.5rem' }} /> {t('content.guide_content.evidence_title')}</h2>
+                        <p className="mb-4">{t('content.guide_content.evidence_desc')}</p>
 
-                        <h3 className="text-accent">1. Screenshots</h3>
+                        <h3 className="text-accent">{t('content.guide_content.evidence_1_title')}</h3>
                         <ul className="list-disc pl-5 mb-4" style={{ paddingLeft: '1.5rem', marginBottom: '2rem' }}>
-                            <li className="mb-2">Capture the <strong>entire screen</strong>, including the URL bar and system clock.</li>
-                            <li className="mb-2">Ensure the <strong>profile/sender name</strong> is visible.</li>
-                            <li className="mb-2">Click on timestamps or "Three dots" menus to reveal exact dates/times if possible.</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_1_li1_1')}<strong>{t('content.guide_content.evidence_1_li1_2')}</strong>{t('content.guide_content.evidence_1_li1_3')}</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_1_li2_1')}<strong>{t('content.guide_content.evidence_1_li2_2')}</strong>{t('content.guide_content.evidence_1_li2_3')}</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_1_li3')}</li>
                         </ul>
 
-                        <h3 className="text-accent">2. URLs (Links)</h3>
+                        <h3 className="text-accent">{t('content.guide_content.evidence_2_title')}</h3>
                         <ul className="list-disc pl-5 mb-4" style={{ paddingLeft: '1.5rem', marginBottom: '2rem' }}>
-                            <li className="mb-2">Copy the <strong>direct link</strong> to the post, image, or profile.</li>
-                            <li className="mb-2">If on a mobile app, use "Share &gt; Copy Link".</li>
-                            <li className="mb-2">Use services like <a href="https://archive.ph/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Archive.today</strong></a> or <a href="https://web.archive.org/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Wayback Machine</strong></a> to save a permanent snapshot.</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_2_li1_1')}<strong>{t('content.guide_content.evidence_2_li1_2')}</strong>{t('content.guide_content.evidence_2_li1_3')}</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_2_li2')}</li>
+                            <li className="mb-2">{t('content.guide_content.evidence_2_li3_1')}<a href="https://archive.ph/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Archive.today</strong></a>{t('content.guide_content.evidence_2_li3_2')}<a href="https://web.archive.org/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}><strong>Wayback Machine</strong></a>{t('content.guide_content.evidence_2_li3_3')}</li>
                         </ul>
 
-                        <h3 className="text-accent">3. Metadata</h3>
-                        <p>If you received a file (photo/video), keep the <strong>original file</strong>. Do not just take a screenshot of it. The original file contains "EXIF" data (date taken, device used) that acts as a fingerprint.</p>
+                        <h3 className="text-accent">{t('content.guide_content.evidence_3_title')}</h3>
+                        <p>{t('content.guide_content.evidence_3_desc_1')}<strong>{t('content.guide_content.evidence_3_desc_2')}</strong>{t('content.guide_content.evidence_3_desc_3')}</p>
                     </div>
                 </div>
             )}
@@ -53,22 +55,22 @@ export default function Guide() {
             {activeTab === 'legal' && (
                 <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <div className="card mb-4">
-                        <h2><Shield className="text-accent" style={{ marginRight: '0.5rem' }} /> Know Your Rights</h2>
-                        <p className="mb-4">You are protected by Philippine laws against online harassment.</p>
+                        <h2><Shield className="text-accent" style={{ marginRight: '0.5rem' }} /> {t('content.guide_content.legal_title')}</h2>
+                        <p className="mb-4">{t('content.guide_content.legal_desc')}</p>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">RA 10175: Cybercrime Prevention Act</h3>
-                            <p>Covers <strong>Cyber-Libel</strong>, <strong>Computer-related Identity Theft</strong>, and illegal access. If someone hacks your account or posts malicious lies online, this applies.</p>
+                            <h3 className="text-accent">{t('content.guide_content.legal_1_title')}</h3>
+                            <p>{t('content.guide_content.legal_1_desc_1')}<strong>{t('content.guide_content.legal_1_desc_2')}</strong>{t('content.guide_content.legal_1_desc_3')}<strong>{t('content.guide_content.legal_1_desc_4')}</strong>{t('content.guide_content.legal_1_desc_5')}</p>
                         </div>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">RA 9995: Anti-Photo and Video Voyeurism Act</h3>
-                            <p>Strictly prohibits taking, copying, or sharing photo/video of a person's private parts or sexual acts without consent. <strong>"Voyeurism"</strong> applies even if the person in the video originally consented to the recording but NOT to the sharing (revenge porn).</p>
+                            <h3 className="text-accent">{t('content.guide_content.legal_2_title')}</h3>
+                            <p>{t('content.guide_content.legal_2_desc_1')}<strong>{t('content.guide_content.legal_2_desc_2')}</strong>{t('content.guide_content.legal_2_desc_3')}</p>
                         </div>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">RA 11313: Safe Spaces Act (Bawal Bastos)</h3>
-                            <p>Penalizes <strong>Online Sexual Harassment</strong> (OSH). This includes unwanted sexual remarks, misogynistic or homophobic slurs, and cyberstalking.</p>
+                            <h3 className="text-accent">{t('content.guide_content.legal_3_title')}</h3>
+                            <p>{t('content.guide_content.legal_3_desc_1')}<strong>{t('content.guide_content.legal_3_desc_2')}</strong>{t('content.guide_content.legal_3_desc_3')}</p>
                         </div>
                     </div>
                 </div>

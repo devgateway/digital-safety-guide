@@ -87,15 +87,315 @@
                 }
             },
             "res_dox_npc": {
-                "title": "Data Privacy Violation",
+                "title": "Biyolasyon sa Data Privacy",
                 "content": "Daw ang imo na-experience isa ka violation sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang formal complaint.",
                 "links": {
-                    "0": "Draft NPC Complaint"
+                    "0": "Mag-draft sang NPC Complaint"
                 }
             },
             "res_dox_offline": {
-                "title": "Offline/Other Violation",
+                "title": "Offline/Iban nga Biyolasyon",
                 "content": "Kung wala ini natabo gamit ang computer system, basi indi ini violation sa Data Privacy Act, pero posible gihapon nga illegal. Consult legal counsel."
+            },
+            "res_imp_action_2": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_3": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_4": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_2": {
+                "title": "I-secure ang Imo Accounts",
+                "content": "Kung ang imo login information na-expose, palihog isli dayon ang imo mga password kag i-enable ang Two-Factor Authentication (2FA) sa tanan nga accounts.",
+                "options": {
+                    "0": "Padayon sa Reporting Steps"
+                }
+            },
+            "res_imp_action_5": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_6": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_img_laws_deepfake_2": {
+                "title": "Posible nga Biyolasyon: Anti-Cybercrime Act",
+                "content": "Kung ang mga litrato ginhimo gamit ang digital tools, in-edit, ukon doctored, mahimo ini nga biyolasyon sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_img_laws_safe_spaces_2": {
+                "title": "Posible nga Biyolasyon: Safe Spaces Act",
+                "content": "Kung ang mga litrato ukon video makahuluya, makaguba sang dungog, ukon nagapahog, mahimo ini nga biyolasyon sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_img_laws_privacy_2": {
+                "title": "Posible nga Biyolasyon: Data Privacy Act",
+                "content": "Kung ang mga litrato ukon video naggamit sang imo identity para i-impersonate ka, mahimo ini nga biyolasyon sa Data Privacy Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_img_laws_voyeur_2": {
+                "title": "Posible nga Biyolasyon: Anti-Photo/Video Voyeurism Act",
+                "content": "Kung ang mga litrato ukon video nakuha nga sekreto ukon wala sang imo pagtugot, mahimo ini nga biyolasyon sa Anti-Photo/Video Voyeurism Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_img_laws_intimate_2": {
+                "title": "Posible nga Biyolasyon: Safe Spaces / Voyeurism",
+                "content": "Kung ang mga litrato may unod nga intimate ukon explicit materials, mahimo ini nga biyolasyon sa Safe Spaces Act, Anti-Photo/Video Voyeurism Act, kag iban pa nga mga proteksyon.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_img_laws_minor_2": {
+                "title": "Posible nga Biyolasyon: Anti-OSAEC / Anti-Child Abuse",
+                "content": "Kung ang mga litrato nagapakita sang mga minors (bata nga wala pa 18 anyos), mahimo ini nga biyolasyon sa Anti-OSAEC Law, Anti-Child Abuse Law, kag may karapatan ka sa espesyal nga promteksyon.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_imp_action_7": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_8": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_9": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_3": {
+                "title": "I-secure ang Imo Accounts",
+                "content": "Kung ang imo login information na-expose, palihog isli dayon ang imo mga password kag i-enable ang Two-Factor Authentication (2FA) sa tanan nga accounts.",
+                "options": {
+                    "0": "Padayon sa Reporting Steps"
+                }
+            },
+            "res_imp_action_10": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_security_4": {
+                "title": "I-secure ang Imo Accounts",
+                "content": "Kung ang imo login information na-expose, palihog isli dayon ang imo mga password kag i-enable ang Two-Factor Authentication (2FA) sa tanan nga accounts.",
+                "options": {
+                    "0": "Padayon sa Reporting Steps"
+                }
+            },
+            "res_harass_cyber_2": {
+                "title": "Posible nga Biyolasyon: Anti-Cybercrime Act",
+                "content": "Ang harassment/pagpahog nagasakop sang pauli-uli kag indi gusto nga contact gamit ang digital nga pamaagi. Mahimo ini nga biyolasyon sa Anti-Cybercrime Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_harass_threats_2": {
+                "title": "Posible nga Biyolasyon: Grave Threats (Article 282)",
+                "content": "Kung ang harassment nagasakop sang pagpahog sang pisikal, reputational, ukon financial harm, mahimo ini nga biyolasyon sa Article 282 (Grave Threats).",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_harass_safe_spaces_2": {
+                "title": "Posible nga Biyolasyon: Safe Spaces Act",
+                "content": "Kung ang harassment ginatumod sa isa ka babayi kag/ukon bata, mahimo ini nga biyolasyon sa Safe Spaces Act.",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_harass_vawc_2": {
+                "title": "Posible nga Biyolasyon: Anti-VAWC Laws",
+                "content": "Kung ang harassment nagahalin sa isa ka current ukon former intimate partner (uyab o asawa), mahimo ini nga biyolasyon sa Anti-VAWC Laws (RA 9262).",
+                "options": {
+                    "0": "Tan-awa ang akon mga opsyon para mag-aksyon"
+                }
+            },
+            "res_imp_action_11": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_imp_action_12": {
+                "title": "I-report ang Impersonation",
+                "content": "Daw kinahanglan mo ini solbaron diretso sa platform ukon sa tawo nga involved. Pwede kami magbulig sa paghanda sang pormal nga reklamo base sa impormasyon nga imo ginhatag, ukon ikonekta ka namon sa iban nga resources.",
+                "links": {
+                    "0": "Tan-awa ang Takedown Request Templates",
+                    "1": "Mediation / Counseling"
+                }
+            },
+            "res_dox_npc_2": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_2": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_3": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_3": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_4": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_4": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_5": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_5": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_6": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_6": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_7": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_7": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_8": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_8": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_9": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_9": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_10": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_10": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_11": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_11": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
+            },
+            "res_dox_npc_12": {
+                "title": "Biyolasyon sa Data Privacy",
+                "content": "Basig ang imo na-experience isa ka biyolasyon sa Data Privacy Act (RA 10173). Pwede kami magbulig sa imo pag-draft sang pormal nga reklamo.",
+                "links": {
+                    "0": "Mag-draft sang NPC Complaint"
+                }
+            },
+            "res_dox_offline_12": {
+                "title": "Offline/Iban nga Biyolasyon",
+                "content": "Kung wala ini natabo gamit ang computer system, basi indi ini biyolasyon sa Data Privacy Act, pero posible gihapon nga iligal. Magkonsulta sa legal nga counsel."
             }
         }
     }

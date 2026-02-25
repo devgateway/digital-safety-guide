@@ -8,7 +8,7 @@ export default function Quiz() {
     const { topicId, nodeId: urlCode } = useParams();
     const [searchParams] = useSearchParams();
     const navigate = useNavigate();
-    const { language, t } = useLanguage();
+    const { t } = useLanguage();
 
     const [logicData, setLogicData] = useState(null); // { TOPICS, LOGIC_TREES }
     const [urlMap, setUrlMap] = useState(null); // { codes, ids }
