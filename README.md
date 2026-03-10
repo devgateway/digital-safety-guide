@@ -8,7 +8,7 @@ A comprehensive, multilingual digital safety guide designed to support individua
 - **Interactive Logic Trees**: Guided questionnaires that lead users to specific, actionable advice based on their situation.
 - **Resource Repository**: Curated links to hotlines, reporting tools, and support organizations.
 - **PDF Generation**: Users can download localized guides and action plans for offline reference.
-- **Stateless Architecture**: Simplified deployment with no backend database requirement.
+- **Stateless Architecture**: Simplified deployment with no backend database requirement. The provided Express server is entirely optional and only serves the compiled static frontend files.
 
 ## 🛠️ Tech Stack
 
@@ -81,7 +81,7 @@ The server will be running at `http://localhost:3000`.
 
 ## 📜 Deployment
 
-The application is designed to be served as a static site. The Express server in the `server/` directory is configured to serve the built contents of the `client/dist` directory.
+The application is designed to be served as a static site and can be deployed to any static hosting provider (e.g., GitHub Pages, Vercel, Netlify). The Express server included in the `server/` directory is **entirely optional** and is only provided as a convenient method to serve the built contents of the `client/dist` directory. You do **not** need a Node.js backend to run this application in production.
 
 ## 🤝 Contributing
 

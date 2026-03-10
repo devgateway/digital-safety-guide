@@ -44,7 +44,7 @@ The application will be accessible via the Vite development server (usually `htt
 
 ### Production Build and Deployment
 
-The platform uses a stateless architecture with a static site served by an Express backend.
+The platform uses a stateless architecture with a static site. It can be deployed to any static hosting service (e.g., GitHub Pages, AWS S3, Vercel). The included Express backend is **entirely optional** and acts solely as a basic static file server. You do not need a backend server to run this application.
 
 1. **Build the Client**:
    Compile the React frontend into static assets:
@@ -75,7 +75,7 @@ The platform is built using a modern JavaScript stack, emphasizing performance a
 - **Routing**: **React Router DOM** (v7.10) for client-side navigation.
 - **Icons**: **Lucide React** for UI iconography.
 - **PDF Generation**: **jsPDF** used for downloading offline response plans and localized guides.
-- **Backend / Delivery**: **Express** (Node.js) serves as a simple static file server for the built frontend.
+- **Backend / Delivery (Optional)**: **Express** (Node.js) is provided as an optional, simple static file server for the built frontend. It is not required for the application to function.
 
 ### Architecture Highlights
 - **Stateless & Privacy-First**: The application does not rely on a backend database to store user inputs. Logic trees and wizard workflows are pre-compiled into static JSON files. User interactions and selections are kept entirely in the browser memory and cleared when the session ends.
