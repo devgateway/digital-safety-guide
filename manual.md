@@ -1,6 +1,6 @@
-# Digital Safety Guide - Platform Manual
+# Gabay Tech - Platform Manual
 
-This manual provides comprehensive documentation on the Digital Safety Guide platform, covering its architecture, installation, and instructions for managing content.
+This manual provides comprehensive documentation on the Gabay Tech platform, covering its architecture, installation, and instructions for managing content.
 
 ## 1. Installation and Deployment
 

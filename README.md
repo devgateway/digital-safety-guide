@@ -1,4 +1,4 @@
-# Digital Safety Guide
+# Gabay Tech
 
 A comprehensive, multilingual digital safety guide designed to support individuals navigating online harassment and complex digital safety situations. This platform provides actionable advice through logic-based workflows and specialized resources.
 

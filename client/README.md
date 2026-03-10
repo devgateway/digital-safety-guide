@@ -1,6 +1,6 @@
-# Digital Safety Guide - Client
+# Gabay Tech - Client
 
-This is the frontend component of the Digital Safety Guide.
+This is the frontend component of Gabay Tech.
 
 For full project documentation, including setup and deployment instructions, please refer to the [Root README](../README.md) and the [Platform Manual](../manual.md).
 
