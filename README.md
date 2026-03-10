@@ -89,4 +89,4 @@ We welcome contributions! Please feel free to submit issues or pull requests.
 
 ## ⚖️ License
 
-All rights reserved by IREX and Development Gateway.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
