@@ -24,10 +24,13 @@ export default function Home() {
             }, 100);
         }
 
-        const logicTreeFile = '/data/logicTrees.json';
+        const basePath = import.meta.env.BASE_URL;
+        const prefix = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
+        
+        const logicTreeFile = `${prefix}/data/logicTrees.json`;
         Promise.all([
             fetch(logicTreeFile).then(res => res.json()),
-            fetch('/data/urlMap.json').then(res => res.json())
+            fetch(`${prefix}/data/urlMap.json`).then(res => res.json())
         ])
             .then(([data, map]) => {
                 if (data && data.LOGIC_TREES) {

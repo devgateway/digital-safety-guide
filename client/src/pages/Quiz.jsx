@@ -18,13 +18,16 @@ export default function Quiz() {
 
     // 1. Fetch Data (Static JSONs)
     useEffect(() => {
+        const basePath = import.meta.env.BASE_URL;
+        const prefix = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
+
         // ALWAYS fetch the main logicTrees.json, which now contains keys.
         // The text content is in the locale files loaded by LanguageContext.
-        const logicTreeFile = '/data/logicTrees.json';
+        const logicTreeFile = `${prefix}/data/logicTrees.json`;
 
         Promise.all([
             fetch(logicTreeFile).then(res => res.json()),
-            fetch('/data/urlMap.json').then(res => res.json())
+            fetch(`${prefix}/data/urlMap.json`).then(res => res.json())
         ])
             .then(([logic, map]) => {
                 setLogicData(logic);
