@@ -308,9 +308,9 @@ function App() {
       <footer style={{ padding: '3rem 0', borderTop: '1px solid var(--color-bg-tertiary)', textAlign: 'center' }} className="text-muted">
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
-            <a href="https://developmentgateway.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none'}}>Development Gateway: an IREX Venture</a>
+            <a href="https://developmentgateway.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none', fontWeight: 'bold'}}>Development Gateway: an IREX Venture</a>
             <span style={{padding: '0 0.5rem'}}>|</span>
-            <a href="https://irex.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none'}}>IREX</a>
+            <a href="https://irex.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none', fontWeight: 'bold'}}>IREX</a>
           </div>
           <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>
             Questions? Comments? Concerns? Contact <a href="mailto:info@developmentgateway.org">info@developmentgateway.org</a>
