@@ -307,13 +307,10 @@ function App() {
       </main>
       <footer style={{ padding: '3rem 0', borderTop: '1px solid var(--color-bg-tertiary)', textAlign: 'center' }} className="text-muted">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '2rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', opacity: 0.8 }}>
-              <span style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{t('footer.powered_by')}</span>
-              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-text-primary)' }}>IREX</span>
-              <span style={{ height: '20px', width: '1px', background: 'var(--color-text-secondary)' }}></span>
-              <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-text-primary)' }}>Development Gateway</span>
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
+            <a href="https://developmentgateway.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none'}}>Development Gateway: an IREX Venture</a>
+            <span style={{padding: '0 0.5rem'}}>|</span>
+            <a href="https://irex.org" target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-text-primary)', textDecoration: 'none'}}>IREX</a>
           </div>
           <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>
             Questions? Comments? Concerns? Contact <a href="mailto:info@developmentgateway.org">info@developmentgateway.org</a>
