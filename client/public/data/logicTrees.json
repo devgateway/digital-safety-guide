@@ -187,7 +187,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.end_no_auth.links.0",
-                            "url": "/resources/general-support",
+                            "url": "/templates/counseling",
                             "icon": "info"
                         }
                     ],
