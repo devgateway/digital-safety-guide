@@ -47,7 +47,7 @@
                     "links": [
                         {
                             "label": "View Non-Legal Support Resources",
-                            "url": "/resources/general-support",
+                            "url": "/templates/counseling",
                             "icon": "info"
                         }
                     ]
