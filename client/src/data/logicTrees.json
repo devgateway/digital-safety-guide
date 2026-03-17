@@ -135,6 +135,10 @@
                         {
                             "label": "See my options for action",
                             "nextId": "menu_actions_img"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://cicc.gov.ph/wp-content/uploads/2025/04/What-is-RA-10175-Brochure.pdf"
                         }
                     ]
                 },
@@ -306,6 +310,10 @@
                         {
                             "label": "See my options for action",
                             "nextId": "menu_actions_harass"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://legalresource.ph/grave-threats-a282-revised-penal-code/#:~:text=1.,Bond%20for%20good%20behavior."
                         }
                     ]
                 },
@@ -318,6 +326,10 @@
                         {
                             "label": "See my options for action",
                             "nextId": "menu_actions_harass"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://pcw.gov.ph/faq-republic-act-no-11313/"
                         }
                     ]
                 },
@@ -330,6 +342,10 @@
                         {
                             "label": "See my options for action",
                             "nextId": "menu_actions_harass"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://pcw.gov.ph/faq-republic-act-9262/"
                         }
                     ]
                 },

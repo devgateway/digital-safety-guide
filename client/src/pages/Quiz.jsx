@@ -217,6 +217,22 @@ export default function Quiz() {
 
                     <div style={{ display: 'grid', gap: '1rem' }}>
                         {node.options && node.options.map((opt, idx) => {
+                            if (opt.url) {
+                                return (
+                                    <a
+                                        key={idx}
+                                        href={opt.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="btn btn-secondary node-option"
+                                        style={{ justifyContent: 'space-between', textDecoration: 'none' }}
+                                    >
+                                        {t(opt.label)}
+                                        <span>↗</span>
+                                    </a>
+                                );
+                            }
+
                             // Check if this option leads to the code passed in ?selected=...
                             // We need to resolve the option's Real ID to its Short Code first
                             const optCode = urlMap && urlMap.ids[opt.nextId];

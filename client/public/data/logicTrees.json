@@ -202,6 +202,10 @@
                         {
                             "label": "guide.nodes.res_img_laws_deepfake.options.0",
                             "nextId": "menu_actions_img"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://cicc.gov.ph/wp-content/uploads/2025/04/What-is-RA-10175-Brochure.pdf"
                         }
                     ],
                     "parentId": "q_img_nature"
@@ -738,6 +742,10 @@
                         {
                             "label": "guide.nodes.res_harass_threats.options.0",
                             "nextId": "menu_actions_harass_2"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://legalresource.ph/grave-threats-a282-revised-penal-code/#:~:text=1.,Bond%20for%20good%20behavior."
                         }
                     ],
                     "parentId": "q_harass_details"
@@ -751,6 +759,10 @@
                         {
                             "label": "guide.nodes.res_harass_safe_spaces.options.0",
                             "nextId": "menu_actions_harass_3"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://pcw.gov.ph/faq-republic-act-no-11313/"
                         }
                     ],
                     "parentId": "q_harass_details"
@@ -764,6 +776,10 @@
                         {
                             "label": "guide.nodes.res_harass_vawc.options.0",
                             "nextId": "menu_actions_harass_4"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://pcw.gov.ph/faq-republic-act-9262/"
                         }
                     ],
                     "parentId": "q_harass_details"
@@ -885,6 +901,10 @@
                         {
                             "label": "guide.nodes.res_img_laws_privacy_2.options.0",
                             "nextId": "menu_actions_img_9"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://privacy.gov.ph/wp-content/uploads/2022/01/DPA_QuickGuidefolder_10191.pdf"
                         }
                     ],
                     "parentId": "q_img_nature_2"
@@ -898,6 +918,10 @@
                         {
                             "label": "guide.nodes.res_img_laws_voyeur_2.options.0",
                             "nextId": "menu_actions_img_10"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://www.respicio.ph/bar/2025/criminal-law/special-penal-laws/anti-photo-and-video-voyeurism-act-of-2009-ra-no-9995"
                         }
                     ],
                     "parentId": "q_img_nature_2"
@@ -911,6 +935,10 @@
                         {
                             "label": "guide.nodes.res_img_laws_intimate_2.options.0",
                             "nextId": "menu_actions_img_11"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://pcw.gov.ph/faq-republic-act-no-11313/"
                         }
                     ],
                     "parentId": "q_img_nature_2"
@@ -924,6 +952,10 @@
                         {
                             "label": "guide.nodes.res_img_laws_minor_2.options.0",
                             "nextId": "menu_actions_img_12"
+                        },
+                        {
+                            "label": "Read more about this law",
+                            "url": "https://www.facebook.com/share/p/1Hst1WeTvM/"
                         }
                     ],
                     "parentId": "q_img_nature_2"
