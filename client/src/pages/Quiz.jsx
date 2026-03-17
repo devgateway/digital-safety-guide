@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { ArrowLeft, AlertTriangle, CheckCircle, Globe, Mail, Phone, Share2, Copy, User, FileText } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -197,10 +197,17 @@ export default function Quiz() {
                                         <span>{t(link.label)}</span>
                                     </div>
                                 );
+                                const isExternal = link.url.startsWith('http') || link.url.startsWith('mailto:') || link.url.startsWith('tel:');
                                 return link.url ? (
-                                    <a key={i} href={link.url} target={link.url.startsWith('mailto:') || link.url.startsWith('tel:') ? '_self' : '_blank'} rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                        {content}
-                                    </a>
+                                    isExternal ? (
+                                        <a key={i} href={link.url} target={link.url.startsWith('mailto:') || link.url.startsWith('tel:') ? '_self' : '_blank'} rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            {content}
+                                        </a>
+                                    ) : (
+                                        <Link key={i} to={`/${link.url}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            {content}
+                                        </Link>
+                                    )
                                 ) : (
                                     <div key={i}>{content}</div>
                                 );
