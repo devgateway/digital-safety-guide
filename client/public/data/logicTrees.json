@@ -187,7 +187,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.end_no_auth.links.0",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "info"
                         }
                     ],
@@ -326,12 +326,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -345,12 +345,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_2.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_2.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -364,12 +364,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_3.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_3.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -396,12 +396,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_4.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_4.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -550,22 +550,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -579,22 +579,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_2.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_2.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_2.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_2.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -608,22 +608,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_3.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_3.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_3.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_3.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -637,22 +637,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_4.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_4.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_4.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_4.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -666,22 +666,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_5.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_5.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_5.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_5.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -695,22 +695,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_6.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_6.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_6.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_6.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -776,12 +776,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_5.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_5.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -817,12 +817,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_6.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_6.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -983,12 +983,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_7.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_7.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1002,12 +1002,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_8.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_8.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1021,12 +1021,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_9.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_9.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1053,12 +1053,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_10.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_10.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1115,22 +1115,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1144,22 +1144,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_2.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_2.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_2.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_2.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1173,22 +1173,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_3.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_3.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_3.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_3.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1202,22 +1202,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_4.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_4.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_4.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_4.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1283,22 +1283,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_7.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_7.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_7.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_7.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1312,22 +1312,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_8.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_8.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_8.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_8.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1341,22 +1341,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_9.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_9.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_9.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_9.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1370,22 +1370,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_10.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_10.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_10.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_10.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1399,22 +1399,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_11.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_11.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_11.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_11.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1428,22 +1428,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_img_12.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_12.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_12.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_img_12.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1509,12 +1509,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_11.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_11.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1550,12 +1550,12 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_imp_action_12.links.0",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.res_imp_action_12.links.1",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ],
@@ -1681,22 +1681,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_5.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_5.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_5.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_5.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1710,22 +1710,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_6.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_6.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_6.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_6.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1739,22 +1739,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_7.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_7.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_7.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_7.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1768,22 +1768,22 @@
                     "links": [
                         {
                             "label": "guide.nodes.menu_actions_harass_8.links.0",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_8.links.1",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_8.links.2",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "guide.nodes.menu_actions_harass_8.links.3",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ],
@@ -1849,7 +1849,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -1892,7 +1892,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_2.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -1913,7 +1913,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_3.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -1956,7 +1956,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_4.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2067,7 +2067,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_5.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2088,7 +2088,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_6.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2109,7 +2109,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_7.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2152,7 +2152,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_8.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2173,7 +2173,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_9.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2216,7 +2216,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_10.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2237,7 +2237,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_11.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],
@@ -2258,7 +2258,7 @@
                     "links": [
                         {
                             "label": "guide.nodes.res_dox_npc_12.links.0",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ],

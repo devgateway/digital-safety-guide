@@ -47,7 +47,7 @@
                     "links": [
                         {
                             "label": "View Non-Legal Support Resources",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "info"
                         }
                     ]
@@ -206,22 +206,22 @@
                     "links": [
                         {
                             "label": "Contact Law Enforcement / File Criminal Complaint",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "Submit a Takedown Request to the Platform",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "Mediate with a Professional / Counselor",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "Learn more about Online Safety",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ]
@@ -341,22 +341,22 @@
                     "links": [
                         {
                             "label": "Contact Law Enforcement",
-                            "url": "/templates/dict-cicc-hotline",
+                            "url": "templates/dict-cicc-hotline",
                             "icon": "phone"
                         },
                         {
                             "label": "Submit Takedown Request",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "Speak with a Counselor",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         },
                         {
                             "label": "Online Safety Resources",
-                            "url": "/resources/global-tech",
+                            "url": "resources/global-tech",
                             "icon": "globe"
                         }
                     ]
@@ -407,12 +407,12 @@
                     "links": [
                         {
                             "label": "View Takedown Request Templates",
-                            "url": "/templates/takedown-request",
+                            "url": "templates/takedown-request",
                             "icon": "file"
                         },
                         {
                             "label": "Mediation / Counseling",
-                            "url": "/templates/counseling",
+                            "url": "templates/counseling",
                             "icon": "user"
                         }
                     ]
@@ -535,7 +535,7 @@
                     "links": [
                         {
                             "label": "Draft NPC Complaint",
-                            "url": "/templates/npc-complaint",
+                            "url": "templates/npc-complaint",
                             "icon": "file"
                         }
                     ]
