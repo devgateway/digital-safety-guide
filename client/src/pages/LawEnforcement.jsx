@@ -99,7 +99,7 @@ export default function LawEnforcement() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="card card-hover-effect"
-                            style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.5rem', color: 'white' }}
+                            style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.5rem' }}
                         >
                             <FileText className="text-accent" size={24} />
                             <div>
@@ -109,13 +109,13 @@ export default function LawEnforcement() {
                             <ExternalLink size={16} style={{ marginLeft: 'auto', opacity: 0.4 }} />
                         </a>
 
-                        <div className="card" style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.5rem' }}>
+                        <Link to="/directory" className="card card-hover-effect" style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.5rem', color: 'inherit', textDecoration: 'none' }}>
                             <Shield className="text-accent" size={24} />
                             <div>
                                 <div style={{ fontWeight: 'bold' }}>{t('law.ui.cyberbullying_title')}</div>
                                 <div style={{ fontSize: '0.8rem', opacity: 0.6 }}>{t('law.ui.cyberbullying_desc')}</div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
