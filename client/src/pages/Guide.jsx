@@ -59,18 +59,48 @@ export default function Guide() {
                         <p className="mb-4">{t('content.guide_content.legal_desc')}</p>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">{t('content.guide_content.legal_1_title')}</h3>
+                            <a href="https://cicc.gov.ph/wp-content/uploads/2025/04/What-is-RA-10175-Brochure.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_1_title')}</h3>
+                            </a>
                             <p>{t('content.guide_content.legal_1_desc_1')}<strong>{t('content.guide_content.legal_1_desc_2')}</strong>{t('content.guide_content.legal_1_desc_3')}<strong>{t('content.guide_content.legal_1_desc_4')}</strong>{t('content.guide_content.legal_1_desc_5')}</p>
                         </div>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">{t('content.guide_content.legal_2_title')}</h3>
+                            <a href="https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/17036" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_2_title')}</h3>
+                            </a>
                             <p>{t('content.guide_content.legal_2_desc_1')}<strong>{t('content.guide_content.legal_2_desc_2')}</strong>{t('content.guide_content.legal_2_desc_3')}</p>
                         </div>
 
                         <div style={{ marginBottom: '2rem' }}>
-                            <h3 className="text-accent">{t('content.guide_content.legal_3_title')}</h3>
+                            <a href="https://pcw.gov.ph/faq-republic-act-no-11313/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_3_title')}</h3>
+                            </a>
                             <p>{t('content.guide_content.legal_3_desc_1')}<strong>{t('content.guide_content.legal_3_desc_2')}</strong>{t('content.guide_content.legal_3_desc_3')}</p>
+                        </div>
+
+                        <div style={{ marginBottom: '2rem' }}>
+                            <a href="https://pcw.gov.ph/faq-republic-act-9262/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_4_title')}</h3>
+                            </a>
+                        </div>
+
+                        <div style={{ marginBottom: '2rem' }}>
+                            <a href="https://www.facebook.com/pia.gov.ph/posts/pfbid02d6iPANHhkqphF7m8FeV9kr555mkfKJBoRL35Ca9JxmoGXaCPtsJXLDC4T8B4M6Ywl?rdid=3fm4zRTOjS5lhFg1#" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_5_title')}</h3>
+                            </a>
+                        </div>
+
+                        <div style={{ marginBottom: '2rem' }}>
+                            <a href="https://privacy.gov.ph/wp-content/uploads/2022/01/DPA_QuickGuidefolder_10191.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_6_title')}</h3>
+                            </a>
+                        </div>
+
+                        <div style={{ marginBottom: '2rem' }}>
+                            <a href="https://legalresource.ph/grave-threats-a282-revised-penal-code/#:~:text=1.,Bond%20for%20good%20behavior." target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                <h3 className="text-accent" style={{ textDecoration: 'underline' }}>{t('content.guide_content.legal_7_title')}</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
