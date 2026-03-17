@@ -86,7 +86,7 @@
                 "cicc": {
                     "name": "Cybercrime Investigation at Coordinating Center (CICC)",
                     "type": "Legal support",
-                    "description": "Inter-Agency response task force.",
+                    "description": "Inter-Agency response task force responsible for coordinating cybercrime investigations across PNP-ACG, NBI-CCD, DOJ - Office of Cybercrime, and NPC.",
                     "tags": [
                         "reporting",
                         "cybercrime",
@@ -106,6 +106,7 @@
                 "pnp_acg": {
                     "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
                     "type": "Law Enforcement",
+                    "description": "Implements and enforces pertinent laws on cybercrimes",
                     "tags": [
                         "police",
                         "cybercrime",
@@ -115,6 +116,7 @@
                 "nbi_ccd": {
                     "name": "NBI Cybercrime Division (NBI-CCD)",
                     "type": "Law Enforcement",
+                    "description": "Conducts investigations and supports prosecution of cybercrime cases",
                     "tags": [
                         "investigation",
                         "cybercrime",
@@ -124,6 +126,7 @@
                 "doj_occ": {
                     "name": "DOJ - Office of Cybercrime",
                     "type": "Legal Support",
+                    "description": "The DOJ-OOC supports survivors of cybercrime by assessing evidence and providing legal and technical advice/assistance.",
                     "tags": [
                         "legal",
                         "investigation",
@@ -133,6 +136,7 @@
                 "npc": {
                     "name": "National Privacy Commission (NPC)",
                     "type": "Regulator",
+                    "description": "The Data Protection Authority of the Philippines, implementing the Data Privacy Act of 2012.",
                     "tags": [
                         "regulator",
                         "investigation",
@@ -142,6 +146,7 @@
                 "dswd": {
                     "name": "Department of Social Welfare at Development",
                     "type": "Social Services",
+                    "description": "Operates crisis centers and 24/7 hotlines for victims of violence.",
                     "tags": [
                         "mental health",
                         "survivor support",

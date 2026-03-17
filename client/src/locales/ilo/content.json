@@ -86,7 +86,7 @@
                 "cicc": {
                     "name": "Cybercrime Investigation and Coordinating Center (CICC)",
                     "type": "Tulong Legal",
-                    "description": "Task force ti Inter-Agency response.",
+                    "description": "Inter-Agency response task force responsible for coordinating cybercrime investigations across PNP-ACG, NBI-CCD, DOJ - Office of Cybercrime, and NPC.",
                     "tags": [
                         "panag-report",
                         "cybercrime",
@@ -106,6 +106,7 @@
                 "pnp_acg": {
                     "name": "PNP Anti-Cybercrime Group (PNP-ACG)",
                     "type": "Mangpapiliig Dagiti Paglintegan",
+                    "description": "Implements and enforces pertinent laws on cybercrimes",
                     "tags": [
                         "pulis",
                         "cybercrime",
@@ -115,6 +116,7 @@
                 "nbi_ccd": {
                     "name": "NBI Cybercrime Division (NBI-CCD)",
                     "type": "Mangpapiliig Dagiti Paglintegan",
+                    "description": "Conducts investigations and supports prosecution of cybercrime cases",
                     "tags": [
                         "imbestigasyon",
                         "cybercrime",
@@ -124,6 +126,7 @@
                 "doj_occ": {
                     "name": "DOJ - Office of Cybercrime",
                     "type": "Tulong a Legal",
+                    "description": "The DOJ-OOC supports survivors of cybercrime by assessing evidence and providing legal and technical advice/assistance.",
                     "tags": [
                         "legal",
                         "imbestigasyon",
@@ -133,6 +136,7 @@
                 "npc": {
                     "name": "National Privacy Commission (NPC)",
                     "type": "Regulador",
+                    "description": "The Data Protection Authority of the Philippines, implementing the Data Privacy Act of 2012.",
                     "tags": [
                         "regulador",
                         "imbestigasyon",
@@ -142,6 +146,7 @@
                 "dswd": {
                     "name": "Department of Social Welfare and Development",
                     "type": "Serbisyong Panlipunan",
+                    "description": "Operates crisis centers and 24/7 hotlines for victims of violence.",
                     "tags": [
                         "mental nga ikaayong-lawas",
                         "supporta sang survivor",
