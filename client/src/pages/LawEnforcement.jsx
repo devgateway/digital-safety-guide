@@ -51,42 +51,58 @@ export default function LawEnforcement() {
                     </div>
                 </div>
 
-                <div className="grid-responsive" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '2rem' }}>
-                    {/* VAW-C Exception Section */}
-                    <div className="card" style={{ borderLeft: '4px solid #f472b6' }}>
-                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#f472b6' }}>
-                            <Users size={20} /> {t('law.ui.vawc_title')}
-                        </h3>
-                        <p className="text-muted mb-4" style={{ fontSize: '0.9rem' }}>
-                            {t('law.ui.vawc_desc')}
+                {/* Expectation Setting */}
+                <div className="card mb-4">
+                    <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <Info size={20} className="text-accent" /> {t('law.ui.expect_title')}
+                    </h3>
+                    <p className="text-muted mb-3" style={{ fontSize: '0.9rem' }}>
+                        {t('law.ui.expect_desc')}
+                    </p>
+                    <ol style={{ paddingLeft: '1.25rem', fontSize: '0.9rem', lineHeight: '1.6', marginBottom: '1.5rem', listStylePosition: 'outside' }}>
+                        <li className="mb-3">
+                            <strong>{t('law.ui.expect_step_1_title')}</strong>
+                            <div style={{ marginTop: '0.25rem' }}>{t('law.ui.expect_step_1_desc')}</div>
+                        </li>
+                        <li className="mb-3">
+                            <strong>{t('law.ui.expect_step_2_title')}</strong>
+                            <div style={{ marginTop: '0.25rem' }}>{t('law.ui.expect_step_2_desc')}</div>
+                        </li>
+                        <li className="mb-3">
+                            <strong>{t('law.ui.expect_step_3_title')}</strong>
+                            <div style={{ marginTop: '0.25rem' }}>{t('law.ui.expect_step_3_desc')}</div>
+                        </li>
+                        <li className="mb-3">
+                            <strong>{t('law.ui.expect_step_4_title')}</strong>
+                            <div style={{ marginTop: '0.25rem' }}>{t('law.ui.expect_step_4_desc')}</div>
+                        </li>
+                    </ol>
+                    <div style={{ padding: '1rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: 'var(--radius-md)', borderLeft: '4px solid var(--color-accent)' }}>
+                        <p style={{ margin: 0, fontSize: '0.9rem' }}>
+                            <strong>{t('law.ui.expect_important')}</strong> {t('law.ui.expect_important_desc')}
                         </p>
+                    </div>
+                </div>
 
-                        <div style={{ display: 'grid', gap: '1rem' }}>
-                            <div style={{ padding: '1rem', background: 'rgba(244, 114, 182, 0.05)', borderRadius: 'var(--radius-md)', border: '1px solid rgba(244, 114, 182, 0.1)' }}>
-                                <div style={{ fontWeight: 'bold', marginBottom: '0.25rem' }}>{t('law.ui.wcpc_name')}</div>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem' }}>
-                                    <Phone size={16} /> {t('law.ui.label_hotline')} 177
-                                </div>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', marginTop: '0.5rem' }}>
-                                    <Phone size={14} /> {t('law.ui.label_aleng_pulis')} 0919 777 7377
-                                </div>
+                {/* VAW-C Exception Section */}
+                <div className="card mb-4" style={{ borderLeft: '4px solid #f472b6' }}>
+                    <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#f472b6' }}>
+                        <Users size={20} /> {t('law.ui.vawc_title')}
+                    </h3>
+                    <p className="text-muted mb-4" style={{ fontSize: '0.9rem' }}>
+                        {t('law.ui.vawc_desc')}
+                    </p>
+
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                        <div style={{ padding: '1rem', background: 'rgba(244, 114, 182, 0.05)', borderRadius: 'var(--radius-md)', border: '1px solid rgba(244, 114, 182, 0.1)' }}>
+                            <div style={{ fontWeight: 'bold', marginBottom: '0.25rem' }}>{t('law.ui.wcpc_name')}</div>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem' }}>
+                                <Phone size={16} /> {t('law.ui.label_hotline')} 177
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', marginTop: '0.5rem' }}>
+                                <Phone size={14} /> {t('law.ui.label_aleng_pulis')} 0919 777 7377
                             </div>
                         </div>
-                    </div>
-
-                    {/* Expectation Setting */}
-                    <div className="card">
-                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            <Info size={20} className="text-accent" /> {t('law.ui.expect_title')}
-                        </h3>
-                        <p className="text-muted" style={{ fontSize: '0.9rem' }}>
-                            {t('law.ui.expect_desc')}
-                        </p>
-                        <ul style={{ paddingLeft: '1.25rem', fontSize: '0.9rem', lineHeight: '1.6' }}>
-                            <li className="mb-2"><strong>{t('law.ui.expect_step_1_title')}</strong> {t('law.ui.expect_step_1_desc')}</li>
-                            <li className="mb-2"><strong>{t('law.ui.expect_step_2_title')}</strong> {t('law.ui.expect_step_2_desc')}</li>
-                            <li className="mb-2"><strong>{t('law.ui.expect_step_3_title')}</strong> {t('law.ui.expect_step_3_desc')}</li>
-                        </ul>
                     </div>
                 </div>
 
