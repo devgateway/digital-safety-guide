@@ -84,7 +84,7 @@
             },
             "end_emergency": {
                 "title": "Kailangan ng Emergency Action",
-                "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
+                "content": "Kung naniniwala ka na nasa immediate danger ka, please humanap ka ng safe space at kontakin ang emergency services by dialing 911.\n\nKung kailangan mo ng assistance related sa violence against women and children, pwede kang mag-reach out sa inyong local VAWC Desk o sa pinakamalapit na Women and Children Protection Unit (WCPU). Makikita mo ang kanilang contact details sa link sa ibaba.\n\nPwede mo ring kontakin ang PNP Anti-Cybercrime Group sa iyong region para sa support related sa online harms at cybercrime.",
                 "links": {
                     "0": "Dial 911",
                     "1": "Women and Children Protection Units (WCPUs)",
@@ -234,7 +234,7 @@
             },
             "end_emergency_2": {
                 "title": "Kailangan ng Emergency Action",
-                "content": "Please humanap ka ng safe space at kontakin agad ang pulis. Kung kailangan mo ng sensitive assistance tungkol sa gender-based issues, pwede kang magtanong sa local VAWC Desk. Kung natatakot kang kumontak sa local police, tawagan ang PNP Anti-Cybercrime Group.",
+                "content": "Kung naniniwala ka na nasa immediate danger ka, please humanap ka ng safe space at kontakin ang emergency services by dialing 911.\n\nKung kailangan mo ng assistance related sa violence against women and children, pwede kang mag-reach out sa inyong local VAWC Desk o sa pinakamalapit na Women and Children Protection Unit (WCPU). Makikita mo ang kanilang contact details sa link sa ibaba.\n\nPwede mo ring kontakin ang PNP Anti-Cybercrime Group sa iyong region para sa support related sa online harms at cybercrime.",
                 "links": {
                     "0": "Dial 911",
                     "1": "Women and Children Protection Units (WCPUs)",

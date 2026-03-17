@@ -84,7 +84,7 @@
             },
             "end_emergency": {
                 "title": "Emergency Action Required",
-                "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                "content": "If you believe you are in immediate danger, please move to a safe place and contact emergency services by dialing 911.\n\nIf you need assistance related to violence against women and children, you may reach out to your local VAWC Desk or the nearest Women and Children Protection Unit (WCPU). You can find their contact details through the link below.\n\nYou may also contact the PNP Anti-Cybercrime Group in your region for support related to online harms and cybercrime.",
                 "links": {
                     "0": "Dial 911",
                     "1": "Women and Children Protection Units (WCPUs)",
@@ -234,7 +234,7 @@
             },
             "end_emergency_2": {
                 "title": "Emergency Action Required",
-                "content": "Please find a safe space and contact the police right away. If you need sensitive assistance regarding gender-based issues, you can ask for your local VAWC Desk. If you fear for some reason contact with local police, contact PNP Anti-Cybercrime Group.",
+                "content": "If you believe you are in immediate danger, please move to a safe place and contact emergency services by dialing 911.\n\nIf you need assistance related to violence against women and children, you may reach out to your local VAWC Desk or the nearest Women and Children Protection Unit (WCPU). You can find their contact details through the link below.\n\nYou may also contact the PNP Anti-Cybercrime Group in your region for support related to online harms and cybercrime.",
                 "links": {
                     "0": "Dial 911",
                     "1": "Women and Children Protection Units (WCPUs)",

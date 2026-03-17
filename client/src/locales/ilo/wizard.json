@@ -84,7 +84,7 @@
             },
             "end_emergency": {
                 "title": "Masapul ti Emergency Action",
-                "content": "Pangngaasi ta agbirok ti safe a lugar ken kontaken dagus ti pulisya. No kasapulam ti sensitibo a tulong maipapan kadagiti gender-based issues, mabalinmo nga kontaken ti local VAWC Desk. No mabutengka nga agreport iti local police, kontaken ti PNP Anti-Cybercrime Group.",
+                "content": "No patpatiem nga addaka iti agdama a peggad (immediate danger), pangngaasi a mapan iti natalged a lugar ken kontaken dagiti emergency services babaen iti panag-dial iti 911.\n\nNo kasapulam ti tulong a mainaig iti kinaranggas a maibusor kadagiti babbai ken ubbing, mabalinmo a damagen ti lokal a VAWC Desk wenno ti kasisidgan a Women and Children Protection Unit (WCPU). Mabalinmo a masarakan dagiti contact details da babaen ti link iti baba.\n\nMabalinmo met a kontaken ti PNP Anti-Cybercrime Group iti rehiyonmo para iti suporta a mainaig iti online harms ken cybercrime.",
                 "links": {
                     "0": "Tumawag iti 911",
                     "1": "Women and Children Protection Units (WCPUs)",
@@ -274,7 +274,7 @@
             },
             "end_emergency_2": {
                 "title": "Kasapulan ti Nasiglat nga Aksion",
-                "content": "Maidawat a birokem ti natalged a lugar ken kontaken a dagus dagiti pulis. No kasapulam ti sensitibo a tulong maipapan kadagiti isyu maipapan iti gender, mabalinmo a damagen ti lokal a VAWC Desk. No mabutengka gapu iti maysa a rason iti pannakikontak kadagiti lokal a pulis, kontaken ti PNP Anti-Cybercrime Group.",
+                "content": "No patpatiem nga addaka iti agdama a peggad (immediate danger), pangngaasi a mapan iti natalged a lugar ken kontaken dagiti emergency services babaen iti panag-dial iti 911.\n\nNo kasapulam ti tulong a mainaig iti kinaranggas a maibusor kadagiti babbai ken ubbing, mabalinmo a damagen ti lokal a VAWC Desk wenno ti kasisidgan a Women and Children Protection Unit (WCPU). Mabalinmo a masarakan dagiti contact details da babaen ti link iti baba.\n\nMabalinmo met a kontaken ti PNP Anti-Cybercrime Group iti rehiyonmo para iti suporta a mainaig iti online harms ken cybercrime.",
                 "links": {
                     "0": "I-dial ti 911",
                     "1": "Women and Children Protection Units (WCPUs)",

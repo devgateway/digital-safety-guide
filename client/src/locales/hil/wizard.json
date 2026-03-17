@@ -84,7 +84,7 @@
             },
             "end_emergency": {
                 "title": "Kinahanglan ang Emergency Action",
-                "content": "Palihog pangita sang safe nga lugar kag kontaka dayon ang pulis. Kung kinahanglan mo sang sensitibo nga bulig parte sa gender-based issues, pwede ka mamangkot sa inyo local VAWC Desk. Kung nahadlok ka mag-istorya sa local police, kontaka ang PNP Anti-Cybercrime Group.",
+                "content": "Kung nagapati ka nga yara ka sa gilayon nga katalagman (immediate danger), palihog kadto sa isa ka luwas nga lugar kag kontaka ang emergency services paagi sa pagtawag sa 911.\n\nKung kinahanglan mo sang bulig parte sa pagpang-abuso batok sa kababayin-an kag kabataan, pwede ka makig-angot sa inyo lokal nga VAWC Desk ukon sa mas pinakamalapit nga Women and Children Protection Unit (WCPU). Makita mo ang ila contact details gamit ang link sa idalom.\n\nPwede ka man maka-contact sa PNP Anti-Cybercrime Group sa imo rehiyon para sa suporta parte sa online nga halit kag cybercrime.",
                 "links": {
                     "0": "Tawag sa 911",
                     "1": "Women and Children Protection Units (WCPUs)",
@@ -274,7 +274,7 @@
             },
             "end_emergency_2": {
                 "title": "Kinahanglan sang Emergency nga Aksyon",
-                "content": "Palihog mangita sang luwas nga lugar kag kontaka dayon ang pulis. Kung kinahanglan mo sang sensitibo nga bulig parte sa mga gender-based issues, pwede ka mangayo sang bulig sa inyo local VAWC Desk. Kung nahadlok ka makipag-ugnayan sa inyo local police para sa iban nga rason, kontaka ang PNP Anti-Cybercrime Group.",
+                "content": "Kung nagapati ka nga yara ka sa gilayon nga katalagman (immediate danger), palihog kadto sa isa ka luwas nga lugar kag kontaka ang emergency services paagi sa pagtawag sa 911.\n\nKung kinahanglan mo sang bulig parte sa pagpang-abuso batok sa kababayin-an kag kabataan, pwede ka makig-angot sa inyo lokal nga VAWC Desk ukon sa mas pinakamalapit nga Women and Children Protection Unit (WCPU). Makita mo ang ila contact details gamit ang link sa idalom.\n\nPwede ka man maka-contact sa PNP Anti-Cybercrime Group sa imo rehiyon para sa suporta parte sa online nga halit kag cybercrime.",
                 "links": {
                     "0": "Tawag sa 911",
                     "1": "Women and Children Protection Units (WCPUs)",
